@@ -1,0 +1,3 @@
+#+TITLE: Projects
+
+A record of projects (big and little) I've made significant progress on.

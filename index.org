@@ -1,0 +1,7 @@
+#+TITLE: A Synechepedia
+
+Recording and sharing connections found in a life educated in connectedness and
+focused on sharing. I.e., my home page.
+
+- [[file:reading-list.org][Reading List]]
+- [[file:projects.org][Projects]]

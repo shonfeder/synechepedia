@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+blockquote {
+    font-size: 0.8em;
+    border-left: solid 2px lightgrey;
+    padding-left: 5px;
+}
+
+ul li {
+    list-style : none
+}
+
+ul li:before{
+    content:'•';
+    font-size:1em;
+    margin-right: 4px;
+    margin-left: -10px;
+}
+
+#banner {
+    width: 45px;
+    margin-right: 5px;
+    float: left;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+#preamble > .title {
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.nav {
+    padding-top: 1px;
+    padding-right: 10px;
+    float: right;
+    min-width: 400px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+.nav ul li:before{
+    content:'';
+}
+
+#content {
+    clear: both;
+    font-size: 1.1em;
+    max-width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content img {
+    max-width: 100%
+}
+
+.footer {
+    margin-left: 10px;
+}

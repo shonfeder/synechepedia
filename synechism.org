@@ -1,18 +1,41 @@
 #+TITLE: Synechism
 * Logic
 ** Hypothesis
-   The essence of inference is in the connections that actualize
-   accesability. =A \vdash B= means there is "a way of getting from" (but the
-   spatialization and topographical aspect of this expression needs work...)
+   What appears subjectively in thought and judgment as logic, appears
+   objectively in being and the world as topology (/topologie des seins/).
+*** Examples
+    The essence of inference lies in the connections that conduct accesability.
+    $$ A \vdash B $$ means there is "a way of getting from A to B" (but the
+    spatialization and topographical aspect of this expression needs to be
+    understood under the corrective light of an immanent critique).
 
-** Elaboration
-   Whether or not it be the original intention or its actual destiny, I am
-   convinced (a kind of) logic /can/ be more than
+    Conversely, an accessible connection is an inferential relation: if we are
+    located at A and B be accessed thence, then we can infer our possible
+    presence at B.
 
-   - Laws of thought (normative, subjective)
-   - Structure of language
-   - The science of judgment
+    The etymon on /infer/ hints in the same direction:
 
-   There is a form of logic which gives us the laws of thought, structure of
-   language, science of judgment, etc., only because it pertains to the necessary
-   structure of any form of relation, being, containing, connecting.
+    #+BEGIN_QUOTE
+    in logic, "to 'bring in' as a conclusion of a process of reasoning," 1520s,
+    from Latin inferre "bring into, carry in; deduce, infer, conclude, draw an
+    inference; bring against," from in- "in" (from PIE root *en "in") + ferre "to
+    carry, to bear," from PIE root *bher- (1) "to carry; to bear children."
+    General sense of "draw a conclusion" is first attested 1520s; intransitive
+    sense is from 1570s.
+    [[https://www.etymonline.com/word/infer?ref=etymonline_crossreference][etymonline.com]]
+    #+END_QUOTE
+
+*** Elaboration
+    Whether or not it be the original intention or its actual destiny, I am
+    convinced that (a kind of) logic /can/ be more than
+
+    - Laws of thought (normative, subjective)
+    - Structure of language (descriptive, syntactic)
+    - The science of judgment (descriptive, semantic)
+
+    I work under the conviction that there is a form of logic which gives us the
+    laws of thought, the structure of language, the science of judgment, etc.,
+    but only because it pertains to the necessary structure of any form of
+    relation, being, containing, connecting.
+
+    The logic I'm after should describe the common ground of being and thought.

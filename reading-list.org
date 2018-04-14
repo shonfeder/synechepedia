@@ -115,5 +115,7 @@ intend to read.
    (ref: cite:whitehead93)
 **  The Blind Spot
    (ref: cite:girard11)
+** Conceptual Mathematics
+   (ref: cite:f.08_concep)
 
  bibliography:~/Dropbox/bibliography/references.bib

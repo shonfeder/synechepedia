@@ -1,7 +1,9 @@
 #+TITLE: Reading List
 
-This page documents things I have read (since <2018-04-08 Sun>), and what I
-intend to read.
+bibliography:~/Dropbox/bibliography/references.bib
+
+This page documents things I have read (since <2018-04-08 Sun>), and things I
+intend to read in the coming months (and years).
 
 * Have Read
 
@@ -111,11 +113,31 @@ intend to read.
      But, regardless, this is a pivotal moral horizon for the next ten millenia.
      See [[file:omnipotence.org][omnipotence and ethics.]]
 * Will Read
-** An Introduction to Mathematics
-   (ref: cite:whitehead93)
-**  The Blind Spot
-   (ref: cite:girard11)
-** Conceptual Mathematics
-   (ref: cite:f.08_concep)
+** Logic -> TypeTheory+
+   Listed in approximate order of ascent.
+*** On Axiomatic Systems for Arbitrary Systems of Sentences
+    (ref: cite:hertz12_axiom_system_arbit_system_senten)
+*** Investigations into Logical Deduction
+    (ref: cite:m.69_gerhar_gentz_german)
+*** Natural Deduction
+    (ref: cite:dag06_natur)
+*** Intuitionistic Type Theory
+    (ref: cite:martin1984intuitionistic)
+*** Type Theory and Formal Proof
+    (ref: cite:rob2014type)
+*** The Blind Spot
+    (ref: cite:girard11)
+** (Abstract) Algebra -> Topology+
+   Listed in approximate order of ascent.
+*** An Introduction to Mathematics
+    (ref: cite:whitehead93)
+*** Experiments in Topology
+    (ref: cite:barr89_exper)
+*** Conceptual Mathematics
+    (ref: cite:f.08_concep)
+*** Algebra
+    (ref: cite:saunders88_algeb)
+*** Topoi: the Categorial Analysis of Logic
+    (ref: cite:robert06_topoi)
 
- bibliography:~/Dropbox/bibliography/references.bib
+

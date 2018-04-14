@@ -2,7 +2,9 @@
 * Logic
 ** Hypothesis
    What appears subjectively in thought and judgment as logic, appears
-   objectively in being and the world as topology (/topologie des seins/).
+   objectively in being and the world as topology (/topologie des seins/, rather
+   the narrower, but deeply related, mathematical discipline).
+
 *** Examples
     The essence of inference lies in the connections that conduct accesability.
     $$ A \vdash B $$ means there is "a way of getting from A to B" (but the

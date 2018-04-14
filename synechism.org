@@ -1,0 +1,18 @@
+#+TITLE: Synechism
+* Logic
+** Hypothesis
+   The essence of inference is in the connections that actualize
+   accesability. =A \vdash B= means there is "a way of getting from" (but the
+   spatialization and topographical aspect of this expression needs work...)
+
+** Elaboration
+   Whether or not it be the original intention or its actual destiny, I am
+   convinced (a kind of) logic /can/ be more than
+
+   - Laws of thought (normative, subjective)
+   - Structure of language
+   - The science of judgment
+
+   There is a form of logic which gives us the laws of thought, structure of
+   language, science of judgment, etc., only because it pertains to the necessary
+   structure of any form of relation, being, containing, connecting.

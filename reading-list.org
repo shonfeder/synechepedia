@@ -6,34 +6,114 @@ intend to read.
 * Have Read
 
 ** The Inoperative Community
-   (Ref: cite:peter01)
+   (cite:peter01)
 
-   I've read the following chapters:
+*** Chapters read
 
-   - "The Inoperative Community"
-   - "Literary Communism"
+    - "The Inoperative Community"
+    - "Literary Communism"
 
-   It has got me me thinking about the possibility of a "computational
-   communism" or, perhaps better, a "programmatical communism".
+*** Notes
+    It has got me me thinking about the possibility of a "computational
+    communism" or, perhaps better, a "programmatical communism".
 
-   It's not entirely clear to me what this would be, but its possibility is
-   given by the fact that Nancy includes proofs as a form of literature --
+    It's not entirely clear to me what this would be, but its possibility is
+    given by the fact that Nancy includes proofs as a form of literature --
 
-   #+BEGIN_QUOTE
-   Literature interrupts itself: this is, essentially, what
-   makes it literature (writing) and not myth. Or better, what interrupts itself
-   — discourse or song, gesture or voice, narrative or proof — /that/ is
-   literature (or writing). Precisely what interrupts or suspends its own
-   /mythos/ (that is to say, it’s *logos*). (page 72)
-   #+END_QUOTE
+    #+BEGIN_QUOTE
+    Literature interrupts itself: this is, essentially, what
+    makes it literature (writing) and not myth. Or better, what interrupts itself
+    — discourse or song, gesture or voice, narrative or proof — /that/ is
+    literature (or writing). Precisely what interrupts or suspends its own
+    /mythos/ (that is to say, it’s *logos*). (page 72)
+    #+END_QUOTE
 
-   -- and the Curry-Howard analogy gives us programs as proofs.
+    -- and the Curry-Howard analogy gives us programs as proofs.
 
-   Something speaks to me in the way Nancy renders the concept of community, and
-   the notion of the interruption of myth. (Myth includes the logos of origin
-   (foundations) and destiny (pre-ordained purpose).)
+    Something speaks to me in the way Nancy renders the concept of community, and
+    the notion of the interruption of myth. (Myth includes the logos of origin
+    (foundations) and destiny (pre-ordained purpose).)
 
+** The Marx and Engels Reader
+   (cite:tucker78_marx_engel)
+
+*** Chapters read
+    - "Marx on the History of his Opinions"
+    - "Discovering Hegel"
+    - "To Make the World Philosophical"
+    - "For a Ruthless Criticism of Everything Existing"
+*** Notes
+    "... we must try to help the /dogmatics/ to clarify to themselves the
+    meanings of their own positions... Communism is a dogmatic abstraction" (13).
+
+    I am struck by how much these early writings fit with the program of
+    critical theory, tho I should not be, as critical theory is explicitly a
+    continuation of Marx's project.
+
+    #+BEGIN_QUOTE
+    Our motto must therefore be: Reform of consciousness not through dogmas,
+    but through analyzing the mystical consciousness, the consciousness which is
+    unclear to itself, whether it appears in religious or political form. Then
+    it will transpire that the world has long been dreaming of something that
+    it can acquire if only it becomes conscious of it. It will transpire that it
+    is not a matter of drawing a great dividing line between past and future,
+    but of carrying out the thoughts of the past. And finally, it will transpire
+    that mankind begins no /new/ work, but consciously accomplishes its old
+    work. (15)
+    #+END_QUOTE
+
+    I can get behind this, with the important caveat that, in the information
+    age, it is not longer possible to believe that the culmination of the
+    promise of philosophical thinking and being is a an assured destiny, much
+    less that such a culmination is beneficial. Not that it is *not*, only we
+    now know it is not given, and that much doubt and hesitation is needed, and
+    much striving to grasp at glimmers of hope.
+
+    I do find this moving, and I hope it is true:
+
+    #+BEGIN_QUOTE
+    the work of our time to [is] to clarify itself (critical philosophy) the
+    meaning of its own struggle and its own desires. This is work for the world
+    and for us. It can only be the work of joint forces. It is a matter of
+    /confession/, no more. To have its sins forgiven mankind has only to
+    declare them to be what they really are. (15)
+    #+END_QUOTE
+
+    Tho we must also face (and hopefully disprove) the allegation that
+    logico-techno-metaphysical being is our original sin. This is a serious
+    charge, and it is our task to show how we can save ourselves from and with
+    it....
+
+**** On the importance of Hegel
+     Hegel emphasized and exaggerated the way in which being and thought form
+     each other. He didn't invent this dynamic, nor do I think his system is an
+     adequate account of the way this mutual determination works itself out, but
+     his emphasis on the systematicity and the basic dynamic was of great
+     import. (Of course, there were ample antecedents and previous thinking
+     along the same line. But holding sway is a matter of timing, temper of the
+     times, etc.)
+
+**** Mankind as produce
+
+     #+BEGIN_QUOTE
+     Just as man projects the idealized attributes of the species into his image
+     of a transcendent deity, so he projects social power into a separate
+     sphere--thestate--which dominates him. (from the introduction xxiii)
+     #+END_QUOTE
+     Hobbes viewed the state Leviathan, as the greatest artificial work of man.
+     It is the realization of artificial intelligence.
+
+     We must chose the kind of being we shall become.  An organism? A colony?
+     Something like a fungus or species of bacteria? How do we want to
+     constitute our being together? I now think Nancy's vision of the
+     articulated fabric of singularities is appealing.
+
+     But, regardless, this is a pivotal moral horizon for the next ten millenia.
+     See [[file:omnipotence.org][omnipotence and ethics.]]
 * Will Read
+** An Introduction to Mathematics
+   (ref: cite:whitehead93)
+**  The Blind Spot
+   (ref: cite:girard11)
 
-
-  bibliography:~/Dropbox/bibliography/references.bib
+ bibliography:~/Dropbox/bibliography/references.bib

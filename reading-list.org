@@ -7,9 +7,11 @@ intend to read in the coming months (and years).
 * Currently Reading
 *** The Blind Spot
     (ref: cite:girard11)
+
     [[file:reading-notes/girard-the-blind-spot.org][Notes]]
 *** An Introduction to Mathematics
     (ref: cite:whitehead93)
+
     [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
 
 * Will Read

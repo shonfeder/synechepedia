@@ -1,0 +1,28 @@
+#+TITLE: Kantian roots of modern mathematics
+* Hypothesis
+  Many pivotal aspects of modern mathematics have their roots in concepts and
+  methodologies which were articulated decisively by Kant (even if they didn't
+  originate with him).
+* Hints
+** Kantian aspects of Hilbert's program
+   #+BEGIN_QUOTE
+   Hilbert's philosophical background was broadly Kantian, as was Bernays's, who
+   was closely affiliated with the neo-Kantian school of philosophy around Leonard
+   Nelson in Göttingen. Hilbert's characterization of finitism often refers to
+   Kantian intuition, and the objects of finitism as objects given intuitively.
+   Indeed, in Kant's epistemology, immediacy is a defining characteristic of
+   intuitive knowledge. The question is, what kind of intuition is at play? Mancosu
+   (1998b) identifies a shift in this regard. He argues that whereas the intuition
+   involved in Hilbert's early papers was a kind of perceptual intuition, in later
+   writings (e.g., Bernays 1928a) it is identified as a form of pure intuition in
+   the Kantian sense. However, at roughly the same time Hilbert (1928, 469) still
+   identifies the kind of intuition at play as perceptual. In (1931b, 266–267),
+   Hilbert sees the finite mode of thought as a separate source of a priori
+   knowledge in addition to pure intuition (e.g., of space) and reason, claiming
+   that he has “recognized and characterized the third source of knowledge that
+   accompanies experience and logic.” Both Bernays and Hilbert justify finitary
+   knowledge in broadly Kantian terms (without however going so far as to provide a
+   transcendental deduction), characterizing finitary reasoning as the kind of
+   reasoning that underlies all mathematical, and indeed, scientific, thinking, and
+   without which such thought would be impossible. [[https://plato.stanford.edu/entries/hilbert-program/#2.1][SEP]]
+   #+END_QUOTE

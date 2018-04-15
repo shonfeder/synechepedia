@@ -1,0 +1,23 @@
+#+TITLE: Notes on /An Introduction to Mathematics/
+
+Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Press.
+* Excerpts
+** On the economy of sign systems
+   #+BEGIN_QUOTE
+   Mathematics, as a science commenced when first someone, probably a Greek,
+   proved propositions about /any/ things or about /some/ things, without
+   specification of definite particular things.
+   ...
+   Perhaps it required the introduction of the arabic numerals, by which the use
+   of letters as standing for definite numbers has been completely discarded in
+   mathematics, in order to suggest to mathematicians the technical convenience
+   of the use of letters for the ideas of /any/ number and /some/ number.
+   #+END_QUOTE
+
+   As an aside, I note two specious claims:
+
+   1. Stuff fitting the name "mathematics" surely predates the Greeks, and
+      Whitehead's characterization of the first mathematical activities seem to
+      bear the unmistakable mark of logicist's bias.
+   2. There are still letters used to refer to some definite numbers, e.g., \( e
+      \).

@@ -1,0 +1,20 @@
+#+TITLE: Notes on Girard's /The Blind Spot/
+
+Girard, J., /The Blind Spot: Lectures on Logic/ (2011),: European Mathematical
+Society.
+
+
+Girard's writing and ideas are thrilling, but often gnomic.
+
+* §1.2.2 The hilbertian project
+
+** "recessive formula"
+   Girard talks of "/recessive/ formula", which have the form of "universal
+   (in)equations" such as "\( \forall n \ldotp (n + 1)^2 = n^2 + 2n + 1 \) or \(
+   \forall n \forall p \forall q \ldotp n^2 + p^2 \neq q^2 \)".
+   I cannot find any discussion of "recessive formula" outside of Girard, so I
+   am a bit perplexed on these...
+   
+   I worry that this might simply be a typo, and the word was supposed to be
+   "recursive". If so, then this typo is escaped notice despite half a dozen
+   uses in the passage.

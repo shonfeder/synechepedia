@@ -3,13 +3,29 @@
 Recording and sharing connections found in a life educated in connectedness and
 focused on sharing. I.e., my home page.
 
-# * On the Name
-  # TODO...
-
 * Sections
+** Quips
+   To be sorted and/or expanded or deleted...
+*** The formal paradoxes of the early 20th century
+    I suspect that a common root of these was the use of /general logic/ as an
+    *organon*. In Kant's critical philosophy, he admonishes against this,
+    warning that will produce monstrous results.
+
+    To use logic as an organon is to use it to extend our knowledge. That is
+    done whenever we try to reason from purely general logical principles to
+    existence of any sort. This occurs in the axiom of unrestricted
+    comprehension.
 ** Themata
    - [[file:synechism.org][Synechism]]
    - [[file:multiplicative-operations.org][Multiplicative Operations]]
+   - [[file:kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
 ** Logs
    - [[file:reading-list.org][Reading List]]
    - [[file:projects.org][Projects]]
+* Meta
+** TODO On the Name
+   See [[https://en.wiktionary.org/wiki/%25CF%2583%25CF%2585%25CE%25BD%25CE%25B5%25CF%2587%25CE%25AE%25CF%2582#Ancient_Greek][συνεχής]].
+** Tasks
+*** TODO Macro to create new page with link and title
+    Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar
+    Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.

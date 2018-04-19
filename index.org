@@ -15,6 +15,9 @@ focused on sharing. I.e., my home page.
     done whenever we try to reason from purely general logical principles to
     existence of any sort. This occurs in the axiom of unrestricted
     comprehension.
+** Questions
+*** Is there a relation between diagonalization and the incommensurate ratio?
+    ... of the sides of a square to its diagonal
 ** Themata
    - [[file:synechism.org][Synechism]]
    - [[file:multiplicative-operations.org][Multiplicative Operations]]

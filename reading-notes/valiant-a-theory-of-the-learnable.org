@@ -1,0 +1,143 @@
+#+TITLE: Notes on Valiant's /A Theory of the Learnable/
+
+Valiant, L. G., A theory of the learnable, Communications of the ACM, 27(11), 1134–1142 (1984).  http://dx.doi.org/10.1145/1968.1972
+
+* tl;dr
+
+  "this paper attempts to explore the limits of what is learnable as allowed by
+  algorithmic complexity (1138)"
+
+  Valiant proposes a "precise model ... for modeling the commonplace phenomenon
+  of [learning]" and aims to make possible a "learnability theory" on par with
+  "computability theory" (1134).
+
+  "The results of /learnability theory/ would then indicate the maximum
+  granularity of the single concepts that can be acquired without programming.
+  (1136)"
+** Results:
+   - Negative :: The class of learnable "concepts" is severely circumscribed.
+   - Positive :: Demonstrates some classes of "concepts" learnable in polynomial
+                 time.
+
+* Historical Relevance
+
+** Theoretical relevance
+
+*** Generally helped initiate "Computational Learning Theory"
+
+   Generally, it has been credited with inaugurating the field of /computational
+   learning theory/ (cite:wigderson09_leslie_valian). Computational learning
+   theory studies the "design and analysis of machine learning algorithms".
+   Philosophically, it also seems to be a computational theory of /learning/.
+
+**** Compared with "statistical learning theory"
+
+     This appears to be one of the two main theoretical frameworks used to inform
+     practical developments in machine learning. The other is /statistical
+     learning theory/.
+
+     #+BEGIN_QUOTE
+     *Computational learning*, more concretely the probably approximately correct
+     (PAC) framework, answers questions like: how many training examples are needed
+     for a learner to learn with high probability a good hypothesis? how much
+     computational effort do I need to learn with high probability such hypothesis?
+     It does not deal with the concrete classifier you are working with. It is
+     about what you can and cannot learn with some samples at hand.
+
+     In *statistical learning theory* you rather answer questions of the sort: how
+     many training samples will the classifier misclassify before it has converged
+     to a good hypothesis? i.e. how hard is it to train a classifier, and what
+     warranties do I have on its performance. ([[https://stats.stackexchange.com/questions/63077/statistical-learning-theory-vs-computational-learning-theory][SO Answer]])
+     #+END_QUOTE
+
+*** In particular, it introduced PAC
+
+    This paper introduced "Probably Approximately Correct learning" (PAC
+    learning). PAC is one of the principle approaches to computational learning
+    theory. In PAC,
+
+    #+BEGIN_QUOTE
+    the learner receives samples and must select a generalization function
+    (called the hypothesis) from a certain class of possible functions. The goal
+    is that, with high probability (the "probably" part), the selected function
+    will have low generalization error (the "approximately correct" part). The
+    learner must be able to learn the concept given any arbitrary approximation
+    ratio, probability of success, or distribution of the samples. ([[https://en.wikipedia.org/wiki/Probably_approximately_correct_learning][wikipedia]])
+    #+END_QUOTE
+
+    PAC is credited with introduction concepts concerning computational
+    complexity into machine learning, with its focus on learners finding
+    /efficient/ procedures.
+
+**** Other approaches to computational learning theory
+
+     #+BEGIN_QUOTE
+     - *Exact learning*, proposed by Dana Angluin;
+     - *VC theory*, proposed by Vladimir Vapnik and Alexey Chervonenkis;
+     - *Bayesian inference*;
+     - *Algorithmic learning theory*, from the work of E. Mark Gold;
+     - *Online machine learning*, from the work of Nick Littlestone.
+     ([[https://en.wikipedia.org/wiki/Computational_learning_theory][wikipedia]])
+     #+END_QUOTE
+
+** Practical relevance
+   Foundations of [[https://en.wikipedia.org/wiki/Boosting_(machine_learning)][boosting]] which is "a general method for improving the accuracy
+   of any given learning  algorithm" ([[https://link.springer.com/chapter/10.1007%252F978-0-387-21579-2_9][Schapire]]).
+** Summary
+
+   So we are looking at (one pillar of) /the theoretical foundations/ of machine
+   learning, which has also had some important practical import.
+
+* structure
+
+  1. Defines learning as "the process of deducing a [reasonably efficient]
+     program for performing a task from information that does not provide an
+     explicit description of such a program" (1142).
+  2. Narrowly constrain the tasks to "recognizing whether a /concept/ (or
+     predicate) is true or not for given data" -- within certain probabilistic bounds.
+     1. To learn =Q= means to deduce a program which can say whether =Q= is true
+        of some given data.
+     2. Bounds: "never outputs [ =True= ] when it should not, but outputs [
+        =True= ] almost always when it should".
+  3. Defines a /learning machine/: /learning protocol/ * /deduction procedure/
+     1. /learning protocol/ acquires tagged input
+     2. /deduction procedure/ produces a program for recognizing data
+     3. /learning machine/ : data -> programs
+  4. Specifies a /learning protocol/ for boolean functions
+  5. Specifies /learnability/ of programs that identify boolean functions given
+     boolean variables as inputs.
+     1. So our *ourt* learning machine: data = boolean variables & program =
+        "concept recognizer"
+  6. Presents the probabilistic criteria used to measure success of programs.
+  7. Shows how to deduce three kinds of programs: (bounded) CNF, DNF, and
+     "mu-expressions" (seem to be mixed conjunctions and disjunctions?).
+  8. Offers concluding Remarks
+
+* Tips
+
+** Normal forms
+   (See Wikipedia on [[https://en.wikipedia.org/wiki/Conjunctive_normal_form][CNV]] and [[https://en.wikipedia.org/wiki/Disjunctive_normal_form][DNV]])
+
+   Used in automated theorem proving.
+
+*** CNF (Conjunctive Normal Form)
+    "an *AND* of *ORs*"
+
+    E.g., $$ (A\lor \neg B\lor \neg C)\land (\neg D\lor E\lor F) $$
+
+*** DNF (Disjunctive Normal Form)
+    "an *OR* of *ANDs*"
+
+    E.g., $$ (A\land \neg B\land \neg C)\lor (\neg D\land E\land F) $$
+
+    Additionally "A DNF formula is in *full disjunctive normal* form if each of
+    its variables appears exactly once in every conjunction"
+** Bernoulli trial
+   #+BEGIN_QUOTE
+   Bernoulli trial (or binomial trial) is a random experiment with exactly two
+   possible outcomes, "success" and "failure", in which the probability of
+   success is the same every time the experiment is conducted ([[https://en.wikipedia.org/wiki/Bernoulli_trial][wikipedia]])
+   #+END_QUOTE
+
+
+bibliography:~/Dropbox/bibliography/references.bib

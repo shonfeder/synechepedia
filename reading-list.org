@@ -16,6 +16,8 @@ intend to read in the coming months (and years).
 ** A Theory of the Learnable
    (ref: cite:valiant84_theor_learn)
 
+   [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
+
 * Will Read
   Texts in this list are not being actively read, but they may have been started
   or partially read. They are, in any case, yet to be completed.
@@ -42,7 +44,6 @@ intend to read in the coming months (and years).
 *** Topoi: the Categorial Analysis of Logic
     (ref: cite:robert06_topoi)
 
-bibliography:~/Dropbox/bibliography/references.bib
 * Have Read
   Texts in this list are read to my satisfaction /for the moment/. They are
   liable to move back to one of the other lists.
@@ -151,3 +152,5 @@ bibliography:~/Dropbox/bibliography/references.bib
 
      But, regardless, this is a pivotal moral horizon for the next ten millenia.
      See [[file:omnipotence.org][omnipotence and ethics.]]
+
+bibliography:~/Dropbox/bibliography/references.bib

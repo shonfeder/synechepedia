@@ -13,11 +13,6 @@ intend to read in the coming months (and years).
    (ref: cite:whitehead93)
 
    [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
-** A Theory of the Learnable
-   (ref: cite:valiant84_theor_learn)
-
-   [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
-
 * Will Read
   Texts in this list are not being actively read, but they may have been started
   or partially read. They are, in any case, yet to be completed.
@@ -154,3 +149,8 @@ intend to read in the coming months (and years).
      See [[file:omnipotence.org][omnipotence and ethics.]]
 
 bibliography:~/Dropbox/bibliography/references.bib
+** A Theory of the Learnable
+   (ref: cite:valiant84_theor_learn)
+
+   [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
+

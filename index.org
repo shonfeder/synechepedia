@@ -4,6 +4,14 @@ Recording and sharing connections found in a life educated in connectedness and
 focused on sharing. I.e., my home page.
 
 * Sections
+** Themata
+   - [[file:themata/synechism.org][Synechism]]
+   - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
+   - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
+   - [[file:themata/notation.org][Notation]]
+** Logs
+   - [[file:reading-list.org][Reading List]]
+   - [[file:projects.org][Projects]]
 ** Quips
    To be sorted and/or expanded or deleted...
 *** The formal paradoxes of the early 20th century
@@ -18,17 +26,13 @@ focused on sharing. I.e., my home page.
 ** Questions
 *** Is there a relation between diagonalization and the incommensurate ratio?
     ... of the sides of a square to its diagonal
-** Themata
-   - [[file:synechism.org][Synechism]]
-   - [[file:multiplicative-operations.org][Multiplicative Operations]]
-   - [[file:kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
-** Logs
-   - [[file:reading-list.org][Reading List]]
-   - [[file:projects.org][Projects]]
+    Diagonalization only works when the grid is square...
 * Meta
 ** TODO On the Name
    See [[https://en.wiktionary.org/wiki/%25CF%2583%25CF%2585%25CE%25BD%25CE%25B5%25CF%2587%25CE%25AE%25CF%2582#Ancient_Greek][συνεχής]].
 ** Tasks
-*** TODO Macro to create new page with link and title
+*** TODO Function to create new page with link and title
     Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar
     Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.
+*** TODO Explore Macros
+    https://orgmode.org/manual/Macro-replacement.html

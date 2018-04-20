@@ -151,6 +151,6 @@ intend to read in the coming months (and years).
 bibliography:~/Dropbox/bibliography/references.bib
 ** A Theory of the Learnable
    (ref: cite:valiant84_theor_learn)
-
+   <2018-04-18 Fri>
    [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
 

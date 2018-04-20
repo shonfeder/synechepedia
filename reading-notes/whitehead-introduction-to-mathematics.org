@@ -3,6 +3,8 @@
 Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Press.
 * Excerpts
 ** On the economy of sign systems                                  :notation:
+
+   #+NAME: whitehead93#1
    #+BEGIN_QUOTE
    Mathematics, as a science commenced when first someone, probably a Greek,
    proved propositions about /any/ things or about /some/ things, without
@@ -22,12 +24,13 @@ Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Pre
    2. There are still letters used to refer to some definite numbers, e.g., \( e
       \).
 
-** Notation as Aid to Efficiency of Thought        :notation:thought:writing:
+** TODO Notation as Aid to Efficiency of Thought   :notation:thought:writing:
 
+   #+NAME: whitehead93#2
    #+BEGIN_QUOTE
    ... the enormous importance of good notation. By relieving the brain of
    all unnecessary work, a good notation sets it free to concentrate on more
-   advanced problems, and in effect increases the mental power of the race.
+   advanced problems, and in effect increases the mental power of the race. (39)
    #+END_QUOTE
 
    Writing *inscription* is an intellectual prosthetic. It is so in the
@@ -42,3 +45,13 @@ Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Pre
    - The communication of thought through beings causes world and
      consciousnessness to interpenetrate, weaving together community at the
      limiting points of alterity. (Nancy's "Literary Communism").
+
+
+   #+BEGIN_QUOTE
+   ...by the aid of symbolism we can make transitions in reasoning almost
+   mechanically by the eye, which otherwise would call in to play the higher
+   faculties of the brain.
+
+   It is a profoundly erroneous truism, repeated by all ....
+   #+END_QUOTE
+   

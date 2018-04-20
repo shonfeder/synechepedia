@@ -9,12 +9,12 @@
 ;; HTML Bits
 
 (defvar synechepedia-html-head
-  "<link rel='stylesheet' href='static/css/style.css' type='text/css'/>")
+  "<link rel='stylesheet' href='/static/css/style.css' type='text/css'/>")
 
 (defvar synechepedia-html-preamble
   "<h1 class='title'>
     <a href='/index.html'>
-      <img id='banner' src='static/img/logo.svg'
+      <img id='banner' src='/static/img/logo.svg'
            alt='Synechist-trichotomic logo. Designed by Shon Feder'/>
       <span class='title-text'>Synechepedia</span>
     </a>

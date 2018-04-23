@@ -148,9 +148,11 @@ intend to read in the coming months (and years).
      But, regardless, this is a pivotal moral horizon for the next ten millenia.
      See [[file:omnipotence.org][omnipotence and ethics.]]
 
-bibliography:~/Dropbox/bibliography/references.bib
 ** A Theory of the Learnable
    (ref: cite:valiant84_theor_learn)
    <2018-04-18 Fri>
    [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
+** Consistent Overhead Byte Stuffing
+   (ref: cite:cheshire1999consistent)
 
+bibliography:~/Dropbox/bibliography/references.bib

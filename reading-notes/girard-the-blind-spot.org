@@ -6,6 +6,7 @@ Society.
 
 Girard's writing and ideas are thrilling, but often gnomic.
 
+
 * §1.2.2 The hilbertian project
 
 ** "recessive formula"

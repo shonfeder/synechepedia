@@ -1,5 +1,4 @@
 #+TITLE: Notes on Valiant's /A Theory of the Learnable/
-
 Valiant, L. G., A theory of the learnable, Communications of the ACM, 27(11), 1134–1142 (1984).  http://dx.doi.org/10.1145/1968.1972
 
 * tl;dr

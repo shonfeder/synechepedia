@@ -1,6 +1,6 @@
 #+TITLE: Notes on /An Introduction to Mathematics/
-
 Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Press.
+
 * Excerpts
 ** On the economy of sign systems                                  :notation:
 

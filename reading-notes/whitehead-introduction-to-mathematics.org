@@ -47,6 +47,7 @@ Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Pre
      limiting points of alterity. (Nancy's "Literary Communism").
 
 
+   #+NAME: whitehead93#2
    #+BEGIN_QUOTE
    ...by the aid of symbolism we can make transitions in reasoning almost
    mechanically by the eye, which otherwise would call in to play the higher
@@ -54,4 +55,3 @@ Whitehead, A. N., An introduction to mathematics (1993), : Oxford University Pre
 
    It is a profoundly erroneous truism, repeated by all ....
    #+END_QUOTE
-   

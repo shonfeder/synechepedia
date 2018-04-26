@@ -1,4 +1,5 @@
 #+TITLE: Synechism
+
 * Logic
 ** Hypothesis
    What appears subjectively in thought and judgment as logic, appears

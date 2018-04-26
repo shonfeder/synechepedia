@@ -1,6 +1,7 @@
 #+TITLE: Multiplicative Operations
 
 * Conjunction
+  
   A conjunction is the /logical product/ of two propositions. What of /logical
   quotients/?
 

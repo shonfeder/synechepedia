@@ -1,4 +1,5 @@
 #+TITLE: Kantian roots of modern mathematics
+
 * Hypothesis
   Many pivotal aspects of modern mathematics have their roots in concepts and
   methodologies which were articulated decisively by Kant (even if they didn't

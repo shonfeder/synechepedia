@@ -13,6 +13,10 @@ intend to read in the coming months (and years).
    (ref: cite:whitehead93)
 
    [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
+** Software Foundations: Logical Foundations
+   (ref: cite:Pierce:SF)
+
+   [[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
 * Will Read
   Texts in this list are not being actively read, but they may have been started
   or partially read. They are, in any case, yet to be completed.

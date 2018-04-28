@@ -1,2 +1,8 @@
 #+TITLE: Software Foundations: Logical Foundations
 Pierce, B. C., Amorim, A. A. d., Casinghino, C., Gaboardi, M., Greenberg, M., C\vat\valin Hri\ctcu, Vilhelm Sj\"oberg, …, Software Foundations (2017), : Electronic textbook.
+* Excerpts
+** Meaning of notation is determined structurally                  :notation:
+ #+NAME: Pierce:SF#1
+ #+BEGIN_QUOTE
+ The interpretation of these marks comes from how we use them to compute.
+ #+END_QUOTE

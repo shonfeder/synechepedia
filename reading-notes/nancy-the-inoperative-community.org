@@ -1,0 +1,24 @@
+#+TITLE: The Inoperative Community
+Connor, J. N. E. b. P., The inoperative community (2001), : University of Minnesota Press.
+
+* "Computational Communism"?
+
+It has got me me thinking about the possibility of a "computational
+communism" or, perhaps better, a "programmatical communism".
+
+It's not entirely clear to me what this would be, but its possibility is
+given by the fact that Nancy includes proofs as a form of literature --
+
+#+BEGIN_QUOTE
+Literature interrupts itself: this is, essentially, what
+makes it literature (writing) and not myth. Or better, what interrupts itself
+— discourse or song, gesture or voice, narrative or proof — /that/ is
+literature (or writing). Precisely what interrupts or suspends its own
+/mythos/ (that is to say, it’s *logos*). (page 72)
+#+END_QUOTE
+
+-- and the Curry-Howard analogy gives us programs as proofs.
+
+Something speaks to me in the way Nancy renders the concept of community, and
+the notion of the interruption of myth. (Myth includes the logos of origin
+(foundations) and destiny (pre-ordained purpose).)

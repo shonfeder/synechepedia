@@ -12,6 +12,7 @@ focused on sharing. I.e., my home page.
 ** Logs
    - [[file:reading-list.org][Reading List]]
    - [[file:projects.org][Projects]]
+   - [[file:plans.org][Plans]]
 ** Quips
    To be sorted and/or expanded or deleted...
 *** The formal paradoxes of the early 20th century

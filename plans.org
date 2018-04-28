@@ -1,0 +1,51 @@
+#+TITLE: Plans
+
+Planned projects. Sketches. Glimpses.
+
+* A writing assistant
+
+  Akin to a proof assistant.
+
+** Relates, coordinates, and organizes concepts
+   - defining terms (and checking for consistent usage)
+   - specifying equivalences (synonyms)
+   - systematic disambiguation of homonymous terms
+   - specifies entailments (inclusion)
+     - can use wordnet for sub-concept inclusion detections/tests?
+** Strucures /passages/
+   - passages are transitions or pathways from one /notion/ to another.
+   - A /notion/ is a complex of concepts & compounding terms (syncategorematic).
+*** Some example patterns of passages
+    - source_1 :: topic sentence
+    - target_1 :: conclusion statement
+    - source_2 :: hypothetical (if x holds, then y follows)
+    - target_2 :: drawing conclusion
+    - source_3 :: question
+    - target_3 :: answer
+    - source_4 :: question
+    - target_4 :: expanded question or sub-question
+*** Passages nest and branch
+    E.g.,
+
+    - topic
+      - question ... answer
+      - question ... answer
+    - conclusion
+** Tests/explorations
+   Generates variant senses, presented to the author for review, so they can
+   anticipate misunderstandings or elaborate along previously unconsidered lines
+   of thought.
+
+   With relatively simple transformations, can generate things like
+
+   - valid inferences
+   - alternate interpretations
+   - rephrasings
+
+   (Can be considered a form of refactoring)
+** Transitions
+   These link passages. They are special kinds of passages, which are schemas
+   for coordinating passages.
+   - should be modular
+   - they are /tropes/ like analogy, metaphor, synonym expansion, association of
+     concepts, etc.

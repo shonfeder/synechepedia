@@ -17,6 +17,10 @@ intend to read in the coming months (and years).
    (ref: cite:Pierce:SF)
 
    [[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
+** Miscomputation in Software: Learning to live with errors
+   (ref: cite:Petricek_2017)
+
+
 * Will Read
   Texts in this list are not being actively read, but they may have been started
   or partially read. They are, in any case, yet to be completed.

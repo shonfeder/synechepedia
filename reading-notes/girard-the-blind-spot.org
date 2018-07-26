@@ -15,7 +15,7 @@ Girard's writing and ideas are thrilling, but often gnomic.
    \forall n \forall p \forall q \ldotp n^2 + p^2 \neq q^2 \)".
    I cannot find any discussion of "recessive formula" outside of Girard, so I
    am a bit perplexed on these...
-   
+
    I worry that this might simply be a typo, and the word was supposed to be
    "recursive". If so, then this typo is escaped notice despite half a dozen
    uses in the passage.

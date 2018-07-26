@@ -1,0 +1,29 @@
+#+TITLE: Notes on Girard's /The Blind Spot/
+
+Martin-Löf, Per, & Sambin, G., /Intuitionistic type theory/ (1984), :
+Bibliopolis Napoli.
+
+* Reconciling Formal Foundations with the Infinite
+
+The core problematic addressed in the work, that which intuitionistic type
+theory (ITT) is meant to be an answer to, is that of raising a firm formal
+foundation of mathematical reasoning which is consistent, complete *over
+it's domain*, and capable of grounding reasoning over infinite domains.
+
+* Putting Form and Meaning Together
+
+#+BEGIN_QUOTE
+We will avoid keeping form and meaning (content) apart. Instead we will  at the
+same time display certain forms of judgment and inference that re used in
+mathematical proofs and explain them semantically. Thus we make explicit what is
+usually implicitly taken for granted. When one treats logic as any other branch
+of mathematics, as in the metamathematical tradition originated by Hilbert, such
+judgments and inferences are only partially and formally represented in the
+so-called object language, while they are implicitly used, as in any other
+branch of mathematics, in the so-called metalanguage.
+#+END_QUOTE
+
+This practice of developing the meanings and use of judgment at the same time,
+expecting the one to inform the other through the process of the exposition and
+use is familiar and essential to the continental philosophical tradition.
+

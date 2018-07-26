@@ -1,0 +1,162 @@
+#+TITLE: Lazy Evaluation in Ocaml: A Cheat Sheet
+
+Notes to remind a forgetful OCaml user of the ways of laziness.
+
+* Basic concepts
+  Skip this if you're just looking for recipes and a refresher on use
+** The Lazy Type and its Values: =lazy_t=, =Lazy.t=, and =lazy=
+
+   OCaml has built in support for memoized lazy evaluation. Three artifacts are
+   all we need to take advantage of this feature:
+
+   - ='a lazy_t= :: the internal representation of a deferred evaluation which,
+                    when forced, will reduce to a value of type ='a=.
+   - ='a Lazy.t= :: the user-level type constructors to specify the type of
+                    deferred evaluations reducing to values of type ='a=.
+   - =lazy= :: A keyword functioning as a value constructor that takes values of
+               type ='a= to values of type ='a lazy_t=.
+
+   #+BEGIN_SRC ocaml
+     utop # lazy 3;;
+     - : int lazy_t = lazy 3
+
+     utop # type t = T of int Lazy.t;;
+     type t = T of int lazy_t
+
+     utop # T (lazy 3);;
+     - : t = T (lazy 3)
+   #+END_SRC
+
+** Lazy values and thunks
+
+   ='a Lazy.t= ≢ =unit -> 'a=
+
+   OCaml's Lazy values are akin to thunks (deferred evaluations by means of
+   nullary functions), but they are not equivalent.
+
+   That is, given
+
+   #+BEGIN_SRC ocaml
+     let a = lazy 3
+     let b = fun () -> 3
+   #+END_SRC
+
+   it's true that
+
+   #+BEGIN_SRC ocaml
+     let () = assert (force a = b ())
+   #+END_SRC
+
+   However, because OCaml's built-in laziness memoizes the results of forced
+   evaluation, side effecting behavior can alter the computations that use
+   thunks in a way that diverges from those that use =lazy=. E.g.,
+
+   #+BEGIN_SRC ocaml
+     utop # let c = lazy (print_endline "Evaluating!"; 2);;
+     val c : int lazy_t = <lazy>
+
+     utop # force c;;
+     Evaluating!
+     - : int = 2
+
+     utop # force c;;
+     - : int = 2
+   #+END_SRC
+
+   Note that the second time we force =c=, the result is not re-evaluated.
+   Consequently, the side effect does not occur. This can end up producing
+   totally different results when dealing with impure programs:
+
+   #+BEGIN_SRC ocaml
+     utop #
+     let lazy_incr : int ref -> unit Lazy.t =
+         fun r -> lazy (incr r)
+
+     let thunk_incr : int ref -> unit -> unit =
+       fun r -> fun () -> incr r
+
+     let ref_a = ref 1
+     let ref_b = ref 1
+
+     let lazy_incr_ref_a  = lazy_incr ref_a
+     let thunk_incr_ref_b = thunk_incr ref_b
+     ;;
+     val lazy_incr : int ref -> unit lazy_t = <fun>
+     val thunk_incr : int ref -> unit -> unit = <fun>
+     val ref_a : int ref = {contents = 1}
+     val ref_b : int ref = {contents = 1}
+     val lazy_incr_ref_a : unit lazy_t = <lazy>
+     val thunk_incr_ref_b : unit -> unit = <fun>
+
+     utop # ref_a;;
+     - : int ref = {contents = 1}
+
+     utop # ref_b;;
+     - : int ref = {contents = 1}
+
+     utop # force lazy_incr_ref_a; ref_a;;
+     - : int ref = {contents = 2}
+
+     utop # thnk_incr_ref_b (); ref_b;;
+     - : int ref = {contents = 2}
+
+     utop # force lazy_incr_ref_a; ref_a;;
+     - : int ref = {contents = 2}
+
+     utop # thunk_incr_ref_b (); ref_b;;
+     - : int ref = {contents = 3}
+
+     utop # force lazy_incr_ref_a; ref_a;;
+     - : int ref = {contents = 2}
+
+     utop # thunk_incr_ref_b (); ref_b;;
+     - : int ref = {contents = 4}
+   #+END_SRC
+
+   Note that the lazy version only increments the =ref= cell once, returning the
+   memoized result on each subsequent call. However, the thunk will increment the
+   =ref= cell every time it is called.
+
+* How to make...
+
+** a deferred value
+
+   #+BEGIN_SRC ocaml
+     utop # let deferred_value = lazy (print_endline "Now evaluating!"; 3);;
+     val deferred_value : int lazy_t = <lazy>
+
+     utop # deferred_value;;
+     - : int lazy_t = <lazy>
+
+     utop # force deferred_value;;
+     Now evaluating!
+     - : int = 3
+
+     utop # force deferred_value;;
+     - : int = 3 (* retrieves the memoized result *)
+   #+END_SRC
+
+** a type that includes deferred evaluations
+
+   #+BEGIN_SRC ocaml
+     type 'a deferred = T of 'a Lazy.t
+     let deffered_value : int deferred = T (lazy 3)
+   #+END_SRC
+
+** a lazy list
+
+   #+BEGIN_SRC ocaml
+     type 'a stream = Cons of 'a * 'a stream Lazy.t
+
+     let cons : 'a -> 'a stream -> 'a stream =
+       fun x s -> Cons (x, lazy s)
+     let head : 'a stream -> 'a =
+       fun (Cons (x, _)) -> x
+     let tail : 'a stream -> 'a stream =
+       fun (Cons (_, s)) -> Lazy.force s
+     let rec take : int -> 'a stream -> 'a list =
+       fun n s ->
+         if n < 1
+         then []
+         else head s :: take (pred n) (tail s)
+   #+END_SRC

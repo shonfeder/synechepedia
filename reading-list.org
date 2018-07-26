@@ -5,35 +5,32 @@ This page documents things I have read (since <2018-04-08 Sun>), and things I
 intend to read in the coming months (and years).
 
 * Currently Reading
-** The Blind Spot
-   (ref: cite:girard11)
-
-   [[file:reading-notes/girard-the-blind-spot.org][Notes]]
 ** An Introduction to Mathematics
    (ref: cite:whitehead93)
 
    [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
-** Software Foundations: Logical Foundations
-   (ref: cite:Pierce:SF)
-
-   [[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
 ** Miscomputation in Software: Learning to live with errors
    (ref: cite:Petricek_2017)
+** Intuitionistic Type Theory
+   (ref: cite:martin1984intuitionistic)
 
+   [[file:reading-notes/martin-lof-itt.org][Notes]]
 
 * Will Read
   Texts in this list are not being actively read, but they may have been started
   or partially read. They are, in any case, yet to be completed.
 ** Logic -> TypeTheory+
    Listed in approximate order of ascent.
+*** Software Foundations: Logical Foundations
+    (ref: cite:Pierce:SF)
+
+    [[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
 *** On Axiomatic Systems for Arbitrary Systems of Sentences
     (ref: cite:hertz12_axiom_system_arbit_system_senten)
 *** Investigations into Logical Deduction
     (ref: cite:m.69_gerhar_gentz_german)
 *** Natural Deduction
     (ref: cite:dag06_natur)
-*** Intuitionistic Type Theory
-    (ref: cite:martin1984intuitionistic)
 *** Type Theory and Formal Proof
     (ref: cite:rob2014type)
 ** (Abstract) Algebra -> Topology+
@@ -46,10 +43,22 @@ intend to read in the coming months (and years).
     (ref: cite:saunders88_algeb)
 *** Topoi: the Categorial Analysis of Logic
     (ref: cite:robert06_topoi)
+*** The Blind Spot
+    (ref: cite:girard11)
+
+    [[file:reading-notes/girard-the-blind-spot.org][Notes]]
 
 * Have Read
   Texts in this list are read to my satisfaction /for the moment/. They are
   liable to move back to one of the other lists.
+
+** Structuralism, Invariance, and Univalence
+   (ref: cite:Awodey_2013)
+   <2018-07-26 Thu>
+
+** Frob: Functional Reactive Programming Applied to Robotics
+   (ref: cite:hagerfrob)
+   <2018-07-20 Thu>
 
 ** Feel the Heat: An Embodied Approach to the Instruction of the Greenhouse Effect
    By Ian Thacker (Not yet published)

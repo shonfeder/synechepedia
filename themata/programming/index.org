@@ -1,0 +1,18 @@
+#+TITLE: Programming
+
+#+BEGIN_QUOTE
+We believe that programming can be, and should be, an intellectually
+rewarding activity; that a good programming language is a powerful
+conceptual tool — a tool for organizing, expressing, experimenting with, and
+even communicating one's thoughts ... we think that programming can be, and
+should be, part of the problem solving process itself; that thoughts should
+be organized as programs, so that consequences of a complex set of
+assumptions can be investigated by "running" the assumptions; that a
+conceptual solution to a problem should be developed hand-in-hand with a
+working program that demonstrates it and exposes its different aspects.
+
+— Sterling & Shapiro, The Art of Prolog
+#+END_QUOTE
+
+- [[file:lazy-evaluation-in-ocaml-cheat-sheet.org][Lazy Evaluation in Ocaml: A Cheat Sheet]]
+

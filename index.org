@@ -9,6 +9,7 @@ focused on sharing. I.e., my home page.
    - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
    - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
    - [[file:themata/notation.org][Notation]]
+   - [[file:themata/programming/index.org][Programming]]
 ** Logs
    - [[file:reading-list.org][Reading List]]
    - [[file:projects.org][Projects]]

@@ -5,6 +5,10 @@ This page documents things I have read (since <2018-04-08 Sun>), and things I
 intend to read in the coming months (and years).
 
 * Currently Reading
+
+** The Triumph of Types: Principia Mathematica's Impact on Computer Science
+   (ref: cite:ConstableManuscript-CONTTO-4)
+
 ** An Introduction to Mathematics
    (ref: cite:whitehead93)
 
@@ -54,28 +58,47 @@ intend to read in the coming months (and years).
 
 ** Structuralism, Invariance, and Univalence
    (ref: cite:Awodey_2013)
+
    <2018-07-26 Thu>
 
 ** Frob: Functional Reactive Programming Applied to Robotics
    (ref: cite:hagerfrob)
+
    <2018-07-20 Thu>
+
+** Community, Democracy, and Mutual Aid
+   (ref: cite:Colon_2017)
+
+   <2018-07-05 Fri>
+
+
+   Articulates an inspiring philosophy, vision, and strategy for pursuing
+   radically democratic, cooperative, solidarity-based dual power institutions
+   to undermine (and hopefully replace) the exploitative and oppressive systems
+   we inhabit.
 
 ** Feel the Heat: An Embodied Approach to the Instruction of the Greenhouse Effect
    By Ian Thacker (Not yet published)
+
    <2018-04-27 Fri>
 
    Motto: "Perceptual inferences become causal rules"
 ** Consistent Overhead Byte Stuffing
    (ref: cite:cheshire1999consistent)
+
    <2018-04-24 Tue>
 
 ** A Theory of the Learnable
    (ref: cite:valiant84_theor_learn)
+
    <2018-04-18 Fri>
+
    [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
 ** The Marx and Engels Reader
    (cite:tucker78_marx_engel)
-  [[file:reading-notes/marx-engles-reader.org][Notes]]
+
+   [[file:reading-notes/marx-engles-reader.org][Notes]]
+
 *** Chapters read
     - "Marx on the History of his Opinions"
     - "Discovering Hegel"
@@ -83,7 +106,9 @@ intend to read in the coming months (and years).
     - "For a Ruthless Criticism of Everything Existing"
 ** The Inoperative Community
    (cite:peter01)
+
    [[file:reading-notes/nancy-the-inoperative-community.org][Notes]]
+
 *** Chapters read
 
     - "The Inoperative Community"

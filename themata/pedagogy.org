@@ -1,0 +1,32 @@
+#+TITLE: Notes on Pedagogy
+
+*WIP*
+
+* Speculative and Prospective Curricula
+
+** Thinking: Logical, Critical, and Programmatic
+   A simultaneous introduction the basic concepts and practice of logical
+   thinking and computer programming, guided by the aims of critical pedagogy.
+
+*** Basic enabling analogies
+
+****  calculation : computability :: communication : unambiguous communicability
+     - We help students discover and experience the difficulty of communicating
+       clear, unambiguous instructions.
+     - We introduce Turing machines as a solution for this problem.
+**** statement : computation :: concept : constructive & actionable cognition
+     (the latter in the Kantian sense)
+     - Defining computations is a way of constructing concepts.
+     - Performing computations is a way of analyzing, or applying concepts.
+**** writing : programming :: wish : organized, repeatable plan of action
+     - We help students realize and recognize the ways in which they *already*
+       write and execute programs.
+     - We problematize the political and economic dimensions of this
+       programming, and help them see how the are *programmed*.
+**** terms : types :: proofs : propositions
+     - We show students that untyped computation leads to nonsensical and
+       monstrous executions.
+     - We help them see the connection with nonsensical and monstrous actions
+       and outcomes of plans.
+     - We introduce natural deduction first (just the very basics).
+     - We then introduce programs which exhibit proofs of simple deductions.

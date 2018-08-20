@@ -55,6 +55,11 @@ intend to read in the coming months (and years).
 
 ** 2018
 
+*** Networks: A Very Short Introduction
+    <2018-08-13 Mon>
+
+    (ref: cite:caldarelli2012networks)
+
 *** "Marx's Concept Of Socialism" from Eric Fromm's /Marx's Concept of Man/
     https://www.marxists.org/archive/fromm/works/1961/man/ch06.htm
 
@@ -86,7 +91,7 @@ intend to read in the coming months (and years).
 *** The Triumph of Types: Principia Mathematica's Impact on Computer Science
     (ref: cite:ConstableManuscript-CONTTO-4)
 
-    <2018-08-07 Tue> 
+    <2018-08-07 Tue>
 
     #+BEGIN_QUOTE
     *2.5 Effectively Computable, Turing Computable, and Subrecur-sive Computation*
@@ -163,7 +168,3 @@ intend to read in the coming months (and years).
 
      - "The Inoperative Community"
      - "Literary Communism"
-
-
-
-     bibliography:~/Dropbox/bibliography/references.bib

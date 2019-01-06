@@ -1,0 +1,12 @@
+#+TITLE: Programming Paradigms and Philosophy
+
+| Programming Paradigms         | Philosophical Schools/Traditions              | Philosophical Concepts             |
+|-------------------------------+-----------------------------------------------+------------------------------------|
+| Language Oriented Programming | Early to mid Analytic Philosophy              |                                    |
+| Object Oriented Programming   | Scholastic Metaphysics                        | Formal Ontology / Mereology        |
+| Imperative programming        | Classical materialism                         |                                    |
+| Functional programming        | Intuitionistic/Constructivistic Analytic Phil |                                    |
+| Type Theoretic Programming    |                                               | Transcendental Critical Philosophy |
+|                               |                                               |                                    |
+
+  

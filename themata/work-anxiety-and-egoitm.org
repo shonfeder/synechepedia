@@ -1,0 +1,202 @@
+#+TITLE: Work Anxiety and Egotism
+
+A vain anxiety hobbles my efficacy. Recently, reflection precipitated by career
+changes and insights from my S.O. have helped to clarify the dynamics at play.
+
+Ruminations set to
+
+#+HTML:<iframe width="60%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/537519798&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+* Anxiety as a Mood
+
+** Objects of my Anxiety
+
+   I often feel /very/ anxious. The objects of my anxiety tend to fall under one
+   of these categories:
+
+   - work performance
+   - social interaction
+   - death or injury (of self or loved ones)
+   - squandering my time (and thus my life)
+
+** Moodiness
+
+   The /grounds/ for such anxious moods are not the object on which the anxiety
+   focuses. Rather, some concern, a pervasive care, first enables a mood to
+   arise and overcome our intention. As Heidegger notes in /Being and Time/
+   (cite:heidegger1967being), a frightening object can only appear as
+   frightening because one is experiencing in the mood of fear:
+
+   #+BEGIN_QUOTE
+   ...to be affected by the unserviceable, resistant, or threatening character
+   of that which is ready-to-hand, becomes ontologically possible only in so far
+   as Being-in as such has been determined existentially beforehand in such a
+   manner that what it encounters within-the-world can "/matter/" /to/ it in
+   this way. The fact that this sort of thing can "matter" to it is grounded in
+   one's state-of-mind; and as a state-of-mind it has already disclosed the
+   world—as something by which it can be threatened, for instance. Only
+   something which is in the state-of-mind of fearing (or fearlessness) can
+   discover that what is environmentally ready-to-hand is threatnening. Dasein's
+   openness to the world is constituted exitentially by the attunement of a
+   state-of-mind.
+  #+END_QUOTE
+
+   Thus, my anxious obsession over details from my work presuppose some basic
+   concern which makes the bouts of anxiety possible.[fn:1]
+
+   There may be any number of factors contributing to the advent of an anxious
+   state of mind:
+
+   - caffeine
+   - lack of sleep
+   - bad news
+   - our horrendous political circumstance
+   - etc.
+
+   but even these can only catelyze anxiety because there is a structure of care
+   that's makes the anxiousness a possible disposition. Otherwise, why wouldn't
+   they lead to sadness, despair, anger, etc.?
+
+** Characterization of my Mood of Anxiety
+
+   I find adequate characterization of my mood in the etyma of anxiety offered
+   by [[https://www.etymonline.com/word/anxious#etymonline_v_15437][etymonline.com]]:
+
+   #+BEGIN_QUOTE
+   anxious (adj.)
+
+   1620s, "greatly troubled by uncertainties," from Latin anxius "solicitous,
+   uneasy, troubled in mind" (also "causing anxiety, troublesome"), from angere,
+   anguere "to choke, squeeze," figuratively "to torment, cause distress" (from
+   PIE root *angh- "tight, painfully constricted, painful"). The same image is
+   in Serbo-Croatian tjeskoba "anxiety," literally "tightness, narrowness."
+   Meaning "earnestly desirous" (as in anxious to please) is from 1742. Related:
+   Anxiously; anxiousness.
+   #+END_QUOTE
+
+   The speculated PIE root /*angh-/ brings it to a point:
+
+   #+BEGIN_QUOTE
+   ... the hypothetical source of/evidence for its existence is provided by:
+   Sanskrit amhu- "narrow," amhah "anguish;" Armenian anjuk "narrow;" Lithuanian
+   ankštas "narrow;" Greek ankhein "to squeeze," ankhone "a strangling;" Latin
+   angere "to throttle, torment;" Old Irish cum-ang "straitness, want;" Old
+   English enge "narrow, painful," Old Norse angra "to grieve, vex, distress,"
+   Gothic aggwus "narrow."
+   #+END_QUOTE
+
+   I feel my anxiety to have a dyadic quality and usually fixated on a specious
+   dilemma. E.g.,
+
+   - Will I be praised, or will I be blamed?
+   - Am I incompetent or is my assignment impossible?
+   - Am I unbearable or are these people bigots?
+   - Will I transform the entire company with the success of this project, or
+     will it's inevitable failure lead to my termination?
+
+   My thoughts flit back and forth between the alternatives, and the (felt)
+   enormity of each amplifies my worry. This dynamic produces a pathological
+   loop of positive feedback, constraining my sense of possibility, narrowing my
+   focus, and hyper-inflating my ego while shrinking the significance of the
+   world in which it /should/ be seeking a modest place.
+
+* Forgetting the Objective of the Work
+
+  I feed on praise and am terrified of being shamed, blamed, or otherwise
+  denigrated. My work anxiety invariably stems from fear of blame, or a ravenous
+  hunger for praise.[fn:2]
+
+  Note that "praise" and "blame" here should be understood in the widest sense.
+  It includes:
+
+  - encouraging nods
+  - expression of thanks
+  - promotions, raises
+  - accumulating "metrics" of productivity
+  - etc.
+
+  This form of feedback has many obvious problems. E.g.,
+
+  - Is the source of that feedback a valid/adequate judge?
+    - What if one is praised by incompetent people for trivial deeds?
+    - What if one is praised by evil people for evil deeds?
+    - Even if one is praised by a worthy expert, what if they are mistaken in
+      this case, and the product of the work ends up being a net detriment?
+    - What if the metrics are miscalibrated or incorrectly focused?
+  - What if the recipient doesn't really deserve to bear blame or receive
+    praise?
+    - What if they didn't do the work in question?
+    - Or perhaps they only contributed a final touch, and the bulk should go
+      elsewhere?
+  - What is the point of the work?
+    - Is it to receive praise and aggrandize oneself?
+      - If so, gross and too bad :( Better find something better to do.
+
+* The objective of the work
+
+  Work worth doing should manifest a worthwhile change, whether that be an
+  improved process, product, or circumstance. We should seek to work for the
+  sake of good works and meaningful improvement. Ideally, then, we would not be
+  driven by pride at all, and the pursuit of praise would be cut off in
+  principle. But if we are going to succumb to an egotistic motive, let us at
+  least take pride in the product and result of the work itself.
+
+  This focus should help us avoid mere /task fulfillment/ and focus instead on
+  /systems thinking/, since evaluation requires considering the objective
+  reality that will be altered by our efforts and the context within with the
+  work takes place. Whereas task fulfillment can easily leave one doing
+  meaningless or regressive things to meet ungrounded and specious goals,
+  system thinking helps ensure the work is effective an meaningful for our
+  organizations as a whole.
+
+* Honoring the Intersubjective Condition of Possibility for Meaningful Work
+
+  I suspect every mood actualizes both revelations and velations: in the way
+  things manifest under the guise of any mood, some dynamics are hidden and
+  others shown.
+
+  Among the things revealed by the tension between my hunger for praise
+  and my fear of blame is the vital significance of intersubjectivity.
+
+  #+BEGIN_QUOTE
+  There's nothing more advanced than relating with others. There's nothing more
+  advanced than communication — compassionate communication.
+  (cite:chödrön2005things)
+  #+END_QUOTE
+
+  In my estimation, there can be no meaning or value to our work outside of our
+  connections with our fellows (with this fellowship [[file:~/Dropbox/synechepedia/org/exceprts/distention-of-the-heart.org][extended as widely as we
+  can possible conceive]]). The urgency I feel in my inappropriate concern with
+  blame and praise is connected to this real basis for significance.
+
+* Provisional Conclusion
+
+  The dynamics of the feedback manifest in the praise/blame dichotomy are
+  pathological in nature. While the concern that underwrites that dynamic
+  intimate something near the core of any tenable table of values (ime), its
+  specific structure short circuits proper evaluation and degrades decision
+  making.
+
+  In letting my work and estimation of self be subordinated to the merely dyadic
+  relation between another's expressions and my own activity, I become
+  vulnerable to an ungrounded positive feedback loop. Proper estimation should
+  mediate any evaluation of a work's worth through the objective conditions in
+  which it takes place and be concerned first and foremost with the real impact
+  it will have in transforming those conditions.
+
+* Footnotes
+
+[fn:1] Since I have invoked Heidegger explicitly, and made some (shallow) use of
+his existential analysis, I should clarify: the kind of anxiety I mean here is
+the utterly mundane, "ontical" kind. I am here concerned with being more
+effective by being less paralyzed by stupid worries at work (and in the world),
+not with disclosing the fundamental structures of being and existence.
+
+[fn:2] The dynamic of this particular fear/aversion is not *the* root of my work
+anxiety, but it is a powerful force discernible under the surface of every
+anxious episode. The question of the *ultimate* enabling condition for this
+disposition must remain open for the moment, as perhaps is should for all
+time. The attempt to deduce a /single/ motive for a mood is probably a
+category mistake, and a misapplication of foundationalism.
+
+bibliography:~/Dropbox/bibliography/references.bib

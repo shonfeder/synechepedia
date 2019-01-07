@@ -13,7 +13,6 @@ focused on sharing. I.e., my home page.
    - [[file:themata/programming-paradigms-and-philosophy.org][Programming Paradigms and Philosophy]]
    - [[file:themata/programming/index.org][Programming]]
    - [[file:themata/synechism.org][Synechism]]
-   - [[file:themata/work-anxiety-and-egoitm.org][Work Anxiety and Egotism]]
 ** Excerpts
    - [[file:exceprts/distention-of-the-heart.org][Distention of the heart]]
 ** Logs

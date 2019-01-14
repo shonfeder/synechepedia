@@ -6,20 +6,23 @@ intend to read in the coming months (and years).
 
 * Currently Reading
 
+** The Purely Functional Software Deployment Model
+
+   (ref: cite:DBLP:phd/basesearch/Dolstra06)
+* Will Read
+  Texts in this list are not being actively read, but they may have been started
+  or partially read. They are, in any case, yet to be completed.
+** Intuitionistic Type Theory
+   (ref: cite:martin1984intuitionistic)
+
+   [[file:reading-notes/martin-lof-itt.org][Notes]]
+
 ** An Introduction to Mathematics
    (ref: cite:whitehead93)
 
    [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
 ** Miscomputation in Software: Learning to live with errors
    (ref: cite:Petricek_2017)
-** Intuitionistic Type Theory
-   (ref: cite:martin1984intuitionistic)
-
-   [[file:reading-notes/martin-lof-itt.org][Notes]]
-
-* Will Read
-  Texts in this list are not being actively read, but they may have been started
-  or partially read. They are, in any case, yet to be completed.
 ** Logic -> TypeTheory+
    Listed in approximate order of ascent.
 *** Software Foundations: Logical Foundations
@@ -53,8 +56,39 @@ intend to read in the coming months (and years).
   Texts in this list are read to my satisfaction /for the moment/. They are
   liable to move back to one of the other lists.
 
-** 2018
+** 2019
+*** Constructive Mathematics and Computer Programming
+   <2019-01-13 Sun>
 
+   (ref: cite:Martin_L_f_1982)
+
+**** On the semantics of lazy evaluation
+     #+BEGIN_QUOTE
+     The term lazy has is appropriate because only as few computation steps are
+     made as are absolutely necessary to bring an expression into canonical form.
+     However, what turns out to be of no significance, it is no longer the case
+     that an expressions cannot have a value unless all its parts have values.
+     For example, =a'= has itself as value even if =a= has no value. What is
+     significant, though, is that the principle of Frege's referred to earlier,
+     namely that the value of an expression depends only on the values of its
+     parts, is irretrievably lost. To make the language work in spite of this
+     loss has been one of the most serious difficulties in the design of the
+     theory of types. (172)
+     #+END_QUOTE
+**** From the discussion notes after the chapter
+     #+BEGIN_QUOTE
+     ... if propositions were interpreted as domains and truth as non-emptiness,
+     every proposition would come out true. This is why I could not think of
+     dealing with partial elements and functions, that is, possibly
+     non-terminating programs, before I had freed myself from the interpretation
+     of propositions as types. (184)
+     #+END_QUOTE
+
+** 2018
+*** Build systems a la carte
+   <2018-11-15 Thu>
+
+   (ref cite:Mokhov_2018)
 *** Networks: A Very Short Introduction
     <2018-08-13 Mon>
 

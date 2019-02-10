@@ -6,6 +6,9 @@ intend to read in the coming months (and years).
 
 * Currently Reading
 
+** On the Meanings of the Logical Constants and the Justifications of the Logical Laws
+   
+   (ref: cite:Martin-Lof1996-MAROTM-7)
 ** The Purely Functional Software Deployment Model
 
    (ref: cite:DBLP:phd/basesearch/Dolstra06)

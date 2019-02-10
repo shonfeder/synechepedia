@@ -1,0 +1,7 @@
+#+TITLE: Thinking
+
+Hypothesis: What we call "thinking" is essentially *intuited conception*
+(/angeschaut Begriffung/, meaning both terms in their Kantian sense). This
+intuiting is obscured, usually appearing transparent, so the objects of thought
+are usually taken to be thought as such. This overlooked intuiting is largely
+responsible for the indeterminacy in most treatments of thinking.

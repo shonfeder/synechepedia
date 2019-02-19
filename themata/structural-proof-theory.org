@@ -1,0 +1,146 @@
+#+TITLE: Notes on the History of Structural Proof Theory
+
+* TODO Select Title
+
+** On Ideal Elements in Structural and Axiomatic Proof Theory
+
+* TODO Add Date
+
+I mentioned Paul Hertz's work on axiom systems to a friend a couple weeks ago.
+He asked if this work was in response to Gödel's incompleteness theorems. I
+couldn't reconstruct the time-line then, but found the question intriguing: what
+is the connection between Gödel's work and Hertz's? I did a bit of reading
+around this question, and I am presenting some of the interesting aspects of my
+findings here. I have glossed over most of Gödel's side of the equation, because
+that history tends to be well known.
+
+So, /iiuc/...
+
+* The superficial history
+
+ Hilbert's program was advanced in the early 1920s. Granted a sufficient number
+ of caveats, the program can be understood as a formalistic one: proof theory ala
+ Hilbert should explain how a finite number of rules governing a finite number of
+ signs can provide an immanent grounding for the provability of all mathematical
+ reasoning. Gödel's incompleteness theorems, published in 1931, proved the
+ impossibility of most of Hilbert's program (at least as Hilbert himself
+ conceived of it).
+
+ The kind of proof theory called for by Hilbert's program is often designated
+ *axiomatic proof theory*.
+
+ Paul Hertz is, arguably, the progenitor of the structural analysis of proofs
+ that Gentzen utilized in order to develop *structural proof theory* (see Javier
+ Legris' [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiU76j4sI7TAhUl6IMKHWNADUwQFggpMAM&url=http%253A%252F%252Fiiep-baires.econ.uba.ar%252Fdescargas.php%253Fs%253Dpublicaciones%2526f%253D21&usg=AFQjCNEsshNaICQy_K7Cwlg5SWO3tOFPMw&sig2=k6RsugTDd1iP-9kG5weFiw][/Paul Hertz and the Origins of Structural Reasoning]]/). Hertz published
+ his work, /On Axiomatic Systems for Arbitrary Systems of Sentences/, in 1922.
+ In [[https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent][a short biography]] by Hilbert's collaborator [[https://en.wikipedia.org/wiki/Paul_Bernays][Paul Barneys]], Barneys wrote of
+ /On Axiomiatic Systems.../,
+
+ #+BEGIN_QUOTE
+ Hier führte er viele methodisch wichtige Begriffsbildungen ein und gelangte zu
+ mathematisch prägnanten Ergebnissen. Diese Untersuchungen sind Vorläufer
+ verschiedener neuerer Forschungen zur mathematischen Logik und Axiomatik,
+ insbesondere hat G. Gentzens Sequenzenkalkul von den H.schen Betrachtungen über
+ Satzsysteme seinen Ausgang genommen.
+
+ Here he introduced many methodologically important conceptual developments and
+ arrived at mathematically incisive results. These investigations were
+ forerunners of various new researches into mathematical logic and axiomatics, in
+ particular, G. Gentzen's sequent calculus took its starting point from Hertz's
+ work on sentence systems.
+
+ [/Please pardon my inexpert translation./]
+ #+END_QUOTE
+
+ Gentzen's work was, according to a reductive formulation, the application of
+ Hertz's approach and core methodology to the problematic set out by Hilbert.
+
+* A deeper comparison of the approaches
+
+** Hilbert's Finitism
+
+  I want to understand with greater precision and depth what Hilbert had in
+  mind.
+
+  The vision Hilbert's program hoped to realize was colored throughout by
+  *finitism*. This is first and foremost a metaphysical position.
+
+  It is an interesting and striking contrast to the work of Leibniz, Bolzano,
+  and Cantor.
+
+  #+BEGIN_QUOTE
+  ...the definitive clarification of /the nature of the infinite/, instead of
+  pertaining just to the sphere of specialized scientific interests, is needed
+  for /the dignity of the human intellect/ itself. (185)
+  #+END_QUOTE
+
+  After arguing against the reality of infinitude in physics, he turns to the
+  question of whether "the infinite occupies a justified place /in our
+  thinking/".
+
+  #+BEGIN_QUOTE
+  We encounter a completely different and quite unique conception of the notion
+  of infinity in the important and fruitful method of /ideal elements/. ...
+  These ideal "infinite" elements have the advantage of making the system of
+  connection laws as simple and perspicuous as possible. Moreover, because of
+  the symmetry between a point a straight line, there results the very fruitful
+  principle of duality for geometry. (187)
+  #+END_QUOTE
+
+  The function and <saving grace> of infinite /ideal elements/ is the
+  facilitation of simplicity, perspicuity, and symmetry.
+
+  #+BEGIN_QUOTE
+  Let us remember that /we are mathematicians/ and that as mathematicians we
+  have often been in precarious situations from which we have been rescued by
+  the ingenious method of ideal elements. Just as ~i=√-1~ was introduced to
+  preserve in the simplest form the laws of algebra ... similarly, to preserve
+  the simple formal rules of ordinary Aristotelian logic, we must /supplement
+  the finitary statements with ideal statements/. ...
+
+  How do we obtain /ideal statements/?
+  (/On the Infinite/, 195)
+  #+END_QUOTE
+
+  Hilbert's work actually ends up being much more like a /phenomenology/, it
+  seems to me.
+
+** TODO Focus on the idea of /Ideal Elements/ in Hilbert and Hertz
+
+** Hertz's Structuralism
+
+   Whereas Hilbert sought a tenable set of axioms to provide a self-evident
+   ground for formal proofs of consistency etc., Hertz inquired into the mere
+   *topology* of axiom systems in general. The opening paragraph of the 1922
+   paper conveys this:
+
+   #+BEGIN_QUOTE
+   Whenever a system of sentences is recognized to be valid, it is often not
+   necessary to convey each and every sentence to memory; it is sufficient to
+   choose some of them from which the rest can follow. Such sentences, as is
+   generally known, are called axioms. The choice of these axioms is to a
+   certain degree arbitrary. One can ask, however, if the property of a system
+   of sentences to have several axioms systems is interconnected with other
+   remarkable properties, and if there are systematic approaches to find, as the
+   case may be, that axiomatic system which contains the least possible number
+   of sentences. (/Universal Logic/, 11)
+   #+END_QUOTE
+
+* Speculating and Opining
+
+** Gentzen's work tames the radicality of Hertz's program
+** Gentzen thus constraints Hertz's vision, but in a way that advances the spirit of Hilbert's program.
+** Gödel constrains Hilbert's vision in a way that calls for a revision of the letter of his Program.
+
+* References
+** Universal Logic
+** Philosophy of Mathematics
+** On Axiomatics Systems for Arbitrary Systems of Sentences
+** https://plato.stanford.edu/entries/proof-theory-development/#NatDedSeqCal
+** https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics)#Hilbert.27s_formalism
+** https://en.wikipedia.org/wiki/Gödel's_incompleteness_theorems
+** https://en.wikipedia.org/wiki/Proof_theory
+** https://en.wikipedia.org/wiki/Paul_Bernays
+** https://plato.stanford.edu/entries/hilbert-program/#Hilbert:26
+** https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent
+

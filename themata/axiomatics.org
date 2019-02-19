@@ -1,0 +1,66 @@
+#+TITLE: Axiomatics
+
+* On the Possibility of Basic Concepts
+** TODO Excerpt from Blanché
+  
+** What is "Basic"
+*** vs. "Foundations"
+** Categories
+   Ala Kant and Aristotle
+** E.g., some potential candidates
+   - togetherness
+   - belonging
+   - collection
+   - symmetry
+   - self
+   - other
+   - alterity
+   - relatedness
+   - space
+   - time
+   - order
+   - conjunction
+   - disjunction
+   - inference
+   - negation
+   - affirmation
+   - being
+   - nothingness
+** Problematization
+   Given some set of concepts, how do we determine which ones are /basic/?
+*** Suspected solution
+    Constructivist Inferrentialism
+**** TODO Excerpt from Paul Hertz's /Axiom Systems/
+     Also elaborations from http://www.academia.edu/2313465/Paul_Hertz_and_the_Origins_of_Structural_Reasoning
+**** TODO Excerpt from Martin-Löf's /Constructive Mathematics and Computer Programming/
+     https://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf
+*** Non foundationalism
+    This is not a project of [[file:foundations.org][foundations]]: we needn't claim that our basic
+    concepts are *the* basic concepts; they needn't transcendent force. This is
+    an exercise in /axiomatics/: we are searching for a minimal set of concepts
+    which suffices for the construction of all others (that we happen to want to
+    make use of).
+*** E.g.,
+**** Sample concepts under concern
+     - togetherness
+     - relation
+     - conjunction
+     - symmetry
+     - sameness
+**** Genealogy
+     I suspect there is no single correct constructive genealogy, but there is
+     at least one (the flat genealogy where all concepts are root ancestors).
+     And we can guess at something like this:
+
+     - relation
+       - sameness
+         - symmetry
+       - togetherness
+         - conjunction
+
+** re: Type Theory
+   As Martin-Löf says explicitly, ITT is explicitly following in the Kantian
+   tradition of trying to deduce categories of the understanding from judgments.
+
+   Our aim is to extend this beyond judgment/cognition, to other forms of
+   thought such as inquiry, instruction, speculation, and poetization.

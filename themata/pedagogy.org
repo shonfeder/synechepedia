@@ -2,6 +2,8 @@
 
 *WIP*
 
+* TODO Learning
+  <"What is called thinking" excerpt>
 * Speculative and Prospective Curricula
 
 ** Thinking: Logical, Critical, and Programmatic

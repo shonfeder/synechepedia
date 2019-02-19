@@ -1,0 +1,74 @@
+#+TITLE: Thinking through category theory as movement between places
+
+#+BEGIN_QUOTE
+A /map/ of sets is a process of getting from one set to another.
+(Lawvere, /Conceptual Mathematics/, 11)
+#+END_QUOTE
+
+I am slowly making my way through F. William Lawvere and Stephen H. Schanuel's
+/Conceptual Mathematics/. The work aims to present basic concepts of category
+theory in a way that is approachable from relatively elementary mathematical
+concepts. I'm very inexpert in this area. However, for a long time I've
+suspected that a firmer grasp on the ways of thinking pursued in category theory
+would help advance my understanding of the weird ways of thinking I've
+cultivated and pursued through various domains over the last two decades.
+
+Simultaneously, I am trying to develop a habit of writing shareable scribbles.
+So these are slightly polished study notes. This here is a cairn of words
+marking a place where my thinking through category theory was informed by
+movement between places.
+
+* Objects and places, arrows and maps
+
+  As I've worked to develop some intuitions to ground a substantial
+  understanding of the concepts of category theory, I've tended to think in
+  terms of places. I imagine objects $A$ and $B$ to be places and the arrow
+  $f:$A\to B$ to mark the ways connecting $A$ to $B$. I think this is an
+  imperfect analogy but it's helping me get along.
+
+** Places vs. spaces
+
+   I should be careful to point out that I am thinking of objects as /places/ and
+   *not* as /spaces/. A lot of work in philosophy and mathematics and physics has
+   conspired to formalize the general concept of space. I think that
+   crystalization of the concept is very important, and I don't want to muddy my
+   mind with misconceptions here. The general concept of a /place/, however,
+   hasn't be regimented much, afaik. I tend to think of place in a way that is
+   influenced by and in agreement with [[https://en.wikipedia.org/wiki/Jeff_Malpas][Jeff Malpa]]'s work on the subject. But
+   what I mean by 'place' is pretty consistent with informal usage.
+
+   Your home is a place, and I often refer to mine as "my place". Most people
+   have some favorite places. In a well organized cupboard, each thing will have
+   its place. Places nest, overlap, intersect and perish. Sometimes the same
+   space just isn't the same place it used to be.
+
+   For the purposes of these notes, we can just let place be an informal notion
+   I'm using to poeticize my studies for the sake of intuition building.
+
+** In terms of set objects
+*** A set is a place
+*** An element is a position in the place
+** Internal and external maps
+*** internal maps from A to B illustrate the paths from each position in A to some position in B.
+**** Since maps require a path for each position on the domain, we must think of this as connecting places in which there is always a way from each position in the source to at least one position in the target.
+*** external maps from A to B abstract from the particular paths, illustrating the ways between places along any possible path.
+** the external indication of positions in a place
+*** 1 is would be a singular place
+**** A place with only one possible position.
+**** See p. 19
+*** we can use maps from the 1 object to some place in order to index the possible positions in that place.
+**** A map x : 1 -> A can only be a single path from the single possible position in 1 to some single position in A.
+* Data and Rules (?)
+** Data
+*** Etymology
+    http://www.etymonline.com/index.php?term=data&allowed_in_frame=0
+** Rules
+*** Etymology
+    http://www.etymonline.com/index.php?term=rule&allowed_in_frame=0
+*** Identity Laws
+    A map telling you how to stay in place.
+*** Associative Law
+    ...
+* Division problems as problems of place
+** Determination (extension) problems
+** Choice problems

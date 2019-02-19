@@ -194,7 +194,8 @@
 
 *** A system for efficiently operating a computing machine that fills a room
 
-    [[file:~/Dropbox/synechepedia/org/static/img/IBM701_in_a_machine_room.jpg]]
+    [[file:../static/img/IBM701_in_a_machine_room.jpg]]
+
     http://www.columbia.edu/cu/computinghistory/701.html
 
     In the 1950s, computing machines where gigantic, expensive, and rare. Robert

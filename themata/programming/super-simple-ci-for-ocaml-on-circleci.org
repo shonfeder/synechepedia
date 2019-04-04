@@ -14,8 +14,9 @@
    - You can follow step-by-step if this is all new to you and you're starting
      from scratch.
    - You should skip anything you already understand or already have configured.
-   - Please open an issue or a PR at TODO if you have any questions, find that
-     anything doesn't work correctly, or think that anything could be improved.
+   - If you have any questions, find that anything doesn't work correctly, or
+     think that anything could be improved, Please open an issue or a PR on [[https://github.com/shonfeder/synechepedia/blob/master/themata/programming/super-simple-ci-for-ocaml-on-circleci.org][the
+     source repository for these notes]].
 
 ** My approach to basic CI
 
@@ -39,7 +40,7 @@
 ** An OCaml project built with dune
    See https://dune.readthedocs.io/en/latest/quick-start.html
 * Setup
-** TODO A minimally testable project
+** A minimally testable project
 
    Where =.= is the root directory of your project:
 

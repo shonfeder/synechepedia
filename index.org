@@ -16,6 +16,7 @@ focused on sharing. I.e., my home page.
    - [[file:themata/synechism.org][Synechism]]
    - [[file:themata/systems-of-operation.org][Systems of Operation]]
    - [[file:themata/thinking.org][Thinking]]
+   - [[file:themata/terminology/index.org][Terminology]]
 ** Excerpts
    - [[file:exceprts/distention-of-the-heart.org][Distention of the heart]]
 ** Logs

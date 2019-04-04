@@ -7,11 +7,12 @@
 
   An arithmetic product is the result of multiplying two numbers. An arithmetic
   quotient is derived by dividing the /dividend/ by the /divisor/. Division is
-  in the inverse operation of multiplication. The logical product is the result
-  of conjoining two propositions. In the proof theoretic approach, we call this
-  "and introduction" or "conjunction introduction". We also know what the
-  inverse operation is called: /conjunction elimination/. However, we don't
-  speak of /logical quotients/. Why not?
+  the inverse operation of multiplication.
+
+  The logical product is the result of conjoining two propositions. In the proof
+  theoretic approach, we call this "and introduction" or "conjunction
+  introduction". We also know what the inverse operation is called: /conjunction
+  elimination/. However, we don't speak of /logical quotients/. Why not?
 
   I can think of three reasons why we don't extend our understanding of the
   multiplicative structure of conjunction to discuss logical quotients:
@@ -21,7 +22,14 @@
      propositions doesn't benefit from any thinking analogous to division.
   3. Tho viable, and possibly interesting, it just hasn't come up....
 
-     See cite:gabbay04_leibn_frege for a discussion of a notion of logical
-     division discussed by Boole and Peirce.
+** TODO Investigate [0/2]
 
-bibliography:~/Dropbox/bibliography/references.bib
+   - [ ] See cite:gabbay04_leibn_frege for a discussion of a notion of logical
+     division discussed by Boole and Peirce.
+   - [ ] Study [[https://en.wikipedia.org/wiki/Magma_(algebra)#Types_of_magma][magmas]], [[https://en.wikipedia.org/wiki/Group_(mathematics)#Division][division in groups]], and [[https://en.wikipedia.org/wiki/Quasigroup][quasigroups]]
+
+** TODO Transcribe
+   file:./notes-on-logical-quotient.HEIC
+
+
+   bibliography:~/Dropbox/bibliography/references.bib

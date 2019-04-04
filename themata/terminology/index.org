@@ -1,0 +1,7 @@
+#+TITLE: Terminology
+
+* What is a term?
+* On the goal of consistent and coherent terminology
+* Expansion of terms
+** TODO Generate links to all term files in this dir
+** TODO Design format for term files

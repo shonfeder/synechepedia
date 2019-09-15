@@ -49,10 +49,6 @@ educated in connectedness and focused on sharing.
      - [[https://bluebottlegames.com/games/neo-scavenger][NEO Scavenger]]
      - Togetherness
      - Cultural Techniques
-** Questions
-*** Is there a relation between diagonalization and the incommensurate ratio?
-    ... of the sides of a square to its diagonal
-    Diagonalization only works when the grid is square...
 * Meta
 ** What is a 'Synechepedia'?
    

@@ -218,7 +218,7 @@
     - a punch card reader
     - a punch card puncher (for machine-readable output)
     - a 150-line-per-minute printer (for human-readable output)
-    - an internal memory *OF WHAT SORT?* of 2,000 36-bit words *WHICH IS HOW MUCH?*,
+    - an internal memory of 2,000 36-bit words
     - four magnetic tapes
     - a magnetic drum
 

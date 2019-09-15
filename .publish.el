@@ -42,6 +42,8 @@ Built with %c.
    :base-directory source-dir
    :base-extension "org"
    :publishing-directory target-dir
+   ;; Exclude files with the extension .draft.org
+   :exclude ".*\.draft\.org"
    :recursive t
    :publishing-function 'org-html-publish-to-html
    :headline-levels 4             ; Just the default for this project.

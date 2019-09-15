@@ -34,7 +34,7 @@
      Also elaborations from http://www.academia.edu/2313465/Paul_Hertz_and_the_Origins_of_Structural_Reasoning
 **** TODO Excerpt from Martin-Löf's /Constructive Mathematics and Computer Programming/
      https://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf
-*** Non foundationalism
+*** Non-foundationalism
     This is not a project of [[file:foundations.org][foundations]]: we needn't claim that our basic
     concepts are *the* basic concepts; they needn't transcendent force. This is
     an exercise in /axiomatics/: we are searching for a minimal set of concepts

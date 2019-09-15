@@ -1,0 +1,9 @@
+#+TITLE: Domain Driven Design or Algebraic Semiotics?
+
+#+BEGIN_QUOTE
+*ad hoc*
+Latin phrase, "to this, with respect to this, for this (specific purpose)," from
+ad "to" (see /ad-/) + /hoc/, neuter accusative of hic "this." Hence, "appointed or
+enacted for some particular purpose" (1879).
+([[https://www.etymonline.com/word/ad%2520hoc][etymonline]])
+#+END_QUOTE

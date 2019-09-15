@@ -49,3 +49,37 @@ Planned projects. Sketches. Glimpses.
    - should be modular
    - they are /tropes/ like analogy, metaphor, synonym expansion, association of
      concepts, etc.
+* Natural Deduction Games
+** Mobile/web game
+   - along the lines of Euclid that teaches
+   - teaches principles and techniques
+   - as you master elimination/introduction rules, you expand your abilities
+   - as you identify important theorems, you get cuts that expand your powers
+** Party game
+   - Possible title: "Unnatural Deductions"
+*** Ideas
+    (Just a sketch)
+    - Tile placing
+      - scrabble:
+        - building off each others sequences
+        - can lay multiple tiles in a chain of deductions
+      - hive
+        - The "board" is constructed as tiles are placed
+        - can revise the board shape by certain moves
+          - (E.g. cuts)
+    - Players state axioms
+      - Axioms must be allowed by consensus (assumed consent, but a single veto
+        blocks axiom positing)
+    - Cuts can be declared
+      - clears the board of (some) tiles
+      - introduces new theorems
+      - How?
+        - Special "cut" tiles?
+          - Allows for capturing tiles that are cut out
+          - Can only add captured tiles to points if you can reintroduce the cut?
+    - Win/loss conditions?
+      - Immediate victory: Proving Falsum (should be rare)
+      - Tile capturing: via cut introduction. And any other means?
+    - Different logical systems as expansions
+    - The content of the theorems provide color (like other party games)
+    - Award points based also on amusingness of deduced theorems?

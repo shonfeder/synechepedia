@@ -1,0 +1,41 @@
+#+TITLE: Ocaml Editor Wish List
+* Type-driven Case Generation
+
+Ala Agda.
+
+Given
+
+#+begin_src tuareg
+type t = A | B | C of int
+#+end_src
+
+We should be able to
+
+#+begin_src tuareg
+let f : t -> int = function <tab>
+#+end_src
+
+to have generated the snippet template
+
+#+begin_src tuareg
+let f : t -> int = function
+  | A   -> __
+  | B   -> __
+  | C x -> __ x
+#+end_src
+
+where =__=  and =x= are fields that can be navigated with =<tab>=, and filled in
+by the user.
+* Structural transformation
+
+E.g., given
+
+#+begin_src tuareg
+if x then
+  exp1
+else
+  exp2
+#+end_src
+
+a single command should be able to swap the expressions in the branches and
+negate the conditional.

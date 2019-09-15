@@ -1,0 +1,4 @@
+#+TITLE: Towards a Transcendental Critique of Computation Models
+* Read [/]
+ - [ ] https://en.wikipedia.org/wiki/Computational_model
+ - [ ] https://en.wikipedia.org/wiki/Herman_Dooyeweerd

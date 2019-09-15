@@ -1,7 +1,7 @@
 #+TITLE: A Synechepedia
 
-Recording and sharing connections found in a life educated in connectedness and
-focused on sharing. I.e., my home page.
+A (sketch|scrap|note)-book recording and sharing connections found in a life
+educated in connectedness and focused on sharing.
 
 * Sections
 ** Themata
@@ -17,6 +17,7 @@ focused on sharing. I.e., my home page.
    - [[file:themata/systems-of-operation.org][Systems of Operation]]
    - [[file:themata/thinking.org][Thinking]]
    - [[file:themata/terminology/index.org][Terminology]]
+   - [[file:themata/work-anxiety-and-egotism.org][Work Anxiety and Egotism]]
 ** Excerpts
    - [[file:exceprts/distention-of-the-heart.org][Distention of the heart]]
 ** Logs
@@ -53,8 +54,9 @@ focused on sharing. I.e., my home page.
     ... of the sides of a square to its diagonal
     Diagonalization only works when the grid is square...
 * Meta
-** TODO On the Name
-   See [[https://en.wiktionary.org/wiki/%25CF%2583%25CF%2585%25CE%25BD%25CE%25B5%25CF%2587%25CE%25AE%25CF%2582#Ancient_Greek][συνεχής]].
+** What is a 'Synechepedia'?
+   
+   See [[https://en.wikipedia.org/wiki/Synechism][synechism]] and [[https://www.etymonline.com/word/encyclopedia#etymonline_v_8648][encyclopedia.]]
 ** Tasks
 *** TODO Function to create new page with link and title
     Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar

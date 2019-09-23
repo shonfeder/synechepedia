@@ -2,206 +2,229 @@
 #+OPTIONS: toc:3
 
 This page documents things I have read (since <2018-04-08 Sun>), and things I
-intend to read in the coming months (and years).
+intend to read in the coming months (and years)[fn:1].
 
 * Currently Reading
-
-** On the Meanings of the Logical Constants and the Justifications of the Logical Laws
-   
-   (ref: cite:Martin-Lof1996-MAROTM-7)
-** The Purely Functional Software Deployment Model
-
-   (ref: cite:DBLP:phd/basesearch/Dolstra06)
-* Will Read
-  Texts in this list are not being actively read, but they may have been started
-  or partially read. They are, in any case, yet to be completed.
-** Intuitionistic Type Theory
-   (ref: cite:martin1984intuitionistic)
-
-   [[file:reading-notes/martin-lof-itt.org][Notes]]
-
-** An Introduction to Mathematics
-   (ref: cite:whitehead93)
-
-   [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
-** Miscomputation in Software: Learning to live with errors
-   (ref: cite:Petricek_2017)
-** Logic -> TypeTheory+
-   Listed in approximate order of ascent.
-*** Software Foundations: Logical Foundations
-    (ref: cite:Pierce:SF)
-
-    [[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
-*** On Axiomatic Systems for Arbitrary Systems of Sentences
-    (ref: cite:hertz12_axiom_system_arbit_system_senten)
-*** Investigations into Logical Deduction
-    (ref: cite:m.69_gerhar_gentz_german)
-*** Natural Deduction
-    (ref: cite:dag06_natur)
-*** Type Theory and Formal Proof
-    (ref: cite:rob2014type)
-** (Abstract) Algebra -> Topology+
-   Listed in approximate order of ascent.
-*** Experiments in Topology
-    (ref: cite:barr89_exper)
-*** Conceptual Mathematics
-    (ref: cite:f.08_concep)
-*** Algebra
-    (ref: cite:saunders88_algeb)
-*** Topoi: the Categorial Analysis of Logic
-    (ref: cite:robert06_topoi)
-*** The Blind Spot
-    (ref: cite:girard11)
-
-    [[file:reading-notes/girard-the-blind-spot.org][Notes]]
+** Modules for Standard ML
+cite:macqueen84_modul_ml
+** Type theory and formal proof: an introduction
+cite:rob2014type
 
 * Have Read
-  Texts in this list are read to my satisfaction /for the moment/. They are
-  liable to move back to one of the other lists.
+Texts in this list are read to my satisfaction /for the moment/. They are
+liable to move back to one of the other lists.
 
 ** 2019
-*** Constructive Mathematics and Computer Programming
-   <2019-01-13 Sun>
+*** Bidirectional typing rules: a tutorial (2013).
+<2019-09-21 Sun>
+cite:christiansen2013bidirectional
+*** 1ML: Core and Modules United
+<2019-09-20 Sat>
+(ref: cite:ROSSBERG_2018)
+*** Analytic and Synthetic Judgements in Type Theory
+<2019-08-14 Wed>
+cite:Martin_L_f_1994
+*** An Introduction to Mathematics
+<2019-09-23 Mon>
 
-   (ref: cite:Martin_L_f_1982)
+(ref: cite:whitehead93)
+
+[[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
+*** The Purely Functional Software Deployment Model
+<2019-02-01 Mon>
+
+(ref: cite:DBLP:phd/basesearch/Dolstra06)
+*** Constructive Mathematics and Computer Programming
+<2019-01-13 Sun>
+
+(ref: cite:Martin_L_f_1982)
 
 **** On the semantics of lazy evaluation
-     #+BEGIN_QUOTE
-     The term lazy has is appropriate because only as few computation steps are
-     made as are absolutely necessary to bring an expression into canonical form.
-     However, what turns out to be of no significance, it is no longer the case
-     that an expressions cannot have a value unless all its parts have values.
-     For example, =a'= has itself as value even if =a= has no value. What is
-     significant, though, is that the principle of Frege's referred to earlier,
-     namely that the value of an expression depends only on the values of its
-     parts, is irretrievably lost. To make the language work in spite of this
-     loss has been one of the most serious difficulties in the design of the
-     theory of types. (172)
-     #+END_QUOTE
+#+BEGIN_QUOTE
+The term lazy has is appropriate because only as few computation steps are
+made as are absolutely necessary to bring an expression into canonical form.
+However, what turns out to be of no significance, it is no longer the case
+that an expressions cannot have a value unless all its parts have values.
+For example, =a'= has itself as value even if =a= has no value. What is
+significant, though, is that the principle of Frege's referred to earlier,
+namely that the value of an expression depends only on the values of its
+parts, is irretrievably lost. To make the language work in spite of this
+loss has been one of the most serious difficulties in the design of the
+theory of types. (172)
+#+END_QUOTE
 **** From the discussion notes after the chapter
-     #+BEGIN_QUOTE
-     ... if propositions were interpreted as domains and truth as non-emptiness,
-     every proposition would come out true. This is why I could not think of
-     dealing with partial elements and functions, that is, possibly
-     non-terminating programs, before I had freed myself from the interpretation
-     of propositions as types. (184)
-     #+END_QUOTE
+#+BEGIN_QUOTE
+... if propositions were interpreted as domains and truth as non-emptiness,
+every proposition would come out true. This is why I could not think of
+dealing with partial elements and functions, that is, possibly
+non-terminating programs, before I had freed myself from the interpretation
+of propositions as types. (184)
+#+END_QUOTE
 
 ** 2018
 *** Build systems a la carte
-   <2018-11-15 Thu>
+<2018-11-15 Thu>
 
-   (ref cite:Mokhov_2018)
+(ref cite:Mokhov_2018)
 *** Networks: A Very Short Introduction
-    <2018-08-13 Mon>
+<2018-08-13 Mon>
 
-    (ref: cite:caldarelli2012networks)
+(ref: cite:caldarelli2012networks)
 
 *** "Marx's Concept Of Socialism" from Eric Fromm's /Marx's Concept of Man/
-    https://www.marxists.org/archive/fromm/works/1961/man/ch06.htm
+https://www.marxists.org/archive/fromm/works/1961/man/ch06.htm
 
-    <2018-08-09 Thu>
+<2018-08-09 Thu>
 
-    #+BEGIN_QUOTE
-    Marx expressed the aim of socialism with great clarity at the end of the
-    third volume of Capital: "In fact, the realm of freedom does not commence
-    until the point is passed where labor under the compulsion of necessity and
-    of external utility is required. In the very nature of things it lies beyond
-    the sphere of material production in the strict meaning of the term. Just as
-    the savage must wrestle with nature, in order to satisfy his wants, in order
-    to maintain his life and reproduce it, so civilized man has to do it, and he
-    must do it in all forms of society and under all possible modes of
-    production. With his development the realm of natural necessity expands,
-    because his wants increase; but at the same time the forces of production
-    increase, by which these wants are satisfied. The freedom in this field
-    cannot consist of anything else but of the fact that socialized man, the
-    associated producers, regulate their interchange with nature rationally,
-    bring it under their common control, instead of being ruled by it as by some
-    blind power; they accomplish their task with the least expenditure of energy
-    and under conditions most adequate to their human nature and most worthy of
-    it. But it always remains a realm of necessity. Beyond it begins that
-    development of human power, which is its own end, the true realm of freedom,
-    which, however, can flourish only upon that realm of necessity as its
-    basis."
-    #+END_QUOTE
+#+BEGIN_QUOTE
+Marx expressed the aim of socialism with great clarity at the end of the
+third volume of Capital: "In fact, the realm of freedom does not commence
+until the point is passed where labor under the compulsion of necessity and
+of external utility is required. In the very nature of things it lies beyond
+the sphere of material production in the strict meaning of the term. Just as
+the savage must wrestle with nature, in order to satisfy his wants, in order
+to maintain his life and reproduce it, so civilized man has to do it, and he
+must do it in all forms of society and under all possible modes of
+production. With his development the realm of natural necessity expands,
+because his wants increase; but at the same time the forces of production
+increase, by which these wants are satisfied. The freedom in this field
+cannot consist of anything else but of the fact that socialized man, the
+associated producers, regulate their interchange with nature rationally,
+bring it under their common control, instead of being ruled by it as by some
+blind power; they accomplish their task with the least expenditure of energy
+and under conditions most adequate to their human nature and most worthy of
+it. But it always remains a realm of necessity. Beyond it begins that
+development of human power, which is its own end, the true realm of freedom,
+which, however, can flourish only upon that realm of necessity as its
+basis."
+#+END_QUOTE
 
 *** The Triumph of Types: Principia Mathematica's Impact on Computer Science
-    (ref: cite:ConstableManuscript-CONTTO-4)
+(ref: cite:ConstableManuscript-CONTTO-4)
 
-    <2018-08-07 Tue>
+<2018-08-07 Tue>
 
-    #+BEGIN_QUOTE
-    *2.5 Effectively Computable, Turing Computable, and Subrecur-sive Computation*
+#+BEGIN_QUOTE
+*2.5 Effectively Computable, Turing Computable, and Subrecur-sive Computation*
 
-    Systems Brouwer’s notion of computability is not formal and not axiomatic. It
-    is intuitive and corresponds to what is called effective computability . The
-    Church/Turing Thesis claims that all effectively computable functions are
-    computable by Turing machines (or any equivalent formalism, e.g. the untyped
-    λ -calculus). There is no corresponding formalism for Brouwer Computable .
-    However, I believe that this notion can be captured in intuitionistic logics
-    by leaving a Turing complete computation system for the logic open-ended in
-    the sense that new primitive terms and rules of reduction are possible. This
-    method of capturing effective computability may be unique to CTT in the sense
-    that the computation system of CTT is open to being “Brouwer complete” as a
-    logic. We have recently added a primitive notion of general process to
-    formalize distributed systems whose potentially nonterminating computations
-    are not entirely deterministic because they depend on asynchronous message
-    passing over a network which can only be modeled faithfully by allowing
-    #+END_QUOTE
+Systems Brouwer’s notion of computability is not formal and not axiomatic. It
+is intuitive and corresponds to what is called effective computability . The
+Church/Turing Thesis claims that all effectively computable functions are
+computable by Turing machines (or any equivalent formalism, e.g. the untyped
+λ -calculus). There is no corresponding formalism for Brouwer Computable .
+However, I believe that this notion can be captured in intuitionistic logics
+by leaving a Turing complete computation system for the logic open-ended in
+the sense that new primitive terms and rules of reduction are possible. This
+method of capturing effective computability may be unique to CTT in the sense
+that the computation system of CTT is open to being “Brouwer complete” as a
+logic. We have recently added a primitive notion of general process to
+formalize distributed systems whose potentially nonterminating computations
+are not entirely deterministic because they depend on asynchronous message
+passing over a network which can only be modeled faithfully by allowing
+#+END_QUOTE
 *** Structuralism, Invariance, and Univalence
-    (ref: cite:Awodey_2013)
+(ref: cite:Awodey_2013)
 
-    <2018-07-26 Thu>
+<2018-07-26 Thu>
 
 *** Frob: Functional Reactive Programming Applied to Robotics
-    (ref: cite:hagerfrob)
+(ref: cite:hagerfrob)
 
-    <2018-07-20 Thu>
+<2018-07-20 Thu>
 
 *** Community, Democracy, and Mutual Aid
-    (ref: cite:Colon_2017)
+(ref: cite:Colon_2017)
 
-    <2018-07-05 Fri>
+<2018-07-05 Fri>
 
 
-    Articulates an inspiring philosophy, vision, and strategy for pursuing
-    radically democratic, cooperative, solidarity-based dual power institutions
-    to undermine (and hopefully replace) the exploitative and oppressive systems
-    we inhabit.
+Articulates an inspiring philosophy, vision, and strategy for pursuing
+radically democratic, cooperative, solidarity-based dual power institutions
+to undermine (and hopefully replace) the exploitative and oppressive systems
+we inhabit.
 
 *** Feel the Heat: An Embodied Approach to the Instruction of the Greenhouse Effect
-    By Ian Thacker (Not yet published)
+By Ian Thacker (Not yet published)
 
-    <2018-04-27 Fri>
+<2018-04-27 Fri>
 
-    Motto: "Perceptual inferences become causal rules"
+Motto: "Perceptual inferences become causal rules"
 *** Consistent Overhead Byte Stuffing
-    (ref: cite:cheshire1999consistent)
+(ref: cite:cheshire1999consistent)
 
-    <2018-04-24 Tue>
+<2018-04-24 Tue>
 
 *** A Theory of the Learnable
-    (ref: cite:valiant84_theor_learn)
+(ref: cite:valiant84_theor_learn)
 
-    <2018-04-18 Fri>
+<2018-04-18 Fri>
 
-    [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
+[[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
 *** The Marx and Engels Reader
-    (cite:tucker78_marx_engel)
+(cite:tucker78_marx_engel)
 
-    [[file:reading-notes/marx-engles-reader.org][Notes]]
+[[file:reading-notes/marx-engles-reader.org][Notes]]
 
 **** Chapters read
-     - "Marx on the History of his Opinions"
-     - "Discovering Hegel"
-     - "To Make the World Philosophical"
-     - "For a Ruthless Criticism of Everything Existing"
+- "Marx on the History of his Opinions"
+- "Discovering Hegel"
+- "To Make the World Philosophical"
+- "For a Ruthless Criticism of Everything Existing"
 *** The Inoperative Community
-    (cite:peter01)
+(cite:peter01)
 
-    [[file:reading-notes/nancy-the-inoperative-community.org][Notes]]
+[[file:reading-notes/nancy-the-inoperative-community.org][Notes]]
 
 **** Chapters read
 
-     - "The Inoperative Community"
-     - "Literary Communism"
+- "The Inoperative Community"
+- "Literary Communism"
+
+* Want to Read
+Texts in this list are not being actively read, but they may have been started
+or partially read. They are, in any case, yet to be completed.
+** On the Meanings of the Logical Constants and the Justifications of the Logical Laws
+
+(ref: cite:Martin-Lof1996-MAROTM-7)
+** Intuitionistic Type Theory
+(ref: cite:martin1984intuitionistic)
+
+[[file:reading-notes/martin-lof-itt.org][Notes]]
+
+** Miscomputation in Software: Learning to live with errors
+(ref: cite:Petricek_2017)
+** Logic -> TypeTheory+
+Listed in approximate order of ascent.
+*** Software Foundations: Logical Foundations
+(ref: cite:Pierce:SF)
+
+[[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
+*** On Axiomatic Systems for Arbitrary Systems of Sentences
+(ref: cite:hertz12_axiom_system_arbit_system_senten)
+*** Investigations into Logical Deduction
+(ref: cite:m.69_gerhar_gentz_german)
+*** Natural Deduction
+(ref: cite:dag06_natur)
+*** Type Theory and Formal Proof
+(ref: cite:rob2014type)
+** (Abstract) Algebra -> Topology+
+Listed in approximate order of ascent.
+*** Experiments in Topology
+(ref: cite:barr89_exper)
+*** Conceptual Mathematics
+(ref: cite:f.08_concep)
+*** Algebra
+(ref: cite:saunders88_algeb)
+*** Topoi: the Categorial Analysis of Logic
+(ref: cite:robert06_topoi)
+*** The Blind Spot
+(ref: cite:girard11)
+
+[[file:reading-notes/girard-the-blind-spot.org][Notes]]
+
+* Footnotes
+
+[fn:1] This list is not complete. It only reflects writing which I remembered to
+enter and which I felt were actually worth the time to enter.
+
+bibliography:~/Dropbox/bibliography/references.bib

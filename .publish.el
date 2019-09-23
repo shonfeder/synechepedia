@@ -66,7 +66,9 @@ Built with %c.
   (format "[[file:%s][%s]] --- %s"
           entry
           (org-publish-find-title entry project)
-          (format-time-string "%Y-%m-%d" (org-publish-find-date entry project))))
+          (format-time-string "%Y-%m-%d" (org-publish-find-date entry project))
+          ; TODO
+          (org-publish-find-property file :subtitle 'latex)))
 
 (defvar recurse-center-logs
   (list "synechepedia-articles"

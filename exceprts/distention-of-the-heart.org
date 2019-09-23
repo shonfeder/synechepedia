@@ -8,4 +8,5 @@ briefed by a conscientious assessment of probable consequences, are our
 faltering guides. (cite:quine1987quiddities, 5)
 #+END_QUOTE
 
+
 bibliography:~/Dropbox/bibliography/references.bib

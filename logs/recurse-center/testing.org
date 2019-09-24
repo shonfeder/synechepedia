@@ -1,5 +1,0 @@
-#+TITLE: Testing a log entry
-
-Some content here blah blah blah
-
-Blah blak

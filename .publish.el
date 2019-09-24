@@ -1,7 +1,16 @@
+;;; package -- Configuration for publication of my synechepedia
+
 (require 'org)
 (require 'ox-rss)
 
-;; Configuration
+;;; Commentary:
+
+;; I consulted Eric Evenchick's post Blogging with Org Mode[1] when assembling
+;; this configuration
+;;
+;; [1]: https://www.evenchick.com/blog/blogging-with-org-mode.html
+
+;;;; Code:
 
 ;; Toggle to true to only reload changed files
 (setq org-publish-use-timestamps-flag 'f)

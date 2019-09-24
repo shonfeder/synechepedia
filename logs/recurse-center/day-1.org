@@ -1,0 +1,91 @@
+#+TITLE: Day 1: Orientation
+
+/Oh man... beginning written things makes me nervous. Better not to think about
+it and try to get underway before I can overthink. Maybe by the time I realize
+what I'm doing I'll already be underway and I won't have to struggle through the
+awkwardness and inelegance of all my beginnings. Too late for that./
+
+I aim to write daily logs recording some of the things I think and feel and do
+during the course of this Fall 2 batch at the [[https://www.recurse.com/][Recurse Center]]. I hope this
+pratice will provide some of the following benefits:
+
+- Help kickstart a writing habit
+- Overcome writing anxiety
+- Subdue ego-driven inhibitions that stifle creation generally
+- Create a record of my activities, so I'll have evidence to disprove (perhaps
+  prevent) likely self-accusations of indolence
+- Make some of what I learn and experience available for others, in case it can
+  be of use for them
+
+* Vibe
+Today was incredibly exciting (I've dreamed of being in this space for years).
+It was also intense and a bit overwhelming: there are so many cool reading
+groups and discussions and people and projects and books and activities -- [[https://www.youtube.com/watch?v=KXPDACPj01E][I
+want it all!]] I was exposed to so many enticing prospects that I ended up
+feeling a bit disoriented. I think this is quite ideal.
+
+A meaningful [[https://www.etymonline.com/word/orient][orientation]] should probably include some disorientation: since
+origination ex nihilo is impossible (and contradicts the [[https://en.wikipedia.org/wiki/Synechism][synechistic]]
+conviction), any orientation is properly a /re/orientation, and the /re-/ likely
+calls for a preceding /dis-/.
+
+* Advice given by alumni
+A number of recursers offered tips and advice on how to make the most of a
+session. The following points particularly resonated with me and my current
+state of mind:
+
+- Don't be afraid to abandon initial plans
+- Give presentations
+- Write (voila!)
+- Don't be afraid to follow a course lead by inspiration and true caring
+  insted of the courses suggested by industry needs and marketability.
+- Combat the paralysis of over-thinking with experimentation
+- Build someting every day (even if very small)
+- Don't compare or compete!
+- Play with robotics (this is a tough one for me, as I am somewhat hardware
+  adverse, but likely important for me to prioritize for that same reason)
+- Keep a list of things done each day (voila!)
+
+* Today's Progress
+
+** Community : People × Zulip × Events
+- Met lots of wonderful people and had inspiring introductory conversations.
+- Got set up, entered into interesting/important streams, configured settings,
+  profile, etc.
+- Reviewed all events for the week, and RSVPed to relevant ones.
+** Tooling : Emacs × org-mode × blog
+- Added and configured [[https://github.com/jkitchin/org-ref][org-ref]] for easier entry and tracking of citations in my org-mode
+  based note-taking/publishing workflow.
+- Extended [[https://github.com/shonfeder/synechepedia/blob/master/.publish.el][my org-mode-publish configuration]] to add a blogging component for
+  publishing these logs.
+** Writing
+- This.
+** PLT: 1ML × Type Theory
+- Scoped out my intended "big" project. This just amounts to various studies of Andreas
+  Rossberg's [[https://people.mpi-sws.org/~rossberg/1ml/][1ML]]. My principle motives for this focus:
+    - Gain deeper knowledge of type theory and modularity by studying (and maybe
+      extending) the implementation of the language.
+    - Improve my practice of writing, finding, and using dev tooling by helping
+      to build out the start of language tooling (editor support, packaging etc.)
+    - Improve knowledge of algebraic structures, data structures, and
+      algorithms, while exploring the potential of 1ML qua language by
+      implementing standard library modules.
+- Decided on my low-hanging fruit side project: port of Haskell's =Data.These= to
+  OCaml
+
+* Tomorrow's Program
+
+** PLT
+- Implement some essential data structures in 1ML: Getting a firmer grasp of
+  the current state of 1ML's implementation is a necessary step for orienting
+  my further work. To do this, I should spend time programming in the language.
+  I will therefore begin implementing some standard data structures in 1ML.
+  These should be useful as the start of a standard library.
+- Backup, in case I am stuck or need a break: Begin porting =Data.These= to
+  OCaml
+** Community
+- Attend some intriguing meetings and events
+- Decide a pairing schedule
+** Writing
+- Start writing earlier
+- Write fewer, more focused notes

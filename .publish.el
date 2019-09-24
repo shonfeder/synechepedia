@@ -36,7 +36,7 @@
 
 (defvar synechepedia-html-postamble
   "<div class='footer'>
-Copyright 2018 %a.<br>
+Copyright 2019 Shon Feder.<br>
 Last updated %C. <br>
 Built with %c.
 </div>")

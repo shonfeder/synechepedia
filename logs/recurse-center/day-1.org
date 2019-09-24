@@ -1,9 +1,9 @@
 #+TITLE: Day 1: Orientation
 
-/Oh man... beginning written things makes me nervous. Better not to think about
+(Oh man... beginning written things makes me nervous. Better not to think about
 it and try to get underway before I can overthink. Maybe by the time I realize
 what I'm doing I'll already be underway and I won't have to struggle through the
-awkwardness and inelegance of all my beginnings. Too late for that./
+awkwardness and inelegance of all my beginnings. Too late for that.)
 
 I aim to write daily logs recording some of the things I think and feel and do
 during the course of this Fall 2 batch at the [[https://www.recurse.com/][Recurse Center]]. I hope this

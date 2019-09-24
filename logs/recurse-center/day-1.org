@@ -7,9 +7,9 @@ awkwardness and inelegance of all my beginnings. Too late for that.)
 
 I aim to write daily logs recording some of the things I think and feel and do
 during the course of this Fall 2 batch at the [[https://www.recurse.com/][Recurse Center]]. I hope this
-pratice will provide some of the following benefits:
+practice will provide some of the following benefits:
 
-- Help kickstart a writing habit
+- Help kick start a writing habit
 - Overcome writing anxiety
 - Subdue ego-driven inhibitions that stifle creation generally
 - Create a record of my activities, so I'll have evidence to disprove (perhaps
@@ -26,7 +26,7 @@ feeling a bit disoriented. I think this is quite ideal.
 
 A meaningful [[https://www.etymonline.com/word/orient][orientation]] should probably include some disorientation: since
 origination ex nihilo is impossible (and contradicts the [[https://en.wikipedia.org/wiki/Synechism][synechistic]]
-conviction), any orientation is properly a /re/orientation, and the /re-/ likely
+conviction), any orientation is properly a reorientation, and the /re-/ likely
 calls for a preceding /dis-/.
 
 * Advice given by alumni
@@ -38,9 +38,9 @@ state of mind:
 - Give presentations
 - Write (voila!)
 - Don't be afraid to follow a course lead by inspiration and true caring
-  insted of the courses suggested by industry needs and marketability.
+  instead of the courses suggested by industry needs and marketability.
 - Combat the paralysis of over-thinking with experimentation
-- Build someting every day (even if very small)
+- Build something every day (even if very small)
 - Don't compare or compete!
 - Play with robotics (this is a tough one for me, as I am somewhat hardware
   adverse, but likely important for me to prioritize for that same reason)

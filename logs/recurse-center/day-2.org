@@ -1,0 +1,51 @@
+#+TITLE: Day 2: Disorientation
+#+DATE: <2019-09-24 Tue>
+
+* Vibe
+Low and fragile feeling, but people were kind and engaging, learning happend and
+work got done.
+
+* Today's Progress
+
+** Community
+- Had a lovely walk and chat facilitated by the chat-bot.
+- Pairing workshop: I learned the value of frequent alternation between roles
+  (they advised 8-15 minutes rotations). My partner and I coded up a working
+  (afaik) implementation of the core logic of Conway's Game of Life in Haskell.
+  This was a good reminder that my Haskell is very rough.
+- Met with the category theory study group kickoff. We have solid plans for the
+  next meeting.
+- Signed up with the pairing bot and made a date with a fellow batchling for
+  some OCaml pairing tomorrow.
+** Tooling : Emacs × org-mode × blog
+- Fixed a bug in the org-publish configuration preventing posts from being
+  indexed properly.
+** PLT: 1ML × Type Theory
+Less progress here than hoped. Between my exhaustion and social engagements, I
+didn't have a heap of energy or time, but I still managed to move things
+forward a bit.
+
+- Got the 1ML interpreter building.
+- Fixed some bugs in my year-old experiments to extend the prelude.
+- Added some to the =Opt= module
+
+I still have a lot to sort out.
+
+* Tomorrow's Program
+
+** PLT
+- Finish reading cite:macqueen84_modul_ml
+- Begin reading cite:Rossberg_2010
+- Solidify understanding of distinction between small and large types in 1ML,
+  and how to use =wrap= and =unwrap= appropriately.
+- Code up some basic data structures, starting with a stack.
+- Backup, in case I am stuck or need a break: Begin porting =Data.These= to
+  OCaml
+** Community
+- OCaml pairing
+- OCaml chatting
+- Recoup with some dedicated alone time.
+** Writing
+- Short write up on the basics of defining 1ML modules.
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -1,0 +1,45 @@
+#+TITLE: Day 3: Focusing
+#+DATE: <2019-09-25 Tue>
+
+* Vibe
+Recovered. Feeling fortunate. Still a bit winded and wanting for focus.
+
+* Today's Progress
+
+** Community
+- More pleasant, friendly, and inspiring chats. I learned heaps.
+- Paired on an OCaml parsing project, and we both came away with an
+  understanding of how to use =ocamllex=.
+** PLT: 1ML × Type Theory
+- Finished reading cite:macqueen84_modul_ml
+- Began reading cite:Rossberg_2010
+- Implemented a stack in 1ML
+- Turned up a number of bugs and missing features in the 1ML implementation in
+  the process. Some of these are quite interesting type-checking bugs, and I've
+  located the locus of the problem.
+- I didn't get a chance to dig into the difference between small and large
+  types.
+** Category theory
+- Attended the HOTT-NYC reading group.
+** Writing
+- Wrote [[file:../../themata/programming/notes-on-1ml.org::*Modules][a short intro to 1ML modules]].
+- Began putting together some notes on the history and meaning of ML modules.
+
+* Tomorrow's Program
+
+** PLT: 1ML × Type Theory
+- Study and take notes on the distinction between small and large types in 1ML
+- Continue reading cite:Rossberg_2010
+- Begin trying to fix the biggest type-checking bug I found today
+** Community
+- Pairing to improve and rework Haskell game of like exercise
+- More coffee chats
+- Feelings Checkin
+- Presentations
+- OCaml talk at JaneStreet
+** Writing
+- Write up implementation of stack
+- Write up notes on small vs. large types
+- Start adding an epigraph to the beginning of each log entry
+
+bibliography:~/Dropbox/bibliography/references.bib

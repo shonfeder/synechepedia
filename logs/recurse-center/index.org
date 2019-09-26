@@ -1,4 +1,5 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-3.org][Day 3: Focusing]] --- 2019-09-25
 - [[file:day-2.org][Day 2: Disorientation]] --- 2019-09-24
 - [[file:day-1.org][Day 1: Orientation]] --- 2019-09-23

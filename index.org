@@ -25,31 +25,7 @@ educated in connectedness and focused on sharing.
 - [[file:reading-list.org][Reading List]]
 - [[file:projects.org][Projects]]
 - [[file:plans.org][Plans]]
-** Quips
-To be sorted and/or expanded or deleted...
-*** The formal paradoxes of the early 20th century
-I suspect that a common root of these was the use of /general logic/ as an
-*organon*. In Kant's critical philosophy, he admonishes against this,
-warning that will produce monstrous results.
-
-To use logic as an organon is to use it to extend our knowledge. That is
-done whenever we try to reason from purely general logical principles to
-existence of any sort. This occurs in the axiom of unrestricted
-comprehension.
-*** The Inventory Management Game: Bags, Togetherness, and Cultural Techniques
-Containment is a candidate for transcendental techniques.
-
-Containers (pockets, bags, boxes, tins, gourds, jugs, cabinets, etc.) are
-so ubiquitous that very few of us appreciate how revolutionary and
-indispensable the technology is.
-**** References:
-- https://dpadblog.com/2013/12/11/the-8-rules-of-rpg-inventory-management-and-how-they-apply-to-life/
-- https://aaai.org/ocs/index.php/AIIDE/AIIDE17/paper/viewFile/15899/15226
-- http://tobolds.blogspot.com/2009/05/inventory-management.html
-**** re:
-- [[https://bluebottlegames.com/games/neo-scavenger][NEO Scavenger]]
-- Togetherness
-- Cultural Techniques
+** [[file:quips.org][Quips]] (things To be sorted and expanded or deleted...)
 * Meta
 ** What is a 'Synechepedia'?
    

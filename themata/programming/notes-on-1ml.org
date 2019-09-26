@@ -1,0 +1,112 @@
+#+TITLE: Notes on 1ML
+
+[[https://people.mpi-sws.org/~rossberg/1ml/][1ML]] is an experimental dialect of [[https://en.wikipedia.org/wiki/ML_(programming_language)][ML]]. It's aim and principle distinguishing
+feature is the unification of the module and core languages into a single level.
+
+I find ML modules important and interesting for reasons I will try to articulate
+in [[file:the-measure-of-a-module.org][The Measure of a Module]]. These notes record aspects and properties of 1ML
+which I have learned and discovered while studying the theory and implementation
+of the language.
+
+* Comments
+- =(; ... ;)= designate wrapped (possibly inline) comments
+- =;;= designates the start of a comment that extends to the end of a line
+
+* Modules
+
+According to one perspective, in 1ML "everything is just ('a mode of use of')
+modules" ([[https://people.mpi-sws.org/~rossberg/1ml/][Rossberg]]). Therefore, in thinking through the nature of 1ML, it is
+reasonable that we begin with its modules.
+
+** Module definition syntax
+
+To define a named module, we follow the following schema:
+
+#+BEGIN_SRC 1ml
+ModuleName (; : MODULE_TYPE ;) = {
+ ;; declarations and definitions
+};
+#+END_SRC
+
+The =MODULE_TYPE= and =declarations and defintions= are commented out to
+indicate that they are optional.
+
+** The empty module
+
+The minimal module is the empty module. We can assign =M= to be the empty module
+thus:
+
+#+BEGIN_SRC 1ml
+M = {};
+#+END_SRC
+
+** Module types
+
+In MLs, every value have a type. In 1ML, modules are values, so they too have a
+type.
+
+Consider module =M= with one type declaration and two value definitions:
+
+#+BEGIN_SRC 1ml
+M = {
+  type t = (int, text);
+  x = 5;
+  y = (x, "five");
+};
+#+END_SRC
+
+1ML will infer the following /type/ for the module:
+
+#+BEGIN_SRC 1ml
+M : {
+  type t = (int, text);
+  x : int;
+  y : (int, text);
+};
+#+END_SRC
+
+Unsurprisingly, the type of a module is just the types of all the values which
+that module provides together with the types declared in the module. Note that
+the module's type is based on what it =provides=, not what it contains. This is
+an important distinction because we can seal information into modules by
+specifying types for the modules which omit some content:
+
+#+BEGIN_SRC 1ml
+M : { type t; y: t; } = {
+  type t = (int, text);
+  x = 5;
+  y = (x, "five");
+};
+#+END_SRC
+
+Since the above module specifies a type for the module that excludes =x=, =x= is
+no longer available from outside of the module:
+
+#+BEGIN_SRC 1ml
+1ML> result = M.y
+result : (int, text);
+1ML> result = M.x
+stdin:1.10-1.13: field `x' unbound in expression
+#+END_SRC
+
+We can also seal in the types, which results in *abstract types*. To seal in
+types, we specify the module signature using =:>=, thus
+
+#+BEGIN_SRC 1ml
+M :> { type t; y: t; } = {
+  type t = (int, text);
+  x = 5;
+  y = (5, "five");
+};
+#+END_SRC
+
+The internal structure of the type =M.t= is now hidden from the outside world.
+We'll see the implications of this in the following section.
+
+The two key points to take away form this brief discussion of 1ML modules:
+
+- A module is a value in 1ML.
+- Every module has a type.
+- The /type/ of a module specifies the module's public interface.
+
+** TODO A concrete example: implementing a stack

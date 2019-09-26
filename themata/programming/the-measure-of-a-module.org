@@ -1,0 +1,74 @@
+#+TITLE: The Measure of a Module
+
+*WIP*
+
+#+BEGIN_QUOTE
+*module* (n.)
+
+1580s, "allotted measure," a sense now obsolete, from Middle French /module/
+(1540s) or directly from Latin /modulus/ "small measure," diminutive of /modus/
+"measure, manner" (from PIE root /\*med-/ "take appropriate measures"). Sense of
+"a standard measure to regulate proportions" is from 1620s. Meaning
+"interchangeable part" is recorded by 1955, via the notion of "length chosen as
+the basis for the dimensions of parts of a building ...
+
+([[https://www.etymonline.com/word/module#etymonline_v_17382][etymonline.com]])
+#+END_QUOTE
+
+What is a module?
+
+The spirit of the ML module system, traces back to an effort to "give structured
+descriptions of theories".
+
+In "Modules for Standard ML" McQueen writes:
+
+#+BEGIN_QUOTE
+This proposal is based on the fruits of a long collaboration with Rod Burstall
+on prototype designs for modules in Hope [MAC81], and on theoretical
+investigations with Ravi Sethi and Gordon Plotkin [MAC82, MAC84] that were
+motivated by those designs. The module designs for Hope were in turn influenced
+by the Clear specification language of Burstall and Goguen [BUR77].''
+
+TODO ref
+#+END_QUOTE
+
+
+[BUR77] refers to Burstall and Goguen's paper "Putting theories together to make
+specifications." The first line reads:
+
+#+BEGIN_QUOTE
+We have been developing a language in which you can give structured
+descriptions of theories.
+
+TODO ref
+#+END_QUOTE
+
+Their elaboration of the concept of a "theory" and the motives behind that work
+are of great importance.
+
+ML modules are composable, nestable, inheritable, and parametric environments.
+
+* TODO Relation to Objects
+
+The notion of a module as a theory (a set or collection of sets with operators
+over them) stands in defiance of joe Armstrong's differentiation
+between FP and OOP in terms of weather or not you package functions and data
+structures together.
+
+Parametric modules, especially when they can be 1st class, enable idioms which
+are reminiscent of OOP. E.G.:
+
+** TODO Example
+** TODO Clarify theory vs. model.
+
+However, there is at least one critical formal difference -- unbounded recursion
+-- and one critical theoretical difference -- paramtetric modules let us
+represent *ideal objects* as theories vs. whereas OOP uses the concept of
+objects to...
+
+How does modularity relate to SOLID?
+
+* TODO Explain modules as an existential type quantification
+
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -1,0 +1,32 @@
+#+TITLE: Day 5: TODO
+#+DATE: <2019-09-25 Tue>
+
+#+BEGIN_QUOTE
+What really pleased me was the neat parallel established between Emmy Noether's
+insight that algebra is the study of sets with structure given by operations,
+and David Parnas' insight that modules should encapsulat data with operations;
+more than that, the algebraic approach establised and equivalence between
+abstractness in ADTs and abstractness in algebra; furthermore, equations among
+operations came into specifications of ADTs the same way as in abstract algebra.
+
+cite:goguen1999tossing
+#+END_QUOTE
+
+* Vibe
+
+
+
+* Today's Progress
+
+** Community
+** PLT: 1ML × Type Theory
+** Category theory
+** Writing
+
+* Tomorrow's Program
+
+** PLT: 1ML × Type Theory
+** Community
+** Writing
+
+bibliography:~/Dropbox/bibliography/references.bib

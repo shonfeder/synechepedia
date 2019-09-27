@@ -111,4 +111,179 @@ The key points to take away form this brief discussion of 1ML modules:
 - Every module has a type.
 - The /type/ of a module specifies the module's public interface.
 
-** TODO A concrete example: implementing a stack
+** A concrete example: implementing a stack
+
+Fair warning: the following code is a working implemention that can be run in
+Rossberg's [[https://github.com/rossberg/1ml][prototype interpreter]]. As Rossberg notes in the README for the
+project
+
+#+BEGIN_QUOTE
+- The language is very basic, and misses lots of features you would expect from
+  a real ML, especially datatypes.
+- It is slow and probably buggy. In particular, type checking is implemented
+  very naively, as a direct transliteration of the rules, with no worries about
+  efficiency. Type inference is best considered work in progress. :)
+#+END_QUOTE
+
+To the list of missing features we can add the critical UI feature of pattern
+matching.
+
+As a result of these limitations, the following code is less clear than it
+otherwise could be (and eventually will be!) in a more robust implementation.
+
+*** Specifying the ADT
+
+#+BEGIN_QUOTE
+One of the most importnat features of modern programming is abstract data types
+(hereafter, ADTs), which encapsulate some data within a module, providing access
+to it only through operations that are associated with the module.
+
+cite:goguen1999tossing
+#+END_QUOTE
+
+For an ADT essence is form, since ADTs are defined by specification of their
+interface, and this only gives the externally visible form while saying nothing
+on the matter of implementation. So let's recite the specification of a stack,
+here expressed in terms of the module type:
+
+#+BEGIN_SRC 1ml
+type STACK = {
+  type t a;
+  empty 'a : t a;
+  push 'a : t a -> a -> t a;
+
+  ;; Only needed to work around bug in type checker that's preventing use of the
+  ;; clearer and more concise type declaration:
+  ;; pop 'a: t a -> opt (t a, a)
+  type pair a = (t a, a);
+  pop 'a : t a -> opt (pair a);
+
+  isEmpty 'a : t a -> bool;
+  size 'a : t a -> int;
+};
+#+END_SRC
+
+Uncoded into words:
+
+- A stack is a =type t= of some values of another type =a=.
+- For all types =a= (the "for all" here signaled by the ~'~),
+  we have an =empty= stack (of type =t a=). E.g., if =int= is a type, then we
+  have an =empty= stack of type =t int=.
+- For all types =a=, if we are given a stack (=t a=) and a value of type =a=,
+  then we can =push= the value onto the stack.
+- Let's us call the type =(t a, a)= (which is a pair with  a stack as its first
+  element and a value that could be an element of the stack as its second
+  element) =pair a=.
+- For all types =a=, if we have a stack =t a=, we can =pop= off the first
+  element to get an optional pair =some (s, x) : opt (pair a)= consisting of the
+  stack remaining after the first element is removed together with the removed
+  element itself. Or, if the given stack is empty to start with, getting =none :
+  pair a=.
+- For all types =a=, given a stack =t a=, we can check if it =isEmpty=.
+- For all types =a=, given a stack =t a=, we can discover it's =size=.
+
+This elaboration cheats in some constraints that are *not* captured in the
+interface defined by the module's type. For instance, the type doesn't tell us
+that the second item of the pair =pop s= comes from the stack =s=, nor does it
+say that the new stack returned as the first item in that pair must have the
+returned element removed. These are further specifications that we could encode
+in a language with dependent types, but part of 1ML's aim is to realize first
+class modules without recourse to dependent types.
+
+As a complement to the long term pursuit of fully dependent typing disciplines,
+programmers in the ML tradition have developed methods of using properly
+abstracted types to create "trusted kernels". This practice provides strong
+guarantees of reliable behavior without having to tangle with the complex (and
+still nascent) challenges of full dependent typing. (For more on this practice,
+see Oleg's [[http://okmij.org/ftp/Computation/lightweight-static-guarantees.html][Leightweight Static Guarantees]]).
+
+In our specification of the stack ADT above we say nothing at all about the
+internal structure of =type t a=. Consequently, nothing is revealed or claimed
+about the way the stack is actually implemented or represented inside the
+module. Therefore, it is impossible for a user of a module satisfying that
+signature to violate the invariants which we put into our implementation. Before
+considering examples of this safety in practice, let's look at the
+implementation:
+
+*** Implementing the ADT
+
+#+BEGIN_SRC 1ml
+Stack :> STACK = {
+  type t a = {size: int; content: list a};
+
+  empty 'a = {size = 0; content = List.nil};
+
+  push 'a (s : t a) x =
+    let size' = s.size + 1 in
+    let content' = s.content in
+    {size = size' + 1; content = List.cons x content'};
+
+  peek 'a (s : t a) =
+    let content = s.content in
+    List.head content;
+
+  type pair a = (t a, a);
+
+  pop 'a (s : t a) =
+    let content = s.content in
+    caseopt (List.tail content)
+      (fun () => Opt.none)
+      (fun content' => caseopt (List.head content)
+        (fun () => Opt.none)
+        (fun x =>
+          let size' = s.size - 1 in
+          let s' = {size = size'; content = content'} in
+          Opt.some (s', x)));
+
+  isEmpty 'a (s : t a) =
+    let content = s.content in
+    List.isNil content;
+
+  size 'a (s : t a) = s.size
+};
+#+END_SRC
+
+The stack is implemented as a record holding the current =size= of the stack and
+the =content= of the stack, represented as a list. There's nothing interesting
+going on here, and I suspect this implementation is largely self-explanatory for
+anyone familiar with typed functional programming.
+
+The likely exception is the definition for =pop=. The =caseopt= in use there is
+the way case analysis is encoded in 1ML in absence of pattern matching. It took
+me some time to come to grips with how to read these functions, so I offer the
+following annotated elaboration:
+
+#+BEGIN_SRC 1ml
+    ;; equivalent to a case statement in Haskell or OCaml, `caseopt` is a
+    ;; function which performs case analysis of values of type `opt`.
+    caseopt (List.tail content)
+
+      ;; Matches the `none` alternative.
+      (fun () => Opt.none)
+
+      ;; Matches the `some x` alternative, binding the value of the
+      ;; `x` to the `content` variable in the head of the lambda.
+      (fun content' => caseopt (List.head content)
+
+        ;; This is just a nested case analysis for the other optional value
+        (fun () => Opt.none)
+        (fun x =>
+          let size' = s.size - 1 in
+          let s' = {size = size'; content = content'} in
+          Opt.some (s', x)));
+#+END_SRC
+
+Once pattern matching and record field punning is implemented, =pop= could look
+like something like this:
+
+#+BEGIN_SRC 1ml
+  pop 'a (s : t a) =
+    match List.tail s.content with
+    | none         => none
+    | some content => match List.head content with
+      | none   => none
+      | some x => some ({size = s.size - 1; content}, x)
+#+END_SRC
+
+*** TODO On abstract types, sealing, and security
+*** TODO Wait, why do the modules look just like the records?

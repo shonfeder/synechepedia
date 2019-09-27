@@ -30,7 +30,7 @@ effectively on 1Ml. This has motivated me to see through ongoing studies into
 typed lambda calculi, and push forward quickly until I have covered the left
 face of the lambda cube:
 
-[[https://en.wikipedia.org/wiki/Lambda_cube#/media/File:Lambda_Cube_img.svg]]
+[[https://upload.wikimedia.org/wikipedia/commons/c/cd/Lambda_Cube_img.svg]]
 
 ** PLT: Type Theory
 I spent some time working on the [[http://gallium.inria.fr/~fpottier/menhir/][menhir]] parser-generator for my WIP experiments

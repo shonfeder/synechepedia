@@ -2,6 +2,7 @@
 
 (require 'org)
 (require 'ox-rss)
+(require 'org-ref)
 
 ;;; Commentary:
 
@@ -13,7 +14,7 @@
 ;;;; Code:
 
 ;; Toggle to true to only reload changed files
-(setq org-publish-use-timestamps-flag 'f)
+(setq org-publish-use-timestamps-flag 't)
 
 ;; HTML Bits
 

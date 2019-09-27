@@ -73,7 +73,7 @@ term: /* singular terms here */
 
 ** Writing
 - Created a [[https://joaotavora.github.io/yasnippet/snippet-development.html][yas snippet]] to generate the template for these logs. Getting savy with
-  yas snippets should improve the spead and quality of writing and code in general.
+  yas snippets should improve the speed and quality of writing and code in general.
 
 * Tomorrow's Program
 

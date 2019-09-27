@@ -152,10 +152,11 @@ type STACK = {
   empty 'a : t a;
   push 'a : t a -> a -> t a;
 
-  ;; Only needed to work around bug in type checker that's preventing use of the
-  ;; clearer and more concise type declaration:
+  ;; Only needed to work around a bug in the type checker that's preventing use
+  ;; of the clearer and more concise type declaration:
   ;; pop 'a: t a -> opt (t a, a)
   type pair a = (t a, a);
+
   pop 'a : t a -> opt (pair a);
 
   isEmpty 'a : t a -> bool;

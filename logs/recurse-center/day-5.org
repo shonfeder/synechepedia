@@ -1,5 +1,5 @@
-#+TITLE: Day 5: TODO
-#+DATE: <2019-09-25 Tue>
+#+TITLE: Day 5: WIP
+#+DATE: <2019-09-27 Tue>
 
 #+BEGIN_QUOTE
 What really pleased me was the neat parallel established between Emmy Noether's

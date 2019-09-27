@@ -11,7 +11,6 @@ educated in connectedness and focused on sharing.
    - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
    - [[file:themata/notation.org][Notation]]
    - [[file:themata/pedagogy.org][Pedagogy]]
-   - [[file:themata/programming-paradigms-and-philosophy.org][Programming Paradigms and Philosophy]]
    - [[file:themata/programming/index.org][Programming]]
    - [[file:themata/synechism.org][Synechism]]
    - [[file:themata/systems-of-operation.org][Systems of Operation]]

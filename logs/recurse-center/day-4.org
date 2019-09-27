@@ -1,0 +1,91 @@
+#+TITLE: Day 4: Exhaustion
+#+DATE: <2019-09-26 Tue>
+
+#+BEGIN_QUOTE
+Our goal is to show once and for all that, contrary to popular belief (even
+among experts in the field!), the semantics of ML modules is immediately
+accessible to anyone familiar with System Fω, the higher-order polymorphic
+λ-calculus.
+
+...
+
+/ML modules are merely a particular mode of use of System Fω./
+(cite:Rossberg_2010)
+#+END_QUOTE
+
+* Vibe
+
+Tuckered out and feeling a bit numb. I need to turtle a bit tomorrow and recover
+from all the lovely (but quite intense) social engagement.
+
+* Today's Progress
+
+Due to over-extending myself over the last three days, I wasn't able to stay on
+task with my planned goals today. I did manage to make some meaningful progress
+however.
+
+By the third page of cite:Rossberg_2010 (the epigraph to this entry) is was
+clear that I would need improve my graphs of System Fω in order to work
+effectively on 1Ml. This has motivated me to see through ongoing studies into
+typed lambda calculi, and push forward quickly until I have covered the left
+face of the lambda cube:
+
+[[https://en.wikipedia.org/wiki/Lambda_cube#/media/File:Lambda_Cube_img.svg]]
+
+** PLT: Type Theory
+I spent some time working on the [[http://gallium.inria.fr/~fpottier/menhir/][menhir]] parser-generator for my WIP experiments
+in typed lambda calculi, [[https://gitlab.com/shonfeder/themis][themis]]. For a long while I've been stuck on a
+[[https://www.gnu.org/software/bison/manual/html_node/Shift_002fReduce.html][shift/reduce ambiguity]] arising from this grammar rule:
+
+#+BEGIN_SRC tuareg-menhir
+term:
+  /* ... */
+  | m = term; n = term
+    { Term.app m n}
+  /* ... */
+#+END_SRC
+
+This rule is meant to say that any two juxtaposed terms are to be parsed as
+function application. However, due to the necessarily recursive definition of
+terms and the lack of an operator to use for indicating precedence of grouping,
+menhir doesn't know if a sequence such as =l m n= should be parsed into the
+correct left-associative expression =Term.app((Term.app l m) n)= or the
+incorrect, right associative =Term.app(l Term.app(m n))=.
+
+I finally came across [[http://www.minjiezha.com/tech/2011/01/18/A-Simple-Lambda-Calculus-Evaluator-II.html][a resource]] that described a solution to a similar problem
+(also in a lambda calculus interpreter, but with different syntax). What we want
+is a way to clearly instruct the parser generator that term application should
+be left-associative. To achieve this, we restructure the rule to ensure that
+the parser is left-recursive on the first term of the application:
+
+#+BEGIN_SRC tuareg-menhir
+terms:
+  | m = terms; n = term
+    { Term.app m n }
+  | t = term;
+    { t }
+term: /* singular terms here */
+#+END_SRC
+
+** Category theory
+- CT reading group: folks presented motivating reasons behind their desires to
+  learn Category Theory.
+
+** Writing
+- Created a [[https://joaotavora.github.io/yasnippet/snippet-development.html][yas snippet]] to generate the template for these logs. Getting savy with
+  yas snippets should improve the spead and quality of writing and code in general.
+
+* Tomorrow's Program
+
+** PLT: 1ML × Type Theory
+- Study and take notes on the distinction between small and large types in 1ML
+- Continue reading cite:Rossberg_2010
+- Begin working on tuple type-checking error
+- Begin trying to fix the biggest type-checking bug I found today
+- Finish parser for λ⟶
+
+** Writing
+- Write up implementation of stack
+- Write up notes on small vs. large types
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -32,7 +32,7 @@ Recovered. Feeling fortunate. Still a bit winded and wanting for focus.
 - Continue reading cite:Rossberg_2010
 - Begin trying to fix the biggest type-checking bug I found today
 ** Community
-- Pairing to improve and rework Haskell game of like exercise
+- Pairing to improve and rework Haskell game of life exercise
 - More coffee chats
 - Feelings Checkin
 - Presentations

@@ -1,7 +1,7 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-5.org][Day 5: Abstraction]] --- 2019-09-27
 - [[file:day-4.org][Day 4: Exhaustion]] --- 2019-09-26
-- [[file:day-5.org][Day 5: TODO]] --- 2019-09-25
 - [[file:day-3.org][Day 3: Focusing]] --- 2019-09-25
 - [[file:day-2.org][Day 2: Disorientation]] --- 2019-09-24
 - [[file:day-1.org][Day 1: Orientation]] --- 2019-09-23

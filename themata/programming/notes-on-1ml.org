@@ -178,8 +178,8 @@ Uncoded into words:
 - For all types =a=, if we have a stack =t a=, we can =pop= off the first
   element to get an optional pair =some (s, x) : opt (pair a)= consisting of the
   stack remaining after the first element is removed together with the removed
-  element itself. Or, if the given stack is empty to start with, getting =none :
-  pair a=.
+  element itself. Unless, if the given stack is empty to start with, in which
+  case we end up with =none : opt (pair a)=.
 - For all types =a=, given a stack =t a=, we can check if it =isEmpty=.
 - For all types =a=, given a stack =t a=, we can discover it's =size=.
 

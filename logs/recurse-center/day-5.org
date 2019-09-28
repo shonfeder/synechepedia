@@ -4,8 +4,8 @@
 #+BEGIN_QUOTE
 What really pleased me was the neat parallel established between Emmy Noether's
 insight that algebra is the study of sets with structure given by operations,
-and David Parnas' insight that modules should encapsulat data with operations;
-more than that, the algebraic approach establised and equivalence between
+and David Parnas' insight that modules should encapsulate data with operations;
+more than that, the algebraic approach established an equivalence between
 abstractness in ADTs and abstractness in algebra; furthermore, equations among
 operations came into specifications of ADTs the same way as in abstract algebra.
 
@@ -13,20 +13,28 @@ cite:goguen1999tossing
 #+END_QUOTE
 
 * Vibe
-
-
+Calmer and hopeful. I had a good chunk of uninterrupted time to myself today,
+and was able to get some focused writing and programming done.
 
 * Today's Progress
-
-** Community
-** PLT: 1ML × Type Theory
-** Category theory
+** PLT
+- Paired on implementing De Bruijn indexes for an untyped lambda calculus in
+  Haskell.
+- Narrowed down the possible causes of the most painful type checking bug I've
+  found in 1ML so far.
+- Finished the parser for the λ⟶ implementation in my [[https://gitlab.com/shonfeder/themis/blob/master/lib/parse.ml][themis]] project. I learned
+  a lot about =ocamllex= and =menhir= (and LR(1) parsing, and parser generators
+  in general)
 ** Writing
+- Wrote up a fairly detailed explanation of how to implement a the stack ADT in 1ML
+  - Along the way I revisited some of Joseph Goguen's writing on ADTs, whence
+    the epigraph was selected.
 
 * Tomorrow's Program
 
-** PLT: 1ML × Type Theory
-** Community
-** Writing
+*Weekend!* :D
+
+I'll likely make more progress over the weekend and am not going to predicate
+what I'll want to do on Monday this far in advance.
 
 bibliography:~/Dropbox/bibliography/references.bib

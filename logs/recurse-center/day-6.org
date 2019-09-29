@@ -1,0 +1,81 @@
+#+TITLE: Day 6: Weekend 1.1
+#+DATE: <2019-09-28 Sat>
+
+#+BEGIN_QUOTE
+The inconveniences of daily life are not the significant problems.
+
+The world that scrolls past you on Twitter is not the real world.
+
+You cannot calibrate your sense of what’s valuable and necessary to the current
+fashions in your field.
+
+([[http://worrydream.com/ClimateChange/][Bret Victor]])
+#+END_QUOTE
+
+I have found the daily logs quite interesting and helpful. I decided I will try
+extending them through the weekends.
+
+* Today's Progress
+
+** PLT
+*** λ⟶
+I implemented =let= bindings for the λ⟶ implementation in [[https://gitlab.com/shonfeder/themis/blob/master/lib/parse.ml][themis]]. This should
+have been trivial, since =let x = foo in bar= is equivalent to the combined
+abstraction and application =(λx. bar) foo=, so the implementation can simply
+amount to the grammar rule
+
+#+BEGIN_SRC menhir
+  exp:
+  | LET; x = ID; COLON; t = typ; EQ; n = terms; IN; m = exp
+    { Term.app (Term.lam x t m) n }
+#+END_SRC
+
+which transforms the let binding into the equivalent applied abstraction.
+
+However, I forgot to arrange the rules of my lexer generator to tokenize the
+=let= and =in= keywords *before* looking for identifiers, and menhir's default
+error messages for unparsable input includes no information whatsoever, so I was
+stumped for some time trying to figure out what was wrong. I finally wrote up
+an auxiliary function to display the result of lexing, which made the problem
+apparent immediately.
+*** Systems F and Fω
+I read on and around [[https://en.wikipedia.org/wiki/System_F][systems F and Fω]]. I am studying typed lambda calculi out of
+cite:rob2014type, which is a wonderfully clear and illuminating introduction to
+the subject. However, I like to skim over primary texts too when I can find
+them, as I find it insightful to see the context in which concepts first find
+their place in the world. System F was independently developed by Jeav-Yves
+Girard and John C. Reynolds. Since Girard's work is in French, and I am
+unfortunately frenchless, I started looking over Reynold's
+cite:reynolds74_towar. I'll dig into both TTFP and Reynold's paper more
+tomorrow.
+
+** Community
+I read Bret Victor's [[http://worrydream.com/ClimateChange/][What can a technologist do about climate change?]],
+recommended by a recurser in a zulip chat. It was illuminating, inspiring and
+frightening. Given my own skill set and background, the recommendations for
+tooling under the section [[http://worrydream.com/ClimateChange/#media-writing][model-driving authoring]] seem most attainable and
+inline with the ways I work and think.
+
+However, I was surprised to find virtually no discussion of the need to change
+basic values, concepts, and presuppositions. It is focused almost exclusively on
+encouraging innovative tech solutions that will allow us to maintain the status
+quo. As a counter balance, I want to spend some of tomorrow reading up on
+[[https://en.wikipedia.org/wiki/Degrowth][Degrwoth]].
+
+** Writing
+I removed the "Vibe" section of my template. That was fitting and needful when I
+was hyper-sensitized and full of feeling, but requiring a statement on vibe when
+I'm not vibrating feels forced.
+
+
+* Tomorrow's Program
+
+Surfing trip!
+
+** PLT
+- Continue reading up on System F
+- Add type checking and maybe term finding to the simply typed lc
+** Community
+- Read up on degrowth
+
+bibliography:~/Dropbox/bibliography/references.bib

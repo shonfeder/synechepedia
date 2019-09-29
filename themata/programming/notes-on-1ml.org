@@ -288,3 +288,11 @@ like something like this:
 
 *** TODO On abstract types, sealing, and security
 *** TODO Wait, why do the modules look just like the records?
+* Types
+** TODO The size of a types
+1ML's novelty is in unifying the core and module languages from traditional MLs
+into a single language. The gimmick used to achieve this is a clever elaboration
+of the module language into System Fω, whereinin which the core language is already at
+home. However, type inference in System F is undecidable, and the impressive
+type inference enjoyed in most Haskell and {S,OCa}ml code is achieved by the
+famous, constrained version of System F known as the [[https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system][Hindley-Milner type system]].

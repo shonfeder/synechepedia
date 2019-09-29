@@ -1,15 +1,12 @@
 #+TITLE: Day 7: Weekend 1.2
 #+DATE: <2019-09-29 Sun>
 
-#+BEGIN_QUOTE
-
-#+END_QUOTE
-
 * Today's Progress
+Our Surfing adventure this morning knocked me out for the rest of the day, and I
+only managed to accomplish a tiny optimization on my blogging flow. We had a
+blast tho, and I'm going to bed absurdly early, so I should be starting the
+week out relaxed andfully recharged.
 
-** Community
-** PLT: 1ML × Type Theory
-** Category theory
 ** Tooling
 =org-publish= was taking an absurd amount of time to publish updates. [[https://bastibe.de/2014-05-07-speeding-up-org-publishing.html][Bastion
 Bechtold's note]] describing how they diagnosed and fixed a similar slowdown
@@ -22,12 +19,12 @@ causing the slowdown:
 
 After fixing the cause of the slowdown, the time needed to publish these org
 files to HTML is down by at least 75%.
-** Writing
 
 * Tomorrow's Program
 
-** PLT: 1ML × Type Theory
-** Community
-** Writing
+- Finish CH. 2 of cite:rob2014type
+- Add type checking to themis' simply typed lambda calculus
+- Start CH. 3 cite:rob2014type
+- Dig in to fixing the 1ML type-checking bug on pairs
 
 bibliography:~/Dropbox/bibliography/references.bib

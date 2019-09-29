@@ -1,0 +1,33 @@
+#+TITLE: Day 7: Weekend 1.2
+#+DATE: <2019-09-29 Sun>
+
+#+BEGIN_QUOTE
+
+#+END_QUOTE
+
+* Today's Progress
+
+** Community
+** PLT: 1ML × Type Theory
+** Category theory
+** Tooling
+=org-publish= was taking an absurd amount of time to publish updates. [[https://bastibe.de/2014-05-07-speeding-up-org-publishing.html][Bastion
+Bechtold's note]] describing how they diagnosed and fixed a similar slowdown
+helped guide me. The main trick was running the profiler to reveal what was
+causing the slowdown:
+
+#+BEGIN_SRC emacs-lisp
+(progn (profiler-start 'cpu) (function-to-profile) (profiler-report))
+#+END_SRC
+
+After fixing the cause of the slowdown, the time needed to publish these org
+files to HTML is down by at least 75%.
+** Writing
+
+* Tomorrow's Program
+
+** PLT: 1ML × Type Theory
+** Community
+** Writing
+
+bibliography:~/Dropbox/bibliography/references.bib

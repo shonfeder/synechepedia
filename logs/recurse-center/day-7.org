@@ -25,6 +25,5 @@ files to HTML is down by at least 75%.
 - Finish CH. 2 of cite:rob2014type
 - Add type checking to themis' simply typed lambda calculus
 - Start CH. 3 cite:rob2014type
-- Dig in to fixing the 1ML type-checking bug on pairs
 
 bibliography:~/Dropbox/bibliography/references.bib

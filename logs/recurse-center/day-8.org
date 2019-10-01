@@ -1,0 +1,96 @@
+#+TITLE: Day 8: Unsure
+#+DATE: <2019-09-30 Mon>
+
+#+BEGIN_QUOTE
+The counterpart of abstraction is /application/.
+
+(cite:rob2014type)
+#+END_QUOTE
+
+I must not neglect application: I cannot abide theory without praxis. And yet, a
+properly critical theory should be praxis and application is impossible without
+antecedent abstraction. I must keep this tension and problematic in mind,
+without letting the lust for palpable production undermine my intention to
+cultivate theoretical foundations. /Counterparts are clearly not contraries./
+
+* Today's Progress
+
+** PLT
+*** Simplified Themis ABT library
+Abstract Binding Trees (ABTs) extend abstract syntax trees (ASTs) with logic to
+handle variable binding. The motivation is as follows: Nearly every interesting
+programming language has some concept of a variable which can be bound and
+substituted out. Rather than reimplimenting binding and substitution logic for
+every language we implement, we should be able to implement this logic once, and
+reuse that in all of our languages. Thus, the ABT abstract data type gives tools
+for forming an abstract syntax for representing the structure of our language
+that includes a readymade mechanism for dealing with variables.
+
+See [[https://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html][Neel Krishnaswami]]'s post on the subject for more details, including notes on
+the history of the technique and an example implementation.
+
+I have been developing a little ABT library as a side effect of my lambda
+calculi implementations in [[https://gitlab.com/shonfeder/themis][themis]]. Prior to today, the ABT library was leaking
+some abstraction into the representation of the syntax generated for a
+particular language, requiring the user (me) to check and deal with values which
+were only needed internally. I plugged that abstraction leak in
+[[https://gitlab.com/shonfeder/themis/commit/960dc6d314041838a2ae2c6165ae9db48258a7db][commit/960dc6d314041838a2ae2c6165ae9db48258a7db]].
+
+*** λ⟶
+I finished adding type checking and term finding to the implementing of λ⟶ in
+themis with [[https://gitlab.com/shonfeder/themis/commit/d06be73862b9d0f4eabb57c102b312fe0cfb323e][commit/d06be73862b9d0f4eabb57c102b312fe0cfb323e]] . The API for the
+=Check= module is as follows:
+
+#+BEGIN_SRC ocaml
+module Check : sig
+  (** Check and infer various properties *)
+
+  val infer_type : Derivation.Ctx.t -> Term.t -> Type.t option
+  (** [infer_type ctx term] is [Some type] if [type] can be derived for the
+      [term] in the given [ctx]. Otherwise, it is [None]. *)
+
+  val infer_term : Derivation.Ctx.t -> Type.t -> Derivation.judgment option
+  (** [infer_term ctx type] is [Some term] if [term] can be synthesized to
+      inhabit the [type] in the given [ctx]. Otherwise, it is [None]. *)
+
+  val typing : Derivation.judgment -> bool
+  (** [typing j] is [true] if a derivation can be found proving the judgment [j].*)
+
+  val well_typed : ?ctx:Derivation.Ctx.t -> Term.t -> Derivation.t option
+  (** [well_typed term] is [Some derivation] if a type can inferred for [term]
+      and a [derivation] can be built demonstrating that the [term] has that
+      type in the given [ctx].
+
+      [ctx] defaults to an empty context. *)
+end = struct
+#+END_SRC
+
+It's not /really/ a reliable implementation of these checks, because I haven't
+rigged up the property based tests to "verify" correctness. But I've manually
+checked that they yield the expected results on select terms in the interpreter
+and, most importantly, I feel pretty confident in my understanding of these
+algorithms. I'm going to postpone tests for their correctness for the sake of
+moving on to the implementation of λ2 tomorrow.
+
+I also finished reading Chapter 2 of cite:rob2014type, whence I took my
+instruction on the implementation of the above. I'm getting started with Chapter
+3 tonight.
+
+* Tomorrow's Program
+
+** PLT
+*** Begin implementing λ2
+I think I've learned some lessons from my implementations of λ and λ⟶, and there
+are some things I want to do differently as I dig in to λ2 to improve and
+expedite the process:
+
+- Define the parser and pretty printer first
+- Write all unit tests using the parser and pretty printer (property based tests
+  should still generate terms via manipulation of the ABT)
+- Don't get distracted by premature generalization of the framework and tooling
+  around the language implementation, just drive forward with the
+  implementation. After it is done, I'll refactor out common elements with the
+  other implementations.
+*** Finish Chapter 2 of cite:rob2014type
+
+bibliography:~/Dropbox/bibliography/references.bib

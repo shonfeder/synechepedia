@@ -52,7 +52,7 @@ let int_id : int -> int = fun x -> x
 #+END_SRC
 
 λ2 allows parameterizing such functions by including functions that can take a
-type as an argument, returning expressions whose types depend on that the type
+type as an argument, returning expressions whose types may depend on the type
 parameter supplied. We can depict this in the pseudo OCaml below (which is quite
 close to valid [[file:~/Dropbox/synechepedia/org/themata/programming/notes-on-1ml.org][1ML]]):
 

@@ -4,12 +4,15 @@
 Today was spent implementing /System F/, also known as the /polymorphic lambda
 calculus/, or λ2. I am studying System F as a prerequisite for a solid grasp of
 System Fω, which is itself a prerequisite for moving forward with my planned
-work on 1ML. My studies today turned up an interesting clue to a deep connection
-between the original motive driving Reynolds work on the polymorphic lambda
-calculus and the pursuit of modularity. The latter has been one of the driving
-urges of my life for at least a decade, and it is at the root of my interest in
-1ML. I have recorded some notes here on what I learned, which I will eventually
-end up reworking and incorporating into my [[file:~/Dropbox/synechepedia/org/themata/programming/the-measure-of-a-module.org][notes on modularity]].
+work on 1ML. My studies today turned up an interesting clue connecting the
+original motive driving Reynolds' work on the polymorphic lambda calculus with
+the pursuit of modularity. The latter has been one of the driving urges of my
+life for at least a decade, and it is at the root of my interest in 1ML. I have
+made some notes in this entry recording what I learned. (I expect I will
+eventually end up reworking and incorporating them into my WIP [[file:~/Dropbox/synechepedia/org/themata/programming/the-measure-of-a-module.org][notes on
+modularity]]).
+
+* A few notes on the history of System F
 
 Jean-Yves Girard first defined System F in his PhD thesis in 1972. Writting
 about that work around 2010, Girard characterized the calculus thus:
@@ -148,7 +151,7 @@ concepts like /statement/, /declaration/, /context/, and /judgment/, as defined
 in cite:rob2014type.
 
 The basic tools for working with a derivations in a calculi can now be generated
-for use an elaborated derivation module with
+for use in an module defining derivation rules with
 
 #+BEGIN_SRC ocaml
 include Derivation.Make (Term) (Type)
@@ -161,6 +164,8 @@ calculus.
 - Defined a parser using ocamllex and menhir
 - Wrote unit tests for the parser
 - Started writing the type checker
+- Finished reading Chapter 3 of cite:rob2014type, which presents λ2
+- Spent some time reading Girard and Reynolds, both very fun :)
 
 ** Tooling
 I wrote some OCaml yas snippets, and am planning to expand this into a library

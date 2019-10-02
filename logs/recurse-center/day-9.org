@@ -1,0 +1,196 @@
+#+TITLE: Day 9: Capturing the Notion of Parametricity
+#+DATE: <2019-10-01 Tue>
+
+Today was spent implementing /System F/, also known as the /polymorphic lambda
+calculus/, or λ2. I am studying System F as a prerequisite for a solid grasp of
+System Fω, which is itself a prerequisite for moving forward with my planned
+work on 1ML. My studies today turned up an interesting clue to a deep connection
+between the original motive driving Reynolds work on the polymorphic lambda
+calculus and the pursuit of modularity. The latter has been one of the driving
+urges of my life for at least a decade, and it is at the root of my interest in
+1ML. I have recorded some notes here on what I learned, which I will eventually
+end up reworking and incorporating into my [[file:~/Dropbox/synechepedia/org/themata/programming/the-measure-of-a-module.org][notes on modularity]].
+
+Jean-Yves Girard first defined System F in his PhD thesis in 1972. Writting
+about that work around 2010, Girard characterized the calculus thus:
+
+#+BEGIN_QUOTE
+System *F*, contrary to simply typed λ-calculus, is constructed /around/
+Curry-Howard, as the isomorphic image of intuitionistic second-order
+/propositional/ calculus.
+
+(cite:girard11)
+#+END_QUOTE
+
+Two years later, Reynolds would introduce the same formalism with slightly
+different aspect and the explicitly computational aim of developing a theory of
+the "type structure of programming languages"[fn:1]. According to Nederpelt and
+Geuvers,
+
+#+BEGIN_QUOTE
+Independent of Girard, J.C. Reynolds invented a similar typed lambda calculus
+that he called the /polymorphic lambda calculus/. He constructed this system in
+order to capture the notion of /parametricity/.
+
+(cite:rob2014type)
+#+END_QUOTE
+
+λ2 "captures the notion of parametricity" in a way that is immanent to the
+syntax of the calculus itself: it enables polymorphic functions by extending the
+simply typed lambda calculus with an additional abstraction mechanism for
+building /functions of types/ that return /terms/. This augments the simply
+typed lambda calculus' *terms that depend on terms* with *terms that depend on
+types*.
+
+Consider the identity function on integers:
+
+#+BEGIN_SRC ocaml
+let int_id : int -> int = fun x -> x
+#+END_SRC
+
+λ2 allows parameterizing such functions by including functions that can take a
+type as an argument, returning expressions whose types depend on that the type
+parameter supplied. We can depict this in the pseudo OCaml below (which is quite
+close to valid [[file:~/Dropbox/synechepedia/org/themata/programming/notes-on-1ml.org][1ML]]):
+
+#+BEGIN_SRC ocaml
+let id (t : type) : t -> t = fun x -> x
+#+END_SRC
+
+This polymorphic =id= function takes a type =t= as an argument and returns an
+identity function on values of that type. With this function in hand, can then
+define any number of specialized id functions by supplying an appropriate type
+as a parameter:
+
+#+BEGIN_SRC ocaml
+let int_id : int -> int       = id (int : type)
+let str_id : string -> string = id (string : type)
+
+(* The identity function on functions of some parameterized type *)
+let fun_id (t : type) : (t -> t) -> (t -> t) = id (t -> t : type)
+#+END_SRC
+
+Reynolds introduced λ2 in the 1974 paper "Towards a theory of type structure"
+(cite:reynolds74_towar). In that paper, the innovation explained in the
+preceding is described as a solution to "the old but neglected problem of
+polymorphic functions", but this problem is only given secondary importance. The
+principle aim of the work is to formalize a theory of representation
+independence for programs in order to ensure a program can maintain the seam
+/meaning/ regardless of the internal representation of its primitive types:
+
+#+BEGIN_QUOTE
+We start with the belief that the meaning of syntactically valid program in a
+"type-correct" language should never depend upon the particular representations
+used to implement its primitive types.
+
+... this property of reference independence should hold for user-defined types
+as well as primitive types. The introduction of a user-defined type =t= should
+partition a program into an "outer" region in which =t= behaves like a primitive
+type and is manipulated by various primitive operations which are used but not
+defined, and an "inner" region in which the representation of =t= is defined in
+terms of other types, and the primitive operations on =t= are defined in terms
+of this representation. We expect that the meaning of such a program will remain
+unchanged if the inner region is altered by changing the representation of the
+type and redfining its primitive operations in a consistent manner.
+
+(cite:reynolds74_towar)
+#+END_QUOTE
+
+It seems to me that we can clearly recognize the reference independence and
+encapsulation described here as questions of *modularity*. Modularity is
+precisely what enables us to seal internal representations of types and expose
+both primitive and user defined types in a consistent, "outer" interface. In
+MLs, parametric modularity is also what enables us to maintain the meaning of a
+program (or at least whatever invariants of the program we wish to enforce) even
+when the "inner region" is altered by supplying different module inputs. This
+makes it seems that the achievement of 1ML (which is to unify the core and
+module languages of the ML family by elaborating the modules into System Fω) is
+an advance that continues to radicalize and unfold the potential of λ2 in close
+alignment with its primary objective and purpose.
+
+More on this in the future...
+
+* Today's Progress
+
+Overall, I'm pleased with my progress today. I completed my program for today,
+as laid out in [[file:day-8.org][Day 8]]. This is encouraging because it means I set realistic goals
+and was able to stay on task. However, I was helped by the fact that some
+scheduled socializing fell through... so I may still need to tweak my
+expectations around feasible output.
+
+** PLT
+*** Themis
+**** Parsing
+I generalized the parser utility functions I was using for the simply typed
+lambda calculus so that a new parser can be produced by providing all the
+requisite parsing parts. This is what it now looks like to create parser
+front-ends for the simply typed lambda calculus and λ2, respectively:
+
+#+BEGIN_SRC ocaml
+module Simply_typed = Make (struct
+    module Tokens = Simple_token
+    module Lexer = Simple_lexer
+    module Ast = Simple.Term
+    module Parser = Simple_parser
+  end)
+
+module L2 = Make (struct
+    module Tokens = L2_token
+    module Lexer = L2_lexer
+    module Ast = L2.Term
+    module Parser = L2_parser
+  end)
+#+END_SRC
+
+**** Deriving
+I refactored out and functorized the definition of a derivation, including
+concepts like /statement/, /declaration/, /context/, and /judgment/, as defined
+in cite:rob2014type.
+
+The basic tools for working with a derivations in a calculi can now be generated
+for use an elaborated derivation module with
+
+#+BEGIN_SRC ocaml
+include Derivation.Make (Term) (Type)
+#+END_SRC
+
+where, as expected, =Term= and =Type= define the terms and types of the
+calculus.
+
+*** λ2 / System F
+- Defined a parser using ocamllex and menhir
+- Wrote unit tests for the parser
+- Started writing the type checker
+
+** Tooling
+I wrote some OCaml yas snippets, and am planning to expand this into a library
+of usable snippets to expedite OCaml code construction. Today I added
+
+- module declarations
+- =let foo = function | pattern -> exp= constructs
+ 
+** Category Theory
+The category theory reading group met to agree on a schedule, a text, and a pace
+today. That's great progress :)
+
+* Tomorrow's Program
+
+** PLT
+- Finish implementing λ2
+- Read Chapter 4 of cite:rob2014type
+** Community
+- I have some pairing and coffee chats scheduled
+** Writing
+- The remarks on System F and its history in Reynolds work in this post has been
+  helpful in maturing my own burgeoning understanding, and it helped me catch
+  the thread of a deep connection between System F and modularity tracing right
+  back to its origin in Reynold's work.
+
+* Footnotes
+
+[fn:1] For reasons explained in [[file:day-6.org::*Systems F and Fω][Day 6]], and because my studies
+here at the Recurse Center need to be skewed towards the practical, my current
+reading around the topic is orbitting around Reynold's work rather than
+Girard's.
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -1,5 +1,6 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-9.org][Day 9: Capturing the Notion of Parametricity]] --- 2019-10-01
 - [[file:day-8.org][Day 8: Unsure]] --- 2019-09-30
 - [[file:day-7.org][Day 7: Weekend 1.2]] --- 2019-09-29
 - [[file:day-6.org][Day 6: Weekend 1.1]] --- 2019-09-28

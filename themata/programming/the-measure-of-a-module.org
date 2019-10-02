@@ -29,7 +29,7 @@ investigations with Ravi Sethi and Gordon Plotkin [MAC82, MAC84] that were
 motivated by those designs. The module designs for Hope were in turn influenced
 by the Clear specification language of Burstall and Goguen [BUR77].''
 
-TODO ref
+cite:macqueen84_modul_ml
 #+END_QUOTE
 
 
@@ -40,13 +40,58 @@ specifications." The first line reads:
 We have been developing a language in which you can give structured
 descriptions of theories.
 
-TODO ref
+cite:Burstall:1977:PTT:1622943.1623045
 #+END_QUOTE
 
 Their elaboration of the concept of a "theory" and the motives behind that work
 are of great importance.
 
 ML modules are composable, nestable, inheritable, and parametric environments.
+
+* TODO Modularity and parametricity
+
+Reynolds introduced λ2 in the 1974 paper "Towards a theory of type structure"
+(cite:reynolds74_towar). In that paper, the innovation explained in the
+preceding is described as a solution to "the old but neglected problem of
+polymorphic functions", but this problem is only given secondary importance. The
+principle aim of the work is to formalize a theory of representation
+independence for programs in order to ensure a program can maintain the seam
+/meaning/ regardless of the internal representation of its primitive types:
+
+#+BEGIN_QUOTE
+We start with the belief that the meaning of syntactically valid program in a
+"type-correct" language should never depend upon the particular representations
+used to implement its primitive types.
+
+... this property of reference independence should hold for user-defined types
+as well as primitive types. The introduction of a user-defined type =t= should
+partition a program into an "outer" region in which =t= behaves like a primitive
+type and is manipulated by various primitive operations which are used but not
+defined, and an "inner" region in which the representation of =t= is defined in
+terms of other types, and the primitive operations on =t= are defined in terms
+of this representation. We expect that the meaning of such a program will remain
+unchanged if the inner region is altered by changing the representation of the
+type and redfining its primitive operations in a consistent manner.
+
+(cite:reynolds74_towar)
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+In providing polymorphic functions, we also provide user-defined types. ... Suppose
+we with to represent complex numbers by pairs of reals, and to represent
+magnitude and the square root of -1 by the expressions
+
+    addrep : (real × real) × (real × real) -> (real × real)
+    magnrep : (real × real) -> real
+    irep : (real × real)
+
+This representation can be specified by the expression
+
+    (Λcmp. λadd : cmp × cmp -> cmp. λmagn : cmp -> real. λi : cmp. outer)
+        [real × real] (addrep) (magnrep) (irep) .
+
+(cite:reynolds74_towar)
+#+END_QUOTE
 
 * TODO Relation to Objects
 

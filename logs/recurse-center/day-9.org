@@ -74,8 +74,8 @@ let fun_id (t : type) : (t -> t) -> (t -> t) = id (t -> t : type)
 #+END_SRC
 
 Reynolds introduced λ2 in the 1974 paper "Towards a theory of type structure"
-(cite:reynolds74_towar). In that paper, the innovation explained in the
-preceding is described as a solution to "the old but neglected problem of
+(cite:reynolds74_towar). The innovation of polymorphic functions just explained
+is described therein as a solution to "the old but neglected problem of
 polymorphic functions", but this problem is only given secondary importance. The
 principle aim of the work is to formalize a theory of representation
 independence for programs in order to ensure a program can maintain the seam

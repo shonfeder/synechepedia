@@ -1,0 +1,44 @@
+#+TITLE: Day 10: Checking
+#+DATE: <2019-10-02 Wed>
+
+#+BEGIN_QUOTE
+Type structure is a syntactic discipline for enforcing levels of abstraction.
+
+(cite:ma92_types)
+#+END_QUOTE
+
+* Today's Progress
+
+** Community
+- Two nice chats with recursers. I was inspired to revisit systems thinking and
+  language oriented design.
+** PLT
+- Implemented the type-checker for themis' λ2. This took most of the day. During
+  the process I also realized an essential shortcoming in the checker for the
+  simply typed lambda-calculus, so I'm reaping the benefits of iteration.
+- Added (not very) pretty printing for the derivations constructed during type
+  checking.
+- Read about half of Chapter 4 in cite:rob2014type. I will finish tomorrow, and
+  have all the theoretical underpinnings needed to start tackling 1ML in earnest
+  by Thursday.
+** Tooling
+- Added more snippets for tuareg-mode, and began poking into the tuareg-mode and
+  merlin code. This will be essential from some of the tooling projects I have
+  planned.
+
+* Tomorrow's Program
+
+** PLT
+- Final touches on λ2
+- Dig into 1ML in earnest (I'll be skipping implementation of System Fω, I get
+  the point now, and I can exercise my understanding while hacking on 1ML).
+** Community
+- I have a coffee-chat and a pairing scheduled
+- I'll be joining the feelings check-in and attending the presentations
+** Writing
+- I'd like to contribute some clarifying additions to the [[https://en.wikipedia.org/wiki/Lambda_cube][wikipedia page on the
+  lambda cube]]. There are requests for clarification on the talk that still
+  remain to be addressed, and rehearsing what I've been learning should help me
+  internalize the lessons.
+
+bibliography:~/Dropbox/bibliography/references.bib

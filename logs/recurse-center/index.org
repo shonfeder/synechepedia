@@ -1,5 +1,6 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-11.org][Day 11: Enframing]] --- 2019-10-03
 - [[file:day-10.org][Day 10: Checking]] --- 2019-10-02
 - [[file:day-9.org][Day 9: Capturing the Notion of Parametricity]] --- 2019-10-01
 - [[file:day-8.org][Day 8: Unsure]] --- 2019-09-30

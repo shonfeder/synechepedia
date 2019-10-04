@@ -1,0 +1,53 @@
+#+TITLE: Day 11: Enframing
+#+DATE: <2019-10-03 Thu>
+
+#+BEGIN_QUOTE
+... the essence of technology is by no means anything technological. Thus we
+shall never experience our relationship to the essence of technology so long as
+we merely conceive and push forward the technological, put up with it, or evade
+it. Everywhere we remain unfree and chained to technology, whether we
+passionately affirm or deny it. But we are delivered over to it in the worst
+possible way when we regard it as something neutral; for this conception of it,
+to which today we particularly like to do homage, makes us utterly blind to the
+essence of technology.
+
+(cite:Heidegger1981-HEITQC-2)
+#+END_QUOTE
+
+My heart and mind and body are a bit numb from the intensive programming and
+type theory studies, day in and day out, over the last two weeks. I think I need
+to take a short break to move around, connect with non-digitized things in the
+world and revitalize.
+
+* Today's Progress
+
+** PLT
+- Implemented the evaluator for themis' λ2. This went fairly smoothly, and it
+  was interesting to work out the substitution rule application of for
+  type-level abstraction.
+- Finished Chapter 4 of cite:rob2014type
+** Writing
+I expanded, reformatted, and touched up some of the first two sections of the
+[[https://en.wikipedia.org/wiki/Lambda_cube][Wikipedia entry on the lambda cube]]. I think my additions helped clarify and
+communicate the main thrust of the cube, and they certainly helped me solidify
+my own understanding.
+** Community
+Feelings checkin was remarkable. I've never participated in something quite
+like it. I think every environment for collaboration should have dedicated
+time to letting people emote and connect and comfort.
+
+The pairing and chats I had planned fell through, but I had some very nice
+unplanned conversations and planned some future pairs.
+
+* Tomorrow's Program
+
+** Fun
+I'm going to read up on roguelike dungeon generation for pairing scheduled on
+** PLT
+1ML for realsies
+** Community
+I'm working from home tomorrow, to give my aching hands a rest and recoup a bit.
+I have planning to participate in the Haskell CoHack all day Saturday, so I
+could use a day away from the keybard.
+
+bibliography:~/Dropbox/bibliography/references.bib

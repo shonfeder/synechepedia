@@ -1,0 +1,26 @@
+#+TITLE: Day 12: Weekend 2.1
+#+DATE: <2019-10-04 Sat>
+
+#+BEGIN_QUOTE
+*Existence.* One can instead contend that [the existence of] objects are
+ anterior to their type, seen as an essence. This is the viewpoint of
+ /subtyping/, this is also the viewpoint of ludics: an object may have several
+ types, be representative of several essences. Their /locativity/ becomes
+ essential.
+
+ (cite:girard11)
+#+END_QUOTE
+
+I let my mind roam free today. It found its way back refreshed. I have some
+notes to review and organize, and I'll type up the relevant bits tomorrow.
+
+* Tomorrow's Program
+
+** PLT
+- Attend Haskell CoHack in afternoon, where I'll work on porting Haskell's
+  Align library to OCaml.
+** Writing
+- Evaluate and type up notes from tonight
+- Reflect on reconnecting with poetic origination
+
+bibliography:~/Dropbox/bibliography/references.bib

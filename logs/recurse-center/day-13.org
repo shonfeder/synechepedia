@@ -1,0 +1,142 @@
+#+TITLE: Day 13: Weekend 2.2
+#+DATE: <2019-10-05 Sat>
+
+#+BEGIN_QUOTE
+...the "knowledge" which we have in our great scientific systems is not genuine
+knowledge. It is mere possibility and has no form but the aesthetic or practical
+form it takes in discourse. The "knowledge" we have in our intuitions of
+individuals alone is not knowledge. It is also aesthetic or mystical. True
+knowledge is achieved only when ideas, or concepts, are discovered in or apply
+to individual wholes, in our terms, when parameters measure actuality.
+
+(cite:buchanan2014possibility)
+#+END_QUOTE
+
+As I noted yesterday, I took Friday to let my mind relax and wander. I'm trying
+to re-engage with poetics, poetic thinking, and various other antidotes to the
+enframing of information technologies.
+
+* Some notes
+These are some notes I scribbled last night. These are just flights of fancy,
+and should all be proceeded with something like "I wonder if..."
+
+** Existential stuff
+
+Non-existence as annihilation is neither the negation nor the dual of
+the singular, subjective existence. The dual of being singular is being in
+common: being in community.
+
+In death, nither the being nor having been of a subject is annihilated. Though
+their continued presence is terminated. The non-existence of the subject
+entailed by mortality is only a determinate negation of the persistence of the
+subject in time. It is determinate in that something entirely new is created in
+the passing away: distinct absence. In the experience of losing a companions it
+is absolutely clear that death is not an annihilation, because the weight and
+extraordinary, horrible novelty of their absence is utterly imposing an
+inescapable. Whatever else may or may not happen to the dead, for the living,
+their presence is transmuted into a sui generis absence.
+
+Nietzsche's eternal return though experiment can be read as an analysis of
+Spinoza's [[https://en.wikipedia.org/wiki/Sub_specie_aeternitatis][sub specie aeternitatis]]. It uses subjective imagination to bootstrap
+our myopic self-concern and infantile repetition compulsion into a glimpse of
+the eternality of existence qua structure.
+
+In the Spinozistic view, mind and body are but two modes out of the infinite
+modes that express the absolute infinitude of substance. In this system, the
+being of a singular subject must also find expression in infinite other modes.
+
+In general, humanity as a whole does not seem to believe that it deserves to
+live well. We must become convinced that we deserve to live well so that will
+demand that our communities be structured to meet this demand.
+
+Forms of compliance and complicity masquerade as kindness.
+
+** Type theory stuff
+
+#+BEGIN_QUOTE
+*Existence.* One can instead contend that [the existence of] objects are
+ anterior to their type, seen as an essence. This is the viewpoint of
+ /subtyping/, this is also the viewpoint of ludics: an object may have several
+ types, be representative of several essences. Their /locativity/ becomes
+ essential.
+
+ (cite:girard11)
+#+END_QUOTE
+
+I suspect...
+
+A type system is a functor from types to terms. Parametric types give natural
+transformations over functors to simply typed terms. There are also other
+important ways of tracing natural transformations between sets of typeable
+terms. Subtyping lets us establish and specify some of these and, in fact,
+Girard presents polymorphism as a subspecies of subtyping:
+
+#+BEGIN_QUOTE
+Polymorphism is the observation that the same λ-term can admit several types.
+
+(cite:girard11, 135)
+#+END_QUOTE
+
+The jiggering and exploring of various type systems is all in pursuit of an
+ideal sweet spot that will let us prove everything we think we should be able to
+while eliminating forms of expression that become unwieldy and undermine our
+capacity to reason about the system at all. Type systems also provide an
+important interface abstracting over lambda terms. When we reason about terms of
+type =int -> int= we can draw inferences about an infinite class of potential
+functions while maintaining a birds eye view.
+
+Does it make sense to look for types that range over patterns and structures
+that hold between subtypes?
+
+From the subtyping view, the addition of linear types expanded the class of
+terms our types can provide an interface to, allowing new distinctions (maybe
+also allowing terms untypeable in other systems into the domain?).
+
+There are types correlating interfaces between systems of types. This is what
+Goguen advocates in cite:Programming91typesas.
+
+** Structure and stuff
+
+Girard's cite:girard11 culminates in a formal theory of /transcendental
+inter-subjectivity/.
+
+Encodings usually embed a "fuller" structure into a dimensions of relation in a
+more meager structure. Consider a binary array of length =n=. If we want to
+record an index of =n= things, we can just correlate each thing with a position
+in the array, and store the index at that location. This will give us a sequence
+of indexes to the objects. But this is a merely linear storage mechanism.
+Instead, we can associate each distinct entity with a combination of bits, and
+this will let us encode 2^n distinct entities, greatly increasing the number of
+individual entities we can distinguish. But we buy that increased capacity by
+sacrificing the ability to encode information about the sequence or order
+holding between those entities.
+
+I suspect this is a general dynamic and that, in general, *reification trades
+structure for enumeration*. I suspect individuation consists of something like
+natural transformations collapsing parallel subsections of a continuum into
+phenomenological singularities.
+
+* Today's Progress
+
+** Community
+Met with a number of recursers and local Haskell programmers at the monthly
+Haskell Cohack
+** OCaml Ecosystem
+I made good headway on porting Haskell's =Data.These= to OCaml. Most of the work
+has involved working out how to translate Haskell's type-class based
+specification of algebraic structures into OCaml's module-based specifications.
+It's fun and very illuminating.
+** Writing
+I wrote the above notes!
+
+* Tomorrow's Program
+
+I'll mostly be spending the day with my spouse.
+
+** PLT
+Spend some time reading cite:reynolds74_towar
+
+** OCaml Ecosystem
+I'll continue work on =These= when I get a chance.
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -1,5 +1,6 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-14.org][Day 14: Weekend Whoops]] --- 2019-10-06
 - [[file:day-13.org][Day 13: Weekend 2.2]] --- 2019-10-05
 - [[file:day-12.org][Day 12: Weekend 2.1]] --- 2019-10-04
 - [[file:day-11.org][Day 11: Enframing]] --- 2019-10-03

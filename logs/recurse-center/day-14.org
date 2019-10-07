@@ -1,0 +1,26 @@
+#+TITLE: Day 14: Weekend Whoops
+#+DATE: <2019-10-06 Sun>
+
+I just realized I mistitled my entry from Friday as a weekend post. Whoops.
+
+I spent most of the day with my spouse.
+
+* Today's Progress
+
+** PLT
+I'll be reading cite:reynolds74_towar tonight before bed.
+
+** OCaml Ecosystem
+I spent a couple hours working on the port of =Data.These=, mostly fiddling with
+modules to reproduce type-class gimmicks.
+
+* Tomorrow's Program
+
+** PLT:
+*** 1ML
+- Actually hack on fixing type-checking bugs
+- Study and write up notes on the distinction between small and large types
+** Community
+- Pairing on dungen generation in OCaml! :D
+
+bibliography:~/Dropbox/bibliography/references.bib

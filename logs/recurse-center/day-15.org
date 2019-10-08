@@ -31,7 +31,7 @@ I was lucky enough to enjoy *2* wonderful pairing sessions today.
 - I made some actual progress on the 1ML type checking bug that's currently in
   my cross hairs. I've been [[https://github.com/shonfeder/1ml/blob/interlude/PROJECT.org#next-type-checking-error-reads-access-of-module-values-as-if-it-were-the-module-itself-being-supplied-as-a-value][documenting the bug hunt]] pretty carefully, so I'll
   be able to reuse the debugging techniques I'm discovering along the way later
-  with ease. *Documentation is Automation![fn:2]*
+  with ease. *Documentation is Automation!*[fn:2]
 
 ** Writing
 I received some very encouraging feedback on this log.
@@ -70,9 +70,11 @@ general, offered feedback, or invited the opportunity to give feedback.
 
 * Footnotes
 
+[fn:2] https://cacm.acm.org/magazines/2018/6/228040-documentation-is-automation/abstract
+
 [fn:1] A jokey experiment in parameterizing the value of a word without the
 usual boilerplate phrase: "for some value of /x/". Probably a failed experiment.
 
-[fn:2] https://cacm.acm.org/magazines/2018/6/228040-documentation-is-automation/abstract
+
 
 bibliography:~/Dropbox/bibliography/references.bib

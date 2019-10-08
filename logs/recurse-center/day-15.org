@@ -1,0 +1,78 @@
+#+TITLE: Day 15: Procedural Generation of Nested Places
+#+DATE: <2019-10-07 Mon>
+
+#+BEGIN_QUOTE
+The very understanding of spatiality as paradigmatically a concept of physical
+theory, and so as primarily tied to physical extension, must represent a
+fundamental obstacle to any attempt to arrive at a view of place as a
+philosophically significant concept. ... the analysis of place must encompass a
+broader analysis of space that does not restrict space merely to the sense
+associated with notions of physical extension and position. Arriving at an
+adequate account of place, then, requires a rethinking of space also.
+
+(cite:malpas07_place)
+#+END_QUOTE
+
+* Today's Progress
+
+** Community
+I was lucky enough to enjoy *2* wonderful pairing sessions today.
+
+- In the first session, we got to practice Haskell while working over some good
+  foundational algorithms on lists. I had a bunch of fun, and learned and
+  relearned some important principles.
+- In the second, we made tangible initial progress on implementing a procedural
+  dungeon generator. This was a blast and very illuminating. I'm going to keep
+  working on this as a fun and instructive side project.
+
+** PLT: 1ML
+- Got the remote repo up to date with changes I've been making on my fork
+- Moved my project planing notes into the fork. You can see them [[https://github.com/shonfeder/1ml/blob/interlude/PROJECT.org][here]].
+- I made some actual progress on the 1ML type checking bug that's currently in
+  my cross hairs. I've been [[https://github.com/shonfeder/1ml/blob/interlude/PROJECT.org#next-type-checking-error-reads-access-of-module-values-as-if-it-were-the-module-itself-being-supplied-as-a-value][documenting the bug hunt]] pretty carefully, so I'll
+  be able to reuse the debugging techniques I'm discovering along the way later
+  with ease. *Documentation is Automation![fn:2]*
+
+** Writing
+I received some very encouraging feedback on this log.
+
+The feedback came along with a great suggestion for a missing feature: a way of
+tracking what reported progress is contributing to which project. I suspect I
+can achieve such a thing with some basic use of org-mode tags. I've added the
+idea to my todo list.
+
+We also discussed difficulties around writing in general, the risks of writing
+publically, and the ambiguous nature of mixing genuine self-expression with
+instrumental self-promotion.
+
+This rambling mess of a log a manifestation of my own attempts to develop a
+writing practice, and to overcome the stifling forces of unrealistic expectation
+and scope creep. So far so good, in that writing is happening. However, I'm
+still very far from feeling confident in my abilities to write λ /needs/ .[what
+/needs/ to be written to communicate what /needs/ to be communicated][fn:1].
+Perhaps once I feel more confident in my ability to write coherently towards a
+particular purpose, I'll try to summarize how well this method of bootstrapping
+such a habit has worked for me (or hasn't).
+
+In the meantime, I am very grateful for the people who have shared insight into
+their own writing process, shared their own writing, encouraged writing in
+general, offered feedback, or invited the opportunity to give feedback.
+
+* Tomorrow's Program
+
+** PLT
+- Focused work on the 1ML type checking bug
+- Discussing CT prior to Wednesday's meeting
+ 
+** Community
+- Signed up to give a non-technical talk on critical theory. I'll need to prep for
+  this!
+
+* Footnotes
+
+[fn:1] A jokey experiment in parameterizing the value of a word without the
+usual boilerplate phrase: "for some value of /x/". Probably a failed experiment.
+
+[fn:2] https://cacm.acm.org/magazines/2018/6/228040-documentation-is-automation/abstract
+
+bibliography:~/Dropbox/bibliography/references.bib

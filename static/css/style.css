@@ -75,6 +75,20 @@ ul li:before{
     max-width: 100%
 }
 
+.org-ref-bib-h1 {
+    margin-top: 50px;
+    border-color: #dddddd;
+    padding-top: 20px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    color: #666666;
+    font-size: 1em;
+}
+
+.org-ref-bib {
+    color: #666666;
+}
+
 .footer {
     margin-left: 10px;
 }

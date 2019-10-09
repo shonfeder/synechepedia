@@ -1,0 +1,231 @@
+#+TITLE: Day 16: The Command to Control Praxis
+#+DATE: <2019-10-08 Tue>
+
+#+BEGIN_QUOTE
+"... In Galileo's mathematization of nature, /nature itself/ is idealized on the
+model of the new mathematics. In modern terms, it becomes a mathematical
+manifold" [Horkheimer and Adorno are here quoting from cite:husserl70_europ].
+Thought is reified as an autonomous, automatic process, aping the machine it has
+itself produced, so that it can finally be replaced by the machine.
+Enlightenment pushed aside the classical demand to "think thinking" ... because
+it distracted philosophers from the command to control praxis. Mathematical
+procedure became a kind of ritual of thought. Despite its axiomatic
+self-limitation, it installed itself as necessary and objective: mathematics
+made thought into a thing -- a tool, to use its own term.
+
+(cite:horkheimer02_dialec, 19)
+#+END_QUOTE
+
+I spent most of the day prepping for a non-technical talk on Critical Theory.
+However, I bailed on giving the presentation, because I didn't feel capable of
+doing the topic justice. I'm also unsure that the non-technical talks are an
+appropriate forum for the topic.
+
+Spending the day reading critical theory meant reconnecting with the weighty and
+all important question of whether the enlightenment can realize its promiss of
+emancipated human communities and a reconciliation with (and redemption of)
+nature, or whether it will tend towards ever more exacting exploitation and
+perfected systems of control. With this concern rekindled, I found it difficult
+to get excited about the minutia of wonky technical puzzles.
+
+Still, I managed to identify the root cause of the 1ML bug I've been
+investigating.
+
+(I'm currently questioning the value of the daily check-in posts I've been
+writing. Perhaps I'll have an idea of how to improve or adjust this tomorrow.)
+
+Here are notes I collected in preparation for the aborted presentation:
+
+* Notes around critical theory
+
+** Motive
+
+We are contributing to a massive, incredibly complex machine. We have virtually
+no idea of how our contributions will be used or what they will lead to. This is
+dangerous. Probably more dangerous than we can comprehend.
+
+** Early modern figures important for the foundations of critical theory
+
+*** Spinoza
+
+- Committed to egalitarian and emancipatory politics.
+- Advanced an outlook that unified theory and praxis.
+- Helped develop a science of the affects.
+- Huge influence on Hegel.
+- Remarkably (for his time): Not imperialist. Not racist.
+- Unfortunately (as I learned today): Misogynist. Classist. [[https://parentingforsocialchange.com/common-oppression-of-childhood-html/][Adultist]].
+
+  #+BEGIN_QUOTE
+  Yet if nature had made women equal to men, and had given them equal strength of
+  mind and intellectual ability, in which human power and therefore human right
+  mainly consists, surely among so many different nations some would be found
+  where both sexes ruled on equal terms, and others where the men were ruled by
+  the women and brought up in such a manner that they had less ability. But since
+  this has nowhere happened, I am fully entitled to assert that women have not the
+  same right as men by nature, but are necessarily inferior to them
+
+  (Spinoza in /A Political Treatise/ Taken from [[https://spinozaauthor.wordpress.com/books-by-spinozaauthor-margaret-gullan-whur/articles-on-spinoza-by-margaret-gullan-whur/spinoza-and-the-equality-of-women/][Margret Gullan-Whur's Spinoza
+  and the Equality of Women]])
+  #+END_QUOTE
+
+It is tempting to say that Spinoza deformed the emancipatory essence of his
+theoretical insights by bowing them to "fact" inferred from history:
+
+However, Gullan-Whur dispels this easy accommodation
+
+#+BEGIN_QUOTE
+a closer look at the argument reveals that Spinoza could in fact be proceeding
+typically. For, in claiming that women re necessarily mentally weaker than men,
+he invokes the logical and causal necessity which are for him equivalent, and
+which dictate the laws of nature. ... Used by Spinoza the cause/reason equation
+constitutes a principle of sufficient reason.
+
+([[https://spinozaauthor.wordpress.com/books-by-spinozaauthor-margaret-gullan-whur/articles-on-spinoza-by-margaret-gullan-whur/spinoza-and-the-equality-of-women/][Spinoza and the Equality of Women]])
+#+END_QUOTE
+
+For the purpose of this short reflection on critical theory, the key move noted
+by Gullan-Whur is "his metaphysical equivalence of human power with human
+right." This equivalence opens the way for the nightmare of purely instrumental
+reason to crush all tenderness and caring out of social relations and rights.
+
+Gullan-Whur ends up arguing that this regressive view is *not* consistent with
+his metaphysical and ethical positions in the Ethics. I'm not entirely
+convinced, however. That bit about equating power with right and allowing an
+avenue for deducing reason from causation is all a bit troubling.
+*** Kant
+- Articulated the key methodological notions of *critical philosophy*.
+- Innovated dialectical critique as a way of diagnosing untenable ideas.
+- At least racist, imperialist, and misogynist.
+*** Hegel
+- Radicalized critical philosophy by emphasizing the genetic and historical aspects of reason.
+- Advanced dialectic reason as a way of generating new ideas
+- At least racist and imperialist.
+
+
+** Modern Figures
+*** Weber
+*** Marx
+*** Nietzsche
+*** Freud
+*** Lukacs
+*** Frankfurt School
+
+** Contemporary figures and traditions
+The Frankfurt School championed the term "Critical Theory", but what they
+practiced and refined and reworked is only the legacy of a critical, reflective
+reason which was common to a broad trend in European philosophical thought. The
+preceding genealogical sketch is stupidly male and partial. But it is easier to
+find more representative and diverse contemporary figures and schools of thought
+that are practicing critical theory. Some examples:
+
+*** [[https://www.google.com/search?client=firefox-b-1-d&q=angela+davis][Angela Davis]]
+
+Student of Marcuse in the US and studied with Adorno in Germany.
+
+*** Critical Pedagogy
+
+#+BEGIN_QUOTE
+Critical pedagogy is a philosophy of education and social movement that has
+developed and applied concepts from critical theory and related traditions to
+the field of education and the study of culture.
+#+END_QUOTE
+[[https://en.wikipedia.org/wiki/Critical_pedagogy][Wikipedia]]
+
+*** Critical race theory
+
+#+BEGIN_SRC
+uses critical theory to examine society and culture as they relate to
+categorizations of race, law, and power
+#+END_SRC
+[[https://en.wikipedia.org/wiki/Critical_race_theory][Wikipedia]]
+
+*** [[https://www.plutobooks.com/blog/social-reproduction-theory-ferguson/][Social Reproduction Theory]]
+
+#+BEGIN_QUOTE
+Key to social reproduction theory (SRT) is an understanding of the ‘production
+of goods and services and the production of life are part of one integrated
+process’, or in other words: acknowledging that race and gender oppression occur
+capitalistically.
+#+END_QUOTE
+
+*** [[https://en.wikipedia.org/wiki/Queer_theory][Queer Theory]]
+
+#+BEGIN_QUOTE
+a field of critical theory that emerged in the early 1990s out of the fields of
+queer studies and women's studies. Queer theory includes both queer readings of
+texts and the theorization of 'queerness' itself. ... queer theory builds both
+upon feminist challenges to the idea that gender is part of the essential self
+and upon gay/lesbian studies' close examination of the socially constructed
+nature of sexual acts and identities.
+#+END_QUOTE
+
+** Notes from /The Dialectic of Enlightenment/
+
+#+BEGIN_QUOTE
+The dialectic of enlightenment is culminating in objective madness.
+
+cite:horkheimer02_dialec
+#+END_QUOTE
+
+
+#+BEGIN_QUOTE
+The increase in economic productivity which creates the conditions for a more
+just world also affords the technical apparatus and the social groups
+controlling it a disproportionate advantage over the rest of the population.
+... In the unjust state of society the powerlessness and pliability of the
+masses increase with the quantity of goods allocated to them. The materially
+considerable and socially paltry rise in the standard of living of the lower
+classes is reflected in the *hypocritical* propagation of intellect. Intellect's
+true concern is a negation of reification. It must perish when it is solidified
+into a cultural asset and handed out for consumption purposes. The flood of
+precise information and brand-new amusements make people smarter and more stupid
+at once.
+
+(cite:horkheimer02_dialec, xvii)
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+What is at issue here is not culture as a value ... but the necessity for
+enlightenment to reflect on itself if humanity is not to be totally betrayed.
+What is at stake is not conservation of the past but the fulfillment of past
+hopes.
+
+(cite:horkheimer02_dialec, xvii)
+#+END_QUOTE
+
+** Traditional and Critical Theory
+
+My aim was to elucidate this point, but I didn't make it....
+
+** Children are the most oppressed humans
+
+In general, there is no accepted or reliable technique for parenting which does
+not make recourse to oppressive and authoritarian measures. We cannot help
+propagating oppression, because we don't know how to propagate without
+oppressing.
+
+#+BEGIN_QUOTE
+We may have had loving parents and caring teachers. However, in our culture
+and society, the dominant paradigm is one of adults controlling the lives of
+children. Even if done with love, this control and domination fundamentally
+disempowers children.
+
+Our paradigm teaches children to question themselves and rely on authority
+figures to make decisions for them and to tell them what is right. The need for
+autonomy and self-determination is sacrificed to the need for order and
+productivity. Indoctrination into this kind of world-view is easier if the power
+of children is dismissed and disregarded.
+
+([[https://parentingforsocialchange.com/common-oppression-of-childhood-html/][Teresa Graham Brett]])
+#+END_QUOTE
+
+** Exhaustion
+
+#+BEGIN_QUOTE
+I imagine that I am nostalgic today because so few people seem to believe that
+anybody has any revolutionary potential left.
+
+([[https://pages.gseis.ucla.edu/faculty/kellner/Illumina%20Folder/Angela_Davis%5B1%5D%5B1%5D.pdf][Angela Davis]])
+#+END_QUOTE
+
+bibliography:~/Dropbox/bibliography/references.bib

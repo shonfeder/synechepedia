@@ -1,0 +1,100 @@
+#+TITLE: Day 18: Incomplete and Incommunicado
+#+DATE: <2019-10-10 Thu>
+
+#+BEGIN_QUOTE
+The political, if this word may serve to designate not the organization of
+society but the disposition of community as such, the destination of its
+sharing, must not be the assumption or the work of love or of death. It need
+neither find, nor regain, nor effect a communion taken to be lost or still to
+come. If the political is not dissolved in the sociotechnical element of forces
+and needs (in which, in effect, it seems to be dissolving under our eyes), it
+must inscribe the sharing of community. The outline of singularity would be
+"political" -- as would be the outline of its communication and its ecstasy.
+"Political" would mean a community ordering itself to the unworking of its
+communication, or destined to this unworking: a community consciously undergoing
+the experience of its sharing. To attain such a signification of the "political"
+does not depend, or in any case not simply, on what is called a "political
+will." It implies being already engaged in the community, that is to say,
+undergoing, in whatever manner, the experience of community as communication: it
+implies writing. We must not stop writing, or letting the singular outline of
+our being-in-common expose itself.
+
+(cite:peter01, 41)
+#+END_QUOTE
+
+Today I finished, but did not complete, some rambling on the topic of [[file:~/Dropbox/synechepedia/org/themata/finishing-the-incomplete.org][Finishing
+Work on the Incomplete]]. I kind of hate it, tho the "idea" (if one can call it
+that) explored there struck me as significant. Worse, the key notion there is
+something which I still haven't properly internalized or comprehended. I think I
+hate it because I truly believe the way of thinking followed in that note is
+obvious and cheaply derived, yet it moves me. I find my own taste distasteful.
+
+The scribbling on finishing talks incessantly about "working" and "work". The
+excerpt above is taken from an essay by Jean-Luc Nancy entitled "The Inoperative
+[or /unworking/] Community". Terminologically, my scribble's focus is at odds
+with Nancy's notion of the "unworking community". I'm afraid that the conflict
+is not *merely* in choice of words[fn:words], and that it reflects a problematic
+fixation and confinement of the terms within which I am able to understand and
+engage in activity. To get a hint of the stakes of this fixation, I'll recall
+why Nancy insists that a community must be unworking:
+
+#+BEGIN_QUOTE
+This is why community cannot arise from the domain of /work/. One does not
+produce it, one experiences or one is constituted by it as the experience of
+finitude. Community understood as a work or through its works would presuppose
+that the common being, as such, be objectifiable and producible (in sites,
+persons, buildings, discourses, institutions, symbols: in short, in subjects).
+
+...
+
+Community necessarily takes place in what Blanchot has called "unworking,"
+referring to that which, before or beyond the work, withdraws from the work, and
+which, no longer having to do either with production or with completion,
+encounters interruption, fragmentation, suspension. Community is made of the
+interruption of singularities, or of the suspension that singular beings /are/.
+Community is not the work of singular beings, for community is simply their
+being--their being suspended upon its limit. Communication is the unworking of
+work that is social, economic, technical, and institutional.
+
+(cite:peter01, 31)
+#+END_QUOTE
+
+The /objectification of common being/ is the metaphysical gesture belonging to
+totalitarianism and so we strive to oppose, resist, and interrupt it. In Nancy's
+view, any work towards producing and reifying an essence of our common being
+culminates in the work of death, regardless of whether that essence is projected
+as nationalistic, collectivist, or the neoliberal nightmare of atomic
+individualism. Community can only emerge as the mesh [fn:mesh] of communicating
+singular beings (such as we are), not as the product of work. This all needs
+lots of unpacking (for myself as well), but the shape of it feels deeply right
+to me. Conceptually, Nancy's evocations of the unworking community is the
+political and aesthetic vision which I find most amenable to the synechistic
+structuralism which I adhere to a metaphysical framework.
+
+In my notes on finishing, I do not fully eschew or disengage from completion and
+production. The whole discourse is focused on how thoughtful work can proceed to
+produce usable components in the service of an incompletable project. My
+questioning along this line points towards modularity, and I think that
+connection is important. But what I am really after is a more substantive
+understanding of programming as communication, and of the way in which the
+produce of the work of programming -- programs -- can be structured to ensure
+the possibility of an encounter with "interruption, fragmentation, suspension".
+
+* Status
+
+I fell into a pit of myself over the last two days. It's been unpleasant.
+
+I've decided to take a few days to work on a smaller scale side project, in
+order to recover some momentum and remind myself it is possible to do things. My
+in progress on the port of =Data.These= to OCaml is closest to hand, so I'll
+resume that as my focus. I think I should be able to get it ready for
+publication by next Wednesday. I'll shoot for that.
+
+* Footnotes
+
+[fn:mesh] In the sense of "/mesche/, 'open space in a net or netting,'" ([[https://www.etymonline.com/search?q=mesh][etymonline]]).
+
+[fn:words] As though word choice were ever a "mere" matter.
+
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -5,20 +5,21 @@ educated in connectedness and focused on sharing.
 
 * Sections
 ** Themata
-   - [[file:themata/axiomatics.org][Axiomatics]]
-   - [[file:themata/foundations.org][Foundations]]
-   - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
-   - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
-   - [[file:themata/notation.org][Notation]]
-   - [[file:themata/pedagogy.org][Pedagogy]]
-   - [[file:themata/programming/index.org][Programming]]
-   - [[file:themata/synechism.org][Synechism]]
-   - [[file:themata/systems-of-operation.org][Systems of Operation]]
-   - [[file:themata/thinking.org][Thinking]]
-   - [[file:themata/terminology/index.org][Terminology]]
-   - [[file:themata/work-anxiety-and-egotism.org][Work Anxiety and Egotism]]
+- [[file:themata/axiomatics.org][Axiomatics]]
+- [[file:themata/foundations.org][Foundations]]
+- [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
+- [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
+-
+- [[file:themata/notation.org][Notation]]
+- [[file:themata/pedagogy.org][Pedagogy]]
+- [[file:themata/programming/index.org][Programming]]
+- [[file:themata/synechism.org][Synechism]]
+- [[file:themata/systems-of-operation.org][Systems of Operation]]
+- [[file:themata/thinking.org][Thinking]]
+- [[file:themata/terminology/index.org][Terminology]]
+- [[file:themata/work-anxiety-and-egotism.org][Work Anxiety and Egotism]]
 ** Excerpts
-   - [[file:excerpts/distention-of-the-heart.org][Distention of the heart]]
+- [[file:excerpts/distention-of-the-heart.org][Distention of the heart]]
 ** Logs
 - [[file:logs/recurse-center/index.org][Recurse Center Logs]]
 - [[file:reading-list.org][Reading List]]

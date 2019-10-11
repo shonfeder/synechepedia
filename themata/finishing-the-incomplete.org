@@ -1,0 +1,159 @@
+#+TITLE: Finishing Work on the Incomplete
+
+*NOTE* I don't like this scribbling and I feel it may be dumb, trivial, and
+stupidly clever. However, self-censorship and leaving half-formed things piling
+up in corners of my hard-drive is currently a bigger problem that producing poor
+quality writing (which I'm not asking anyone to read in any case -- so little
+harm done).
+
+These notes are aimed at the problem of unfinished work in the context of an
+inexhaustible project.[fn:confession]
+
+In the following, I assume that we share a common aim in life: to help realize a
+way of being together that is kind and nurturing and, in its flourishing,
+encourages all others to flourish.
+
+I postulate (1) that there is no limit to the compassion and kindness we can
+achieve ([[file:~/Dropbox/synechepedia/org/excerpts/distention-of-the-heart.org][Cf.]]) and (2) that the importance of this mission calls for an intensity
+of focus and depth of thoughtfulness which is also limitless.
+
+Thus, what we want to do and the ways we must do it preclude the possibility of
+completion. Yet, if we spend our few remaining decades[fn:decades] tinkering at
+this and that facet of the endeavor, leaving partially worked surfaces, half
+finished forms, and tools and plans scattered around, we will fail to realize
+any improvement or make any useful contributions. Worse, such wasted work might
+clutter the work sites and contribute to confusion. Though completion is
+impossible, some measure of finish is necessary.
+
+On the other hand, if we simply get busy executing items of work evidently
+susceptible to completion, our efforts are likely to be wasted, or, worse, they
+will work effectively towards the degradation of our potential for peace and
+kindness. The worst fate for humanity is not extinction, it is becoming [[https://en.wikipedia.org/wiki/Borg][borg]].
+Contributions that enhance our systems of power without embedding an immanent
+critique to protect against the malicious use of that power are /ultimately
+irresponsible/.
+
+There must[fn:must] be a way of executing finishable work that builds towards
+our incompletable aim. Therefore, a clear distinction must be made between
+*finishing* and *completing*. As is often the case, the etyma lead the way:
+
+* Finishing
+
+#+BEGIN_QUOTE
+finish (v.)
+
+late 14c., "to bring to an end;" mid-15c., "to come to an end" (intransitive),
+from Old French /finiss-/, present participle stem of /fenir/ "stop, finish,
+come to an end; die" (13c.), from Latin /finire/ "to limit, set bounds; put an
+end to; come to an end," from /finis/ "that which divides, a boundary, border,"
+figuratively "a limit, an end, close, conclusion; an extremity, highest point;
+greatest degree," which is of unknown origin, perhaps related to "figere" "to
+fasten, fix" (see fix (v.)). Meaning "to kill, terminate the existence of" is
+from 1755.
+
+[[https://www.etymonline.com/word/finish][(etymonline)]]
+#+END_QUOTE
+
+The roots of 'finish' meant to "bring to an end", and originally to limit and
+bound. To bring something to an end, we set a boundary and then take the thing
+to that limit. Think of finishing a race, crossing the finish line: someone
+decided a certain spot should mark the boundary, and they marked the limit with
+a line. The racer finishes by crossing the line.
+
+When working construction, we called the last productive stage of a project the
+"finish work". This was the work done to clean up all the rough edges, cover up
+the joins, fill the holes, apply the paint, etc. The [[https://encyclopedia2.thefreedictionary.com/Finishing+Work][The Great Soviet Dictionary]]
+defines 'finishing work' thus:
+
+#+BEGIN_QUOTE
+(in construction), a group of construction operations relating to the exterior
+and interior finishing of buildings and structures to enhance their service and
+aesthetic qualities. Finishing work is the concluding stage of construction; in
+many cases, the overall quality of a building or structure being put into
+service depends on the quality of its execution. The main types of finishing
+work include facing, plastering, flooring (and parquetry), painting,
+wallpapering, and glazing.
+#+END_QUOTE
+
+What is finished is not perfected! If you've ever seen a racer crawl across the
+finish line, or had a peak into the space between your walls, then you know
+finishing can be executed despite aspects remaining imperfect or subpar. But
+without the finish the home would not be livable and the racer could never
+escape their race.
+
+To be finished is to be terminated with a measure of elegance.
+
+* Completing
+
+#+BEGIN_QUOTE
+complete (adj.)
+
+late 14c., "having no deficiency, wanting no part or element; perfect in kind or
+quality; finished, ended, concluded," from Old French /complet/ "full," or
+directly from Latin /completus/, past participle of /complere/ "to fill up,
+complete the number of (a legion, etc.)," transferred to "fulfill, finish (a
+task)," from /com/-, here probably as an intensive prefix + /plere/ "to fill"
+(from PIE root *pele- (1) "to fill").
+
+[[https://www.etymonline.com/word/complete][(etymonline)]]
+#+END_QUOTE
+
+<This part is inducing paralysis. Let's same I'm leaving it blank as a sly,
+ironic gesture.>
+
+* Terminology
+
+So let the terminology be settled thus:
+
+*Finishing* is a matter of termination, particularly of determination. In order
+to finish, a terminus must have been decided and finishing is the act of
+carrying the work to that terminal. What is finished may still be extended
+further or improved upon, as the limit set was likely more or less arbitrary,
+and not at all an ideal limit.
+
+*Completing* is a matter of fulfillment and exhaustive satisfaction. In order to
+achieve completion, all defects must be removed, all parts present. Completion
+suggestion conclusion and so the closure of any need for further work. What is
+complete is over and done with, and no longer susceptible to improvement or
+advance.
+
+* A Measure of Satisfaction
+
+In order to finish work towards our incompletable goal, it is necessary that
+we understand how the work can satisfy some aspect of our aim. But it is not
+required that the work complete the project, nor even that the work be complete
+in its own narrow range. /Completion is not required for useful work!/ But
+*finish* is critical. Without /finishing work/, even a solid, well conceived
+structure can be virtually useless.
+
+In order to contribute useful work towards the aim of realizing a kind and
+nurturing way of being together, it is vital that we learn how to measure out
+portions of what must be done and delimit those chunks with a finish. In the
+context of IT, the finish generally pertains to the /interface/ (the API and
+UI). Generalizing the other way, the finish can be seen as interface between
+ongoing work and whatever is left incomplete.
+
+I need to explore this line of thinking further, but I must bring these notes to
+close at this point, because they are an exercise in finishing.
+
+Further work to be done:
+
+- explore the principles for this kind of "measuring out"
+- explore the concept of embedding immanent critiques in work to protect against
+  the malicious use of power
+- elaborate a theory of the (or an understanding of the module as theory)
+  that helps explain how these units of finished work can form larger
+  composites, and thus build towards the goal. Cf. [[file:programming/the-measure-of-a-module.org][The Measure of a Module]].
+
+* Footnotes
+
+[fn:confession] I took these notes in order to analyze and exorcise blockages in my
+own workflow. However, they are written from an intersubjective view point to
+help counter the idiotic tendencies of self-obsessed naval gazing.
+
+[fn:must] "must" here expressing a practical necessity.
+
+[fn:decades] However many you have left, they are infinitesimally few relative
+to the scope of this mission.
+
+bibliography:~/Dropbox/bibliography/references.bib

@@ -3,16 +3,6 @@
 *WIP*
 
 #+BEGIN_QUOTE
-The term, parameter, etymologically, and literally, means a "measure with
-respect to".
-
-...
-
-A property is a parameter, or a notatoinal device for exhibiting a parameter.
-#+END_QUOTE
-
-
-#+BEGIN_QUOTE
 *module* (n.)
 
 1580s, "allotted measure," a sense now obsolete, from Middle French /module/
@@ -24,6 +14,16 @@ the basis for the dimensions of parts of a building ...
 
 ([[https://www.etymonline.com/word/module#etymonline_v_17382][etymonline.com]])
 #+END_QUOTE
+
+#+BEGIN_QUOTE
+The term, parameter, etymologically, and literally, means a "measure with
+respect to".
+
+...
+
+A property is a parameter, or a notatoinal device for exhibiting a parameter.
+#+END_QUOTE
+
 
 What is a module?
 

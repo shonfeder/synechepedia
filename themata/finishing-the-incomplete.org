@@ -156,4 +156,6 @@ help counter the idiotic tendencies of self-obsessed naval gazing.
 [fn:decades] However many you have left, they are infinitesimally few relative
 to the scope of this mission.
 
+* ...
+
 bibliography:~/Dropbox/bibliography/references.bib

@@ -22,7 +22,7 @@ our being-in-common expose itself.
 (cite:peter01, 41)
 #+END_QUOTE
 
-Today I finished, but did not complete, some rambling on the topic of [[file:~/Dropbox/synechepedia/org/themata/finishing-the-incomplete.org][Finishing
+Today I finished, but did not complete, some rambling on the topic of [[file:../../themata/finishing-the-incomplete.org][Finishing
 Work on the Incomplete]]. I kind of hate it, tho the "idea" (if one can call it
 that) explored there struck me as significant. Worse, the key notion there is
 something which I still haven't properly internalized or comprehended. I think I

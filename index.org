@@ -6,10 +6,10 @@ educated in connectedness and focused on sharing.
 * Sections
 ** Themata
 - [[file:themata/axiomatics.org][Axiomatics]]
+- [[file:themata/finishing-the-incomplete.org][Finishing Work on the Incomplete]]
 - [[file:themata/foundations.org][Foundations]]
 - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
 - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
--
 - [[file:themata/notation.org][Notation]]
 - [[file:themata/pedagogy.org][Pedagogy]]
 - [[file:themata/programming/index.org][Programming]]

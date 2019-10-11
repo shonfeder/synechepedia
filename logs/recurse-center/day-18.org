@@ -96,5 +96,4 @@ publication by next Wednesday. I'll shoot for that.
 
 [fn:words] As though word choice were ever a "mere" matter.
 
-
 bibliography:~/Dropbox/bibliography/references.bib

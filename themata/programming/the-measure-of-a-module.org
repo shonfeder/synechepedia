@@ -25,7 +25,11 @@ A property is a parameter, or a notatoinal device for exhibiting a parameter.
 #+END_QUOTE
 
 
-What is a module?
+* TODO What is a module?
+** TODO read
+- [ ] http://lambda-the-ultimate.org/node/5121#comment-84486
+
+** Notes
 
 The spirit of the ML module system, traces back to an effort to "give structured
 descriptions of theories".

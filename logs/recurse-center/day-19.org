@@ -1,0 +1,36 @@
+#+TITLE: Day 19:
+#+DATE: <2019-10-11 Fri>
+
+#+BEGIN_QUOTE
+... a suitable theory of information must be a /social theory of information/,
+rather than a /statistical theory of information/, like Shannon's theory, or a
+/representational theory of information/, like the situation theory of Barwise
+and Perry. In fact, a theory of the kind we need cannot be "objectivist" or
+"realist," in the sense of assuming a pre-given distinction between subject and
+object, and an objectively given real world. Thus traditional semiotics is not
+adequate as a foundation, because it assumes that signs represent things in a
+real, objective world; we need a social semiotics, rather than a logical
+semiotics.
+
+cite:goguen1997towards
+#+END_QUOTE
+
+I'd like to muse on this more, but it'll have to wait.
+
+* Today's Progress
+
+** Community
+- Nice talks about space and Tiny Land and Category Theroy and distributed systems.
+** PLT
+- Made progress on porting =Data.These=, including implementations of modules to
+  match Haskell's =Foldable= and =Traversable= type classes, completion of the
+  core data type, and a start on the =Align= library (which gives the real use
+  compelling case for =These=).
+
+* Tomorrow's Program
+
+** PLT
+- Finish off the core logic for =These=, and hopefully start on fleshing out
+  property based tests. (Hopefully using =crowbar=!)
+
+bibliography:~/Dropbox/bibliography/references.bib

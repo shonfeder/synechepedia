@@ -1,5 +1,6 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-20.org][Day 20: This, That, and These]] --- 2019-10-12
 - [[file:day-19.org][Day 19:]] --- 2019-10-11
 - [[file:day-18.org][Day 18: Incomplete and Incommunicado]] --- 2019-10-10
 - [[file:day-16.org][Day 16: The Command to Control Praxis]] --- 2019-10-08

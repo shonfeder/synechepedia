@@ -1,5 +1,6 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-21.org][Day 21: Documentation and Tests (+ My Hope)]] --- 2019-10-13
 - [[file:day-20.org][Day 20: This, That, and These]] --- 2019-10-12
 - [[file:day-19.org][Day 19:]] --- 2019-10-11
 - [[file:day-18.org][Day 18: Incomplete and Incommunicado]] --- 2019-10-10

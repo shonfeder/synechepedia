@@ -1,0 +1,59 @@
+#+TITLE: Day 21: Documentation and Tests (+ My Hope)
+#+DATE: <2019-10-13 Sun>
+
+#+BEGIN_QUOTE
+I came to theory because I was hurting—the pain within me was so intense that I
+could not go on living. I came to theory desperate, wanting to comprehend—to
+grasp what was happening around and within me. Most importantly, I wanted to
+make the hurt go away. I saw in theory then a location for healing.
+
+(cite:hooks94_teach, 59)
+#+END_QUOTE
+
+Here's a shot at articulating my greatest hope for what I might contribute to
+before I die: to work towards ways of mediating the tension between /poetic
+origination/ and /technical formation/ in service of a communitarian
+emancipation of our /existential thrown and givenness/. This needs
+dejargonification (or rejargonification balanced by a reciprocal poeticization),
+but it points in the direction I want to go.
+
+A mediating way is still a far off goal for me. The best I am usually able to
+muster is a vacillation. For the last few days, as a compensation for last
+week's swerve into Critical Theory, I've had my head locked into seemingly
+soulless technical tasks. It's been a lovely [[https://en.wiktionary.org/wiki/lotophagous#English][lotophagous]] diversion.
+
+Meanwhile, I've been sticking evocative excerpts atop my posts as sign posts to
+remind me of where I am to turn back towards. Around midweek, I hope revisit
+these snippets and thread themtogether with associations that seem relevant at
+that time.
+
+This weekend was devoted to quality time with the S.O. and hacking on [These]
+and its dependencies.
+
+* Today's Progress
+
+** PLT
+- Began documenting [These] and writing out property based tests. I have about
+  %50 coverage on both fronts.
+- Set up the test suite for the [Alg] library, which provides OCaml signatures and
+  implementations for the most pervasive algebraic structures used in Haskell's
+  typeclassed world. [These] depends on [Alg], so I'll actually need to finish
+  testing, documenting, and packaging this up as a prerequisite to completing
+  [These].
+** Writing
+I didn't make any time to think on write on the topics I'd hoped to. I'll put
+this on hold until I wrap up the work on packaging and documenting [These] and
+[Alg].
+
+* Tomorrow's Program
+
+** PLT
+- Write a library of [qCheck] generators for all the algebraic structures
+  defined in [Alg].
+- Implement property based tests for all the structures in [Alg] ensuring that
+  they respect the "laws" dictated in the Haskell documentation.
+- Setup remote gitlab repos for both [Alg] and [These]
+** Community
+- Get advice on packaging from more experienced OCamlers at RC.
+
+bibliography:~/Dropbox/bibliography/references.bib

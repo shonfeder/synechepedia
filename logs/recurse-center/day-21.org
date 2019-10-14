@@ -27,32 +27,32 @@ remind me of where I am to turn back towards. Around midweek, I hope revisit
 these snippets and thread themtogether with associations that seem relevant at
 that time.
 
-This weekend was devoted to quality time with the S.O. and hacking on [These]
+This weekend was devoted to quality time with the S.O. and hacking on =These=
 and its dependencies.
 
 * Today's Progress
 
 ** PLT
-- Began documenting [These] and writing out property based tests. I have about
+- Began documenting =These= and writing out property based tests. I have about
   %50 coverage on both fronts.
-- Set up the test suite for the [Alg] library, which provides OCaml signatures and
+- Set up the test suite for the =Alg= library, which provides OCaml signatures and
   implementations for the most pervasive algebraic structures used in Haskell's
-  typeclassed world. [These] depends on [Alg], so I'll actually need to finish
+  typeclassed world. =These= depends on =Alg=, so I'll actually need to finish
   testing, documenting, and packaging this up as a prerequisite to completing
-  [These].
+  =These=.
 ** Writing
 I didn't make any time to think on write on the topics I'd hoped to. I'll put
-this on hold until I wrap up the work on packaging and documenting [These] and
-[Alg].
+this on hold until I wrap up the work on packaging and documenting =These= and
+=Alg=.
 
 * Tomorrow's Program
 
 ** PLT
 - Write a library of [qCheck] generators for all the algebraic structures
-  defined in [Alg].
-- Implement property based tests for all the structures in [Alg] ensuring that
+  defined in =Alg=.
+- Implement property based tests for all the structures in =Alg= ensuring that
   they respect the "laws" dictated in the Haskell documentation.
-- Setup remote gitlab repos for both [Alg] and [These]
+- Setup remote gitlab repos for both =Alg= and =These=
 ** Community
 - Get advice on packaging from more experienced OCamlers at RC.
 

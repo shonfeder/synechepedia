@@ -50,8 +50,10 @@ implementations in /ad hoc/ ways.
 Second, I have been building out an auxiliary library =Alg_qcheck= that
 generates =QCheck= property based tests of all a structure's laws.
 
-This is what it looks like when using library module to generate tests for some
-implementations of =Functor=.
+Here is what it looks like when using the library to generate tests for some
+implementations of =Functor= (note that the user has to supply a module that
+includes the functor implementation together with a way of getting an arbitrary
+value of that functor):
 
 #+BEGIN_SRC ocaml
 let functor_laws =

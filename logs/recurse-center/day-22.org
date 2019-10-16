@@ -1,0 +1,103 @@
+#+TITLE: Day 23: Fuzzy
+#+DATE: <2019-10-15 Tue>
+
+Feeling fuzzy today. Posting any how, just to keep up the ritual.
+
+* Today's Progress
+
+** Community
+- Nice coffee chat, discussed community and music making.
+- Delightful and thought provoking non-technical talks.
+** PLT
+More time documenting and testing =Alg=. It's been a quite involved process. A
+lot of the time has been devoted to developing a nice abstraction for the
+testing harness, which will hopefully expedite completion on the rest of the
+library.
+
+I've made two decisions in the implementation that I'm fairly pleased with for
+the moment.
+
+First, each specification of an algebraic structure includes a module called
+=Law= that defines predicates expressing the laws that should hold for
+implementations of that structure. E.g., here is the signature for the =Law=
+module for =Functor=
+
+#+BEGIN_SRC ocaml
+(** [Law] notes the laws that should be obeyed by any instantiation of
+    {{!module-type:S} Functor} in the form of predicates that should be true
+    for any arguments of the appropriate type.
+
+    You can use {!module:Alg_qcheck.Functor} to generate property based tests of
+    these laws for new modules satisfying this interface.
+
+    @param F An implementation of a {{!module-type: S} Functor} *)
+module Law (F : S) (** *) : sig
+
+  (** [identity x]: [F.map ~f:Fun.id x = Fun.id x] *)
+  val identity : 'a F.t -> bool
+
+  (** [composition f g x]: [F.map ~f:(f % g) x = (F.map ~f % F.map ~f:g) x]
+
+      where [%] is composition. *)
+  val composition : ('a -> 'b) -> ('c -> 'a) -> 'c F.t -> bool
+end
+#+END_SRC
+
+This is generating decent documentation that is quite tightly coupled with the
+code. It also gives the user predicates they can use for testing their
+implementations in /ad hoc/ ways.
+
+Second, I have been building out an auxiliary library =Alg_qcheck= that
+generates =QCheck= property based tests of all a structure's laws.
+
+This is what it looks like when using library module to generate tests for some
+implementations of =Functor=.
+
+#+BEGIN_SRC ocaml
+let functor_laws =
+  let open Alg_qcheck.Functor in
+  [
+    suite "Functor Laws for Option"
+      (test (module struct
+         include Alg.Functor.Option
+         let arbitrary = option
+       end));
+
+    suite "Functor Laws for List"
+      (test (module struct
+         include Alg.Functor.List
+         let arbitrary = list
+       end));
+
+    suite "Functor Laws for Array"
+      (test (module struct
+         include Alg.Functor.Array
+         let arbitrary = array
+       end));
+  ]
+#+END_SRC
+
+And the output of the tests:
+
+#+BEGIN_SRC console
+[OK]                Functor Laws for Option              0   Functor: Identity - [map id = id] for int.
+[OK]                Functor Laws for Option              1   Functor: Identity - [map id = id] for int list.
+[OK]                Functor Laws for Option              2   Functor: Composition - [map (f . g) = (map f) . (map g)] for int.
+[OK]                Functor Laws for Option              3   Functor: Composition - [map (f . g) = (map f) . (map g)] for int list.
+[OK]                Functor Laws for List                0   Functor: Identity - [map id = id] for int.
+[OK]                Functor Laws for List                1   Functor: Identity - [map id = id] for int list.
+[OK]                Functor Laws for List                2   Functor: Composition - [map (f . g) = (map f) . (map g)] for int.
+[OK]                Functor Laws for List                3   Functor: Composition - [map (f . g) = (map f) . (map g)] for int list.
+[OK]                Functor Laws for Array               0   Functor: Identity - [map id = id] for int.
+[OK]                Functor Laws for Array               1   Functor: Identity - [map id = id] for int list.
+[OK]                Functor Laws for Array               2   Functor: Composition - [map (f . g) = (map f) . (map g)] for int.
+[OK]                Functor Laws for Array               3   Functor: Composition - [map (f . g) = (map f) . (map g)] for int list.
+#+END_SRC
+
+* Tomorrow's Program
+
+** PLT
+Finish up documenting and testing [Alg], hopefully open a PR to publish the
+package in the =opam= repository.
+
+bibliography:~/Dropbox/bibliography/references.bib

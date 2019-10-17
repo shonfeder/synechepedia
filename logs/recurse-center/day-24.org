@@ -1,0 +1,37 @@
+#+TITLE: Day 24
+#+DATE: <2019-10-17 Thu>
+
+* Today's Progress
+
+** Community
+- I was fortunate enough to be in several excellent chats, ranging over
+  philosophy and tech and industry and logic and community. I'm feeling very
+  grateful for people's willingness to share their time and thoughts.
+- I received super helpful expert advice and encouragement on packaging up some
+  of my ongoing projects for Opam.
+- I paired on a dungeon generation algorithm in Racket, which kicked our butts.
+  Was it the editor? The language neither of us were fluent in? The unfamiliar
+  libraries? The problem itself? I'm not sure yet...
+** PLT
+- I made good headway on =Alg=, tho I didn't meet my goal of publishing by
+  today. As I noted [[file:day-23.org][yesterday]], I have been implementing a quite rigorous,
+  parameterized test framework for enforcing laws over algebraic structures.
+  This has been quite demanding work. I also underestimated how much it would
+  take to get the documentation in good shape.
+** Category theory
+- Met with the CT study group today, as noted above. I found the meeting really
+  illuminating. Both presenters did a great job.
+** Writing
+
+* Tomorrow's Program
+
+** PLT
+- Do a big push to complete testing and documentation of =Alg=.
+- As a stretch goal, see if I can open the PR to publish on Opam by EOD.
+** Community
+- Feelings check-in
+- Presentations
+** Career
+- Meeting with RC faculty to discuss jobs.
+
+bibliography:~/Dropbox/bibliography/references.bib

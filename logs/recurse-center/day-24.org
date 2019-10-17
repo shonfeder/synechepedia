@@ -33,5 +33,3 @@
 - Presentations
 ** Career
 - Meeting with RC faculty to discuss jobs.
-
-bibliography:~/Dropbox/bibliography/references.bib

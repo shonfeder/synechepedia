@@ -101,5 +101,3 @@ And the output of the tests:
 ** PLT
 Finish up documenting and testing [Alg], hopefully open a PR to publish the
 package in the =opam= repository.
-
-bibliography:~/Dropbox/bibliography/references.bib

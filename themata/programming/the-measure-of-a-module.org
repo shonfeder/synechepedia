@@ -31,34 +31,90 @@ A property is a parameter, or a notatoinal device for exhibiting a parameter.
 
 ** Notes
 
-The spirit of the ML module system, traces back to an effort to "give structured
-descriptions of theories".
+In OCaml, a =module= is specified by a =sig= and implemented as a =struct=:
 
-In "Modules for Standard ML" McQueen writes:
+#+BEGIN_SRC ocaml
+module Some_module : sig
+  (* ...type declarations and value specifications... *)
+end = struct
+  (* ...type declarations and value bindings... *)
+end
+#+END_SRC
+
+This is all in accord with the ML module system that was developed in the early
+80s. The spirit of the ML module system traces back to an effort to "give
+structured descriptions of theories", and the theories that are to be described
+are "algebraic theories" as developed by Lawvere.
+
+In "Modules for Standard ML", which proposes all of the most important aspects
+of ML modules, David McQueen wrote:
 
 #+BEGIN_QUOTE
 This proposal is based on the fruits of a long collaboration with Rod Burstall
 on prototype designs for modules in Hope [MAC81], and on theoretical
 investigations with Ravi Sethi and Gordon Plotkin [MAC82, MAC84] that were
 motivated by those designs. The module designs for Hope were in turn influenced
-by the Clear specification language of Burstall and Goguen [BUR77].''
+by the Clear specification language of Burstall and Goguen [BUR77].
 
-cite:macqueen84_modul_ml
+(cite:macqueen84_modul_ml)
 #+END_QUOTE
 
-
-[BUR77] refers to Burstall and Goguen's paper "Putting theories together to make
-specifications." The first line reads:
+"[BUR77]" refers to Burstall and Goguen's paper "Putting theories together to
+make specifications." The first line reads:
 
 #+BEGIN_QUOTE
 We have been developing a language in which you can give structured
 descriptions of theories.
 
-cite:Burstall:1977:PTT:1622943.1623045
+(cite:Burstall:1977:PTT:1622943.1623045)
+#+END_QUOTE
+
+Under the section "What we mean by a theory", they explain
+
+#+BEGIN_QUOTE
+The notion of theory is a loose intuitive one in mathematics. There should be
+axioms, rules of inference and theorems, but the language in which they are
+expressed is open to choice. ... We have chosen an algebraic notion of theory,
+due to Lawvere (1963) [references his 1963 thesis /Functorial Semantics Of Algebraic
+Theories/ (cite:lawvere63_funct_seman_algeb_theor)] ...
+
+(1047)
+#+END_QUOTE
+
+Later they give their definition of a theory and an algebra:
+
+#+BEGIN_QUOTE
+A _theory_ is a signature together with a set of equations closed under
+inference by reflexivity, transitivity and symmetry of equality and by
+substitution.
+
+...
+
+The interpretations of a theory are algebras, where an algebra is a collection
+of sets, one for each sort, with a function over these sets assigned to each
+operator of the theory.
+
+(1048)
+#+END_QUOTE
+
+A central concern in their effort is to ensure that theories can be composed out
+of smaller components:
+
+#+BEGIN_QUOTE
+As soon as [theories] get to be interesting they become incomprehensible. We
+wind up with a large set of equations that no-one can understand and which are
+almost certainly wrong. So we must build our theories up from small intelligible
+pieces. For this we need
 #+END_QUOTE
 
 Their elaboration of the concept of a "theory" and the motives behind that work
 are of great importance.
+
+To flesh out these definitions, I present (what I believe to be) examples of
+corresponding language constructs in OCaml:
+
+...
+
 
 ML modules are composable, nestable, inheritable, and parametric environments.
 

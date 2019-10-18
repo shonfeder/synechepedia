@@ -1,0 +1,366 @@
+#+TITLE: Day 25: Other Structures In Other Words
+#+DATE: <2019-10-17 Thu>
+
+#+BEGIN_QUOTE
+Interviewer: Could you give us a broad justification of why category theory may
+be so useful?
+
+William Lawvere: Everyday human activities such as building a house on a hill by
+a stream, laying a network of telephone conduits, navigating the solar system,
+require plans that can work. Planning any such undertaking requires the
+development of thinking about space. Each development involves many steps of
+thought and many related geometrical constructions on spaces. Because of the
+necessary multistep nature of thinking about space, uniquely mathematical
+measures must be taken to make it reliable. Only explicit principles of thinking
+(logic) and explicit principles of of space (geometry) can guarantee
+reliability. The great advance made by the theory [of categories] invented 60
+years ago by Eilenberg and Mac Lane permitted making the principles of logic and
+geometry explicit; this was accomplished by discovering the common form of logic
+and geometry so that the principles of the relation between the two are also
+explicit. They solved a problem opened 2300 years earlier by Aristotle with his
+initial inroads into making explicit the Categories of Concepts. In the 21st
+century, their solution is applicable not only to plane geometry and to medieval
+syllogisms, but also to infinite-dimensional spaces of transformations, to
+"spaces" of data, and to other conceptual tools that are applied thousands of
+times a day. The form of the principles of both logic and geometry was
+discovered by categorists to rest on "naturality" of the transformations between
+spaces and transformations within thought.
+
+(cite:picado2007interview)
+#+END_QUOTE
+
+* Naming Problems
+
+I have been working on an OCaml library for representing computationally useful
+[[https://en.wikipedia.org/wiki/Algebraic_structure][algebraic structures]] as composable modules.[fn:justification] The library
+involves lots of module-level programming and is modeled after Haskell's
+representation of such structures in its typeclasses. The techniques I'm using
+for representing these structures in OCaml modules have been demonstrated and
+developed by numerous people already, and I am borrowing from (and referencing)
+their work. My only contribution is in taking the time to go through the tree of
+Haskell typeclasses and leverage those techniques to port the structures into a
+documented, tested, and packaged OCaml library.
+
+Up to this point, I have implemented a non-trivial core of common structures and
+I have been making use of these in my OCaml port of [[https://github.com/shonfeder/these][=These=]]. I am currently
+doing the [[file:../../themata/finishing-the-incomplete.org][finishing work]] required to prepare the library for publication.
+
+The provisional name for this library has been =Alg=, short for "algebra", short
+for "algebraic structure". However, a fruitful discussion with a seasoned OCaml
+contributor convinced me that I should be mindful of the price of realestate in
+the opam package repository namespace. /Alg/ is a pretty pricey string: it is
+brief, early in the alphabet, and evocative enough it might be used for a dozen
+other things. In contrast, the library I have been developing is quite
+experimental[fn:experimental] and my initial implementation is likely to be
+utterly imperfect[fn:imperfect]. It doesn't seem fitting that I should colonize
+such a precious plot of signs. So I've been hunting for a more suitable name.
+
+* "What's in a name?"
+
+Why does the name matter? Why not just pick some clunky, explicit phrase like
+=experimental_algebraic_structures=, or a cute, vaguely meaningful portmanteau
+like =meowlgebra=?
+
+The cliched rhetorical question "What's in a name?" is usually taken to
+denigrate names, but it is drawn from [[https://en.wikipedia.org/wiki/A_rose_by_any_other_name_would_smell_as_sweet][this famous passage in /Romeo and Juliet/]]:
+
+#+BEGIN_QUOTE
+*Juliet:*
+
+O Romeo, Romeo! wherefore art thou Romeo? Deny thy father and refuse thy name;
+Or, if thou wilt not, be but sworn my love, And I'll no longer be a Capulet
+
+*Romeo:*
+
+[Aside] Shall I hear more, or shall I speak at this?
+
+*Juliet:*
+
+'Tis but thy name that is my enemy; Thou art thyself, though not a Montague.
+What's Montague? It is nor hand, nor foot, Nor arm, nor face, nor any other part
+Belonging to a man. O, be some other name! What's in a name? That which we call
+a rose By any other name would smell as sweet; So Romeo would, were he not Romeo
+call'd, Retain that dear perfection which he owes Without that title. Romeo,
+doff thy name, And for that name which is no part of thee Take all myself.
+
+*Romeo:*
+
+I take thee at thy word: Call me but love, and I'll be new baptized; Henceforth
+I never will be Romeo.
+#+END_QUOTE
+
+This passage does not demonstrate the insignificance of names. On the contrary,
+it presents a scenario in which names are of decisive importance. Romeo's name
+marks him as an enemy because 'Mantague' brands him as a foe of the Capulets.
+The famous line, "That which we call a rose/By any other name would smell as
+sweet;" clearly claims that the sense properties of objects are not affected by
+their names (tho I suspect in a world where roses were called "shit-blossoms",
+they might smell a bit like doo doo). However, the whole exchange revolves
+around the fact that appelations reflect and help actualize important structures
+in reality.
+
+Names work to reinforce social orders and designate belonging, which is why
+Juliet conjoins "Deny thy father" with "refuse they name" as if they these acts
+where inseparable. While names are not essential properties of people (or most
+other things) ("that name which is no part of thee"), they nonetheless bind
+beings into relationships that form structures with a very real being of their
+own. Romeo and Juliet's rebelion against their families' feud presents a claim
+for the independent value of freely chosen, dyadic, romantic relations. It even
+asserts the superior value of this personal dyadic structure over the structures
+of familial and political affiliation into which we are thrown in being born.
+According to Juliet, the person can be extricated from the bondage to their
+inherited enmity, emancipated from the [[https://en.wikipedia.org/wiki/Fasces][fascistic]] structure of their family (or
+nation), because the tribe is not a part of the person:
+
+#+BEGIN_SRC
+'Tis but thy name that is my enemy; Thou art thyself, though not a Montague.
+What's Montague? It is nor hand, nor foot, Nor arm, nor face, nor any other part
+Belonging to a man.
+#+END_SRC
+
+Yet the name *is* a part of those fascistic structures, which is why it seems
+one pays for such emancipation by forsaking one's given name -- "O, be some
+other name!" -- and being reborn through renaming "Call me but love, and I'll be
+new baptized;/ Henceforth I never will be Romeo."
+
+Thought moves through language[fn:language] and finds its ways through systems
+of signs[fn:systems-of-signs]. These systems suggest certain possibilities and
+foreclose others. Since the significance of names comes from their situation
+within networks of differentiation, naming enacts a positioning of the named
+thing in a space of proximate thoughts.
+
+What is in a name? A passage from the named thing to a situation in a network of
+associated thoughts and recollections which bind beings into objective,
+intersubjective, and purely subjective structures of possibility.
+
+* Giving Names is Making Metaphor
+
+To name a newborn (person, thing, or thought) is almost always to give it the
+name of something else. Initially, no thing or person can name itself. As a
+rule, a precondition of a name coming to belong to something ("my name", "your
+name", "its name") is that someone first "names it after" some other thing(s).
+According to Aristotle in the /Poetics/, this is the very definition of
+metaphor : “Metaphor consists in giving the thing a name that belongs to
+something else” (1457b). Aristotle states quite explicitly that making metaphor
+sets the named thing in relation to that after which it is named, and, moreover,
+that it is an art that cannot be taught:
+
+#+BEGIN_SRC
+the greatest thing by far is to be a master of metaphor. It is the one thing
+that cannot be learnt from others; and it is also a sign of genius, since a good
+metaphor implies an intuitive perception of the similarity in dissimilars
+
+(cite:aristotle84_arist, 1459a)
+#+END_SRC
+
+I'll postulate here that to recognize "similarity in dissimilars", can only be
+achieved through identification of structural correspondence[fn:similarity]. To
+bestow upon /A/ a name that belongs to /B/ is to establish a way for thought.
+This way has the potential to "[[https://www.etymonline.com/search?q=metaphor][carry thought across]]" from consideration of the
+singular being of /A/ to the being of /B/ (or broadly to all those things which
+bear the name). This brings thoughts of /A/ into the same constellations that
+we've formed for the circulation of our thoughts of /B/. Naming is thus a speech
+act which transforms the topology of being, insofar as the connectedness of
+beings is mutually determined with the connectedness of thoughts.
+
+When we /misname/ a thing, we misplace it into the complex of structures that
+contribute to the determination of being. This can effect a deformation of the
+orders of being and impose real ruptures in the proper connectedness of things
+(at least insofar as intersubjectivity contributes to the constitution of
+reality). Making bad metaphor miscarries thought, since it actualizes relations
+between thoughts that are "unnatural", in the sense that they disrupt the
+coorelation of "transformations between spaces and transformations within
+thought".
+
+I don't know if this yields any insight for the reader (or for myself), but it
+at least presents one account of why naming /well/ is hard and why it matters.
+
+* Making the Name from the Connections
+
+This ramble records traces of the many sources I've dipped into as I've worked
+to discover a suitable name for the nascent library. My reading took me through
+Haskell docs, Wikipedia articles, articles by and about William Lawvere,
+articles by and about Hermann Grassmann, old writings from my unfinished thesis,
+(where I found the Aristotle excerpted above), numerous dictionaries, and I even
+followed a cliche to Shakespear's most overrated play. I have managed to
+convince myself that naming matters: I believe that the metaphorizing nature of
+name-bestowal, and the situatedness it determines, places the practice of naming
+as one poetic analog of the formal techniques pursued and developed in category
+theory. The common concern is to discover (and improve) the "naturalness" that
+allows transformations of being (spaces) and transformations of thought to align
+in accordance with a [[https://en.wikipedia.org/wiki/Pre-established_harmony][harmony]] (which we may hope for as eventual rather than
+posit as pre-established).
+
+But, did this wandering way help me come up with a suitable name? Yes! Just a
+moment ago -- as I was laughing at myself for how much time I spent digging
+around in marginalia and stringing together arguably frivolous connections, only
+to turn up empty handed -- my thoughts wound around in a way that resemble this
+sequence:
+
+#+BEGIN_QUOTE
+Well, what have I learned through my reading and writing today?
+
+A name should help situate the named thing in it's proper relations. In the act
+of naming we help establish order in the structures of thought, in the hopes
+that they reflect and can *effect* the structures of being in ways that we deem
+to be good and natural. So, think on what this library properly is, how it
+works, and what it does. What names can we give to it (names which must first
+belong to other things) that will help guide it into connection with the things
+among which it belongs?
+#+END_QUOTE
+
+I let my attention float over some source code and then -- eureka -- inspiration
+struck! I present to you [[https://github.com/shonfeder/alg_structs][=alg_structs=]]
+
+#+BEGIN_SRC
+#+END_SRC
+
+At first glance, this name appears stupidly obvious: It's just an abbreviation
+for "algebraic structures"! I noted that =Alg= was an abbreviation for this
+phrase way back -- hours of writing and studying ago -- in paragraph one.
+
+On further consideration, you'll probably realize that it is not only stupidly
+obvious and overly literal, it is also longish and ugly sounding. It doesn't
+even look pretty.
+
+However, you may not have noticed that it is also a /pun/! :P
+
+* Modules, Sigs, and Structs, and Algebraic Theories
+
+In OCaml, a =module= is specified by a =sig= and implemented as a =struct=:
+
+#+BEGIN_SRC ocaml
+module Some_module : sig
+  (* ...type declarations and value specifications... *)
+end = struct
+  (* ...type declarations and value bindings... *)
+end
+#+END_SRC
+
+This is all in accord with the ML module system that was developed in the early
+80s. The spirit of the ML module system traces back to an effort to "give
+structured descriptions of theories", and the theories that are to be described
+are "algebraic theories" as developed by Lawvere.
+
+In "Modules for Standard ML", which proposes all of the most important aspects
+of ML modules, David McQueen wrote:
+
+#+BEGIN_QUOTE
+This proposal is based on the fruits of a long collaboration with Rod Burstall
+on prototype designs for modules in Hope [MAC81], and on theoretical
+investigations with Ravi Sethi and Gordon Plotkin [MAC82, MAC84] that were
+motivated by those designs. The module designs for Hope were in turn influenced
+by the Clear specification language of Burstall and Goguen [BUR77].
+
+(cite:macqueen84_modul_ml)
+#+END_QUOTE
+
+"[BUR77]" refers to Burstall and Goguen's paper "Putting theories together to
+make specifications." The first line reads:
+
+#+BEGIN_QUOTE
+We have been developing a language in which you can give structured
+descriptions of theories.
+
+(cite:Burstall:1977:PTT:1622943.1623045)
+#+END_QUOTE
+
+Under the section "What we mean by a theory", they explain
+
+#+BEGIN_QUOTE
+The notion of theory is a loose intuitive one in mathematics. There should be
+axioms, rules of inference and theorems, but the language in which they are
+expressed is open to choice. ... We have chosen an algebraic notion of theory,
+due to Lawvere (1963) [references his 1963 thesis /Functorial Semantics Of Algebraic
+Theories/ (cite:lawvere63_funct_seman_algeb_theor)] ...
+
+(cite:Burstall:1977:PTT:1622943.1623045, 1047)
+#+END_QUOTE
+
+Later they give their definition of a theory and an algebra:
+
+#+BEGIN_QUOTE
+A _theory_ is a signature together with a set of equations closed under
+inference by reflexivity, transitivity and symmetry of equality and by
+substitution.
+
+...
+
+The interpretations of a theory are algebras, where an algebra is a collection
+of sets, one for each sort, with a function over these sets assigned to each
+operator of the theory.
+
+(cite:Burstall:1977:PTT:1622943.1623045, 1048)
+#+END_QUOTE
+
+OCaml modules are faithful to this design.
+
+The =sig= specifies the signature, which Burstall and Goguen define as "a set of
+sort names and a set of operator symbols, each with a given sequence of sorts
+for its arguments and sequence of sorts for its results (1047)". This is
+precisely what ML signatures specify, tho we now say /type/ where they said
+/sort/.
+
+The =struct= provides the set of equations. The reflexivity, transitivity and
+symmetry of equations is taken care of by the typed lambda calculus.
+
+I intend to explore the concepts and implications of these connections at
+length, and have begun gathering notes in [[file:../../themata/programming/the-measure-of-a-module.org][The Measure of a Module]]. For now, I'll
+leave it at this: =alg_structs= aims to provide a library of computationally
+interesting algebraic structures. It represents these structures as modules
+implemented via =structs= and specified via =sigs=. The roots of the ML module
+system trace back to an effort to specify programs via algebraic theories. This
+traces out a little lopsided (perhaps spiralling?) circle, and I think that's a
+good sign: the punning in the name reflects the nesting of similar structures,
+and I'm comfortable with taking that as proxy for naturalness.
+
+Finally, the name is fitting since the preponderance of =structs= needed to
+specify relatively simple algebraic structures is gonna have users exclaiming
+"ALl these God damn STRUCTS?!" Here's an example of an implementation of
+semigroup for =Option= types:
+
+#+BEGIN_SRC ocaml
+module Option = struct
+  module Make (S : S) : S with type t = S.t Option.t = struct
+    module Seed = struct
+      type t = S.t Option.t
+      let op a b =
+        match a  , b with
+        | None   , b      -> b
+        | a      , None   -> a
+        | Some a , Some b -> Some (S.op a b)
+    end
+
+    include Make (Seed)
+  end
+end
+#+END_SRC
+
+bibliography:~/Dropbox/bibliography/references.bib
+
+* Footnotes
+
+[fn:systems-of-signs] This is the central precept of semiotics.
+
+[fn:similarity] One might argue that recognition of the same or similar qualia
+appearing in two different compounds is not predicated on structural
+correspondence. But I would respond that differentiation of discrete qualitative
+unities presupposes a structuring operation that articulates the continuum of
+possible qualities. Of course, this amounts to a rejection of any sort of
+qualitative atomism on my part.
+
+[fn:language] Which is not to say it doesn't also move through other media.
+
+[fn:justification] It is very commun to use [[https://en.wikipedia.org/wiki/Monad_(functional_programming)][monadic]] contructs in idiomatic OCaml
+and applicative functors and monoids show up too, albeit less often. However, I
+have neither encountered or found any published OCaml libraries that provide
+support for structures such as semigroups, traversable/foldable and other more
+exotic or subtle structures.
+
+[fn:imperfect] My motivation for building up this library is partially to
+improve my understanding of the algebraic structures which are known to be
+useful for computation.
+
+[fn:experimental] afaik, there is not yet any evidence to suggest fine
+grained use of algebraic structures will be as effective in OCaml as it is in
+Hasekll.

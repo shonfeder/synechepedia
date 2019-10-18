@@ -112,11 +112,11 @@ According to Juliet, the person can be extricated from the bondage to their
 inherited enmity, emancipated from the [[https://en.wikipedia.org/wiki/Fasces][fascistic]] structure of their family (or
 nation), because the tribe is not a part of the person:
 
-#+BEGIN_SRC
+#+BEGIN_QUOTE
 'Tis but thy name that is my enemy; Thou art thyself, though not a Montague.
 What's Montague? It is nor hand, nor foot, Nor arm, nor face, nor any other part
 Belonging to a man.
-#+END_SRC
+#+END_QUOTE
 
 Yet the name *is* a part of those fascistic structures, which is why it seems
 one pays for such emancipation by forsaking one's given name -- "O, be some
@@ -145,13 +145,13 @@ something else” (1457b). Aristotle states quite explicitly that making metapho
 sets the named thing in relation to that after which it is named, and, moreover,
 that it is an art that cannot be taught:
 
-#+BEGIN_SRC
+#+BEGIN_QUOTE
 the greatest thing by far is to be a master of metaphor. It is the one thing
 that cannot be learnt from others; and it is also a sign of genius, since a good
 metaphor implies an intuitive perception of the similarity in dissimilars
 
 (cite:aristotle84_arist, 1459a)
-#+END_SRC
+#+END_QUOTE
 
 I'll postulate here that to recognize "similarity in dissimilars", can only be
 achieved through identification of structural correspondence[fn:similarity]. To
@@ -211,9 +211,6 @@ among which it belongs?
 
 I let my attention float over some source code and then -- eureka -- inspiration
 struck! I present to you [[https://github.com/shonfeder/alg_structs][=alg_structs=]]
-
-#+BEGIN_SRC
-#+END_SRC
 
 At first glance, this name appears stupidly obvious: It's just an abbreviation
 for "algebraic structures"! I noted that =Alg= was an abbreviation for this

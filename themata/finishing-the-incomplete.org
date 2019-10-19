@@ -1,12 +1,6 @@
 #+TITLE: Finishing Work on the Incomplete
 
-*NOTE* I don't like this scribbling and I feel it may be dumb, trivial, and
-stupidly clever. However, self-censorship and leaving half-formed things piling
-up in corners of my hard-drive is currently a bigger problem that producing poor
-quality writing (which I'm not asking anyone to read in any case -- so little
-harm done).
-
-These notes are aimed at the problem of unfinished work in the context of an
+These notes[fn:caveat] are aimed at the problem of unfinished work in the context of an
 inexhaustible project.[fn:confession]
 
 In the following, I assume that we share a common aim in life: to help realize a
@@ -113,7 +107,7 @@ and not at all an ideal limit.
 
 *Completing* is a matter of fulfillment and exhaustive satisfaction. In order to
 achieve completion, all defects must be removed, all parts present. Completion
-suggestion conclusion and so the closure of any need for further work. What is
+suggests conclusion and so the closure of any need for further work. What is
 complete is over and done with, and no longer susceptible to improvement or
 advance.
 
@@ -146,6 +140,13 @@ Further work to be done:
   composites, and thus build towards the goal. Cf. [[file:programming/the-measure-of-a-module.org][The Measure of a Module]].
 
 * Footnotes
+
+[fn:caveat] I don't think I like this scribbling too much. I feel it may be
+dumb, trivial, and stupidly clever. However, self-censorship and leaving
+half-formed things piling up in corners of my harddrive is currently a bigger
+problem that producing poor quality writing (which I'm not asking anyone to read
+in any case -- so little harm done).
+
 
 [fn:confession] I took these notes in order to analyze and exorcise blockages in my
 own workflow. However, they are written from an intersubjective view point to

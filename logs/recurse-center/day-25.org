@@ -2,12 +2,12 @@
 #+DATE: <2019-10-17 Thu>
 
 #+BEGIN_QUOTE
-Interviewer: Could you give us a broad justification of why category theory may
-be so useful?
+*Interviewer:* Could you give us a broad justification of why category theory
+may be so useful?
 
-William Lawvere: Everyday human activities such as building a house on a hill by
-a stream, laying a network of telephone conduits, navigating the solar system,
-require plans that can work. Planning any such undertaking requires the
+*William Lawvere:* Everyday human activities such as building a house on a hill
+by a stream, laying a network of telephone conduits, navigating the solar
+system, require plans that can work. Planning any such undertaking requires the
 development of thinking about space. Each development involves many steps of
 thought and many related geometrical constructions on spaces. Because of the
 necessary multistep nature of thinking about space, uniquely mathematical

@@ -124,18 +124,18 @@ In order to contribute useful work towards the aim of realizing a kind and
 nurturing way of being together, it is vital that we learn how to measure out
 portions of what must be done and delimit those chunks with a finish. In the
 context of IT, the finish generally pertains to the /interface/ (the API and
-UI). Generalizing the other way, the finish can be seen as interface between
-ongoing work and whatever is left incomplete.
+UI). Generalizing the other way, the finish can be seen as an interface between
+ongoing work and whatever is left incomplete, still to do.
 
 I need to explore this line of thinking further, but I must bring these notes to
-close at this point, because they are an exercise in finishing.
+a close at this point, because they are an exercise in finishing.
 
 Further work to be done:
 
 - explore the principles for this kind of "measuring out"
 - explore the concept of embedding immanent critiques in work to protect against
   the malicious use of power
-- elaborate a theory of the (or an understanding of the module as theory)
+- elaborate a theory of the module (or an understanding of the module as theory)
   that helps explain how these units of finished work can form larger
   composites, and thus build towards the goal. Cf. [[file:programming/the-measure-of-a-module.org][The Measure of a Module]].
 

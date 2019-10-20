@@ -1,0 +1,9 @@
+#+TITLE: Heuristics
+
+A list of maxims, tips, and tricks which I hope will help me live more carefully
+and effectively.
+
+- Stand up slowly, and get low quickly if you feel dizzy.
+- Demand to be let out of the car ASAP if you feel a driver is not being safe.
+- Write and run tests before investing in documentation, application, or
+  generalization.

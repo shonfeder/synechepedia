@@ -1,5 +1,6 @@
 #+TITLE: Recurse Center Logs
 
+- [[file:day-27.org][Day 27: Mistakes]] --- 2019-10-19
 - [[file:day-25.org][Day 25: Other Structures In Other Words]] --- 2019-10-17
 - [[file:day-24.org][Day 24]] --- 2019-10-17
 - [[file:day-23.org][Day 23: Fuzzy]] --- 2019-10-15

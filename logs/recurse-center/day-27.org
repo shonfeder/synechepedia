@@ -1,0 +1,58 @@
+#+TITLE: Day 27: Mistakes
+#+DATE: <2019-10-19 Sat>
+
+#+BEGIN_QUOTE
+If one has the strength to look at things unceasingly, so to speak without
+blinking, one sees a great deal; but if one falters only once and shuts one's
+eyes, everything instantly slips away into darkness.
+
+(From a passage deleted in cite:kafka95)
+#+END_QUOTE
+
+Life is incredibly fragile and any semblance of stability or security
+unimaginably tenuous. Perhaps the full extent of our vulnerability can be
+imagined, but I doubt that a human mind occupied with the full weight of this
+reality has any capacity left for any other activity.
+
+Six months ago, I stood up from my couch after working for several hours on my
+laptop, I experienced an intense head rush and passed out for a split second. In
+that moment of mental vacancy I fell on my face and put my upper teeth through
+my bottom lip. The place my face impacted the floor was only inches from corners
+that could have rendered me blind, mentally impaired, or dead. Thenceforth, I
+stand up cautiously. The quality and length of our duration is extremely
+uncertain.
+
+Today I spent nearly an hour implementing and documenting applicative functor
+modules for Zip-wise operations on list and arrays for [[https://github.com/shonfeder/alg_structs][alg_structs]]. When I ran
+my property based tests that check for adherence to the laws, they failed. A
+moments reflection revealed that lists of unequal size cause complications on
+this manifestation of the structure. A quick read on Haskell's implementation of
+their =ZipList= typeclass showed that they solve the problem by defining =return
+a= as an infinite list of @@html:<em>@@a@@html:</em>@@s. This is impossible with
+OCaml's eager evaluation (but is easily done for lazy lists, for which I should
+consider adding implementations).
+
+Every little risk and mistake adds up: Less sleep tonight means worse decision
+making tomorrow, which could lead to worse dietary decisions that will increase
+chances of health problems later (but not too much later). Every hours I burn on
+misguided work due to postponed testing and too little design time is one less
+hour I have to rest, plan, and prepare for the challenges to come.
+
+We can make many mistakes and be fortunate enough to wind up OK, but simple
+errors can easily lead, directly or indirectly, to deadly outcomes. There's no
+way of knowing whether our mistakes are minor or deadly prior to the unfolding
+of consequences. The only rational response I know of is to strive for the
+utmost feasible caution, as allowed by practical requirements for timely action
+and the important challenge of not becoming a nervous wreck.
+
+Over the years, I've made many mental notes recording particular mistakes and
+steps I could have taken to avoid them or reduce the negative outcomes that
+followed. However, mental notes are as unstable and ephemeral as the substance
+their recorded on. I've decided to start keeping a list of such lessons and
+heuristics. This will let me review, update, re-evaluate, and expand upon these
+notes-to-self. That rework and review should help me internalize the lessons.
+Perhaps they might also be useful to others prone to similar sorts of errors.
+
+You can find this nascent list under the theme of [[file:../../themata/heuristics.org][Heuristics]].
+
+bibliography:~/Dropbox/bibliography/references.bib

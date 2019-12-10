@@ -1,0 +1,14 @@
+#+TITLE: A List of Leftist Tech Companies
+
+This is a list of tech companies which are explicitly pursing systemic change
+to advance solidarity, climate justice, and equitable social systems.
+
+I haven't been able to find a list of this sort, so I've started making my own.
+
+* [[https://positiondev.com/][Position Development]]
+
+#+BEGIN_QUOTE
+a worker-run software development company with a focus on independent media,
+cultural institutions and socially minded organizations." (Their client list
+includes Verso and Haymarket books).
+#+END_QUOTE

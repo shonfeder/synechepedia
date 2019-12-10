@@ -1,0 +1,22 @@
+#+TITLE: Homepages to watch
+
+* Frank Pfenning
+Linear logic, formal verification, type theory
+http://www.cs.cmu.edu/~fp
+* Dale Miller
+Linear logic programming, proof theory, automated reasoning
+http://www.lix.polytechnique.fr/Labo/Dale.Miller/
+* Daniel Bünzel
+OCaml, Libre Software
+http://erratique.ch/contact.en
+* Laura Crosilla
+Type theory, constructivism, philosophy of mathematics
+https://sites.google.com/view/lauracrosilla/home
+* Andreas Rossberg
+Developer of HaMLet and 1ML
+https://people.mpi-sws.org/~rossberg/index.html
+* Michael Cuffaro
+Philosopher, computer scientists
+http://www.michaelcuffaro.com/
+* Neel Krishnaswami
+https://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html

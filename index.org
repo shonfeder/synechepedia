@@ -26,6 +26,9 @@ educated in connectedness and focused on sharing.
 - [[file:reading-list.org][Reading List]]
 - [[file:projects.org][Projects]]
 - [[file:plans.org][Plans]]
+** List
+- [[file:lists/leftist-tech-companies.org][Leftist tech companies]]
+- [[file:lists/homepages.org][Interesting homepages]]
 ** [[file:quips.org][Quips]] (things To be sorted and expanded or deleted...)
 * Meta
 ** What is a 'Synechepedia'?

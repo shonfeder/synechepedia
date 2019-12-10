@@ -70,7 +70,7 @@ wallpapering, and glazing.
 #+END_QUOTE
 
 What is finished is not perfected! If you've ever seen a racer crawl across the
-finish line, or had a peak into the space between your walls, then you know
+finish line, or taken a peek into the space between your walls, then you know
 finishing can be executed despite aspects remaining imperfect or subpar. But
 without the finish the home would not be livable and the racer could never
 escape their race.
@@ -92,8 +92,8 @@ task)," from /com/-, here probably as an intensive prefix + /plere/ "to fill"
 [[https://www.etymonline.com/word/complete][(etymonline)]]
 #+END_QUOTE
 
-<This part is inducing paralysis. Let's say I'm leaving it blank as a sly,
-ironic gesture.>
+<This part is inducing paralysis. Let's say I'm leaving it this elaboration
+incomplete as a sly, ironic gesture.>
 
 * Terminology
 
@@ -123,11 +123,12 @@ structure can be virtually useless.
 In order to contribute useful work towards the aim of realizing a kind and
 nurturing way of being together, it is vital that we learn how to measure out
 portions of what must be done and delimit those chunks with a finish. In the
-context of IT, the finish generally pertains to the /interface/ (the API and
-UI). Generalizing the other way, the finish can be seen as an interface between
-ongoing work and whatever is left incomplete, still to do.
+context of Information Technology, the finish generally pertains to the
+/interface/ (the API and UI). Generalizing the other way, the finish can be seen
+as an interface between ongoing work and whatever is left incomplete, still to
+do.
 
-I need to explore this line of thinking further, but I must bring these notes to
+I aim to explore this line of thinking further, but I must bring these notes to
 a close at this point, because they are an exercise in finishing.
 
 Further work to be done:

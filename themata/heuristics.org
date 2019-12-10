@@ -7,4 +7,5 @@ carefully and effectively.
 - Demand to be let out of the car ASAP if you feel a driver is not being safe.
 - Write and run tests before investing in documentation, application, or
   generalization.
-- Devote time to documented-producing design planning prior to starting work.
+- Devote time to document-producing design planning prior to starting work.
+- Use checklists to ensure safe and complete execution of important tasks.

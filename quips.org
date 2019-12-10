@@ -25,3 +25,8 @@ indispensable the technology is.
 - [[https://bluebottlegames.com/games/neo-scavenger][NEO Scavenger]]
 - Togetherness
 - Cultural Techniques
+* Nutshelled
+** Virtual Machines vs. Containers
+VMs use an abstraction of machine hardware to run real OSes on the host machine.
+Containers use an abstractions of an operating systems to run programs in the
+host operating system.

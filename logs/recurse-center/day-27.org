@@ -34,7 +34,7 @@ consider adding implementations).
 
 Every little risk and mistake adds up: Less sleep tonight means worse decision
 making tomorrow, which could lead to worse dietary decisions that will increase
-chances of health problems later (but not too much later). Every hours I burn on
+chances of health problems later (but not too much later). Every hour I burn on
 misguided work due to postponed testing and too little design time is one less
 hour I have to rest, plan, and prepare for the challenges to come.
 

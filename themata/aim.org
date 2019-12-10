@@ -1,0 +1,54 @@
+#+TITLE: Aim
+
+/A perpetual work in progress.../
+
+* My Aim
+
+To work towards ways of mediating the tension between /poetic origination/ and
+/technical formation/ in service of a communalistic emancipation of our
+/existential thrown and givenness/.
+
+* Elaboration
+
+** Terminology
+
+- poetic origination :: The process of originating forms of expression,
+  conceptual spaces, expressive paradigms, ways of thinking, feeling, and
+  inhabiting.
+- technical formation :: The [[https://monoskop.org/Cultural_techniques][techniques]] through which we form, process, order,
+  sequence, mechanize, and automate everything from our ways of understanding
+  and processing the world to our production of new technologies themselves.
+
+This terminology is mainly drawn from readings of Heidegger, Benjamin, and
+Jean-Luc Nancy.
+
+* What is an "Aim"?[fn:mission]
+
+#+BEGIN_QUOTE
+*aim* (v.)
+
+c. 1300, "to estimate (number or size), calculate, count" (senses now obsolete),
+from Old French /aesmer/, /esmer/ (Old North French /amer/) "to value, rate; count,
+estimate," ultimately from Latin /aestimare/ "appraise, determine the value of"
+(see esteem (v.)).
+
+Meaning in English apparently developed from "calculate," to "calculate with a
+view to action, plan," then to "direct a missile, a blow, etc."
+
+([[https://www.etymonline.com/word/aim#etymonline_v_40892][etymonline.com]])
+#+END_QUOTE
+
+In our current, common sense, /aiming/ is concerned with focusing intention on a
+specific, significant region of what is within our field of view. I mean it in
+this sense. But let the older senses sound through too: when I speak of my
+(always only provisional) /aim/, let the target in view also be considered in
+terms of estimation, calculation, valuation. My aim is an estimation of what I
+can meaningfull contribute to in an essential capacity, is a way of guiding the
+calculations that determine my resource expenditure, and a means of calibrating my
+values.
+
+* Footnotes
+
+[fn:mission] I considered naming this theme 'mission', but am wary of the
+religious connotations of that word and of its debasement by extractive
+organizations marketing themselves as "mission driven" on the job market.

@@ -17,6 +17,7 @@ working program that demonstrates it and exposes its different aspects.
 - [[file:domain-driven-design-or-algebraic-semiotics.org][Domain Driven Design or Algebraic Semiotics]]?
 - [[file:lazy-evaluation-in-ocaml-cheat-sheet.org][Lazy Evaluation in Ocaml: A Cheat Sheet]]
 - [[file:notes-on-1ml.org][Notes on 1ML]]
+- [[file:notes-on-rust.org][Notes on Rust]]
 - [[file:ocaml-editor-wish-list.org][OCaml Editor Wish List]]
 - [[file:programming-paradigms-and-philosophy.org][Programming Paradigms and Philosophy]]
 - [[file:super-simple-ci-for-ocaml-on-circleci.org][Super Simple CI for OCaml on CircleCI]]

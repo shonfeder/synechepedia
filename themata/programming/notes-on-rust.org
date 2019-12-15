@@ -1,0 +1,20 @@
+#+TITLE: Notes on Rust
+
+Notes on learning Rust.
+
+* Resources
+
+These are the resources which have been most useful for me. You might also find
+them especially useful if, like me, you have experience with type-theoretic
+functional programming (OCaml, Haskell, SML, F#, etc.) and vanilla, weakly
+typed, procedural programming (C), but still find yourself tormenting (or being
+tormented by) the borrow checker, and struggling with various clunky
+infelicities of the heavily typed imperative idioms required for rust.
+
+** [[https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html][Rust: A unique perspective]]
+
+This short essay re-frames the imperative notions of mutability and immutable
+borrowing and lifetimes in terms of the more declarative and structural concepts
+of uniqueness and sharing. As promissed in the intro, it helps illuminate
+reasons *why* the mutable/immutable borrowing and ownership constructs behave as
+they do.

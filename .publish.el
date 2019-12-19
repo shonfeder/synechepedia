@@ -19,7 +19,11 @@
 ;; HTML Bits
 
 (defvar synechepedia-html-head
-  "<link rel='stylesheet' href='/static/css/style.css' type='text/css'/>")
+  "<link rel='stylesheet' href='/static/css/style.css' type='text/css'/>
+<link rel='stylesheet' href='/path/to/styles/default.css'>
+<script src='/path/to/highlight.pack.js'></script>
+<script>hljs.initHighlightingOnLoad();</script>
+")
 
 (defvar synechepedia-html-preamble
   "<h1 class='title'>

@@ -92,3 +92,15 @@ ul li:before{
 .footer {
     margin-left: 10px;
 }
+
+
+/* Required because styling of source blocks isn't quite working */
+pre.src {
+    background-color: #21242b !important;
+    color: #dddddd !important;
+}
+
+/* Required because styling of source blocks isn't quite working */
+pre.src:hover:before {
+    background-color: #21242b !important:
+}

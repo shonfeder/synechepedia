@@ -20,8 +20,8 @@
 
 (defvar synechepedia-html-head
   "<link rel='stylesheet' href='/static/css/style.css' type='text/css'/>
-<link rel='stylesheet' href='/path/to/styles/default.css'>
-<script src='/path/to/highlight.pack.js'></script>
+<link rel='stylesheet' href='/static/css/atom-one-dark.css' type='text/css'/>
+<script src='/static/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 ")
 

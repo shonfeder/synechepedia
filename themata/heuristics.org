@@ -9,3 +9,5 @@ carefully and effectively.
   generalization.
 - Devote time to document-producing design planning prior to starting work.
 - Use checklists to ensure safe and complete execution of important tasks.
+- Implement minimal essential functionality, put it under test to verify
+  correctness and guard against regressions, *then* elaborate.

@@ -14,7 +14,7 @@
 ;;;; Code:
 
 ;; Toggle to true to only reload changed files
-(setq org-publish-use-timestamps-flag 't)
+(setq org-publish-use-timestamps-flag 'f)
 
 ;; HTML Bits
 

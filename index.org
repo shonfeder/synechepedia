@@ -31,6 +31,8 @@ educated in connectedness and focused on sharing.
 - [[file:lists/homepages.org][Interesting homepages]]
 ** [[file:quips.org][Quips]] (things To be sorted and expanded or deleted...)
 * Meta
+Notes on maintaining and developing whatever this is.
+
 ** What is a 'Synechepedia'?
    
 'Synechepedia' is a portmanteau of '[[file:themata/synechism.org][synechism]]' and '[[file:themata/encyclopedia.org][encyclopedia]]'.

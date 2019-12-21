@@ -47,7 +47,7 @@ doing the [[file:../../themata/finishing-the-incomplete.org][finishing work]] re
 
 The provisional name for this library has been =Alg=, short for "algebra", short
 for "algebraic structure". However, a fruitful discussion with a seasoned OCaml
-contributor convinced me that I should be mindful of the price of realestate in
+contributor convinced me that I should be mindful of the price of real estate in
 the opam package repository namespace. /Alg/ is a pretty pricey string: it is
 brief, early in the alphabet, and evocative enough it might be used for a dozen
 other things. In contrast, the library I have been developing is quite
@@ -97,7 +97,7 @@ Capulets. The famous line, "That which we call a rose/By any other name would
 smell as sweet;" clearly claims that the sense properties of objects are not
 affected by their names (tho I suspect in a world where roses were called
 "shit-blossoms", they might smell a bit like doo doo). However, the whole
-exchange revolves around the fact that appelations reflect and help actualize
+exchange revolves around the fact that appellations reflect and help actualize
 important structures in reality.
 
 Names work to reinforce social orders and designate belonging, which is why
@@ -170,7 +170,7 @@ orders of being and impose real ruptures in the proper connectedness of things
 (at least insofar as intersubjectivity contributes to the constitution of
 reality). Making bad metaphor miscarries thought, since it actualizes relations
 between thoughts that are "unnatural", in the sense that they disrupt the
-coorelation of "transformations between spaces and transformations within
+corelation of "transformations between spaces and transformations within
 thought".
 
 I don't know if this yields any insight for the reader (or for myself), but it
@@ -183,7 +183,7 @@ to discover a suitable name for the nascent library. My reading took me through
 Haskell docs, Wikipedia articles, articles by and about William Lawvere,
 articles by and about Hermann Grassmann, old writings from my unfinished thesis,
 (where I found the Aristotle excerpted above), numerous dictionaries, and I even
-followed a cliche to Shakespear's most overrated play. I have managed to
+followed a cliche to Shakespeare's most overrated play. I have managed to
 convince myself that naming matters: I believe that the metaphorizing nature of
 name-bestowal, and the situatedness it determines, places the practice of naming
 as one poetic analog of the formal techniques pursued and developed in category
@@ -223,7 +223,7 @@ even look pretty.
 
 However, you may not have noticed that it is also a /pun/! :P
 
-* Modules, Sigs, and Structs, and Algebraic Theories
+* Modules, Signs, and Structs, and Algebraic Theories
 
 In OCaml, a =module= is specified by a =sig= and implemented as a =struct=:
 
@@ -349,7 +349,7 @@ qualitative atomism on my part.
 
 [fn:language] Which is not to say it doesn't also move through other media.
 
-[fn:justification] It is very commun to use [[https://en.wikipedia.org/wiki/Monad_(functional_programming)][monadic]] contructs in idiomatic OCaml
+[fn:justification] It is very common to use [[https://en.wikipedia.org/wiki/Monad_(functional_programming)][monadic]] constructs in idiomatic OCaml
 and applicative functors and monoids show up too, albeit less often. However, I
 have neither encountered or found any published OCaml libraries that provide
 support for structures such as semigroups, traversable/foldable and other more
@@ -361,4 +361,4 @@ useful for computation.
 
 [fn:experimental] afaik, there is not yet any evidence to suggest fine
 grained use of algebraic structures will be as effective in OCaml as it is in
-Hasekll.
+Haskell.

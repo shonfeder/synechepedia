@@ -1,0 +1,26 @@
+#+BEGIN_QUOTE
+/error/ (n.) also, through 18c., /errour/; c. 1300, "a deviation from truth made
+through ignorance or inadvertence, a mistake," also "offense against morality or
+justice; transgression, wrong-doing, sin;" from Old French error "mistake, flaw,
+defect, heresy," from Latin errorem (nominative error) "a wandering, straying, a
+going astray; meandering; doubt, uncertainty;" also "a figurative going astray,
+mistake," from errare "to wander; to err" (see err). From early 14c. as "state
+of believing or practicing what is false or heretical; false opinion or belief,
+heresy." From late 14c. as "deviation from what is normal; abnormality,
+aberration." From 1726 as "difference between observed value and true value."
+
+Words for "error" in most Indo-European languages originally meant "wander, go
+astray" (for example Greek plane in the New Testament, Old Norse villa,
+Lithuanian klaida, Sanskrit bhrama-), but Irish has dearmad "error," from dermat
+"a forgetting."
+
+([[https://www.etymonline.com/search?q=error][etymonline.com]])
+#+END_QUOTE
+
+* Self correcting software
+** Internal errors should trigger patch and update process
+- Can search commit history for same traceback errors, then propose to user updating
+  to a version including that commit.
+- Internal errors automatically search for and then file issues (an extensible
+  API for this, which can be specialized for the service -- Jira, GitLab,
+  GitHub -- etc.

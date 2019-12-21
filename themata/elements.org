@@ -1,0 +1,50 @@
+#+TITLE: Elements
+
+Consider the 'elemental' to be a semiotic category. An element is always
+elemental by virtue of the position it occupies in a sign system. This is a
+structural and relational characterization of elements. Suppose the
+individuation that articulates being can only ever be relative and contextual.
+(This does not mean unreal.)
+
+* Etymology:
+
+#+BEGIN_QUOTE
+Old French /element/, from Latin /elementum/, a word of which the etymology and
+primary meaning are uncertain, but which was employed as translation of Greek
+στοιχεῖον in the various senses < "a component unit of a series"; "a constituent
+part of a complex whole (hence the ‘four elements’)"; "a member of the planetary
+system"; "a letter of the alphabet"; "a fundamental principle of a science".
+(Ef OED)
+#+END_QUOTE
+
+* Letters in the language of Being
+
+#+BEGIN_QUOTE
+                                 A further point—
+    At certain times of year earth needs the rain
+    For happy harvest, and both beasts and men
+    Need nature's bounty for their lives' increase,
+    A mutual dependence, of the sort
+    That words need letters for
+
+    (Ch. I; ln. 819)
+
+---
+
+                                 The same atoms
+    Constitute ocean, sky, lands, rivers, sun,
+    Crops, bushes, animals; these atoms mingle
+    And move in different ways and combinations.
+    Look--in my lines here you can see the letters
+    Common to many of the words, but you know
+    Perfectly well that resonance and meaning,
+    Sense, sound, are changed by changing the arrangement.
+    How much more true of atoms than if letters!
+
+    (Ch. I; ln. 819)
+
+
+cite:carus69
+#+END_QUOTE
+
+bibliography:../../../bibliography/references.bib

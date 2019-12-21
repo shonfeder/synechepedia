@@ -33,10 +33,32 @@ educated in connectedness and focused on sharing.
 * Meta
 ** What is a 'Synechepedia'?
    
-See [[https://en.wikipedia.org/wiki/Synechism][synechism]] and [[https://www.etymonline.com/word/encyclopedia#etymonline_v_8648][encyclopedia.]]
+'Synechepedia' is a portmanteau of '[[file:themata/synechism.org][synechism]]' and '[[file:themata/encyclopedia.org][encyclopedia]]'.
+
+- [[https://en.wiktionary.org/wiki/-pedia][/-pedia/]] :: relates to learning via a back-formation of /encyclopedia/. In
+  contemporary usage it indicates a "specialized encyclopedia about the prefix
+  (e.g., 'Investopedia') or a general encyclopedia in the structure of the
+  prefix". In accordance with its Greek root [[https://en.wiktionary.org/wiki/%CF%80%CE%B1%CE%B9%CE%B4%CE%B5%CE%AF%CE%B1#Ancient_Greek][παιδεία]], I want the /-pedia/ to
+  also mark a concern for raising up ourselves and each other. Let it relate to
+  learning and education in its most emancipatory and transformative potential.
+- [[https://en.wikipedia.org/wiki/Synechism][/syneche-/]] :: from [[https://en.wiktionary.org/wiki/%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82#Greek][συνεχής]], meaning "constant, continuous, sustained", is meant
+  in the [[https://en.wikipedia.org/wiki/Charles_Sanders_Peirce][Peircean]] sense employed in /synechism/, but the connotations of
+  constant and sustained is wellcome.
+
+Whereas an encyclopedia seeks to provide general or encompassing instruction,
+and a /foopedia/ aims to be an encyclopedia of /foo/, this synechepedia has no
+aspirations of generality or containment. The synechepedia is meant to serve the
+cause of emancipatory education (my own, at least) through a sustained effort to
+connect thoughts, clues, quotes, references, and questions which -- though
+always converging towards a more harmonious continuity -- have abandoned all
+hope of achieving completion.
+
 ** Tasks
 *** TODO Function to create new page with link and title
 Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar
 Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.
 *** TODO Explore Macros
 https://orgmode.org/manual/Macro-replacement.html
+
+
+bibliography:../../bibliography/references.bib

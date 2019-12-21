@@ -20,3 +20,6 @@ Philosopher, computer scientists
 http://www.michaelcuffaro.com/
 * Neel Krishnaswami
 https://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
+* Drup's Thingies
+OCaml libraries and techniques
+https://drup.github.io/

@@ -1,5 +1,82 @@
 #+TITLE: Synechism
 
+[[https://en.wikipedia.org/wiki/Synechism][Synechism]] is "the tendency to regard everything as continuous". The synechist
+expects to find some continuum coursing between any elements: [[file:elements.org][the elemental]] is a
+relational property, and the we can limn the contours of any relation.
+
+The different can always be connected. For any opposing ideas, conflicting
+interests, distinct disciplines, dissimilar forms, or unrelated maters, we
+canfind a path of continuous transformations by which we can move from the pole
+to the other.[fn:connection]
+
+Conversely, there is always a continuum of difference between that which appears
+the same. There is an inexhaustible margin for error, incommensurable
+ratios lurk in everay continuum, unregimented communication is inherently
+susceptible to mistake and in need of indefinite communication. [fn:difference]
+
+* Excerpts
+
+** Indefinite qualification
+
+#+BEGIN_QUOTE
+I carry my doctrine so far as to maintain that continuity governs the whole
+domain of experience in every element of it. Accordingly, every proposition,
+except so far as it relates to an unattainable limit of experience (which I call
+the Absolute), is to be taken with an indefinite qualification
+...
+This principle is, of course, itself to be understood in a synechistic sense;
+and, so understood, it in no wise contradicts itself.
+
+(cite:peirce98_peirc)
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Thoroughgoing synechism will not permit us to say that the sum of the angles of
+a triangle exactly equals two right angles, but only that it equals that
+quantity plus or minus some quantity which is excessively small for all the
+triangles we can measure
+
+(cite:peirce98_peirc)
+#+END_QUOTE
+
+** Communalism
+
+#+BEGIN_QUOTE
+Nor must any synechist say ‘I am all together myself, and not at all you.’ If
+you embrace synechism, you must abjure this metaphysics of wickedness. The
+selfhood you like to attribute to yourself is, for the most part, the vulgarest
+delusion of vanity. All [people] who resemble you and are in analogous
+circumstances are, in a measure, yourself.
+...
+All communication from mind to mind is through continuity of being.
+
+(cite:peirce98_peirc)
+#+END_QUOTE
+
+** Mortality
+
+#+BEGIN_QUOTE
+“A friend of mine, in consequence of a fever, totally lost his sense of hearing.
+He had been very fond of music before his calamity; and, strange to say, even
+afterwards would love to stand by the piano when a good performer played. ‘So
+then,’ I said to him, ‘after all you can hear a little.’ ‘Absolutely not at
+all,’ he replied; ‘but I can feel the music all over my body.’ ‘Why,’ I
+exclaimed, ‘how is it possible for a new sense to be developed in a few months!’
+‘It is not a new sense,’ he answered. ‘Now that my hearing is gone I can
+recognize that I always possessed this mode of consciousness, which I formerly,
+with other people, mistook for hearing.’ In the same manner, when the carnal
+consciousness passes away in death, we shall at once perceive that we have had
+all along a lively spiritual consciousness which we have been confusing with
+something different.”
+
+(cite:peirce98_peirc)
+#+END_QUOTE
+
+
+* Problematics
+- How do we connect the disparate moments of life in light of our terminal condition.
+- How do I weave myself into the continuity of human being, beyond the point of termination?
+
 * Logic
 ** Hypothesis
    What appears subjectively in thought and judgment as logic, appears
@@ -8,18 +85,18 @@
 
 *** Examples
     The essence of inference lies in the connections that conduct accesability.
-    $$ A \vdash B $$ means there is "a way of getting from A to B" (but the
+    $A \vdash B$ means there is a way of getting from A to B (but the
     spatialization and topographical aspect of this expression needs to be
     understood under the corrective light of an immanent critique).
 
     Conversely, an accessible connection is an inferential relation: if we are
-    located at A and B be accessed thence, then we can infer our possible
+    located at A and B can be accessed thence, then we can infer our possible
     presence at B.
 
-    The etymon on /infer/ hints in the same direction:
+    The etymon of /infer/ hints in the same direction:
 
     #+BEGIN_QUOTE
-    in logic, "to 'bring in' as a conclusion of a process of reasoning," 1520s,
+    in logic, to 'bring in' as a conclusion of a process of reasoning, 1520s,
     from Latin inferre "bring into, carry in; deduce, infer, conclude, draw an
     inference; bring against," from in- "in" (from PIE root *en "in") + ferre "to
     carry, to bear," from PIE root *bher- (1) "to carry; to bear children."
@@ -42,3 +119,29 @@
     relation, being, containing, connecting.
 
     The logic I'm after should describe the common ground of being and thought.
+
+
+* Additional Resources
+- [[http://www.commens.org/encyclopedia/article/esposito-joseph-synechism-keystone-peirce%E2%80%99s-metaphysics][Synechism: the Keystone of Peirce's Metaphysics]] :: Essay by Joseph Esposito
+- [[https://docs.google.com/presentation/d/1w5V5dCSRL5sAHNGqxJHFFEgSCzX9jt1nxZmjiIC5UXw/edit?usp=sharing][Short Talk on Synechism]] :: Slidedeck from a non-technical talk I gave at the
+  [[https://www.recurse.com/][Recurse Center]], Fall 2, 2019.
+
+* Footnotes
+
+[fn:connection] Under this banner, consider
+- Synthesis
+- Communication: connecting different minds
+- Resolution:
+- Harmonious work in different fields
+- Transformation
+- Transubstantiation
+
+[fn:difference] Under this banner, consider
+- Analysis
+- Ineradicable space for miscommunication: refinement, perpetual clarification, qualification.
+- Differences of mind with all agreement (maintain creative tensions).
+- Different tones, allows for independence of the coordinated fields.
+- Differentiation: differentiating the appropriate form the others.
+- Adapting different approaches to different materials.
+
+bibliography:~/Dropbox/bibliography/references.bib

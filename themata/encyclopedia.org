@@ -1,0 +1,91 @@
+#+TITLE: Encyclopedia
+
+'[[https://en.wikipedia.org/wiki/Encyclopedia][Encyclopedia]]' is now taken to indicate a widely encompassing instructional
+text. It seems this sense diverged from an older sense of an encircled education
+formed by a pedagogical system enclosed within the confines the [[https://en.wikipedia.org/wiki/Liberal_arts_education#History][liberal arts]]:
+
+#+BEGIN_QUOTE
+encyclopedia (n.)
+
+1530s, "general course of instruction," from Modern Latin /encyclopaedia/ (c.
+1500), thought to be a false reading by Latin authors of Greek /enkyklios/
+/paideia/ taken as "general education," but literally "training in a circle,"
+i.e. the "circle" of arts and sciences, the essentials of a liberal education;
+from enkyklios "circular," also "general" (from en "in;" see in + kyklos
+"circle;" from PIE root *kwel- (1) "revolve, move round") + paideia "education,
+child-rearing," from pais (genitive paidos) "child" (see pedo-).
+
+Modern sense of "reference work arranged alphabetically" is from 1640s, often
+applied specifically to the French "Encyclopédie ou Dictionnaire raisonné des
+Sciences, des Arts, et des Métiers" (1751-65). Related: Encyclopedist.
+([[https://www.etymonline.com/word/encyclopedia#etymonline_v_8648][etymonline.com]])
+#+END_QUOTE
+
+Current usage is divorced from this classical connotation. The classical sense
+suggests the self-sufficiency of a closed circle. Throughout modernity, the
+circle of instruction was spun out into ever more intricate arabesques. The
+trajectory of the conception of how knowledge is collected and transmitted
+trends through decentralized subjectivization, and on to fragmentation into
+essentially structural, formal patterns, iterating through self-propagating,
+fractal self-reflections and encodings (memes, data sets, parameterized
+procedures, mechanized programs, neural networks, etc.).
+
+What contemporary reader doesn't think /wikipedia/ when they hear
+"encyclopedia"? What is this /wiki/ that replaced the circularity of the
+/encyklios/?
+
+#+BEGIN_QUOTE
+The wiki name has been borrowed from [the Hawaiin term "wikiwiki", which means
+fast, swift, or quick. The father of wiki, Ward Cunningham, defined wiki as "a
+freely-expandable collection of interlinked Web pages, a hypertext system for
+storing and modifying information--a database, where each page is easily
+editable by any user."
+
+(cite:singh09_socioc_implic_wikip)
+#+END_QUOTE
+
+Lukács traced an analogous trajectory for the transformation of narrative as it
+moved from the classical epoch into the modern, and then post-modern novel:
+
+#+BEGIN_QUOTE
+The epic gives form to a totality of life that is rounded from within; the novel
+seeks, by giving form, to uncover and construct the concealed totality of life.
+...
+The novel comprises the essence of its totality betwen the beginning and the
+end, and thereby raises an individual to the infinite heights of one who must
+create an entire world through his experience and who must maintain that world
+in equilibrium ... But just because the novel can only comprise the individual
+in this way, he becomes a mere instrument, and his central position in the work
+means only that he is particularly well suited to reveal a certain problematic of
+life.
+
+(cite:lukács1971theory)
+#+END_QUOTE
+
+Analogously, the onto-theo-epistemo-logical outlook that enabled the
+accelerationsit logic of the /wiki/ radically prioritized individual action and
+contribution. The coincident tech accelerates and superpowers with means for
+ever quicker inscription, dissemination, retrieval, alteration, and duplication.
+The objective result of these modes of technical and intersubjective operation
+is an explosion of documentation, collection, and connection. The task of
+maintaining and managing such a sprawling, ever inflating network of information
+and instruction becomes paramount, and the preeminent task of the
+knowledgeworker is now to face the problematic of big data: how can we cope with
+an exponentially accelerating production in the quantity of the [[https://www.etymonline.com/search?q=data][given]] in a way
+that advances our vain striving to have this accumulated data amount to a
+qualitative transformation in our connection with that which intrinsically
+eludes extraction and acquisition.
+
+#+BEGIN_QUOTE
+The circle within which the Greeks led their metaphysical life was smaller than
+ours; that is why we cannot, as part of our life, place ourselves inside it. Or
+rather, the circle whose closed nature was the transcendental essence of their
+life has, for us, been broken; we cannot breathe in a closed world. We have
+invented the productivity of the spirit: that is why the primaeval images have
+irrevocably lost their objective self-evidence for us, and our thinking follows
+endless path of an approximation that is never fully accomplished.
+
+(cite:lukács1971theory)
+#+END_QUOTE
+
+bibliography:../../../bibliography/references.bib

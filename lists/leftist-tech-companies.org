@@ -1,9 +1,35 @@
-#+TITLE: A List of Leftist Tech Companies
+#+TITLE: A List of Leftist Tech Companies and Organizations
 
-This is a list of tech companies which are explicitly pursing systemic change
-to advance solidarity, climate justice, and equitable social systems.
+(Including lists of lists of such companies.)
 
-I haven't been able to find a list of this sort, so I've started making my own.
+This is a list of tech companies and organizations which are explicitly pursing
+systemic change to advance solidarity, climate justice, and equitable social
+systems.
+
+I couldn't find a list of this sort easily, so I've started making my own. In
+the process, I've found some similar lists, so they go on this list as well.
+
+* [[https://www.andalsotoo.net/][And Also Too]]
+
+#+BEGIN_QUOTE
+A collaborative design studio for social justice visionaries
+#+END_QUOTE
+
+* [[https://agaric.coop/][Agaric]]
+
+#+BEGIN_QUOTE
+We are Agaric, a worker-owned cooperative. We build websites and online tools
+that respect your freedom. We provide training and consultation to meet your
+goals.
+#+END_QUOTE
+
+* De[[https://designjustice.org/][sign Justice Network]]
+
+#+BEGIN_QUOTE
+an international group of people and organizations committed to rethinking
+design processes so they center people who are often marginalized by design
+#+END_QUOTE
+
 
 * [[https://github.com/hng/tech-coops][List of Tech Coops]]
 

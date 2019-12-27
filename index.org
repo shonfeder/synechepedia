@@ -3,6 +3,8 @@
 A (sketch|scrap|note)-book recording and sharing connections found in a life
 educated in connectedness and focused on sharing.
 
+Curious about the name? See [[what-is-a-synechepedia][below]].
+
 * Sections
 ** Themata
 - [[file:themata/axiomatics.org][Axiomatics]]
@@ -33,7 +35,7 @@ educated in connectedness and focused on sharing.
 * Meta
 Notes on maintaining and developing whatever this is.
 
-** What is a 'Synechepedia'?
+** What is a 'Synechepedia'? <<what-is-a-synechepedia>>
    
 'Synechepedia' is a portmanteau of '[[file:themata/synechism.org][synechism]]' and '[[file:themata/encyclopedia.org][encyclopedia]]'.
 
@@ -48,10 +50,10 @@ Notes on maintaining and developing whatever this is.
   constant and sustained is wellcome.
 
 Whereas an encyclopedia seeks to provide general or encompassing instruction,
-and a /foopedia/ aims to be an encyclopedia of /foo/, this synechepedia has no
-aspirations of generality or containment. The synechepedia is meant to serve the
-cause of emancipatory education (my own, at least) through a sustained effort to
-connect thoughts, clues, quotes, references, and questions which -- though
+and a /foopedia/ aims to be an encyclopedia of /foo/, this /synechepedia/
+eschews generality and containment. The synechepedia is meant to serve the cause
+of emancipatory education (my own, at the very least) through a sustained effort
+to connect thoughts, clues, quotes, references, and questions which -- though
 always converging towards a more harmonious continuity -- have abandoned all
 hope of achieving completion.
 
@@ -59,8 +61,6 @@ hope of achieving completion.
 *** TODO Function to create new page with link and title
 Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar
 Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.
-*** TODO Explore Macros
-https://orgmode.org/manual/Macro-replacement.html
 
 
 bibliography:../../bibliography/references.bib

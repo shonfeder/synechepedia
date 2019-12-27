@@ -23,3 +23,6 @@ https://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
 * Drup's Thingies
 OCaml libraries and techniques
 https://drup.github.io/
+* Roddy MacSween
+Graduate student in CS who has built some useful ocaml web tools.
+https://roddymacsween.co.uk/

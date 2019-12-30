@@ -6,6 +6,6 @@ already in use in an intimately related, but more limited sense, in social
 science. See the [[https://en.wikipedia.org/wiki/Allophilia][wikipedia entry on allophilia]], which defines it as
 
 
-#+BEGIN_SRC
+#+BEGIN_QUOTE
 having a positive attitude towards outgroup members
-#+END_SRC
+#+END_QUOTE

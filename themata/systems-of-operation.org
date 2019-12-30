@@ -468,6 +468,23 @@ simple tools to perform complex tasks.
    - Search for a command that starts with ~s~ in the command history :: ~!s~
    - Find out what commands could be used: ~compgen~
 
+** Social Media
+Hobbes identified the essence and destiny of artificial intelligence in his 15th
+century political treatise.
+
+- A program (in its widest sense) communicates instructions.
+- Computation in the sense investigated by theoretical computer science is about
+  the communication of calculation (and of of the calculable).
+- The computer is makes communication calculable (simply by virtue of being a
+  machine that can be programmed to calculate.)
+- Social media is not an accidental manifestation, since the programmable
+  computer is in its essence a medium of communication.
+  - But what kind of sociality?
+  - What kind of medium?
+  - The programmability is the mode of communication.
+
+The self-programming of society is the essence and actualization of "artificial
+intelligence".
 
 * Further Resources
   - Unix intro on the shell ::

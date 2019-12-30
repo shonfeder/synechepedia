@@ -1,0 +1,11 @@
+#+TITLE: Allophilia
+
+Allophelia is a term I fabricated to express a radical openness and caring
+concern for what is other (even and especially what is radically other). It was
+already in use in an intimately related, but more limited sense, in social
+science. See the [[https://en.wikipedia.org/wiki/Allophilia][wikipedia entry on allophilia]], which defines it as
+
+
+#+BEGIN_SRC
+having a positive attitude towards outgroup members
+#+END_SRC

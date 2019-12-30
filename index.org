@@ -7,19 +7,29 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 
 * Sections
 ** Themata
+- [[file:themata/aim.org][Aim]]
+- [[file:themata/allophilia.org][Allophilia]]
 - [[file:themata/axiomatics.org][Axiomatics]]
+- [[file:themata/elements.org][Elements]]
+- [[file:themata/encyclopedia.org][Encyclopedia]]
 - [[file:themata/finishing-the-incomplete.org][Finishing Work on the Incomplete]]
 - [[file:themata/foundations.org][Foundations]]
 - [[file:themata/heuristics.org][Heuristics]]
 - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
+- [[file:themata/mortality.org][Mortality]]
 - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
 - [[file:themata/notation.org][Notation]]
 - [[file:themata/pedagogy.org][Pedagogy]]
+- [[file:themata/praxis.org][Praxis]]
 - [[file:themata/programming/index.org][Programming]]
+- [[file:themata/questions.org][Questions]]
+- [[file:themata/structural-proof-theory.org][Structural Proof Theory]]
+- [[file:themata/structure.org][Structure]]
 - [[file:themata/synechism.org][Synechism]]
 - [[file:themata/systems-of-operation.org][Systems of Operation]]
 - [[file:themata/thinking.org][Thinking]]
 - [[file:themata/terminology/index.org][Terminology]]
+- [[file:themata/types.org][Types]]
 - [[file:themata/work-anxiety-and-egotism.org][Work Anxiety and Egotism]]
 ** Excerpts
 - [[file:excerpts/distention-of-the-heart.org][Distention of the heart]]
@@ -64,3 +74,4 @@ Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.
 
 
 bibliography:../../bibliography/references.bib
+*** TODO Automatically populate Themata, Excerpts, and Lists

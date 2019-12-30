@@ -1,4 +1,11 @@
 #+TITLE: Towards a Transcendental Critique of Computation Models
-* Read [/]
+
+What are the conditions of possibility for something to be a model of
+computation?
+
+* Criteria
+- Must be able to express non-termination
+
+* Read [0/2]
  - [ ] https://en.wikipedia.org/wiki/Computational_model
  - [ ] https://en.wikipedia.org/wiki/Herman_Dooyeweerd

@@ -1,0 +1,62 @@
+#+TITLE: Questions
+
+#+BEGIN_QUOTE
+*Erotetics* or erotetic logic is a part of logic, devoted to logical analysis of
+questions. It is sometimes called the logic of questions and answers.
+([[https://en.wikipedia.org/wiki/Erotetics][wikipedia]])
+#+END_QUOTE
+
+In general, anyone who receives instruction in logic learns about *propositional
+logic*, even when studying syllogistics or predicate calculus, we are generally
+only taught the logic of judgments. Even our subjective logic is one-sided!
+
+In particular, Martin-Löf's type theory is a formalization of the logic of
+_judgments_. What is a formalization of the logic questions?
+
+How do assertoric/erotertic logics (both subjective) correlate over an objective
+logic?
+
+* TODO Notes to process
+** Logic of Inquiry
+*** Formal Ontology of Questions
+There seems to be a formal ontology of questions...
+
+**** "Atomic" questions
+- What is X
+- Why is x
+
+**** Compound questions
+
+What is it to be X through YZ?
+
+- What is it to be X?
+  - What is X?
+  - What is it to be?
+- What is YZ?
+  - What is Y?
+  - What is Z?
+*** Questions
+- Are questions duals of answers?
+  - What is an answer?
+    An answer is a proposition. Must it always be?
+  - What is a question?
+  - What is duality?
+- Are there questions without answers?
+  - corr: are there propositions that cannot be answered?
+*** Constructions
+- The construction of a proposition is a rpoof.
+- What is the construction of a question?
+- What is the deconstruction of a question?
+- A question as a /negative image/ of a proof.
+*** Type theory
+Martin-Löf's type theory is a formalization of the logic of _judgments_. What is
+a formalization of the logic questions?
+
+* TODO To Research
+Note to self: See =Readings/Logic/Erotetics= for some downloaded material.
+
+- Erotetic Logic - https://www.jstor.org/stable/2182232?seq=1
+- [[https://en.wikipedia.org/wiki/Erotetics][wikipedia]]
+- The Erotetic Theory of Reasoning - http://web-risc.ens.fr/~smascarenhas/docs/koralus-mascarenhas12_erotetic_theory_of_reasoning.pdf
+- Interrogative Logic as a General Theory of Reasoning - https://link.springer.com/chapter/10.1007/978-94-015-9313-7_3
+- Questions in logic - https://dare.uva.nl/search?identifier=679cda04-90d9-45a8-8450-b4d8eb3139bc

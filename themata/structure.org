@@ -1,0 +1,18 @@
+#+TITLE: Structure
+
+* TODO Notes to process
+Encodings usually embed a "fuller" structure into dimensions of relation in a
+more meager one. Consider a binary array of length =n=. If we want to record an
+index of =n= things, we can just correlate each thing with a position in the
+array, and store the index at that location. This will give us a sequence of
+indexes to the objects. But this is a merely linear storage mechanism. Instead,
+we can associate each distinct entity with a combination of bits, and this will
+let us encode 2^n distinct entities, greatly increasing the number of individual
+entities we can distinguish. But we buy that increased capacity by sacrificing
+the ability to encode information about the sequence or order holding between
+those entities.
+
+I suspect this is a general dynamic and that, in general, *reification trades
+structure for enumeration*. I suspect individuation consists of something like
+natural transformations collapsing parallel subsections of a continuum into
+phenomenological singularities.

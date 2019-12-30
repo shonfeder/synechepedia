@@ -1,0 +1,101 @@
+#+TITLE: Types
+
+* TODO Notes to process
+
+** Type theory vs. a theory of types
+
+"Type theory" means a theory that /uses/ types, not necessarily a theory of what
+types are.
+
+What is the theory of types that is presupposed by the λ-calculus based type
+theories?
+
+*** TODO Excerpt from Goguen
+*** Hypothesis
+The types of the typed λ-calculi are /marks/, or /indexes/, used to enforce a
+sense of appropriateness that follows from presumptions of /belonging together/.
+
+This is indeed how types function in the calculi, and it is true to the etymon
+of 'type':
+
+#+BEGIN_QUOTE
+late 15c., "symbol, emblem," from Latin /typus/ "figure, image, form, kind,"
+from Greek /typos/ "a blow, dent, impression, mark, effect of a blow; figure in
+relief, image, statue; anything wrought of metal or stone; general form,
+character; outline, sketch," from root of /typtein/ "to strike, beat," from PIE
+/*tup-/, variant of root /*(s)teu-/ (1) "to push, stick, knock, beat"
+([[https://www.etymonline.com/search?q=type][etymonline]])
+#+END_QUOTE
+
+
+*** Genealogy
+Russell's theory of types puts the concept of /function/ *under* the concept of
+proposition. Then the meaning of quantification is determined via the range of
+/valid/ values of a function. But what determines the /validity/ of this range?
+he names it "logical homogeneity".
+
+In Russell, "a type is defined as the range of significance of a propositional
+function, i.e., as the collection of arguments for which the said function has
+values" (cite:10.2307/2369948).
+
+
+** Structuralist view
+
+Girard advances an existentialist view of logic (and type theory, as a
+sub-discipline):
+
+#+BEGIN_QUOTE
+*Existence.* One can instead contend that [the existence of] objects are
+ anterior to their type, seen as an essence. This is the viewpoint of
+ /subtyping/, this is also the viewpoint of ludics: an object may have several
+ types, be representative of several essences. Their /locativity/ becomes
+ essential.
+
+ (cite:girard11)
+#+END_QUOTE
+
+I suspect that, when cleansed of it's humanist and historicist distortions,
+existentialism resolves into a radical structuralism.
+
+I further suspect...
+
+A type system is a functor from types to terms. Parametric types give natural
+transformations over functors to simply typed terms. There are also other
+important ways of tracing natural transformations between sets of typeable
+terms. Subtyping lets us establish and specify some of these and, in fact,
+Girard presents polymorphism as a subspecies of subtyping:
+
+#+BEGIN_QUOTE
+Polymorphism is the observation that the same λ-term can admit several types.
+
+(cite:girard11, 135)
+#+END_QUOTE
+
+The jiggering and exploring of various type systems is all in pursuit of an
+ideal sweet spot that will let us prove everything we think we should be able to
+while eliminating forms of expression that become unwieldy and undermine our
+capacity to reason about the system at all. Type systems also provide an
+important /interface/ abstracting over lambda terms. When we reason about terms
+of type =int -> int= we can draw inferences about an infinite class of potential
+functions while maintaining a birds eye view.
+
+Does it make sense to look for types that range over patterns and structures
+that hold between subtypes?
+
+From the subtyping view, the addition of linear types expanded the class of
+terms our types can provide an interface to, allowing new distinctions (maybe
+also allowing terms untypeable in other systems into the domain?).
+
+There are types correlating interfaces between systems of types. This is what
+Goguen advocates in cite:Programming91typesas.
+
+** A confusion regarding the Curry-Howard analogy
+
+iiuc, $x : A \simeq x \in A \simeq x \: is \: an \: A$. This level of typing
+judgment is required for a simply typed λ-calculus. But simply typed λ-calculus
+is only analogous to /propsitional logic/, so how can we be predicating here?
+This is what leads me to suspect type theory would be more easily understood as
+an extension of [[https://en.wikipedia.org/wiki/Term_logic][term logic]].
+
+
+bibliography:~/Dropbox/bibliography/references.bib

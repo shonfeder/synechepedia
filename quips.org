@@ -25,8 +25,30 @@ indispensable the technology is.
 - [[https://bluebottlegames.com/games/neo-scavenger][NEO Scavenger]]
 - Togetherness
 - Cultural Techniques
+* We are so nearsighted
+It is hart to comprehend how far ahead the vision of our theoretical visionaries
+reached. Every day, arenas for idle chatter (like Reddit, Hacker News, and
+Lobste.rs) are awash in "new" "ideas" (actually /relabeled concepts/) and
+"novel" "insights" (actually /novelty framings/). But Plato already foresaw how
+writing would erode memory, Leibniz foresaw the automation of proof and
+ratiocination, Hobbes articulated the core notions of cybernetics, Canto
+described the basic technique needed for music visualizers -- I could go on and
+no, and would only by limited by the meagerness of my education.
+* We deserve to live well
+Humanity as a whole does not seem to believe that it deserves to live well. We
+must become convinced that we deserve to live well so that will demand that our
+communities be structured to meet this demand.
+
+* Masquerading as kindness
+Forms of compliance and complicity masquerade as kindness.
+* Wild guesses
+- Girard's cite:girard11 culminates in a formal theory of /transcendental
+  inter-subjectivity/.
 * Nutshelled
 ** Virtual Machines vs. Containers
 VMs use an abstraction of machine hardware to run real OSes on the host machine.
 Containers use an abstractions of an operating systems to run programs in the
 host operating system.
+
+
+bibliography:../../bibliography/references.bib

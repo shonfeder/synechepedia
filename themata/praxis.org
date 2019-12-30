@@ -1,0 +1,47 @@
+#+TITLE: Praxis
+
+* TODO Notes to Process
+** How to achieve moral, theoretical, and practical continence and harmony?
+*** Aim
+
+To derive a more or less general set of precepts regarding how I should act and
+what choices I should make from the principles and axioms which I hold.
+
+A derivation of this sort has a very [[file:~/Dropbox/synechepedia/org/themata/foundations.org][foundationalist]] quality. However, my way of
+thinking is generally non-foundational (nearly anti-foundationalist) so I will
+rather let begin mapping connections and relations. Praxis should emerge as a
+projection thereform.
+
+*** Principles
+Currently, I think my praxis can be guide by a principle /meaning/ and a
+principle /technique/.
+
+**** Meaning: /Allophilia/
+
+I have fixed upon [[file:allophilia.org][allophilia]] as a term for the comportment needed to overcome
+the extractive, oppressive, homoarchichal[fn:homoarchy] tendencies of our
+civilization.
+
+**** Technique: /Synechism/
+
+[[file:synechism.org][Synechism]] is the means by which the alterity and disconnectedness of being can
+be woven into a community of shared, con- and di-verging ways of existing.
+
+*** Implications
+**** Synechism entails structuralism
+The fundamental connectedness of being demands that discrete existence be
+understood as a pattern of de-differencing derived from the continuum of
+relatedness.
+
+***** Structuralism entails constructivism
+Since the being of beings is understood as above, to be /a/ being is to be
+constructed into (or as part of) a structure.
+
+* Footnotes
+
+[fn:homoarchy] 'Homoarchy' is a term I fabricated to express the totalitarian
+essence of most non-anarchic architechtonics of power. It is the antipod of a
+(radical) [[https://en.wikipedia.org/wiki/Heterarchy][heterarchy]]. In this sense, the system of oppression which leverages
+homophobia to subjugate via psycho/social/sexual shame is a homoarchy, in that
+it asserts rule of (and by) a sameness, while vilifying and denigrating
+otherness.

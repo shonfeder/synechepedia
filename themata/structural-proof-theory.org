@@ -1,5 +1,7 @@
 #+TITLE: Notes on the History of Structural Proof Theory
 
+*WIP*
+
 * TODO Select Title
 
 ** On Ideal Elements in Structural and Axiomatic Proof Theory

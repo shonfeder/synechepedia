@@ -23,7 +23,7 @@ movement between places.
   As I've worked to develop some intuitions to ground a substantial
   understanding of the concepts of category theory, I've tended to think in
   terms of places. I imagine objects $A$ and $B$ to be places and the arrow
-  $f:$A\to B$ to mark the ways connecting $A$ to $B$. I think this is an
+  $f:A\to B$ to mark the ways connecting $A$ to $B$. I think this is an
   imperfect analogy but it's helping me get along.
 
 ** Places vs. spaces

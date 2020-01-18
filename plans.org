@@ -8,9 +8,11 @@ Things I hope to make and explore.
 - teaches principles and techniques of logical reasoning
 - as you master elimination/introduction rules, you expand your abilities
 - as you identify important theorems, you get cuts that expand your powers
+
 * Sketches
 ** [[file:plans/writing-assitant.org][A Writing Assistant]]
 ** [[https://github.com/shonfeder/summer][Summer]]: A programming language based on term logic
+
 * Intimations
 ** Natural Deduction Party Game
 Possible title: "Unnatural Deductions"

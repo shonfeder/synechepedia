@@ -1,6 +1,6 @@
 #+TITLE: Plans
 
-Things I am (or hope to) make and explore.
+Things I hope to make and explore.
 
 * In Progress
 ** [[https://github.com/shonfeder/nd_project][ND_Project]] Mobile/web Pedagogical Natural Deduction Game
@@ -12,10 +12,9 @@ Things I am (or hope to) make and explore.
 ** [[file:plans/writing-assitant.org][A Writing Assistant]]
 ** [[https://github.com/shonfeder/summer][Summer]]: A programming language based on term logic
 * Intimations
-** Natural Deduction Games
-*** Party game
-- Possible title: "Unnatural Deductions"
-**** Ideas
+** Natural Deduction Party Game
+Possible title: "Unnatural Deductions"
+*** Ideas
 (Just a sketch)
 - Tile placing
   - scrabble:
@@ -39,5 +38,5 @@ Things I am (or hope to) make and explore.
   - Immediate victory: Proving Falsum (should be rare)
   - Tile capturing: via cut introduction. And any other means?
 - Different logical systems as expansions
-- The content of the theorems provide color (like other party games)
+- The content of the theorems provide "color" (like other party games)
 - Award points based also on amusingness of deduced theorems?

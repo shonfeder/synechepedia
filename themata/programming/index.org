@@ -20,7 +20,6 @@ working program that demonstrates it and exposes its different aspects.
 - [[file:notes-on-1ml.org][Notes on 1ML]]
 - [[file:notes-on-rust.org][Notes on Rust]]
 - [[file:notes-on-tlaplus.org][Notes on TLA+]]
-- Notes on OOP
 - [[file:ocaml-editor-wish-list.org][OCaml Editor Wish List]]
 - [[file:programming-paradigms-and-philosophy.org][Programming Paradigms and Philosophy]]
 - [[file:super-simple-ci-for-ocaml-on-circleci.org][Super Simple CI for OCaml on CircleCI]]

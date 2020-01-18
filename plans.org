@@ -1,85 +1,43 @@
 #+TITLE: Plans
 
-Planned projects. Sketches. Glimpses.
+Things I am (or hope to) make and explore.
 
-* A writing assistant
-
-  Akin to a proof assistant.
-
-** Relates, coordinates, and organizes concepts
-   - defining terms (and checking for consistent usage)
-   - specifying equivalences (synonyms)
-   - systematic disambiguation of homonymous terms
-   - specifies entailments (inclusion)
-     - can use wordnet for sub-concept inclusion detections/tests?
-** Strucures /passages/
-   - passages are transitions or pathways from one /notion/ to another.
-   - A /notion/ is a complex of concepts & compounding terms (syncategorematic).
-*** Some example patterns of passages
-    - source_1 :: topic sentence
-    - target_1 :: conclusion statement
-    - source_2 :: hypothetical (if x holds, then y follows)
-    - target_2 :: drawing conclusion
-    - source_3 :: question
-    - target_3 :: answer
-    - source_4 :: question
-    - target_4 :: expanded question or sub-question
-*** Passages nest and branch
-    E.g.,
-
-    - topic
-      - question ... answer
-      - question ... answer
-    - conclusion
-** Tests/explorations
-   Generates variant senses, presented to the author for review, so they can
-   anticipate misunderstandings or elaborate along previously unconsidered lines
-   of thought.
-
-   With relatively simple transformations, can generate things like
-
-   - valid inferences
-   - alternate interpretations
-   - rephrasings
-
-   (Can be considered a form of refactoring)
-** Transitions
-   These link passages. They are special kinds of passages, which are schemas
-   for coordinating passages.
-   - should be modular
-   - they are /tropes/ like analogy, metaphor, synonym expansion, association of
-     concepts, etc.
-* Natural Deduction Games
-** Mobile/web game
-   - along the lines of Euclid that teaches
-   - teaches principles and techniques
-   - as you master elimination/introduction rules, you expand your abilities
-   - as you identify important theorems, you get cuts that expand your powers
-** Party game
-   - Possible title: "Unnatural Deductions"
-*** Ideas
-    (Just a sketch)
-    - Tile placing
-      - scrabble:
-        - building off each others sequences
-        - can lay multiple tiles in a chain of deductions
-      - hive
-        - The "board" is constructed as tiles are placed
-        - can revise the board shape by certain moves
-          - (E.g. cuts)
-    - Players state axioms
-      - Axioms must be allowed by consensus (assumed consent, but a single veto
-        blocks axiom positing)
-    - Cuts can be declared
-      - clears the board of (some) tiles
-      - introduces new theorems
-      - How?
-        - Special "cut" tiles?
-          - Allows for capturing tiles that are cut out
-          - Can only add captured tiles to points if you can reintroduce the cut?
-    - Win/loss conditions?
-      - Immediate victory: Proving Falsum (should be rare)
-      - Tile capturing: via cut introduction. And any other means?
-    - Different logical systems as expansions
-    - The content of the theorems provide color (like other party games)
-    - Award points based also on amusingness of deduced theorems?
+* In Progress
+** [[https://github.com/shonfeder/nd_project][ND_Project]] Mobile/web Pedagogical Natural Deduction Game
+- along the lines of the iOS game *Euclid*
+- teaches principles and techniques of logical reasoning
+- as you master elimination/introduction rules, you expand your abilities
+- as you identify important theorems, you get cuts that expand your powers
+* Sketches
+** [[file:plans/writing-assitant.org][A Writing Assistant]]
+** [[https://github.com/shonfeder/summer][Summer]]: A programming language based on term logic
+* Intimations
+** Natural Deduction Games
+*** Party game
+- Possible title: "Unnatural Deductions"
+**** Ideas
+(Just a sketch)
+- Tile placing
+  - scrabble:
+    - building off each others sequences
+    - can lay multiple tiles in a chain of deductions
+  - hive
+    - The "board" is constructed as tiles are placed
+    - can revise the board shape by certain moves
+      - (E.g. cuts)
+- Players state axioms
+  - Axioms must be allowed by consensus (assumed consent, but a single veto
+    blocks axiom positing)
+- Cuts can be declared
+  - clears the board of (some) tiles
+  - introduces new theorems
+  - How?
+    - Special "cut" tiles?
+      - Allows for capturing tiles that are cut out
+      - Can only add captured tiles to points if you can reintroduce the cut?
+- Win/loss conditions?
+  - Immediate victory: Proving Falsum (should be rare)
+  - Tile capturing: via cut introduction. And any other means?
+- Different logical systems as expansions
+- The content of the theorems provide color (like other party games)
+- Award points based also on amusingness of deduced theorems?

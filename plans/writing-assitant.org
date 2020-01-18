@@ -1,0 +1,82 @@
+#+TITLE: A Writing Assistant
+
+A writing assistant facilitating the modular composition of conceptually
+consistent technical prose.
+
+Akin to a proof assistant.
+
+
+* Ethos
+
+The aim is not to make technical writing *easier*, the aim is to make it
+*better*. This may require placing more demands on the writer, but mostly comes
+through providing tools to support exploration and organization.
+
+We must avoid tech that encourages monoculture or encourages thoughtlessness at
+all costs, so these are anathema
+
+- Predictive text
+- Content generation
+- Most usual applications of machine learning
+
+* Features
+** Relates, coordinates, and organizes concepts
+Consistency is supported via enforced univocal definition of key terms and substitution/lookup
+of those definitions. Completeness is encouraged via mechanisms to automatically
+connect and relate internal and external sources.
+
+*** Internal to the composition
+
+- defining terms (and checking for consistent usage)
+- specifying equivalences (synonyms)
+- systematic disambiguation of homonymous terms
+- specifies entailments (inclusion)
+  - can use wordnet for sub-concept inclusion detections/tests?
+
+*** External
+Suggestions for relevant citations and quotations are generated dynamically by
+cross- referencing a corpus of texts with terms and phrases from the sentence
+under edit
+
+** Strucures /passages/
+Modularity is achieved by enclosing informal prose fragments with opening topic
+and closing conclusion sentences. These provide formal interfaces to other
+modules parameterized by configuration of key terms.
+
+- passages are transitions or pathways from one /notion/ to another.
+- A /notion/ is a complex of concepts & compounding terms (syncategorematic).
+*** Some example patterns of passages
+- source_1 :: topic sentence
+- target_1 :: conclusion statement
+- source_2 :: hypothetical (if x holds, then y follows)
+- target_2 :: drawing conclusion
+- source_3 :: question
+- target_3 :: answer
+- source_4 :: question
+- target_4 :: expanded question or sub-question
+*** Passages nest and branch
+E.g.,
+
+- topic
+  - question ... answer
+  - question ... answer
+- conclusion
+** Tests/explorations
+Generates variant senses, presented to the author for review, so they can
+anticipate misunderstandings or elaborate along previously unconsidered lines
+of thought.
+
+With relatively simple transformations, can generate things like
+
+- valid inferences
+- alternate interpretations
+- rephrasing exploration via grammatically correct permutations of sentences under edit
+
+  (Can be considered a form of refactoring)
+** Transitions
+These link passages. They are special kinds of passages, which are schemas
+for coordinating passages.
+- should be modular
+- they are /tropes/ like analogy, metaphor, synonym expansion, association of
+  concepts, etc.
+** Connections

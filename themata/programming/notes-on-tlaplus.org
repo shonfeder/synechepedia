@@ -1,0 +1,105 @@
+#+TITLE: Notes on TLA+
+
+*WIP*
+
+Notes compiled while learning the basics of TLA+.
+
+* My Initial Point of View
+
+Over the last few years, I have spent some time reading about the
+/constructivist/ tradition of formal verification, which is currently
+flourishing in the form of theorem provers/proof assistants and languages with
+increasingly expressive type-theoretic type systems. Prior to that, I had a
+years long infatuation with Prolog. It seems to be me that the approach in
+Prolog (and relational and constraint programming) is similar to the model
+checking approach: the user writes high-level declarations and an underlying
+algorithm explores the problem space to verify whether certain properties hold.
+This is in stark contrast to the constructivist approach, in which verification
+can only be achieved through a construction of the objective.
+
+The constructivist approach appeals to me because it is both philosophically
+satisfying ([[file:~/Dropbox/synechepedia/org/themata/synechism.org][Synechism]] implies [[file:~/Dropbox/synechepedia/org/themata/structure.org][Structuralism]] which -- in my (admittedly
+post-structuralist) view -- implies [[https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)][Constructivism]][fn:constructivism]) and
+demonstrably effective in real world applications (see [[http://compcert.inria.fr/compcert-C.html][CompCert]] or the success
+of Rust).
+
+However, the success and popularity of the model-checking approach should not be
+overlooked, and recent discussions with a prospective employer have given me
+good reason to learn the basics. So I'm digging in now, using the noted
+[[Resources][Resources]] and, and remarking what I learn and figure out along the way here.
+
+* Installation
+
+This is a Linux-centric summary of the key steps mentioned by
+http://lamport.azurewebsites.net/tla/toolbox.html.
+
+** Prerequisites
+*** A java runtime >= 1.8
+
+For my system (Arch):
+
+#+BEGIN_SRC sh
+sudo pacman -Syu jdk-openjdk=13.0.1.u9-1
+#+END_SRC
+
+*** pdflatex
+
+See https://www.tug.org/applications/pdftex/
+
+** Download the release
+
+Available from https://github.com/tlaplus/tlaplus/releases
+
+** Unzip to your desired installation directory
+
+E.g.,
+
+#+BEGIN_SRC sh
+mkdir /opt/TLAToolbox/
+sudo unzip TLAToolbox-1.6.0-linux.gtk.x86_64.zip -d /opt/TLAToolbox/
+#+END_SRC
+
+** Run the executable
+
+#+BEGIN_SRC sh
+/opt/TLAToolbox/toolbox/toolbox
+#+END_SRC
+
+The TLA+ Toolbox GUI should launch
+** TODO Fixing the color
+
+The default color schemes on my system are virtually unusable, and no matter how
+many of the color options I've toggled, nothing seems to be changing...
+
+* Excerpts
+
+#+BEGIN_QUOTE
+In complex systems, simplicity isn't achieved by coding tricks.  It's achieved
+by rigorous thinking above the code level.
+(Lamport, [[http://lamport.azurewebsites.net/tla/high-level-view.html#pluscal?unhideBut=hide-pluscal&unhideDiv=pluscal][A High-Level View of TLA+]])
+#+END_QUOTE
+
+* On Model Checking vs. theorem proving
+https://wiki.eecs.yorku.ca/course_archive/2016-17/W/4315/_media/public:lecture24.pdf
+
+- Model checking is easier to write, but what can be verified is more limited,
+  and it does less to sharpen an understanding of the domain
+- Theorem proving is harder, but what anything expressible can be verified, and
+  verification depends on synthesizing a (relatively) complete construction of
+  the problem to be solved (only what can be constructed can be proven).
+
+** Questions
+- Do the differences between the model checking and theorem proving approaches
+  trace back to a difference betwen the model theoretic vs. proof theoretic
+  approaches to logic?
+
+
+* Resources
+- [[https://learntla.com/introduction/about-this-guide/][Learn TLA+ Website]]
+- [[http://lamport.azurewebsites.net/tla/summary-standalone.pdf][TLA+ Cheatsheet]]
+
+* Footnotes
+
+[fn:constructivism] A quick search indicated that this view is likely
+contentious, and I should note here that I do not claim any authority or
+expertise on the philosophy of mathematics.

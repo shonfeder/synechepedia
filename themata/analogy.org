@@ -1,0 +1,26 @@
+#+TITLE: Analogy
+
+*WIP*
+
+* The judgment stroke, assertion, and logical syntax
+
+Re:
+ - Martin-Löf "meaning of the logical constants" p. 2.
+ - Russell and Whitehead on the analogical structure of formal syntax in the
+   introduction to the principa
+ - Frege on the /Inhalt/ vs /Urteil/ strokes
+ - Prolog, on the explicit evaluation and the availability of syntactic forms.
+
+The formula `A B` should express some relation between the referrant or
+correlate of A with the referrant or correlate of B.
+
+when considering whether the statement expressed in `A B` is true, we have to
+consider the complete system of analogies at work:
+
+`A` : `B` :: (the signs)
+ A  :  B  :: (the notions/concepts)
+ A' :  B'    (the referents)
+
+We can have breakdown or missteps at any point. Moreover, when we've made
+semantic or transcendental ascent, there may be various forms of abstraction or
+generalization mediating between the stages of the analogy.

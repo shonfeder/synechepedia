@@ -9,7 +9,9 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 ** Themata
 - [[file:themata/aim.org][Aim]]
 - [[file:themata/allophilia.org][Allophilia]]
+- [[file:themata/analogy.org][Analogy]]
 - [[file:themata/axiomatics.org][Axiomatics]]
+- [[file:themata/containment.org][Containment]]
 - [[file:themata/elements.org][Elements]]
 - [[file:themata/encyclopedia.org][Encyclopedia]]
 - [[file:themata/finishing-the-incomplete.org][Finishing Work on the Incomplete]]

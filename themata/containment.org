@@ -1,0 +1,37 @@
+#+TITLE: Containment
+
+Containment is a candidate for "table of transcendental techniques".
+
+* Containerization
+
+(With an eye towards the software technique.)
+
+Container ships yielded exponential increase in shipping capacity. But it's this
+actually the capacity we need?
+
+What is the real need? Was it greater quantity of stuff sent quicker? Or is the
+real need not rather more careful allocation of resources, better routing and
+better fundamental design?
+
+The capacity for massive throughput creates an inertial force tending a
+structure towards quicker consumption and increased volumes of production.
+
+What of all the space and time wasted by those things manufactured in order to
+keep up the throughput and countless corners left empty my round cargo in
+rectangular containers?
+
+* The Inventory Management Game: Bags, Togetherness, and Cultural Techniques
+
+Containers (pockets, bags, boxes, tins, gourds, jugs, cabinets, etc.) are
+so ubiquitous that very few of us appreciate how revolutionary and
+indispensable the technology is.
+
+** References:
+- https://dpadblog.com/2013/12/11/the-8-rules-of-rpg-inventory-management-and-how-they-apply-to-life/
+- https://aaai.org/ocs/index.php/AIIDE/AIIDE17/paper/viewFile/15899/15226
+- http://tobolds.blogspot.com/2009/05/inventory-management.html
+
+** re:
+- [[https://bluebottlegames.com/games/neo-scavenger][NEO Scavenger]]
+- Togetherness
+- Cultural Techniques

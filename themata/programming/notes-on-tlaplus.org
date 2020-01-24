@@ -66,10 +66,27 @@ sudo unzip TLAToolbox-1.6.0-linux.gtk.x86_64.zip -d /opt/TLAToolbox/
 #+END_SRC
 
 The TLA+ Toolbox GUI should launch
-** TODO Fixing the color
+** Fixing the colors (in Manjaro with a dark global theme)
 
-The default color schemes on my system are virtually unusable, and no matter how
-many of the color options I've toggled, nothing seems to be changing...
+I'm on Linux, specifically using the i3 edition of the [[https://manjaro.org/][Manjaro]] distribution
+(largely a wrapper around Arch). I opted for a dark global theme, which
+occasionally requires manually touching up the appearance configs of an
+application to fix dark-on-dark text. The TLAToolbox needed just such a touch up
+on my system. However, for whatever reason, the appearance configs for the
+TLAToolbox had no observable effect on the actual appearance. I ended up working
+around this by disabling the dark themeing in my launcher for executable.
+
+I created the following shell script to launch the toolbox:
+
+#+BEGIN_SRC sh
+$ cat /usr/bin/tlaplus
+# Need to override the dark themeing since the TLAToolbox is insufficently configurable
+export GTK_THEME=Adwaita
+exec /opt/TLAToolbox/toolbox/toolbox
+#+END_SRC
+
+After a =sudo chmod +x /usr/bin/tlaplus=, I can launch the toolbox by running
+=tlaplus=.
 
 * Excerpts
 

@@ -1,5 +1,10 @@
 #+TITLE: Multiplicative Operations
 
+#+BEGIN_QUOTE
+If composition of maps is analogous to multiplication of numbers, what is te
+analog of division of numbers? (cite:f.08_concep 60)
+#+END_QUOTE
+
 * Conjunction
 
   A conjunction is the /logical product/ of two propositions. What of /logical
@@ -9,8 +14,8 @@
   quotient is derived by dividing the /dividend/ by the /divisor/. Division is
   the inverse operation of multiplication.
 
-  The logical product is the result of conjoining two propositions. In the proof
-  theoretic approach, we call this "and introduction" or "conjunction
+  The logical product is the result of conjoining two propositions. In the
+  proof-theoretic approach, we call this "and introduction" or "conjunction
   introduction". We also know what the inverse operation is called: /conjunction
   elimination/. However, we don't speak of /logical quotients/. Why not?
 

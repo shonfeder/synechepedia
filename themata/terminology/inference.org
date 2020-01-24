@@ -1,0 +1,20 @@
+#+TITLE: Inference
+
+Inference, from its root, is a matter of [[file:bear.org]["being borne"]].
+
+* etymology
+#+BEGIN_QUOTE
+in logic, "to 'bring in' as a conclusion of a process of reasoning," 1520s, from
+Latin inferre "bring into, carry in; deduce, infer, conclude, draw an inference;
+bring against," from in- "in" (see in- (2)) + ferre "carry, bear," from
+PIE *bher- (1) "to bear, to carry, to take" (cognates: Sanskrit bharati
+"carries;" Avestan baraiti "carries;" Old Persian barantiy "they carry;"
+Armenian berem "I carry;" Greek pherein "to carry;" Old Irish beru/berim "I
+catch, I bring forth;" Gothic bairan "to carry;" Old English and Old High German
+beran, Old Norse bera "barrow;" Old Church Slavonic birati "to take;" Russian
+brat' "to take," bremya "a burden").
+
+General sense of "draw a conclusion" is first attested 1520s; intransitive sense
+is from 1570s.
+#+END_QUOTE
+cite:etymonline

@@ -1,7 +1,16 @@
 #+TITLE: Terminology
 
+* TODO Terms
+
+* Purpose
+To collect, organize, relate, and make available reflections, remarks, and
+analysis of a terminological nature.
+* Format
+Each entry in this directory is about a single term, and the body of the file
+will records remarks of a terminological nature.
 * What is a term?
 * On the goal of consistent and coherent terminology
 * Expansion of terms
 ** TODO Generate links to all term files in this dir
 ** TODO Design format for term files
+** TODO Create capture template to create a new term file

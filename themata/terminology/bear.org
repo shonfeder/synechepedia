@@ -1,0 +1,13 @@
+#+TITLE: Bear
+
+* etymology
+#+BEGIN_QUOTE
+Old English beran "to bear, bring; bring forth, produce; to endure, sustain; to
+wear" (class IV strong verb; past tense bær, past participle boren), from
+Proto-Germanic *beran (cognates: Old Saxon beran, Old Frisian bera, Old High
+German beran, German gebären, Old Norse bera, Gothic bairan "to carry, bear,
+give birth to"), from PIE root *bher- (1) meaning both "give birth" (though only
+English and German strongly retain this sense, and Russian has beremennaya
+"pregnant") and "carry a burden, bring" (see infer).
+#+END_QUOTE
+cite:etymonline

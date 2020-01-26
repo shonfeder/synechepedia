@@ -1,31 +1,22 @@
 #+TITLE: Quips
 
-Things To be sorted and/or expanded or deleted...
+Things To be sorted, expanded, or deleted...
 
 * The formal paradoxes of the early 20th century
 I suspect that a common root of these was the use of /general logic/ as an
 *organon*. In Kant's critical philosophy, he admonishes against this,
 warning that will produce monstrous results.
 
-To use logic as an organon is to use it to extend our knowledge. That is
-done whenever we try to reason from purely general logical principles to
-existence of any sort. This occurs in the axiom of unrestricted
+To use logic as an organon is to use it to extend our knowledge. That is done
+whenever we try to reason from purely general logical principles to *existence*
+of any sort. This occurs, for instance, in the axiom of unrestricted
 comprehension.
-* We are so nearsighted
-It is hard to comprehend how far ahead the vision of theoretical visionaries
-reached. Every day, arenas for idle chatter (like Reddit, Hacker News, and
-Lobste.rs) are awash in "new" "ideas" (actually /relabeled concepts/) and
-"novel" "insights" (actually /novelty framings/). But Plato already foresaw how
-writing would erode memory, Leibniz foresaw the automation of proof and
-ratiocination, Hobbes articulated the core notions of cybernetics, Cantor
-described the basic technique needed for music visualizers -- I could go on and
-no, and would only be limited by the meagerness of my education.
 * We deserve to live well
 Humanity as a whole does not seem to believe that it deserves to live well. We
 must become convinced that we deserve to live well so that we become compelled
 to form our communities to serve this end.
 * Masquerading as kindness
-Forms of compliance and complicity masquerade as kindness.
+Some forms of compliance and complicity masquerade as kindness.
 * Wild guesses
 - Girard's cite:girard11 culminates in a formal theory of /transcendental
   inter-subjectivity/.
@@ -54,13 +45,6 @@ extract.
 
 This places naive pattern matching in direct opposition to *representation
 independence*.
-* Melting
-#+BEGIN_VERSE
-My mother,
-striving to live a life she felt to be free,
-conceived a cage of a novel
-kind to me.
-#+END_VERSE
 * Nutshelled
 ** Virtual Machines vs. Containers
 VMs use an abstraction of machine hardware to run real OSes on the host machine.

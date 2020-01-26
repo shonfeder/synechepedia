@@ -8,24 +8,25 @@ way of being together that is kind and nurturing and, in its flourishing,
 encourages all others to flourish.
 
 I postulate (1) that there is no limit to the compassion and kindness we can
-achieve ([[file:../excerpts/distention-of-the-heart.org][Cf.]]) and (2) that the importance of this mission calls for an intensity
-of focus and depth of thoughtfulness which is also limitless.
+achieve ([[file:../excerpts/distention-of-the-heart.org][Cf.]]) and (2) that the importance of this aim calls for an intensity of
+focus and depth of thoughtfulness which is also limitless. What we aim to do and
+the way it is to be done preclude the possibility of completion. So we try to
+break our pursuit into many small tasks, which themselves can be completed.
 
-Thus, what we want to do and the ways we must do it preclude the possibility of
-completion. Yet, if we spend our few remaining decades[fn:decades] tinkering at
-this and that facet of the endeavor, leaving partially worked surfaces, half
-finished forms, and tools and plans scattered around, we will fail to realize
-any improvement or make any useful contributions. Worse, such wasted work might
-clutter the work sites and contribute to confusion. Though completion is
-impossible, some measure of finish is necessary.
+Yet this aim requires careful planing and critique. If we just get busy
+executing items of work that appear to be candidates for completion, our efforts
+are likely to be wasted, or, worse, they will work effectively towards the
+degradation of our potential for peace and kindness. The worst fate for humanity
+is not extinction, it is becoming [[https://en.wikipedia.org/wiki/Borg][borg]]. Contributions that enhance our systems
+of power without embedding an immanent critique[fn:immanent-critique] to protect
+against the malicious use of that power are /ultimately irresponsible/.
 
-On the other hand, if we simply get busy executing items of work evidently
-susceptible to completion, our efforts are likely to be wasted, or, worse, they
-will work effectively towards the degradation of our potential for peace and
-kindness. The worst fate for humanity is not extinction, it is becoming [[https://en.wikipedia.org/wiki/Borg][borg]].
-Contributions that enhance our systems of power without embedding an immanent
-critique to protect against the malicious use of that power are /ultimately
-irresponsible/.
+Yet, if we spend our remaining decades[fn:decades] tinkering at this and that
+facet of the endeavor, leaving partially worked surfaces, half finished forms,
+and tools and plans scattered around, we will fail to realize improvement or
+make useful contributions. Worse, such wasted work might clutter the work sites
+and contribute to confusion. /Though completion is impossible, some measure of
+finish is necessary/.
 
 There must[fn:must] be a way of executing finishable work that builds towards
 our incompletable aim. Therefore, a clear distinction must be made between
@@ -141,6 +142,15 @@ Further work to be done:
   composites, and thus build towards the goal. Cf. [[file:programming/the-measure-of-a-module.org][The Measure of a Module]].
 
 * Footnotes
+
+[fn:immanent-critique] "The purpose of immanent critique is the detection of
+societal contradictions which suggest possibilities for emancipatory social
+change. It considers ideas’ role in shaping society, with focus on future
+emancipatory change. An immanent critique of a value is a discussion of the
+principles (overt or implicit) the value proposes. It highlights the gaps
+between what something stands for and what is being done in actual terms.
+Immanent critique tries to find contradictions and indirectly provide
+alternatives, without constructing an entirely new theory." ([[https://en.wikipedia.org/wiki/Immanent_critique][wikipedia]])
 
 [fn:confession] I took these notes in order to analyze and exorcise blockages in my
 own workflow. However, they are written from an intersubjective view point to

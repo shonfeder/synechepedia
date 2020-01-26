@@ -1,0 +1,24 @@
+#+TITLE: Quick Start Coq: Quick, Start Coq!
+
+*WIP*
+
+* TODO Introduction
+* Prerequisites
+- [[https://opam.ocaml.org/doc/Install.html#Binary-distribution][Opam]]
+- [[http://ergoemacs.org/emacs/which_emacs.html][Emacs]]
+** My setup
++ [[https://github.com/hlissner/doom-emacs][doom-emacs]]
+  + Uncomment =;;coq= in file:~/.doom.d/init.el
+
+* Installation
+
+Using [[https://opam.ocaml.org/doc/Install.html#Binary-distribution][opam]]:
+
+#+BEGIN_QUOTE
+opam update
+opam install coq
+#+END_QUOTE
+* TODO Writing and running proofs
+- Put coq code in files with the =.v= extension
+- Start checking the proof by running =C-c C-Return=.
+* TODO Extracting programs

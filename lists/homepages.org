@@ -1,28 +1,56 @@
 #+TITLE: Homepages to watch
 
-* Frank Pfenning
-Linear logic, formal verification, type theory
-http://www.cs.cmu.edu/~fp
+* Andreas Rossberg
+Developer of HaMLet and 1ML
+https://people.mpi-sws.org/~rossberg/index.html
+* Bob Atkey
+https://bentnib.org/
+
+Researcher on PLT with a really fascinating mix of work.
+
+#+BEGIN_QUOTE
+My research is on programming languages. I use mathematical ideas and structure
+from logic, category theory, type theory, and denotational semantics to study
+programming languages and the systems they describe.
+#+END_QUOTE
+
 * Dale Miller
 Linear logic programming, proof theory, automated reasoning
 http://www.lix.polytechnique.fr/Labo/Dale.Miller/
 * Daniel Bünzel
 OCaml, Libre Software
 http://erratique.ch/contact.en
+* Drup's Thingies
+OCaml libraries and techniques
+https://drup.github.io/
+* Frank Pfenning
+Linear logic, formal verification, type theory
+http://www.cs.cmu.edu/~fp
 * Laura Crosilla
 Type theory, constructivism, philosophy of mathematics
 https://sites.google.com/view/lauracrosilla/home
-* Andreas Rossberg
-Developer of HaMLet and 1ML
-https://people.mpi-sws.org/~rossberg/index.html
 * Michael Cuffaro
 Philosopher, computer scientists
 http://www.michaelcuffaro.com/
 * Neel Krishnaswami
 https://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
-* Drup's Thingies
-OCaml libraries and techniques
-https://drup.github.io/
+* Paolo Pistone
+http://logica.uniroma3.it/pistone/
+
+Researcher in Logic, studied under Girard.
+
+#+BEGIN_QUOTE
+ My research interests are in the proof-theory of second order logic (System F)
+ and linear logic (especially proof-nets).
+
+Parametric polymorphism, the central topic of second order proof-theory, lies at
+the border between mathematics, computer science, and philosophy. It can be
+considered as the mathematical counterpart of the old philosophical problem of
+impredicativity. Also, polymorphism is a well-known tool of many programming
+languages and has deep connections with category theory (dinaturality, coherence
+theorems, fibrations).
+#+END_QUOTE
+
 * Roddy MacSween
 Graduate student in CS who has built some useful ocaml web tools.
 https://roddymacsween.co.uk/

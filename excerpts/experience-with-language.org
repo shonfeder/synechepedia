@@ -1,0 +1,71 @@
+#+TITLE: Experience with Language
+
+#+BEGIN_QUOTE
+Suppose, specifically, we were asked head-on: In what relation do you live to
+the language you speak? We should not be embarrassed for an answer. Indeed, we
+would at once discover a guideline and point of reference with which to lead the
+question into channels where it can safely be left.
+
+...It therefore might be helpful to us to rid ourselves of the habit of always
+hearing only what we already understand. My proposal is addressed not only to
+all those who listen; it is addressed still more to [those][fn:de-gendered] who
+try to speak of language, all the more when they do so with the sole intent to
+show possibilities that will allow us to become mindful of language and our
+relation to it.
+
+But this, to undergo an experience with language, is something else again than
+to gather information about language. Such information -- linguists and
+philologists of the mos diverse languages, psychologists and analytic
+philosophers supply it to us, and constantly increase the supply, /ad
+infinitum/. Of late, the scientific and philosophical investigations of
+languages is aiming ever more resolutely at the production of what is called
+"metalanguage." Analytical philosophy, which is set on producing this
+super-language, is thus quite consistent when it considers itself
+metalinguistics. That sounds like metaphysics -- no tonly sounds like it, it
+/is/ metaphysics. Metalinguistics is the metaphysics of the thoroughgoing
+technicalization of all languages into the sole operative instrument of
+interplanetary information. Metalanguage and sputnik, metalinguists and rocketry
+are the Same.
+
+However, we must not give grounds for the impression that we are here passing
+negative judgment on the scientific and philosophical investigation of language
+and of the languages. Such investigation has its own particular justification
+and retains its own importance. But scientific and philosophical information
+about language is one thing; an experience we undergo with language is another.
+Whether the attempt to bring us face to face with the possibility of such an
+experience will succeed, and if it does, how far that possible success will go
+for each one of us -- that is not up to any of us.
+
+What is left for us to do is to point out ways that bring us face to face with a
+possibility of undergoing an experience with language. Such ways have long
+existed. but they are seldom used in such a manner that the possible experience
+with language is itself given voice and put into language. In experiences which
+we undergo /with/ language, language itself brings itself to language. One would
+think that this happens anyway, any time anyone speaks. Yet at whateve time and
+in whatever way we speak a language, language itself never has the floor. Any
+number of thins are given voice in speaking, above all what we are speaking
+about: a set of facts, an occurrence, a question, a matter of concern. Only
+because in everday speaking language does /not/ bring itself to language but
+holds back, are we able simply to go ahead and speak a language, and so to deal
+with something and negotiate something by speaking.
+
+But when does language speak itself as language? Curiously enough, when we cannot
+find the right word for something that concerns us, carries us away, oppresses
+or encourages us. Then we leave unspoken what we have in mind and, without
+rightly giving it thought, undergo moments in which language itself has
+distantly and fleeting touched us with its essential being.
+
+
+But when the issue is to put into language something has never yet been spoken,
+then everything depends on whether language gives or witholds the appropriate
+word. Such is the case of the poet.
+
+(cite:heidegger1982way)
+#+END_QUOTE
+
+* Footnotes
+
+[fn:de-gendered] I de-gendered the pronouns in this passage.
+
+
+bibliography:~/Dropbox/bibliography/references.bib

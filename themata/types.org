@@ -38,7 +38,6 @@ In Russell, "a type is defined as the range of significance of a propositional
 function, i.e., as the collection of arguments for which the said function has
 values" (cite:10.2307/2369948).
 
-
 ** Structuralist view
 
 Girard advances an existentialist view of logic (and type theory, as a
@@ -98,4 +97,22 @@ This is what leads me to suspect type theory would be more easily understood as
 an extension of [[https://en.wikipedia.org/wiki/Term_logic][term logic]].
 
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+** Type Theory as a Normative Discipline
+This is merely an extension of the normative theory of logic.
+
+Type Theory is a computational model constrained by a logical syntax.
+
+#+BEGIN_QUOTE
+Logical syntax can thus be seen both as a constructive tool, enabling the
+formation of (normalizing) typed terms, and as a constraining one, imposing a
+/custom/ on pure terms (and their socialization) in order to force termination.
+
+(cite:abrusci14_transc)
+#+END_QUOTE
+
+*** TODO Extract Thread from Twitter
+
+
+
+bibliography:../../../bibliography/references.bib

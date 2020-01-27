@@ -1,22 +1,46 @@
 #+TITLE: Types
 
-* TODO Notes to process
+* TODO What are Types?
 
-** Type theory vs. a theory of types
+** TODO In "Type Theory"
 
-"Type theory" means a theory that /uses/ types, not necessarily a theory of what
-types are.
+#+BEGIN_QUOTE
+In the "types as predicates" variant of the "types as sets" approach, types are
+taken to be predicates, which therefore denote sets (or some variant thereof,
+such as domains). However, many advocates of this view are more proof
+theoretically inclined, and hence might resist such denotations. Perhaps the
+best known work along this line is Martin-Löf's "type theory", which also
+provides dependent types, as implemented in Pebble and other languages. (Note
+that "type theory" is not a general theory of types, but rather a specific
+intuitionistic logic which provides one specific notion of type).
+
+(cite:Programming91typesas)
+#+END_QUOTE
 
 What is the theory of types that is presupposed by the λ-calculus based type
 theories?
 
-*** TODO Excerpt from Goguen
-*** Hypothesis
+*** TODO Genealogy
+Russell's theory of types puts the concept of /function/ *under* the concept of
+proposition (in the sense of conceptually prior to). Then the meaning of
+quantification is determined via the range of /valid/ values of a function. But
+what determines the /validity/ of this range? He names it "logical homogeneity".
+
+In Russell, "a type is defined as the range of significance of a propositional
+function, i.e., as the collection of arguments for which the said function has
+values" (cite:10.2307/2369948).
+
+How is the homogeneity of such collections enforced?
+
+*** Types as marks of belonging-together
+
 The types of the typed λ-calculi are /marks/, or /indexes/, used to enforce a
 sense of appropriateness that follows from presumptions of /belonging together/.
 
-This is indeed how types function in the calculi, and it is true to the etymon
-of 'type':
+This is indeed how types function in the calculi when represented ala Church.
+The types mark the λ-terms themselves, being inscribed into each head. These
+marks serve as a prophylactic protecting against unwanted applications. This
+usage echos the etymon of 'type':
 
 #+BEGIN_QUOTE
 late 15c., "symbol, emblem," from Latin /typus/ "figure, image, form, kind,"
@@ -27,16 +51,50 @@ character; outline, sketch," from root of /typtein/ "to strike, beat," from PIE
 ([[https://www.etymonline.com/search?q=type][etymonline]])
 #+END_QUOTE
 
+*** TODO The question of justification
 
-*** Genealogy
-Russell's theory of types puts the concept of /function/ *under* the concept of
-proposition. Then the meaning of quantification is determined via the range of
-/valid/ values of a function. But what determines the /validity/ of this range?
-he names it "logical homogeneity".
+What justifies such enforcement?
 
-In Russell, "a type is defined as the range of significance of a propositional
-function, i.e., as the collection of arguments for which the said function has
-values" (cite:10.2307/2369948).
+* TODO Types as Theories
+
+#+BEGIN_QUOTE
+The essential insight of the "types as algebras" notion is that the /operations/
+associated with data are at least as important as the values. Thus, the this
+approach generalized from [types as] sets to /algebras/, which are just sets
+with some given operations.
+
+(cite:Programming91typesas)
+#+END_QUOTE
+
+Let's lean on the proof-theory side of types-as-propositions and recall (what I
+believe to be) a key insight of Gentzen's approach:
+
+#+BEGIN_QUOTE
+To every logical symbol ... belongs precisely one inference figure which
+'introduces' the symbol - as the terminal symbol of a formula - and one which
+'eliminates' it. ... The introductions represent, as it were, the 'definitions'
+of the symbols concerned, and the eliminations are no more than, in the final
+analysis, than the consequences of these definitions. This fact may be expressed
+as follows: In eliminating a symbol, we may use the formula with whose terminal
+symbol we are dealing only 'in the sense afforded by the introduction of that
+symbol'.
+
+cite:m.69_gerhar_gentz_german
+#+END_QUOTE
+
+That is, the meaning of the logical connectives (i.e., the correspondents of the
+principle types in the various type theories) is given by their introduction and
+elimination rules. From the Curry perspective on typing, I think we can say that
+the intro/elim rules are (partial) operations on the sets of derivations in the
+lambda calculus (since a set of derivations is a set of programs, which is a set
+of proofs, which is the meaning of a proposition according to the perspective of
+proof-theoretic semantics). If this is correct, I think we have a perspective
+from which we can say that the meaning of the types in our systems are indeed
+given by the operations belonging to each type (i.e., the particular sets of
+operations which carve out patterns of permitted connections within the sets of
+derivations of the lambda calculus).
+
+* TODO Notes to process
 
 ** Structuralist view
 
@@ -95,8 +153,6 @@ judgment is required for a simply typed λ-calculus. But simply typed λ-calculu
 is only analogous to /propsitional logic/, so how can we be predicating here?
 This is what leads me to suspect type theory would be more easily understood as
 an extension of [[https://en.wikipedia.org/wiki/Term_logic][term logic]].
-
-
 
 ** Type Theory as a Normative Discipline
 This is merely an extension of the normative theory of logic.

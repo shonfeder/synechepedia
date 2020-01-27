@@ -35,6 +35,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/work-anxiety-and-egotism.org][Work Anxiety and Egotism]]
 ** Excerpts
 - [[file:excerpts/distention-of-the-heart.org][Distention of the heart]]
+- [[file:excerpts/experience-with-language.org][Experience with language]]
 ** Logs
 - [[file:logs/recurse-center/index.org][Recurse Center Logs]]
 - [[file:reading-list.org][Reading List]]

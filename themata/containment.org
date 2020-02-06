@@ -1,6 +1,31 @@
 #+TITLE: Containment
 
-Containment is a candidate for "table of transcendental techniques".
+Containment is a candidate for a "table of transcendental [[https://monoskop.org/Cultural_techniques][techniques]]".
+
+* TODO The Concept of Containment
+#+BEGIN_QUOTE
+contain (v.)
+
+c. 1300, "restrain (someone), control (oneself), behave (in a certain way),"
+from Old French contein-, tonic stem of contenir, from Latin continere
+(transitive) "to hold together, enclose," from assimilated form of com "with,
+together" (see con-) + tenere "to hold," from PIE root *ten- "to stretch."
+
+From mid-14c. as "to have (something) as a constituent part;" from late 14c. as
+"have something inside, enclose."
+
+([[https://www.etymonline.com/word/contain#etymonline_v_18267][etymonline]])
+#+END_QUOTE
+
+The concept of containment is powerful and rudimentary. Roughly, /containment/
+seems to be the concept that distinct things can be gathered and held together
+by some other thing, and thereby treated as one. It is difficult to determine
+whether we can /think/ at all without presupposing this concept. The modern
+concept of /concept/ seems to presuppose the technique of containment, and I
+wager that the concept of /collection/ is abstracted from groupings enabled by
+the technique of containment. I guess most animals don't have access to this
+technique, or else we'd often see them toting valuables in makeshift bags and
+boxes.
 
 * Containerization
 

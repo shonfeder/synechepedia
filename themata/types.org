@@ -20,19 +20,73 @@ intuitionistic logic which provides one specific notion of type).
 What is the theory of types that is presupposed by the λ-calculus based type
 theories?
 
-*** TODO Genealogy
-Russell's theory of types puts the concept of /function/ *under* the concept of
-proposition (in the sense of conceptually prior to). Then the meaning of
-quantification is determined via the range of /valid/ values of a function. But
-what determines the /validity/ of this range? He names it "logical homogeneity".
+*** Genealogy
+Martin-Löf's, in his "An intuitionistic theory of types", explicitly traces his
+concept of type back to Russel:
 
-In Russell, "a type is defined as the range of significance of a propositional
+#+BEGIN_QUOTE
+Every mathematical object is of a certain kind or /type/. Better, a mathematical
+object is always given together with its type, that is, it is not just an
+object, it is an object of a certain type. This may be regarded as a simpler and
+at the same time more general formulation of Russel's 1903 /doctrine of types/,
+according to which a type is the range of significance of a propositional
+function, because in the theory that I am about to describe every propositional
+function will indeed have a type as its domain.
+
+(cite:martin1998intuitionistic)
+#+END_QUOTE
+
+Russell's theory of types puts the concept of a propositional /function/ *under*
+the concept of a general proposition (in the sense of conceptually prior to).
+
+#+BEGIN_QUOTE
+Every proposition containing all asserts that some propositional function is
+always true; and this means that all values of the said function are true
+#+END_QUOTE
+
+Then the meaning of quantification is subordinate to the range of /valid/ values
+of a function.
+
+#+BEGIN_QUOTE
+Hence we can speak of all of a collection when and only when the collection
+forms part or the whole of the range of significance of some propositional
+function, the range of significance being defined as the collection of those
+arguments for which the function in question is significant, i. e., has a value.
+(cite:10.2307/2369948)
+#+END_QUOTE
+
+Hence, "a type is defined as the range of significance of a propositional
 function, i.e., as the collection of arguments for which the said function has
 values" (cite:10.2307/2369948).
 
-How is the homogeneity of such collections enforced?
+But what determines the /validity/ of this range? Russell names it "logical
+homogeneity":
 
-*** Types as marks of belonging-together
+#+BEGIN_QUOTE
+What is essential, as appears from the above discussion, is not finitude, but
+what may be called logical homogeneity. This property is to belong to any
+collection whose terms are all contained within the range of significance of
+some one function. It would always be obvious at a glanice whether a collection
+possessed this property or not, if it were not for the concealed ambiguity in
+common logical terms such as true and false, which gives an appearance of being
+a single function to what is really a conglomeration of many functions with
+different ranges of significance.
+
+(cite:10.2307/2369948)
+#+END_QUOTE
+
+/Logical homogeneity/ is a property of /collections of terms/. A collection of
+terms has this property when all the terms are "contained within the range of
+significance of some one function". A "type" is then a special case of a
+logically homogenius collection of terms: a logically homogenius collection of
+terms whose characteristic function is /propositional/ is a /type/.
+
+Of course, this all leaves undecided the really essential and most interesting
+question: How is the homogeneity of such collections determined and enforced? By
+virtue of what can we say that the terms in such a collection /belong/ together?
+And, once we've determined that belonging together, how do we enforce this?
+
+*** Enforcement: types as marks of belonging-together
 
 The types of the typed λ-calculi are /marks/, or /indexes/, used to enforce a
 sense of appropriateness that follows from presumptions of /belonging together/.
@@ -51,7 +105,7 @@ character; outline, sketch," from root of /typtein/ "to strike, beat," from PIE
 ([[https://www.etymonline.com/search?q=type][etymonline]])
 #+END_QUOTE
 
-*** TODO The question of justification
+*** TODO Justification: ...
 
 What justifies such enforcement?
 

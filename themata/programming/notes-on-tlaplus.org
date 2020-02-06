@@ -2,7 +2,11 @@
 
 *WIP*
 
-Notes compiled while learning the basics of TLA+.
+*NOTE:* My initial notes here have a polemical tone. Please know that it is part
+of my learning process, and, until this notice is removed, any critical remarks
+here should be read as an exclamatory rather than an assertoric utterance.
+
+There are notes compiled while learning the basics of TLA+.
 
 * My Initial Point of View
 
@@ -87,6 +91,143 @@ exec /opt/TLAToolbox/toolbox/toolbox
 
 After a =sudo chmod +x /usr/bin/tlaplus=, I can launch the toolbox by running
 =tlaplus=.
+* First Impressions
+** Syntax
+Compared with the theorem proving languages (Coq, Agda, Lean), logic programming
+languages (Prolog, Datalog), and algebraic specification languages (CafeOBJ and
+Maude) I've been exposed to, the syntax seems quite clunky and appears to pulled
+out of a grab bag of different symbols sets.
+
+There are no fewer than 3 different syntaxes at play: TLC, PlusCal P, PlusCal
+C, the latter 2 compiling to the first, and apparently alternative surface
+syntaxes for the same underlying language. The tutorial I'm working through uses
+PlusCal P, so I'll only address the syntax of TLC and PlusCal P.
+
+*** TLC
+Executable code must be enclosed in ASCII boilerplate matching this pattern:
+
+#+BEGIN_QUOTE TLC
+---- MODULE <file_name> ----
+<program>
+====
+#+END_QUOTE
+
+There must be at minimum four preceding ~-~ and four terminating ~=~. Anything
+outside of this block will be ignored. Why? No explanation is given, so likely
+just an artifact of some arbitrary decision during earlier development.
+
+TLC uses mix of ASCII symbols (e.g., ~/\~ and ~\/~ for conjunction and
+disjunction), Latex syntax (e.g., ~\in~ for set membership), and KEYWORDS (e.g.,
+~SUBSET~, ~IF~, ~LET~). Given that users are told they must install the (JVM
+based) TLAToolBox IDE to use the TLA+ system effectively, we might wonder why
+the IDE cannot support unicode, as can, e.g., Coq and Adga (without requiring
+you to install a bespoke JVM IDE).
+
+Here's an operation from an example spec that ships with the TLAToolbox:
+
+#+BEGIN_QUOTE TLC
+Move(S,b) == /\ Cardinality(S) \in {1,2}
+             /\ LET newThisBank  == who_is_on_bank[b] \ S
+                    newOtherBank == who_is_on_bank[OtherBank(b)] \cup S
+                IN  /\ IsSafe(newThisBank)
+                    /\ IsSafe(newOtherBank)
+                    /\ bank_of_boat' = OtherBank(b)
+                    /\ who_is_on_bank' =
+                         [i \in {"E","W"} |-> IF i = b THEN newThisBank
+                                                       ELSE newOtherBank]
+#+END_QUOTE
+
+Some oddities to note:
+
+- Where as ~\foo~ is a Latex-like identifier (e.g., ~\in~ and ~\cup~) the ~\~
+  alone means set difference. If we are using ~\cup~ for union, why wouldn't we
+  use ~\setminus~ for difference? Presumably because ~\~ is an icon for the
+  unicode $$\setminus$$. Using the prefix for a class of identifiers as it's own
+  identifier instead of using the appropriate, assigned identifier from within
+  that class seems like a very bad idea to me.
+- In most languages I've used, ~==~ indicates (some sort of) equality and ~=~
+  indicates assignment. That is reversed here.
+- The notation ~[x \in D |-> exp]~ is an anonymous "array/function" from
+  ~x~, which must be in the domain ~D~, to ~exp~. Note the early appearance of
+  stringly typed programming in the specification of the domain. What happens if
+  a value is supplied that is not in the domain? In my experiment this produced
+  a runtime error with this unhelpful output: =No error information=.
+*** PlusCal P
+**** Why PlusCal?
+#+BEGIN_QUOTE
+In contrast to TLA+'s action-oriented focus on distributed systems, PlusCal most
+resembles an imperative programming language and is better-suited when
+specifying sequential algorithms. ... PlusCal was designed to replace
+pseudocode, retaining its simplicity while providing a formally-defined and
+verifiable language
+
+([[https://en.wikipedia.org/wiki/PlusCal][wikipedia]])
+#+END_QUOTE
+
+In other words, TLC seemes to be sufficiently difficult and unintuitive for
+imperative programmers to write that a toy imperative language was developed
+that transpiles to TLC. The idea is that users will implement their algorithms in
+the PlusCal, transpile to TLC to verify them, then reimplement the algorithms in
+the target language.
+
+Compare this with the functional approach, wherein the actual language is
+designed to replace pseudocode and be formally verifiable itself, and
+verification tools support extraction directly into executable programs.
+
+**** Comments in your algorithms in your comments
+PlusCal code must be written within a comment with a new kind of adhoc
+delimiter:
+
+#+BEGIN_SRC pluscal
+(* --algorithm algorithm_name
+\* PlusCal code
+algorithm; *)
+#+END_SRC
+
+Note that there is a comment syntax, ~\*~, for PlusCal that works inside of the
+comment syntax for TLC, ~(* ...  *)~.
+
+Apparently the practice is to write your PlusCal code combedded in comments, and
+then execute the IDE function "Translate PlusCal Algorithm" which will elaborate
+the PlusCal code into generated TLC code *in the very same file*. This means
+that, for PlusCal, *there is no sensible division between compiled build
+artifacts and source code*.
+
+**** Contex switch, syntax switch
+
+In a PlusCal algorithm, variables are defined before the procedure:
+#+BEGIN_SRC pluscal
+variables x = 1, y \in {3, 4}, z = {3, 4};
+begin
+\* PlusCal code
+end
+#+END_SRC
+
+Note these arbitrary differences from TLC:
+
+- ~=~ now means assignment (but we're still using the latex symbol for set membersip)
+- statements are now terminated with a semicolon
+- keywords (i.e., ~variables~, ~begin~, ~end~) are now lower case
+
+**** Manually labeling your lines
+
+Do you (or did you) miss the tedium of manually labeling your steps and using
+GOTOs for control flow? PlusCal has you covered.
+** IDE
+- Since it's a JVM app, it didn't initially integrate well with my OS, and I had
+  to employ the workaround indicated above.
+- Since it's a bespoke IDE environment
+  - none of my configurations, bindings, or preferences from my usual
+    programming setup are available
+  - the commands, interface, and UI is all idiosyncratic, and unlike anything
+    else I've used
+
+*** Invariants have to be input via the GUI?
+
+I hope you like programming with checkboxes and drop down menus! Apparently, in
+order to actually get TLA+ to check invariants, you have to navigate to the
+appropriate form in the "model" interface, click "Add", and then enter your
+expression. Why wouldn't the invariants be part of the source of the code?
 
 * Excerpts
 
@@ -109,7 +250,6 @@ https://wiki.eecs.yorku.ca/course_archive/2016-17/W/4315/_media/public:lecture24
 - Do the differences between the model checking and theorem proving approaches
   trace back to a difference betwen the model theoretic vs. proof theoretic
   approaches to logic?
-
 
 * Resources
 - [[https://learntla.com/introduction/about-this-guide/][Learn TLA+ Website]]

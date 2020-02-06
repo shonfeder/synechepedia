@@ -1,0 +1,85 @@
+#+TITLE: Accounting
+
+The practical need to earn a living from my profession brought me to the
+topic of accounting. Having arrived at this topic, however, it was immediately
+apprent that the problem and practice of accounting is something of critical
+importance.
+
+* What is an *Account*
+/Notes recorded while reading [[https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4/edit][Beancount - The Double-Entry Counting Method]]./
+
+#+BEGIN_QUOTE
+Let’s begin by defining the notion of an *account*. An account is something that
+can contain things, like a bag. It is used to count things, to accumulate
+things.
+
+([[https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4/edit][Beancount - The Double-Entry Counting Method]])
+#+END_QUOTE
+
+Under this view, accounting would be a combination of counting and [[file:containment.org][containment]].
+* Keeping Books
+#+BEGIN_QUOTE
+When you do bookkeeping for a set of accounts, you are essentially describing
+all the postings that happen on all the accounts over time, subject to the
+constraint of the rule. You are creating a database of those postings in a book.
+You are “keeping the book,” that is, traditionally, the book which contains all
+those transactions. Some people call this “maintaining a journal.”
+
+([[https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4/edit][Beancount - The Double-Entry Counting Method]])
+#+END_QUOTE
+
+** Doubly Entry in Beancount
+*** Transaction
+Moves an amount from one (or more) account(s) to another.
+
+*** Polarity
+Accounts have a "normal sign". I.e., whether they represent *positive* or
+*negative* values by default.
+
+#+BEGIN_QUOTE
+The great majority of accounts in the double-entry system tend to have a balance
+with always a positive sign, or always a negative sign (though as we’ve seen
+previously, it is not impossible that an account’s balance could change signs).
+#+END_QUOTE
+
+*** Modality
+Accounts have a "modality" based on whether their counts are meaningful based on
+every momentary *balance* or only as a *delta*.
+
+*** Types of Accounts
+
+| Modality\Plarity | Positive (+) | Negative (-) |
+|------------------+--------------+--------------|
+| Balance          | Assets       | Liabilities  |
+| Delta            | Expenses     | Income       |
+
+**** Balance: "Balance Sheet"
+The total count at a point in time is meaningful in its own right: E.g., your
+savings account.
+
+- (+) Assets :: Counts something the owner /has/ (rights).
+- (-) Liabilities :: Counts something the owner /owes/ (obligations).
+- (-) Equity :: Counts net income from all past activity. (Counterbalance assets
+  and liabilities.)
+**** Delta: "Income Statement"
+Only the differences are meaningful. E.g., monthly earnings.
+
+- (+) Expenses :: Counts something the owner /received/.
+- (-) Income ::  Counts something the owner "/gave away/ in order to receive
+  something else".
+
+The polarity of these account types struck me as counterintuitive at first:
+aren't expenses things that we pay ("give away") and "income" things that we
+"receive", isn't that why they are "in coming"? This results from a mistaken
+perspective: the /income/ accounts are not counting how much we earned, but
+where the earnings are coming from (this is a negative image of the amount
+earned). Similarly, /expense/ accounts are not counting how much we pay out, but
+the receiving destination of what we pay.
+
+What we think of as our income (what comes into us) and our expenses (what we pay
+out) in the usual way are recorded as the positive (resp. and negative) alterations to
+our account balances.
+
+The author notes this is an unconventional choice, but the benefit is that we
+only need the addition operator to determine the state of any and all accounts,
+instead of having to calculate debts and credits differently.

@@ -21,6 +21,18 @@ What is the theory of types that is presupposed by the λ-calculus based type
 theories?
 
 *** Genealogy
+**** re: The Prehistory of Types
+#+BEGIN_QUOTE
+In all subsumptions of an object under a concept the representations of the
+former must be *homogeneous* [Gleichartig] with the latter, i.e., the concept
+must contain that which is represented in the object that is to be subsumed
+under it, for that is just what is meant by the expression "an object is
+contained under a concept".
+
+(cite:kant98_critiq, A137/B176)
+#+END_QUOTE
+
+**** re: The History of Types
 Martin-Löf's, in his "An intuitionistic theory of types", explicitly traces his
 concept of type back to Russel:
 

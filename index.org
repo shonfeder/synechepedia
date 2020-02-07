@@ -75,6 +75,7 @@ hope of achieving completion.
 Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar
 Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.
 
+*** TODO Replace Excerpts section with link to bibliography notes
 *** TODO Automatically populate Themata, Excerpts, and Lists
 
 * References

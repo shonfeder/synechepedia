@@ -1,6 +1,6 @@
 #+TITLE: Quips
 
-Things To be sorted, expanded, or deleted...
+Things to sort, expand, or delete...
 
 * The formal paradoxes of the early 20th century
 I suspect that a common root of these was the use of /general logic/ as an
@@ -28,6 +28,13 @@ not a possible object of cognition.
 This fantasy (really a "nightmare of reason") can entertain lifestyle
 anarchists, ancaps, and neoliberals only because they suppress the necessary
 context in which humans must come into being.
+* Efficiency
+"Optimizing for efficiency" easily leads to optimizing for the maximum effect
+attainable with minimum effort. In the absence of a proper critique of the value
+of the expected effect, *this is deleterious*! In most cases, we should actually
+be pursuing a course which rewards /greater effort/ with /improved outcomes/
+even (and perhaps especially) when the efficiency ratio of effort to outcomes is
+reduced.
 * Pattern matching is in tension with representation independence
 Pattern matching is lovely. I'd strongly encourage anyone who hasn't played with
 a language supporting pattern matching to do so ASAP. As a matter of fact, skip

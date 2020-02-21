@@ -20,7 +20,7 @@ So, /iiuc/...
 
 * The superficial history
 
- Hilbert's program was advanced in the early 1920s. Granted a sufficient number
+ [[https://plato.stanford.edu/entries/hilbert-program/][Hilbert's program]] was advanced in the early 1920s. Granted a sufficient number
  of caveats, the program can be understood as a formalistic one: proof theory ala
  Hilbert should explain how a finite number of rules governing a finite number of
  signs can provide an immanent grounding for the provability of all mathematical
@@ -33,7 +33,7 @@ So, /iiuc/...
 
  Paul Hertz is, arguably, the progenitor of the structural analysis of proofs
  that Gentzen utilized in order to develop *structural proof theory* (see Javier
- Legris' [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiU76j4sI7TAhUl6IMKHWNADUwQFggpMAM&url=http%253A%252F%252Fiiep-baires.econ.uba.ar%252Fdescargas.php%253Fs%253Dpublicaciones%2526f%253D21&usg=AFQjCNEsshNaICQy_K7Cwlg5SWO3tOFPMw&sig2=k6RsugTDd1iP-9kG5weFiw][/Paul Hertz and the Origins of Structural Reasoning]]/). Hertz published
+ Legris' [[https://www.academia.edu/2313465/Paul_Hertz_and_the_Origins_of_Structural_Reasoning][/Paul Hertz and the Origins of Structural Reasoning]]/). Hertz published
  his work, /On Axiomatic Systems for Arbitrary Systems of Sentences/, in 1922.
  In [[https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent][a short biography]] by Hilbert's collaborator [[https://en.wikipedia.org/wiki/Paul_Bernays][Paul Barneys]], Barneys wrote of
  /On Axiomiatic Systems.../,
@@ -44,6 +44,8 @@ So, /iiuc/...
  verschiedener neuerer Forschungen zur mathematischen Logik und Axiomatik,
  insbesondere hat G. Gentzens Sequenzenkalkul von den H.schen Betrachtungen über
  Satzsysteme seinen Ausgang genommen.
+
+ ---
 
  Here he introduced many methodologically important conceptual developments and
  arrived at mathematically incisive results. These investigations were

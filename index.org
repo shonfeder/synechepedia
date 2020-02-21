@@ -18,6 +18,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/foundations.org][Foundations]]
 - [[file:themata/heuristics.org][Heuristics]]
 - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
+- [[file:themata/logic.org][Logic]]
 - [[file:themata/mortality.org][Mortality]]
 - [[file:themata/multiplicative-operations.org][Multiplicative Operations]]
 - [[file:themata/notation.org][Notation]]

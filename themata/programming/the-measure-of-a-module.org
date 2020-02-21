@@ -187,3 +187,32 @@ How does modularity relate to SOLID?
 
 
 bibliography:~/Dropbox/bibliography/references.bib
+* TODO Anti-modular cultural tendencies
+
+Several years back, I spent a chunk of time filing in missing pieces of the
+[[http://www.rosettacode.org/wiki/Rosetta_Code][Rosetta Code]] project. When I was focused on SML implementations, I discovered a
+recurring pattern: in many of the tasks I was working on, extraneous criteria
+had been introduced to the task description, which posed serious challenges to
+properly modular compositions.
+
+I spent a significant amount of time attempting to discover a technical solution
+to this obstacle. However, I gradually came to realize that this conflation of
+tasks was indicative of a more pervasive problem: it was symptomatic of the
+pervasive bias toward impure and anti-modular design patterns in programming
+culture.
+
+This bias leads to a deep, culturally-based anti-modularity (and
+non-composability): the tendency to mix in extraneous, side-effectual processes
+with simple, potentially pure algorithms, prohibits the use of interesting and
+useful languages that don't cater to these questionable practices.
+
+Cultural problems call for cultural solutions, so I proposed correcting this
+defect. I now realize that this kind of conscious alteration and improvement of the
+conditions in which we work are at least as vital for the advancement of modular
+design as are technical solutions. (re: the cultural roots of technical
+practice, see [[https://modelviewculture.com/pieces/the-life-cycle-of-programming-languages][The Life Cycle of Programming Languages]].)
+
+Two tiny actions I took to change the culture:
+
+- https://rosettacode.org/wiki/Talk:Parsing/RPN_to_infix_conversion#Extraneous_Requirements
+- https://rosettacode.org/wiki/Talk:Parsing/RPN_calculator_algorithm#Extraneous_Requirements

@@ -1,0 +1,276 @@
+#+TITLE: Logic
+
+*WIP*
+
+#+OPTIONS: toc:2
+
+* TODO What
+* TODO Why
+
+** TODO Quine
+** TODO Hart
+** Jean-Yves Girard
+
+#+BEGIN_QUOTE
+An old activity like logic can find its justification neither in the
+preservation of a rather obsolete tradition, nor in technical developments, no
+matter how heroic and brilliant they might be. Its meaning should be sought in
+questions of a true logical nature, i.e., dealing with the fundamentals of
+reasoning. As a central task, the building of a non-fregean theory of cognition,
+the benchmark for such an endeavor being an updated version of incompleteness:
+to prove, once and for all, that questions are not the same thing as answers,
+i.e., the inexistence of those unlikely /X-rays of knowledge/.
+
+(cite:girard11)
+#+END_QUOTE
+
+* TODO How
+** Recycling
+
+#+BEGIN_QUOTE
+Logic, surely born essentialist, began with manipulating universal rules. Long
+afterwards, at the end of a complex process, we eventually find an underlying
+structure for these rules; and thus, to require that a proof of =A ∨ B= be [...]
+a proof of =A= or a proof of =B=. One eventually rediscovers the existence under
+essence. But, while /studying/ this existence, one reinstalls essence.
+
+We started with the rules of logic; we arrived at the logic of rules and it
+turns out to be the logic we started with.
+...
+Circularity is therefore not only a tarskian void, it is also a sign of harmony.
+But one cannot content oneself with that!
+
+(cite:girard11, 139)
+#+END_QUOTE
+
+*** TODO Structural Proof Theory
+
+#+BEGIN_QUOTE
+... structural systems may be considered as providing a general framework of
+consequence, in terms of which specific logical systems can be defined.
+
+(cite:schroeder2002resolution, 3)
+#+END_QUOTE
+
+
+**** A Note on Genealogy
+
+Paul Hertz is the progenitor of the structural analysis of proofs used by
+Gentzen utilized to found [[https://plato.stanford.edu/entries/proof-theory-development/#SeqCalLatDev][structural proof theory]] (see cite:legris2012paul and
+cite:schroeder2002resolution). Hertz published his work, /On Axiomatic Systems
+for Arbitrary Systems of Sentences/, in 1922. In [[https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent][a short biography]] by Hilbert's
+collaborator [[https://en.wikipedia.org/wiki/Paul_Bernays][Paul Barneys]], Barneys described the contribution thus:
+
+#+BEGIN_QUOTE
+Hier führte er viele methodisch wichtige Begriffsbildungen ein und gelangte zu
+mathematisch prägnanten Ergebnissen. Diese Untersuchungen sind Vorläufer
+verschiedener neuerer Forschungen zur mathematischen Logik und Axiomatik,
+insbesondere hat G. Gentzens Sequenzenkalkul von den H.schen Betrachtungen über
+Satzsysteme seinen Ausgang genommen.
+
+---
+
+Here he introduced many methodologically important conceptual developments and
+arrived at mathematically incisive results. These investigations were
+forerunners of various new researches into mathematical logic and axiomatics, in
+particular, G. Gentzen's sequent calculus took its starting point from Hertz's
+work on sentence systems.
+
+[/Please pardon my inexpert translation./]
+#+END_QUOTE
+
+Gentzen's work was, according to a reductive formulation, the application of
+Hertz's approach and core methodology to [[https://plato.stanford.edu/entries/hilbert-program/][Hilbert's Program]]. The broadly
+conceived field of constructivistic proof theory, meant to encompass efforts in
+constructivistic automated theorem proving, type theory, and programming
+language theory is inconceivable without Gentzen's work (though we can easily
+imagine a more worthy person than the [[https://en.wikipedia.org/wiki/Gerhard_Gentzen#Life_and_career][Nazi Gentzen]] having done that work).
+
+**** TODO Inference and The "Sentence" Gadget in Hertz's Essays on Sentence Systems
+
+The beginning (and kernel) of Hertz's /On Axiomatic Systems.../:
+
+#+BEGIN_QUOTE
+Whenever a system of sentences is recognized to be valid, it is often not
+necessary to convey each and every sentence to memory; it is sufficient to
+choose some of them from which the rest can follow. Such sentences, as it is
+generally known, are called axioms. The choice of these axioms is to a certain
+degree arbitrary. One can ask, however, if the property of a system of sentences
+to have several axiom systems is interconnected with other remarkable
+properties, and if there are systematic approaches to find, as the case may be,
+that axiomatic system which contains the least possible number of sentences. In
+the following some thoughts shall be communicated, which might be useful as a
+pre-stage for the treatment of these or related problems.
+
+In fact the actual problem of interest is so entangled, that initially it seems
+appropriate to be content with an immense simplification: We only consider
+sentences of a certain type, sentences that we can write symbolically: =(a1 , .
+. . , an ) → b= and that can be expressed linguistically by formulations such
+as: If =(a1 , . . . , an )= altogether holds, so does =b=. In addition, a second
+simplification will be introduced in the present first part, by only considering
+sentences of type a → b; however, we will liberate ourselves from this
+limitation in a following part. Further we assume rules according to which from
+certain sentences other ones follow: So, e.g., the validity of the sentences =a
+→ b=, =b → c= should result in the holding of the sentence =a → c=.
+
+However, what is actually meant by such a sentence, what the symbol =→= means in
+the combination of characters =a → b= or the word ‘if’ in the corresponding
+linguistic formulation, does not have to be indicated here.
+
+cite:hertz12_axiom_system_arbit_system_senten
+#+END_QUOTE
+
+*Recapitulation*: Hertz aimed to analyze systems of sentences determined by a
+transitive "follows" relationship. As a simplification, he narrowed his focus
+to sentences of the form =(a1, ..., an) → b=, taken to mean "if =a1= and ... and
+=an= is true then b is true". He left the meaning of all these parts
+undetermined, including what the characters referred to (he calls them
+"elements" throughout the essay), what the =→= means, and even what the word
+'if' means.
+
+However, in a foot note, he  his hand:
+
+#+BEGIN_QUOTE
+It might be added though, that our sentences =a → b= are nothing other than
+formal “implications” in the sense of Russell [cite:whitehead2005_principia,
+22], and that the scheme of inference used as a base in the first part is the
+Theorem listed by Russell as No. 10, 3 [*10·3], p. 150, or put differently: Our
+sentences are judgements of subsumptions, our inferences are syllogisms of
+modus Barbara.
+
+(cite:hertz12_axiom_system_arbit_system_senten, 12)
+#+END_QUOTE
+
+Russell and Whitehead's "formal implications" are the propositions stated by
+universally quantified implications: =∀x.Sx → Px=. Russell and Whitehead
+explicitly equate these to what Hertz refers to as "judgments of subsumption".
+The latter are the best known variety of judgments from classical [[https://en.wikipedia.org/wiki/Term_logic][term logic]],
+exemplified in the eternal truth "All humans are mortal" and schematized as "All
+S are P". Thus, Hertz is hinting that, we do move to assign meaning to the
+symbols of his formalism, we might read =a → b= as =All a are b= or, if we
+prefer modern predicate logic, =∀x.a(x) → b(x)=.
+
+Barbara is the classical syllogism
+
+#+BEGIN_SRC
+  All S are P
+  All P are Q
+∴ All S are Q
+#+END_SRC
+
+This is equivalent to the transitivity of the "follows" relation (which we might
+also restate as =(S → P & P → Q) → (S → Q)=).
+
+**** What is inference?
+
+#+BEGIN_QUOTE
+/Inference/. The process of inference is as follows: a proposition "\(p\)" is
+asserted, and a proposition "\(p\) implies \(q\)" is asserted, and then as a sequel,
+the proposition "q" is asserted. The trust in inference is the belief that if
+the two former assertions are not in error, the final assertion is not in error.
+Accordingly whenever, in symbols, where \(p\) and \(q\) have of course special
+determinations,
+
+    "\(\vdash p\)" and "\(\vdash (p \supset q)\)"
+
+have occurred, then "\(\vdash q\)" will occur if it is desired to put it on
+record. The process of inference cannot be reduced to symbols. Its sole record
+is the occurrence of "\(\vdash q\)". It is of course convenient, even at the
+risk of repetition, to write "\(\vdash p\)" and "\(\vdash(p \supset q)\)" in
+close juxtaposition before proceeding to "\(\vdash q\)" as a result of the
+inference. When this is to be done, for the sake of drawing attention to the
+inference which is being made, we shall write instead
+
+    "\(\vdash p \supset \vdash q\),"
+
+which is to be considered as a mere abbreviation of the threefold statement
+
+    "\(\vdash p\)" and "\(\vdash (p \supset q)\)" and "\(\vdash q\)."
+
+Thus "\(\vdash p \supset \vdash q\)" may be read "\(p\), therefore \(q\)," being
+in fact the same abbreviation, essentially, as this is; for "\(p\), therefore
+\(q\)" does not explicitly state, what is part of its meaning, that \(p\)
+implies \(q\), an *inference is the dropping of a true premiss [sicj; it is the
+dissolution of an implication* [emphasis mine].
+
+(cite:whitehead2005_principia, 9)
+#+END_QUOTE
+
+***** TODO Note the different meaning of the tunstyle here.
+***** TODO recapitulate and indicate significance
+**** TODO Cut is Barbara (find Hertz example of this)
+**** TODO Structural reasoning is using TFL to formalize MPL
+
+Can sequents in general (i.e., with multiple antecedents) still be read as
+judgments of subsumption?
+
+all [syntax objects] are [syntax objects]
+
+This is tough (but worth fighting for).
+
+Easier to see are the formal implications. (where each syntatic object is
+predicated as "is true", this is ML's point).
+
+Need to explain move to multiple antecedents.
+
+**** TODO Do structural rules perhaps fit other syllogistic figures?
+If not, is it possible to derive "novel" structural rules via encoding other
+figures?
+
+*** TODO Exegesis of Gentzen on the Meaning of his Calculi
+**** An example
+**** The Meaning of a Formula
+**** The Meaning of a Sequent
+**** The Meaning of a Figure
+- Trees :: DAGs with single parents
+*** TODO Reiterated by Girard
+
+#+BEGIN_QUOTE
+The novelty of Gentzen is the introduction of hypothetical deduction as a
+primitive; besides the implication \(A \Rightarrow B\), there coexists the
+sequent (\(A \vdash B\): "\(B\) under the hypothesis \(A\)". One will never
+insist enough, from a brutal standpoint [...], this creation makes no sense; it
+is a pure duplicate, since the deduction theorem equates the two notions.
+Sequent calculus makes sense only when one steps beyond mere provability, when
+one works /en finesse/.
+
+(cite:girard11, 42)
+#+END_QUOTE
+*** TODO What is happening here?
+**** TODO Analysis by Shütte
+cite:schutte77_prooftheory, 2-3 Higher order reasoning required
+
+"...using induction that goes beyond mathematical induction but with a finite
+character"
+***** TODO Positive and negative parts, polarity, Sommer's Relational TFL
+
+*** TODO Truth and Quotation
+**** Each "change" in syntax seems to be a "semantic asset"
+
+**** Truth and Disquotation
+
+#+BEGIN_QUOTE
+This ascent to a linguistic plane of reference is only a momentary retreat from
+the world, for *the utility of the truth predicate is precisely the cancellation
+of linguistic reference*. The truth predicate is a reminder that, despite a
+technical ascent to talk of sentences, our eye is on the world. This
+cancellatory force of the truth predicate is explicit in Tarski's paradigm:
+
+    'Snow is white' is true if and only if snow is white.
+
+Quotation marks make all the difference between talking about words and talking
+about snow. The quotation is a name of a sentence that contains a name, namely
+'snow', of snow. By calling the sentence true, we call snow white. *The truth
+predicate is a device of disquotation* [emphasis mine].
+
+(cite:quine86_philos, 12)
+#+END_QUOTE
+
+*** TODO How much of the "ad hoc" machinery in some formalisms could be dispensed with if we could formalize this process, and make it flexible enough to recycle and spin up into semantic asscent at will?
+*** TODO Related Angles
+
+- [[https://en.wikipedia.org/wiki/Deep_inference#cite_ref-1][Deep Inference]]
+
+* References
+
+bibliography:~/Dropbox/bibliography/references.bib

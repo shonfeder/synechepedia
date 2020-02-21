@@ -128,7 +128,7 @@ undetermined, including what the characters referred to (he calls them
 "elements" throughout the essay), what the =→= means, and even what the word
 'if' means.
 
-However, in a foot note, he reveals a critically important interpretation:
+However, in a footnote, he reveals a critically important interpretation:
 
 #+BEGIN_QUOTE
 It might be added though, that our sentences =a → b= are nothing other than

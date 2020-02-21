@@ -55,11 +55,11 @@ consequence, in terms of which specific logical systems can be defined.
 
 **** A Note on Genealogy
 
-Paul Hertz is the progenitor of the structural analysis of proofs used by
-Gentzen utilized to found [[https://plato.stanford.edu/entries/proof-theory-development/#SeqCalLatDev][structural proof theory]] (see cite:legris2012paul and
-cite:schroeder2002resolution). Hertz published his work, /On Axiomatic Systems
-for Arbitrary Systems of Sentences/, in 1922. In [[https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent][a short biography]] by Hilbert's
-collaborator [[https://en.wikipedia.org/wiki/Paul_Bernays][Paul Barneys]], Barneys described the contribution thus:
+Paul Hertz is the progenitor of the structural analysis of proofs. Gentzen
+utilized this approach to found [[https://plato.stanford.edu/entries/proof-theory-development/#SeqCalLatDev][structural proof theory]] (see cite:legris2012paul
+and cite:schroeder2002resolution). Hertz published his work, /On Axiomatic
+Systems for Arbitrary Systems of Sentences/, in 1922. In [[https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent][a short biography]] by
+Hilbert's collaborator [[https://en.wikipedia.org/wiki/Paul_Bernays][Paul Barneys]], Barneys described the contribution thus:
 
 #+BEGIN_QUOTE
 Hier führte er viele methodisch wichtige Begriffsbildungen ein und gelangte zu

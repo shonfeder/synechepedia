@@ -143,12 +143,13 @@ modus Barbara.
 
 Russell and Whitehead's "formal implications" are the propositions stated by
 universally quantified implications: =∀x.Sx → Px=. Russell and Whitehead
-explicitly equate these to what Hertz refers to as "judgments of subsumption".
-The latter are the best known variety of judgments from classical [[https://en.wikipedia.org/wiki/Term_logic][term logic]],
-exemplified in the eternal truth "All humans are mortal" and schematized as "All
-S are P". Thus, Hertz is hinting that, we do move to assign meaning to the
-symbols of his formalism, we might read =a → b= as =All a are b= or, if we
-prefer modern predicate logic, =∀x.a(x) → b(x)=.
+explicitly equate these with the constracts that Hertz refers to as "judgments
+of subsumption". The latter are the best known variety of judgments from
+classical [[https://en.wikipedia.org/wiki/Term_logic][term logic]], exemplified in the immemorial truth "All humans are
+mortal" and schematized as "All S are P". Hertz is hinting at the fact that,
+when we do move to assign meaning to the symbols of his formalism, we might read
+=a → b= as =All a are b= or, if we prefer modern predicate logic, =∀x.a(x) →
+b(x)=.
 
 Barbara is the classical syllogism
 
@@ -159,7 +160,8 @@ Barbara is the classical syllogism
 #+END_SRC
 
 This is equivalent to the transitivity of the "follows" relation (which we might
-also restate as =(S → P & P → Q) → (S → Q)=).
+also restate as =(S → P & P → Q) → (S → Q)=), where each sentence of the form =A
+→ B= is a "formal implication".
 
 **** What is inference?
 

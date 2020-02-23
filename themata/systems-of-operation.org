@@ -22,12 +22,54 @@
    According to Hobbes, The original artificial intelligence is the political
    state.
 
+** Cameralism: Recording Information to Manage State
+
+The techniques which make the mechanical computer possible were already in play
+in the 18th century, tracking the state of societies to make them manageable.
+
+#+BEGIN_QUOTE
+Government, Leibniz was convinced, was not conceivable without information.
+Information, in turn, consisted of the facts and figures concerning the 'here
+and now' of the state: the size of population, the quality and number of goods
+and properties, mortality and birth rates, the volume of exports and imports
+had, inter alia, to be known. And they had to be made visible at a glance in
+order to enable the regent and his administration to act quickly and decisively.
+This became possible, as Leibniz' meant, by specific means of display: the
+so-called 'Staats-Tafeln' as a 'written short constitution summarizing the heart
+of all information concerning the government.' Therefore, Leibniz stressed the
+intrinsic connexion betwen state and knowledge.
+
+...
+
+The eighteenth-century Cameralists followed Leibniz by emphasizing the mediality
+of politico-economical knowledge. Three medial forms were especially important
+and highly regarded. The first was the list or the table, which seemed - from
+the Cameralist point of view - to be of outstanding value in the most parts of
+government. So Justi proposed, to cite just one example, to record the state of
+industry by creating tables illustrating any change in the number or composition
+of work and workers which took place in a given period.
+
+In this regard, tables represented media of access and manipulation. Or more
+generally, tables were in line with the Cameralist intention to visualize hidden
+relations and forces and to make reality compatible with a program of reform and
+transformation.
+
+This also applied to a second medial form: double-entry bookkeeping. Of course,
+double-entry bookkeeping was closely connected with tables. Using tables, which
+should be derived from customhouse papers and related files, made it possible
+for example, to record incoming and outgoing goods.
+
+(Marcus Sandl, [[https://books.google.com/books?id=aNUmDAAAQBAJ&pg=PT146&lpg=PT146&dq=leibniz+bookkeeping&source=bl&ots=pQM4ZDFmJK&sig=ACfU3U2uiE8bouaGVTfEBf70Sayc85lm8Q&hl=en&sa=X&ved=2ahUKEwix4ZKQ7ZznAhULx1kKHWviA2UQ6AEwAXoECAoQAQ#v=onepage&q=leibniz%20bookkeeping&f=false]["Development as Possibility"]] in cite:ssner16_econom)
+
+#+END_QUOTE
+
 ** Computing Humans: Turing's Machines
 
    Turing's /On Computable Numbers/ minimizes and analyzes the process of
    manual computation, /as it was performed by human computers/. His analysis
    was sufficiently precise and detailed, that it could be translated into an
    "Automata", thus giving us the automatic computer.
+
 
 ** Computers as Humans: The ENEAC
 
@@ -49,12 +91,11 @@
 * Themes
 
 ** Internalization
-   Most of the things we currently think of as parts of a computer used to be
-   considered as ancillary devices. These have all been miniaturized,
-   accelerated, automated, and internalized.
+Most of the things we currently think of as parts of a computer used to be
+considered as ancillary devices. These have all been miniaturized,
+accelerated, automated, and internalized.
 
 ** The Mechanical Turk:
-
 * Questions
 ** What is a shell?
 

@@ -43,6 +43,12 @@ But one cannot content oneself with that!
 (cite:girard11, 139)
 #+END_QUOTE
 
+Some patterns seem to cycle -- spiraling -- through the thoughts and techniques
+discernable in the roots and margins of modern logic. These notes record a
+winding thread I've been picking at. The thread runs from syllogistic logic,
+through 20th century proof theory, and continues to coil through the
+proof-theoretic formal systems that have been transforming computer science.
+
 *** TODO Structural Proof Theory
 
 #+BEGIN_QUOTE
@@ -192,7 +198,7 @@ which is to be considered as a mere abbreviation of the threefold statement
 Thus "\(\vdash p \supset \vdash q\)" may be read "\(p\), therefore \(q\)," being
 in fact the same abbreviation, essentially, as this is; for "\(p\), therefore
 \(q\)" does not explicitly state, what is part of its meaning, that \(p\)
-implies \(q\), an *inference is the dropping of a true premiss [sicj; it is the
+implies \(q\), an *inference is the dropping of a true premiss; it is the
 dissolution of an implication* [emphasis mine].
 
 (cite:whitehead2005_principia, 9)
@@ -213,7 +219,7 @@ This is tough (but worth fighting for).
 Easier to see are the formal implications. (where each syntatic object is
 predicated as "is true", this is ML's point).
 
-Need to explain move to multiple antecedents.
+Need to explain the move to multiple antecedents.
 
 **** TODO Do structural rules perhaps fit other syllogistic figures?
 If not, is it possible to derive "novel" structural rules via encoding other

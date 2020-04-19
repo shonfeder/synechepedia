@@ -1,8 +1,11 @@
 #+TITLE: Types
 
-* TODO What are Types?
+Notes on types, largely, but not exclusively, from the perspective of
+type theory.
 
-** TODO In "Type Theory"
+* What are Types?
+
+** In "Type Theory"
 
 #+BEGIN_QUOTE
 In the "types as predicates" variant of the "types as sets" approach, types are
@@ -117,11 +120,11 @@ character; outline, sketch," from root of /typtein/ "to strike, beat," from PIE
 ([[https://www.etymonline.com/search?q=type][etymonline]])
 #+END_QUOTE
 
-*** TODO Justification: ...
+*** Justification:
 
 What justifies such enforcement?
 
-* TODO Types as Theories
+** Types as Theories
 
 #+BEGIN_QUOTE
 The essential insight of the "types as algebras" notion is that the /operations/

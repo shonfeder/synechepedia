@@ -149,7 +149,7 @@ modus Barbara.
 
 Russell and Whitehead's "formal implications" are the propositions stated by
 universally quantified implications: =∀x.Sx → Px=. Russell and Whitehead
-explicitly equate these with the constracts that Hertz refers to as "judgments
+explicitly equate these with the constructs that Hertz refers to as "judgments
 of subsumption". The latter are the best known variety of judgments from
 classical [[https://en.wikipedia.org/wiki/Term_logic][term logic]], exemplified in the immemorial truth "All humans are
 mortal" and schematized as "All S are P". Hertz is hinting at the fact that,

@@ -80,9 +80,7 @@ Here he introduced many methodologically important conceptual developments and
 arrived at mathematically incisive results. These investigations were
 forerunners of various new researches into mathematical logic and axiomatics, in
 particular, G. Gentzen's sequent calculus took its starting point from Hertz's
-work on sentence systems.
-
-[/Please pardon my inexpert translation./]
+work on sentence systems.[fn:translation]
 #+END_QUOTE
 
 Gentzen's work was, according to a reductive formulation, the application of
@@ -282,3 +280,7 @@ predicate is a device of disquotation* [emphasis mine].
 * References
 
 bibliography:~/Dropbox/bibliography/references.bib
+
+* Footnotes
+
+[fn:translation] Please pardon my inexpert translation.

@@ -1,24 +1,101 @@
-#+TITLE: The Inoperative Community
-Connor, J. N. E. b. P., The inoperative community (2001), : University of Minnesota Press.
+#+TITLE: Notes on The Inoperative Community
 
-* "Computational Communism"?
+(cite:peter01)
 
-It has got me me thinking about the possibility of a "computational
-communism" or, perhaps better, a "programmatical communism".
+Nancy tries to describe the possibility of *an intrinsically anti-totalitarian
+community*. This would be a way of being together which is not subordinated to
+any totalizing idealogy, whether of race, nation, individualism, collectivism,
+domination of nature, utilitarian calculation, techno-theo-logico transcendence,
+etc.
 
-It's not entirely clear to me what this would be, but its possibility is
-given by the fact that Nancy includes proofs as a form of literature --
+How do we encapsulate an articulation of the possibility of such a community in
+a phrase? It resists summarization (for good reason). The passage I've found
+most evocative and perspicuous so far[fn:almost-ontology] is the following, in
+which /community/ is differentiated from /organization/:
 
 #+BEGIN_QUOTE
-Literature interrupts itself: this is, essentially, what
-makes it literature (writing) and not myth. Or better, what interrupts itself
-— discourse or song, gesture or voice, narrative or proof — /that/ is
-literature (or writing). Precisely what interrupts or suspends its own
-/mythos/ (that is to say, it’s *logos*). (page 72)
+Organic totality is a totality in which the reciprocal articulation of the parts
+is thought under the general law of an instrumentation which cooperates to
+produce and maintain the whole as form and final reason of the ensemble (at
+least this is the way the "organism" has been conceived since Kant: it is not
+obvious that a living body is to be thought only according to this model).
+Organic totality means the totality of the operation as means and of the work as
+end. But the totality of community--by which I understand the totality of
+community resisting its own setting to work--is a whole of articulated
+singularities. Articulation does not mean organization. It refers neither to the
+notion of instrument nor to that of operation or work. Articulation has nothing
+to do, as such, with an operative system of finalities--although it can no doubt
+always be related to such a system or be integrated into it. By itself,
+articulation is only a juncture, or more exactly the play of the juncture: what
+takes place where different pieces touch each other without fusing together,
+where they slide, pivot, or tumble over one another, one at the limit of the
+other--exactly at its limit--where these singular and distinct pieces fold or
+stiffen, flex or tense themselves together and through one another, unto one
+another, without this mutual /play/--which always remains, at the same time, a
+play /between/ them--ever forming into the substance or the higher power of a
+Whole. Here, /the totality is itself the play/ of the articulations. This is why
+a whole of singularities, which his indeed a whole, does not close in around the
+singularities to elevate them to its power: the whole is essentially the opening
+of the singularities in their articulations, the tracing and the pulse of their
+limits. (76)
 #+END_QUOTE
 
--- and the Curry-Howard analogy gives us programs as proofs.
+Imagine a way of being together, of being in community, in which that
+togetherness cannot eclipse or subordinate those who gather, because "the
+totality is itself the play" of the articulations that differentiate each from
+the other (and connect each to the other). Imagine a community which is
+"essentially the opening of the singularities in their articulations, the
+tracing and the pulse of their limits."
 
-Something speaks to me in the way Nancy renders the concept of community, and
-the notion of the interruption of myth. (Myth includes the logos of origin
-(foundations) and destiny (pre-ordained purpose).)
+We see an image of such community take shape in reciprocal, responsive,
+rupturing dialogue. The word "rupture" indicates a dialogue which is not a
+mechanical convergence upon a predestined agreement, but rather an interplay of
+saying and remaining silent that is transformative. In such dialogue, the
+communicating exposes each to the other: "each one articulated upon itself or in
+itself, facing the other, at the limit of itself and of the other". In such
+dialogue, there can be rupture, transformation--"tracing" and "pulse" of our
+limits--because each saying is prepared to interrupt itself to make room for
+receiving what the other has to say, and how the other is in their saying.
+
+#+BEGIN_QUOTE
+Dialogue, this articulation of speech, or rather this sharing of voices is, in
+the sense I am trying to communicate, "literature".
+#+END_QUOTE
+
+For Nancy, in this work, "literature" is the name for communication which
+interrupts itself, and in so doing makes room for the space to receive the
+transformation of the other. The literature, the "writing that interrupts
+itself", is communications that limns the countours of the singular beings who
+are together in community.
+
+#+BEGIN_QUOTE
+Literature interrupts itself: this is, essentially, what makes it literature
+(writing) and not myth. Or better, what interrupts itself — discourse or song,
+gesture or voice, narrative or proof — /that/ is literature (or writing).
+Precisely what interrupts or suspends its own /mythos/ (that is to say, it’s
+*logos*). (72)
+#+END_QUOTE
+
+[[file:~/Dropbox/synechepedia/org/themata/programming/index.org][Programming]] is a form of writing. Can it be a form of literature? Given
+[[http://www.scholarpedia.org/article/Computational_type_theory#Proofs][types-as-propositions/programs-as-proof]], where
+
+#+BEGIN_QUOTE
+... the proof of the goal can be seen as creating a program to compute a
+function meeting a certain specification. We say that the proof acts as a
+program. This proofs-as-programs principle is a consequence of the propositions
+as types principle.
+#+END_QUOTE
+
+we get programs as a form of proof, which is a form of literature. Imagine
+programs that interrupt themselves, that invite--far beyond mere
+interaction--/intervention/ from those who write/read/run them. Think on the
+possibility of a "computational communism" or, perhaps better, a "programmatical
+communism".
+
+bibliography:~/Dropbox/bibliography/references.bib
+
+* Footnotes
+
+[fn:almost-ontology] And this is because the passage comes closest to presenting a
+ontology, tho Nancy leaves it as a poeticizing gesture rather than claiming
+formalizing hypostatization.

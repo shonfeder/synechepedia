@@ -5,7 +5,7 @@
 * My Aim
 
 To work towards ways of mediating the tension between /poetic origination/ and
-/technical formation/ in service of a communalistic emancipation of our
+/technical formation/ in service of a /communalistic emancipation/ of our
 /existential thrown and givenness/.
 
 * Elaboration
@@ -14,13 +14,23 @@ To work towards ways of mediating the tension between /poetic origination/ and
 
 - poetic origination :: The process of originating forms of expression,
   conceptual spaces, expressive paradigms, ways of thinking, feeling, and
-  inhabiting.
+  inhabiting. Cf. Scott Buchanan, Walter Benjamin, and Martin Heidegger,
 - technical formation :: The [[https://monoskop.org/Cultural_techniques][techniques]] through which we form, process, order,
   sequence, mechanize, and automate everything from our ways of understanding
-  and processing the world to our production of new technologies themselves.
-
-This terminology is mainly drawn from readings of Heidegger, Benjamin, and
-Jean-Luc Nancy.
+  and processing the world to our production of new technologies themselves. Cf.
+  Heideggerian and post-Heideggerian technocriticism, first generation Frankfurt
+  School critique of instrumental reason, and critiques and analyses of
+  formalism and mechanization advanced by Gödel, Turing, Girard and the like.
+- communalistic :: With a nod towards Bookchin's "libertarian municipalism", this
+  invokes Jean-Luc Nancy's writing of community as "a whole of articulated
+  singularities" (cite:peter01): it means /to be/ in communication with others and
+  to find the end and origin of being together in that articulate sharing.
+- emancipation :: The liberation of children from the dominating imposition
+  of their parent's programming and conditioning. This is a special case
+  of the liberation of the oppressed and exploited from the grip of the
+  extractors who feed off them, but it is /the most special case/, since the
+  perpetuation of extractive domination is strictly dependant upon the
+  reproduction of successive, vulnerable generations.
 
 * What is an "Aim"?[fn:mission]
 
@@ -43,9 +53,9 @@ specific, significant region of what is within our field of view. I mean it in
 this sense. But let the older senses sound through too: when I speak of my
 (always only provisional) /aim/, let the target in view also be considered in
 terms of estimation, calculation, valuation. My aim is an estimation of what I
-can meaningfull contribute to in an essential capacity, is a way of guiding the
-calculations that determine my resource expenditure, and a means of calibrating my
-values.
+can meaningfully contribute to in an essential capacity. It is a way of guiding
+the calculations that determine my resource expenditure, and a means of
+calibrating my values.
 
 * Footnotes
 

@@ -2,11 +2,11 @@
 
 *WIP*
 
+There are notes compiled while learning the basics of TLA+.
+
 *NOTE:* My initial notes here have a polemical tone. Please know that it is part
 of my learning process, and, until this notice is removed, any critical remarks
 here should be read as an exclamatory rather than an assertoric utterance.
-
-There are notes compiled while learning the basics of TLA+.
 
 * My Initial Point of View
 
@@ -95,13 +95,13 @@ After a =sudo chmod +x /usr/bin/tlaplus=, I can launch the toolbox by running
 ** Syntax
 Compared with the theorem proving languages (Coq, Agda, Lean), logic programming
 languages (Prolog, Datalog), and algebraic specification languages (CafeOBJ and
-Maude) I've been exposed to, the syntax seems quite clunky and appears to pulled
-out of a grab bag of different symbols sets.
+Maude) I've been exposed to, the syntax seems quite clunky and appears to be
+pulled out of a grab bag of different symbol sets.
 
-There are no fewer than 3 different syntaxes at play: TLC, PlusCal P, PlusCal
-C, the latter 2 compiling to the first, and apparently alternative surface
-syntaxes for the same underlying language. The tutorial I'm working through uses
-PlusCal P, so I'll only address the syntax of TLC and PlusCal P.
+There are no fewer than 3 different syntaxes at play: TLC, PlusCal P, and
+PlusCal C. The latter 2 compile to the first and are apparently alternative
+surface syntaxes for the same underlying language. The tutorial I'm working
+through uses PlusCal P, so I'll only address the syntax of TLC and PlusCal P.
 
 *** TLC
 Executable code must be enclosed in ASCII boilerplate matching this pattern:
@@ -114,9 +114,9 @@ Executable code must be enclosed in ASCII boilerplate matching this pattern:
 
 There must be at minimum four preceding ~-~ and four terminating ~=~. Anything
 outside of this block will be ignored. Why? No explanation is given, so likely
-just an artifact of some arbitrary decision during earlier development.
+just an artifact of arbitrary decisions during earlier development.
 
-TLC uses mix of ASCII symbols (e.g., ~/\~ and ~\/~ for conjunction and
+TLC uses a mix of ASCII symbols (e.g., ~/\~ and ~\/~ for conjunction and
 disjunction), Latex syntax (e.g., ~\in~ for set membership), and KEYWORDS (e.g.,
 ~SUBSET~, ~IF~, ~LET~). Given that users are told they must install the (JVM
 based) TLAToolBox IDE to use the TLA+ system effectively, we might wonder why
@@ -139,7 +139,7 @@ Move(S,b) == /\ Cardinality(S) \in {1,2}
 
 Some oddities to note:
 
-- Where as ~\foo~ is a Latex-like identifier (e.g., ~\in~ and ~\cup~) the ~\~
+- Whereas ~\foo~ is a LaTeX-like identifier (e.g., ~\in~ and ~\cup~) the ~\~
   alone means set difference. If we are using ~\cup~ for union, why wouldn't we
   use ~\setminus~ for difference? Presumably because ~\~ is an icon for the
   unicode $$\setminus$$. Using the prefix for a class of identifiers as it's own
@@ -148,10 +148,12 @@ Some oddities to note:
 - In most languages I've used, ~==~ indicates (some sort of) equality and ~=~
   indicates assignment. That is reversed here.
 - The notation ~[x \in D |-> exp]~ is an anonymous "array/function" from
-  ~x~, which must be in the domain ~D~, to ~exp~. Note the early appearance of
-  stringly typed programming in the specification of the domain. What happens if
-  a value is supplied that is not in the domain? In my experiment this produced
-  a runtime error with this unhelpful output: =No error information=.
+  ~x~, which must be in the domain ~D~, to ~exp~.
+- Note the early appearance of stringly typed programming in the specification
+  of the domain: ={"E", "W"}=. What happens if a value is supplied that is not
+  in the domain? In my experiment this produced a runtime error with this
+  helpful output: =No error information=.
+
 *** PlusCal P
 **** Why PlusCal?
 #+BEGIN_QUOTE
@@ -166,13 +168,14 @@ verifiable language
 
 In other words, TLC seemes to be sufficiently difficult and unintuitive for
 imperative programmers to write that a toy imperative language was developed
-that transpiles to TLC. The idea is that users will implement their algorithms in
-the PlusCal, transpile to TLC to verify them, then reimplement the algorithms in
+that transpiles to TLC. The idea is that users will implement their algorithms
+in PlusCal, transpile to TLC to verify them, then reimplement the algorithms in
 the target language.
 
-Compare this with the functional approach, wherein the actual language is
-designed to replace pseudocode and be formally verifiable itself, and
-verification tools support extraction directly into executable programs.
+Compare this with the functional approach, wherein the actual implementation
+language is designed to replace pseudocode and be formally verifiable. In this
+context, verification tools generally support extraction directly into
+executable programs.
 
 **** Comments in your algorithms in your comments
 PlusCal code must be written within a comment with a new kind of adhoc
@@ -227,7 +230,7 @@ GOTOs for control flow? PlusCal has you covered.
 I hope you like programming with checkboxes and drop down menus! Apparently, in
 order to actually get TLA+ to check invariants, you have to navigate to the
 appropriate form in the "model" interface, click "Add", and then enter your
-expression. Why wouldn't the invariants be part of the source of the code?
+expression. Why wouldn't the invariants be part of the source code?
 
 * Excerpts
 
@@ -237,18 +240,22 @@ by rigorous thinking above the code level.
 (Lamport, [[http://lamport.azurewebsites.net/tla/high-level-view.html#pluscal?unhideBut=hide-pluscal&unhideDiv=pluscal][A High-Level View of TLA+]])
 #+END_QUOTE
 
+(Note that the entire impetus beyond declarative programming is to make the
+executable code as clear and elegant for expressing and exploring rigorous
+thinking as possible.)
+
 * On Model Checking vs. theorem proving
 https://wiki.eecs.yorku.ca/course_archive/2016-17/W/4315/_media/public:lecture24.pdf
 
 - Model checking is easier to write, but what can be verified is more limited,
   and it does less to sharpen an understanding of the domain
-- Theorem proving is harder, but what anything expressible can be verified, and
+- Theorem proving is harder, but anything expressible can be verified, and
   verification depends on synthesizing a (relatively) complete construction of
-  the problem to be solved (only what can be constructed can be proven).
+  the problem to be solved (we can only prove what we can construct).
 
 ** Questions
 - Do the differences between the model checking and theorem proving approaches
-  trace back to a difference betwen the model theoretic vs. proof theoretic
+  trace back to a difference betwen the model-theoretic vs. proof-theoretic
   approaches to logic?
 
 * Resources

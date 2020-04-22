@@ -64,9 +64,9 @@ the sense I am trying to communicate, "literature".
 
 For Nancy, in this work, "literature" is the name for communication which
 interrupts itself, and in so doing makes room for the space to receive the
-transformation of the other. The literature, the "writing that interrupts
-itself", is communications that limns the countours of the singular beings who
-are together in community.
+transformation of the other. Literature, the "writing that interrupts itself",
+is communication that limns the countours of the singular beings who are
+together in community.
 
 #+BEGIN_QUOTE
 Literature interrupts itself: this is, essentially, what makes it literature
@@ -76,7 +76,7 @@ Precisely what interrupts or suspends its own /mythos/ (that is to say, it’s
 *logos*). (72)
 #+END_QUOTE
 
-[[file:~/Dropbox/synechepedia/org/themata/programming/index.org][Programming]] is a form of writing. Can it be a form of literature? Given
+[[../themata/programming/index.org][Programming]] is a form of writing. Can it be a form of literature? Given
 [[http://www.scholarpedia.org/article/Computational_type_theory#Proofs][types-as-propositions/programs-as-proof]], where
 
 #+BEGIN_QUOTE

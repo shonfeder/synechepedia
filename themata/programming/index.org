@@ -14,6 +14,17 @@ working program that demonstrates it and exposes its different aspects.
 — Sterling & Shapiro, The Art of Prolog
 #+END_QUOTE
 
+#+BEGIN_QUOTE
+*program* (n.)
+
+1630s, "public notice," from Late Latin /programma/ "proclamation, edict," from
+Greek /programma/ "a written public notice," from stem of /prographein/ "to write
+publicly," from pro "forth" (see pro-) + graphein "to write" (see -graphy).
+
+-- [[https://www.etymonline.com/word/program#etymonline_v_2640][etymonline]]
+#+END_QUOTE
+
+
 - [[file:domain-driven-design-or-algebraic-semiotics.org][Domain Driven Design or Algebraic Semiotics]]?
 - [[file:lazy-evaluation-in-ocaml-cheat-sheet.org][Lazy Evaluation in Ocaml: A Cheat Sheet]]
 - [[https://shonfeder.gitlab.io/ocaml_webapp/][Lightweight Webapps in Ocaml]]

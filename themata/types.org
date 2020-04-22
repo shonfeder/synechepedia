@@ -4,27 +4,84 @@ Notes on types, largely, but not exclusively, from the perspective of
 type theory.
 
 * What are Types?
+** In Type Theory
 
-** In "Type Theory"
+Robert Constable, in his article "Computational Type Theory"
+(cite:constable09_comput_type_theor):
 
 #+BEGIN_QUOTE
-In the "types as predicates" variant of the "types as sets" approach, types are
-taken to be predicates, which therefore denote sets (or some variant thereof,
-such as domains). However, many advocates of this view are more proof
-theoretically inclined, and hence might resist such denotations. Perhaps the
-best known work along this line is Martin-Löf's "type theory", which also
-provides dependent types, as implemented in Pebble and other languages. (Note
-that "type theory" is not a general theory of types, but rather a specific
-intuitionistic logic which provides one specific notion of type).
-
-(cite:Programming91typesas)
+Computational type theory [CTT] answers questions such as: What is a type? What is a
+natural number? How do we compute with types? How are types related to sets? How
+are data types for numbers, lists, trees, graphs, etc. related to the
+corresponding notions in mathematics? Do paradoxes arise in formulating a theory
+of types as they do in formulating a theory of sets?
 #+END_QUOTE
 
-What is the theory of types that is presupposed by the λ-calculus based type
-theories?
+The first question is decisive for CTT's answers to the all the rest, and it is
+the focus of this section. We would like to articulate what a type is from the
+perspective of "type theory" in general, but we begin by looking at CTT in
+particular.
+
+In formulating his account of types (for a popular audience), Constable drives
+the question "what is a type?" back to the question "what is a term?":
+
+#+BEGIN_QUOTE
+What is a type? To answer this question, we must first be more precise about
+computation; we will see that the notion of a type is ultimately grounded in
+computation, specifically in concrete linguistic expressions because computation
+in the physical world is ultimately symbolic. We are only interested in
+computation that is physically realizable by explicit, verifiable human actions
+and by machines that humans understand. Thus to explain types, we first need to
+explain terms and how to compute with them.
+
+(cite:constable09_comput_type_theor)
+#+END_QUOTE
+
+# TODO Is this a correct reading?
+
+# Note that this route goes, first, through a semiotic reduction ("computation in
+# the physical world is ultimately symbolic"), then through a physicalistic
+# reduction ("we are only interested in computation that is physically
+# realizable"), and finally through a phenomenological reduction ("realizable by
+# explicit, verifiable human actions and by machines that humans understand") --
+# that this is phenomenological is not immediately evident here, but it will be
+# made clearer in what follows.
+
+Let us fix some set of terms (symbols), $T$, and an /operational semantics/,
+telling us how to compute certain elements $t_1, ..., t_n \in T$ from other
+elements $t'_1, ..., t'_n \in T$, via the relation $\to$, such that $t' \to t$ reads
+"$t'$ reduces to $t$". We say a term in $T$ is "irreducible" if it is only
+reducible to itself: $t \to t$. Such a term is called "canonical".
+
+Note that this sets up a (partial) ordering over a set of /signs/, such that the
+more complex signs reduce to simpler ones. The canonical signs serve as the
+atomic elements, in the sense that they cannot be further reduced to simpler
+components.
+
+Having established such a system of signs, we define /types/ over the canonical
+elements by delimiting collections of terms that belong together, and
+stipulating how to determine if any two terms in such a collection are to
+taken as equal:
+
+#+BEGIN_QUOTE
+To define a type we specify a collection of canonical terms which are the
+canonical elements of the type, and we define an equality relation declaring
+when two canonical terms denote the same abstract object. The equality relation
+creates abstract objects out of terms.
+
+(cite:constable09_comput_type_theor)
+#+END_QUOTE
+
+Note that these types presuppose the /construction of ideal/ (abstract)
+/objects/, on the basis of positing /equality between concrete objects/: "*The
+equality relation creates abstract objects out of terms.*". Existence precedes
+essence, and essence is "created" through acts of /gathering/ (terms that belong
+together) and /equalization/ (of terms that are taken to be the same).
+# TODO C.f., Frega /Über Sinn und Bedeutung/.
 
 *** Genealogy
 **** re: The Prehistory of Types
+
 #+BEGIN_QUOTE
 In all subsumptions of an object under a concept the representations of the
 former must be *homogeneous* [Gleichartig] with the latter, i.e., the concept
@@ -52,10 +109,11 @@ function will indeed have a type as its domain.
 #+END_QUOTE
 
 Russell's theory of types puts the concept of a propositional /function/ *under*
-the concept of a general proposition (in the sense of conceptually prior to).
+the concept of a general proposition ("under" here meaning "conceptually prior
+to").
 
 #+BEGIN_QUOTE
-Every proposition containing all asserts that some propositional function is
+Every proposition containing 'all' asserts that some propositional function is
 always true; and this means that all values of the said function are true
 #+END_QUOTE
 
@@ -125,6 +183,26 @@ character; outline, sketch," from root of /typtein/ "to strike, beat," from PIE
 What justifies such enforcement?
 
 ** Types as Theories
+
+In /Types as Theories/, Goguen denies that "type theory" advances a general
+theory of types, in arguing instead that it presents a theory based on a
+specific, limited notion of "type":
+
+#+BEGIN_QUOTE
+In the "types as predicates" variant of the "types as sets" approach, types are
+taken to be predicates, which therefore denote sets (or some variant thereof,
+such as domains). However, many advocates of this view are more proof
+theoretically inclined, and hence might resist such denotations. Perhaps the
+best known work along this line is Martin-Löf's "type theory", which also
+provides dependent types, as implemented in Pebble and other languages. (Note
+that "type theory" is not a general theory of types, but rather a specific
+intuitionistic logic which provides one specific notion of type).
+
+(cite:Programming91typesas)
+#+END_QUOTE
+
+Goguen counters the "types as predicates" view with another interpretation,
+which he calls "types as theories" or "types as algebras":
 
 #+BEGIN_QUOTE
 The essential insight of the "types as algebras" notion is that the /operations/

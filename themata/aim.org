@@ -22,7 +22,7 @@ To work towards ways of mediating the tension between /poetic origination/ and
   School critique of instrumental reason, and critiques and analyses of
   formalism and mechanization advanced by Gödel, Turing, Girard and the like.
 - communalistic :: With a nod towards Bookchin's "libertarian municipalism", this
-  invokes Jean-Luc Nancy's writing of community as "a whole of articulated
+  invokes [[file:~/Dropbox/synechepedia/org/reading-notes/nancy-the-inoperative-community.org][Jean-Luc Nancy's writing of community]] as "a whole of articulated
   singularities" (cite:peter01): it means /to be/ in communication with others and
   to find the end and origin of being together in that articulate sharing.
 - emancipation :: The liberation of children from the dominating imposition

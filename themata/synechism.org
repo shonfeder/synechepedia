@@ -125,6 +125,10 @@ something different.”
 - [[http://www.commens.org/encyclopedia/article/esposito-joseph-synechism-keystone-peirce%E2%80%99s-metaphysics][Synechism: the Keystone of Peirce's Metaphysics]] :: Essay by Joseph Esposito
 - [[https://docs.google.com/presentation/d/1w5V5dCSRL5sAHNGqxJHFFEgSCzX9jt1nxZmjiIC5UXw/edit?usp=sharing][Short Talk on Synechism]] :: Slidedeck from a non-technical talk I gave at the
   [[https://www.recurse.com/][Recurse Center]], Fall 2, 2019.
+* Quips
+
+Continua cannot be fully represented, tho every representational medium is
+continuous. We gesture to continua through encoding intension.
 
 * Footnotes
 

@@ -30,7 +30,7 @@ by the user.
 
 E.g., given
 
-#+begin_src tuareg
+#+begin_src ocaml
 if x then
   exp1
 else
@@ -39,3 +39,17 @@ else
 
 a single command should be able to swap the expressions in the branches and
 negate the conditional.
+* Interactive function composition search
+
+Write
+
+#+BEGIN_SRC ocaml
+let foo : t -> q = ...
+#+END_SRC
+
+
+And get an interactive prompt presenting a navigable tree of function chains
+from =t= to =q=.
+
+I want proof search over defined functions, not over the implementations of the
+functions.

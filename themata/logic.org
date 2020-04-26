@@ -4,11 +4,15 @@
 
 #+OPTIONS: toc:2
 
-* TODO What
-* TODO Why
+* What
 
-** TODO Quine
-** TODO Hart
+#+BEGIN_QUOTE
+... this is a way the mind /moves/, from the first two to the third.
+
+(cite:hart10)
+#+END_QUOTE
+
+* Why
 ** Jean-Yves Girard
 
 #+BEGIN_QUOTE
@@ -223,12 +227,156 @@ Need to explain the move to multiple antecedents.
 If not, is it possible to derive "novel" structural rules via encoding other
 figures?
 
-*** TODO Exegesis of Gentzen on the Meaning of his Calculi
-**** An example
-**** The Meaning of a Formula
-**** The Meaning of a Sequent
-**** The Meaning of a Figure
-- Trees :: DAGs with single parents
+*** Exegesis of Gentzen on the Meaning of his Calculi
+
+In NJ, the definition of the logical symbols that combine formula is given by
+the /inference figures/ forthe introduction and elimination of the symbol. In
+LJ, new inferences figures are introduced that do not correspond to logical
+symbols, but instead to "structural transformations". What is the meaning of
+these "structural inference figures"? How do they get introduced?
+
+Gentzen's driving aim in introducing LJ is to preserve the ability to define the
+logic symbols by their introduction and elimination rules but to make a
+deductive calculus which is "logicsitic". Being "logistic" means each formula
+that occurs should be a logical truth, and not dependent on external
+assumptions.
+
+Gentzen's derivations are trees of formulae or sequents that reflect the
+"following" relation between terms. In NJ, assumptions are recorded on the
+leaves of the derivation tree, but they are external to the formula themselves.
+For example, in the proof that $A \land B \supset B \land A$
+
+#+BEGIN_SRC
+A & B [1]      A & B [1]
+--------- &Er  --------- &El
+   B               A
+------------------------ &I
+        B & A
+------------------------ ->E[1]
+     A & B ⊃ B & A
+#+END_SRC
+
+The formulae =B=, =A=, and =B & A= are all dependent on assumption =[1]=. In
+effect, the intermediary formulae in a NJ derivation do not track their own
+justification, so we require contextual knowledge about the whole derivation
+tree to reason about the subproofs that justify their presence.
+
+So, how do we make NJ "logistic"?
+
+#+BEGIN_QUOTE
+The most obvious method of converting an NJ-derivation into a logistic one is
+this: We replace a [derivation formula] $B$, which depends on the assumption
+formula $A_1, .., A_u$ by the new formula $(A_1 & ... & A_u) \supset B$. This we
+do with all [derivation formulae]
+#+END_QUOTE
+
+Recapitulating with an example: we can render our proof of $A \land B \supset B
+\land A$ logistic by noting the assumption formula in antecedents of
+conditionals preceding each of the three dependenc formulae. Since $B$ depends
+on assumption =[1]=, we rewrite $B$ as $A \land B \supset B$. We do the same
+with the two remaining dependent formula, and, for consistency, add the trivial
+self-implication of the assumption to get:
+
+#+BEGIN_QUOTE
+A & B ⊃ A & B      A & B ⊃ A & B
+------------- &Er  ------------- &El
+  A & B ⊃ B          A & B ⊃ A
+-------------------------------- &I
+        A & B ⊃ B & A
+-------------------------------- ->E
+    A & B ⊃ A & B ⊃ B & A
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+We thus obtain formulae which are already true /in themselves/, i.e., whose
+truth is no longer /conditional/ on the truth of certain assumption formulae.
+This procedure, however, introduces new logical symbols $\labd$ and $\supset$,
+necessitating additional inference figures for $\labd$ and $\supset$, and thus
+upsets the systematic character of our method of introducing and eliminating
+symbols.
+#+END_QUOTE
+
+This problematic complication is evident in our attempted rewrite! The principle
+operators in each formula are now $\supset$, but (excepting the conclusion), the
+elimination and introduction rules are all meant to be working on $\land$.
+Worse, we'd need another set of introduction and elimination rules for the "new"
+logical symbols, and prevent ourselves mixing them up with the identical "old"
+ones.
+
+#+BEGIN_QUOTE
+For this reason, we have introduced the concept of a /sequent/. Instead of a
+formula $(A_1 & ... & A_u) \supset B$ we therefore write the sequent
+
+$$
+A_1, ..., A_2 \to B.
+$$
+
+The informal meaning of this sequent is no different from that of the above
+formula; the expressions differe merely in their formal [syntactic] structure.
+#+END_QUOTE
+
+I.e., Gentzen introduced an alternate surface syntax, to disambiguate the a
+structure in the metalanguage which is (informally) synonymous with implication
+in the object language. But this didn't actually do away with the problem of
+needing new introduction and elimination rules:
+
+#+BEGIN_QUOTE
+Even now new inference figures are required that cannot be integrated into our
+system of introductions and eliminations; but we have the advantage of being
+able to reserve them special places within our system, since they no longer
+refer to logical symbols, but merely to the structure of the sequents. We
+therefore call these 'structural inference figures', and the others 'operational
+inference figures'.
+#+END_QUOTE
+
+When Gentzen says "they no longer refer to logical symbols", this is true only
+because he excluded these formal implications from the system, lifting them into
+the metalogic, by use of Hertz's notation. Each of the "structural inferences
+figures" given in 1.21 are valid by virtue of the real logical meaning of the
+sequents, but this meaning gets obscured. As an example, "thinning"
+
+
+#+BEGIN_SRC
+   A -> C
+----------
+B, A -> C
+#+END_SRC
+
+is valid just because $A \supset C \supbset (B \land A \supset C)$. The "meaning
+explanation" for each structural rule is given the same way.
+**** Digression: Reasons to prefer constructive logic
+
+Viewed from the perspective of rhetoric, sequent calculus is a formal language
+for reasoning about forms of argument. In the sequent calculus, the only
+difference between intuitionistic logic and classical logic is whether multiple
+terms are allowed in the consequent: in intuitionistic logic, all sequents are
+of the form
+
+$$
+A_1, ..., A_u \to B
+$$
+
+with a single term in the consequent. To get classical logic, it suffices to
+allow sequents of the form
+
+$$
+A_1, ..., A_u \to B_1, ..., B_v
+$$
+
+i.e., where multiple terms can appear in the consequent. Using the signs of the
+object logic, this means
+
+$$
+A_1 \land ... \land A_u \supset B_1 \vee ... \vee B_v
+$$
+
+Arguing in classical logic is therefore arguing in a system in which
+interlocutors are allowed to make claims like: Assuming $A_1$ through $A_u$, one
+or more of these following propositions is true: $B_1, ..., B_2$. It seems
+reasonable to lay down a rule that says: when you make an assertion conditional on
+some assumptions, stick to one conclusion per hypothetical!
+
+
 *** TODO Reiterated by Girard
 
 #+BEGIN_QUOTE

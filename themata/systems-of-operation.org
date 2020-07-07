@@ -265,7 +265,7 @@ accelerated, automated, and internalized.
 
     Operating these bohemoths was intricate, complex, and fraught:
 
-    #+BEGIN_SRC
+    #+BEGIN_QUOTE
     The typical mode of operating was programmer present and at the operating
     console. When a programmer got ready for a test shot, he or she signed up
     on a first-in, first-out list, much like the list at a crowded restaurant.
@@ -284,7 +284,7 @@ accelerated, automated, and internalized.
     the execution of your first instruction about 5 minutes after entering the
     machine room. If only one person did all this set up and got going in five
     minutes, he bustled around the machine room like a whirling dervish.
-    #+END_SRC
+    #+END_QUOTE
 
     According to Patrick's account, the preparation and setup rarely went
     perfectly. Butter-fingered programmers were prone to squander the entirety

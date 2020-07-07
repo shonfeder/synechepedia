@@ -2,8 +2,14 @@
 
 The practical need to earn a living from my profession brought me to the
 topic of accounting. Having arrived at this topic, however, it was immediately
-apprent that the problem and practice of accounting is something of critical
+apparent that the problem and practice of accounting is something of critical
 importance.
+
+Accounting was one of the critical sites for the development of reasoning
+techniques (mathematical, ethical, and politico-economic). As we work to unfold
+the implications of [[./programming/index.org][our new writing]], and to cope with the complexity of our
+power and capacity as a society and as a species, reconsidering the role of
+accounting in our current formations seems critical.
 
 * What is an *Account*
 /Notes recorded while reading [[https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4/edit][Beancount - The Double-Entry Counting Method]]./
@@ -17,6 +23,7 @@ things.
 #+END_QUOTE
 
 Under this view, accounting would be a combination of counting and [[file:containment.org][containment]].
+
 * Keeping Books
 #+BEGIN_QUOTE
 When you do bookkeeping for a set of accounts, you are essentially describing

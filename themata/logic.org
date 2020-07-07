@@ -28,6 +28,11 @@ i.e., the inexistence of those unlikely /X-rays of knowledge/.
 (cite:girard11)
 #+END_QUOTE
 
+#+BEGIN_QUOTE
+Put some text here
+cite:Martin_L_f_1994
+#+END_QUOTE
+
 * TODO How
 ** Recycling
 

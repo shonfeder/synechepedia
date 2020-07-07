@@ -10,6 +10,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/aim.org][Aim]]
 - [[file:themata/allophilia.org][Allophilia]]
 - [[file:themata/analogy.org][Analogy]]
+- [[./themata/anxiety.org][Anxiety]]
 - [[file:themata/axiomatics.org][Axiomatics]]
 - [[file:themata/containment.org][Containment]]
 - [[file:themata/elements.org][Elements]]
@@ -32,7 +33,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/systems-of-operation.org][Systems of Operation]]
 - [[file:themata/thinking.org][Thinking]]
 - [[file:themata/terminology/index.org][Terminology]]
-- [[file:themata/types.org][Types]]
+- [[file:themata/types/index.org][Types]]
 - [[file:themata/work-anxiety-and-egotism.org][Work Anxiety and Egotism]]
 ** Excerpts
 - [[file:excerpts/distention-of-the-heart.org][Distention of the heart]]

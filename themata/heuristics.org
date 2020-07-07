@@ -3,11 +3,40 @@
 A list of maxims, tips, and tricks which I hope will help me to live more
 carefully and effectively.
 
+* General
+
+- Whenever possible, prioritize getting enough sleep and body care.
 - Stand up slowly, and get low quickly if you feel dizzy.
-- Demand to be let out of the car ASAP if you feel a driver is not being safe.
+- Demand to be let out of a car ASAP if you feel a driver is not driving safely.
+- Use checklists to ensure safe and complete execution of important tasks.
+- Be mindful of how limits and abilities change as a function of
+  activity and habituation. One's capacity today is best predicated by what's
+  been done regularly in recent days, and only tentatively indicated by what one
+  once did months or years before.
+
+* Software development
+
 - Write and run tests before investing in documentation, application, or
   generalization.
-- Devote time to document-producing design planning prior to starting work.
-- Use checklists to ensure safe and complete execution of important tasks.
+- Devote time to document-producing design and planning prior to starting work.
 - Implement minimal essential functionality, put it under test to verify
   correctness and guard against regressions, *then* elaborate.
+
+* Health Scares
+
+** An algorithm for addressing concerns
+
+#+BEGIN_SRC haskell
+case `Is it exhibiting signs requiring emergency attention` of
+   | Yes -> TODO
+   | No  ->
+case `Is it exhibiting signs requiring urgent attention?` of
+   | Yes -> `Schedule an urgent appointment with provider for ASAP`
+   | No  ->
+case Option of
+   | A -> `Schedule a regular appointment`
+   | B ->
+case `Wait and watch` of
+   | Gets_worse -> `Is it exhibiting signs requireing emergency attention`
+   | Stays_same_gets_batter -> `Wait and watch`
+#+END_SRC

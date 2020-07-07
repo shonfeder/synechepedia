@@ -1,0 +1,85 @@
+#+TITLE: Types
+
+Notes on types, largely, but not exclusively, from the perspective of
+type theory.
+
+- [[./what-are-types.org][What are Types?]]
+- [[./problems-posed-by-types.org][Problems Posed by Types]]
+
+* TODO Notes to process
+** Structuralist view
+
+Girard advances an existentialist view of logic (and type theory, as a
+sub-discipline):
+
+#+BEGIN_QUOTE
+*Existence.* One can instead contend that [the existence of] objects are
+ anterior to their type, seen as an essence. This is the viewpoint of
+ /subtyping/, this is also the viewpoint of ludics: an object may have several
+ types, be representative of several essences. Their /locativity/ becomes
+ essential.
+
+ (cite:girard11)
+#+END_QUOTE
+
+I suspect that, when cleansed of it's humanist and historicist distortions,
+existentialism resolves into a radical structuralism.
+
+I further suspect...
+
+A type system is a functor from types to terms. Parametric types give natural
+transformations over functors to simply typed terms. There are also other
+important ways of tracing natural transformations between sets of typeable
+terms. Subtyping lets us establish and specify some of these and, in fact,
+Girard presents polymorphism as a subspecies of subtyping:
+
+#+BEGIN_QUOTE
+Polymorphism is the observation that the same λ-term can admit several types.
+
+(cite:girard11, 135)
+#+END_QUOTE
+
+The jiggering and exploring of various type systems is all in pursuit of an
+ideal sweet spot that will let us prove everything we think we should be able to
+while eliminating forms of expression that become unwieldy and undermine our
+capacity to reason about the system at all. Type systems also provide an
+important /interface/ abstracting over lambda terms. When we reason about terms
+of type =int -> int= we can draw inferences about an infinite class of potential
+functions while maintaining a birds eye view.
+
+Does it make sense to look for types that range over patterns and structures
+that hold between subtypes?
+
+From the subtyping view, the addition of linear types expanded the class of
+terms our types can provide an interface to, allowing new distinctions (maybe
+also allowing terms untypeable in other systems into the domain?).
+
+There are types correlating interfaces between systems of types. This is what
+Goguen advocates in cite:Programming91typesas.
+
+** A confusion regarding the Curry-Howard analogy
+
+iiuc, $x : A \simeq x \in A \simeq x \: is \: an \: A$. This level of typing
+judgment is required for a simply typed λ-calculus. But simply typed λ-calculus
+is only analogous to /propsitional logic/, so how can we be predicating here?
+This is what leads me to suspect type theory would be more easily understood as
+an extension of [[https://en.wikipedia.org/wiki/Term_logic][term logic]].
+
+** Type Theory as a Normative Discipline
+
+This view takes type theory to be merely an extension of the normative theory of
+logic.
+
+Type Theory is a computational model constrained by a logical syntax.
+
+#+BEGIN_QUOTE
+Logical syntax can thus be seen both as a constructive tool, enabling the
+formation of (normalizing) typed terms, and as a constraining one, imposing a
+/custom/ on pure terms (and their socialization) in order to force termination.
+
+(cite:abrusci14_transc)
+#+END_QUOTE
+
+*** TODO Extract Thread from Twitter
+
+bibliography:../../../../bibliography/references.bib

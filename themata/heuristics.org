@@ -28,7 +28,7 @@ carefully and effectively.
 
 #+BEGIN_SRC haskell
 case `Is it exhibiting signs requiring emergency attention` of
-   | Yes -> TODO
+   | Yes -> `Seek the TOP ER department`
    | No  ->
 case `Is it exhibiting signs requiring urgent attention?` of
    | Yes -> `Schedule an urgent appointment with provider for ASAP`
@@ -38,5 +38,5 @@ case Option of
    | B ->
 case `Wait and watch` of
    | Gets_worse -> `Is it exhibiting signs requireing emergency attention`
-   | Stays_same_gets_batter -> `Wait and watch`
+   | Stays_same | Gets_batter -> `Wait and watch`
 #+END_SRC

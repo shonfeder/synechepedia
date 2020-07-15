@@ -58,6 +58,7 @@ at compile time and to improve run-time efficiency.
 * Implications
 
 - As *sharing* requirements
+- Precisely constructable specifications
 - Think of a mockup as the "shell of a type", the type which actually
   articulates the problem to solve should fill the form sketched by the mock up.
 

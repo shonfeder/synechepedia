@@ -429,6 +429,9 @@ predicate is a device of disquotation* [emphasis mine].
 *** TODO Related Angles
 
 - [[https://en.wikipedia.org/wiki/Deep_inference#cite_ref-1][Deep Inference]]
+* Links
+
+- [[http://boole.stanford.edu/~dominic/proofs-without-syntax/][Proofs Without Syntax Group]]
 
 * References
 

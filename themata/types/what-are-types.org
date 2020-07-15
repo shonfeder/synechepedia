@@ -1,5 +1,6 @@
 #+TITLE: What Are Types?
 
+#+OPTIONS: toc:2
 
 * Computational Type Theory
 

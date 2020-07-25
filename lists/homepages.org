@@ -1,8 +1,8 @@
 #+TITLE: Homepages to watch
 
 * Andreas Rossberg
-Developer of HaMLet and 1ML
 https://people.mpi-sws.org/~rossberg/index.html
+Developer of HaMLet and 1ML, working on WASM.
 * Bob Atkey
 https://bentnib.org/
 
@@ -13,25 +13,33 @@ My research is on programming languages. I use mathematical ideas and structure
 from logic, category theory, type theory, and denotational semantics to study
 programming languages and the systems they describe.
 #+END_QUOTE
+* Catuscia Palamidessi
+http://www.lix.polytechnique.fr/Labo/Catuscia.Palamidessi/
 
+Information theory, privacy, via logical lenses.
+
+(Spouse of Dale Miller.)
 * Dale Miller
-Linear logic programming, proof theory, automated reasoning
 http://www.lix.polytechnique.fr/Labo/Dale.Miller/
+
+Linear logic programming, proof theory, automated reasoning.
+
+(Spouse of Catuscia Palamidessi.)
 * Daniel Bünzel
-OCaml, Libre Software
 http://erratique.ch/contact.en
+OCaml, Libre Software
 * Drup's Thingies
-OCaml libraries and techniques
 https://drup.github.io/
+OCaml libraries and techniques
 * Frank Pfenning
-Linear logic, formal verification, type theory
 http://www.cs.cmu.edu/~fp
+Linear logic, formal verification, type theory
 * Laura Crosilla
-Type theory, constructivism, philosophy of mathematics
 https://sites.google.com/view/lauracrosilla/home
+Type theory, constructivism, philosophy of mathematics
 * Michael Cuffaro
-Philosopher, computer scientists
 http://www.michaelcuffaro.com/
+Philosopher, computer scientists
 * Neel Krishnaswami
 https://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
 * Paolo Pistone
@@ -40,8 +48,8 @@ http://logica.uniroma3.it/pistone/
 Researcher in Logic, studied under Girard.
 
 #+BEGIN_QUOTE
- My research interests are in the proof-theory of second order logic (System F)
- and linear logic (especially proof-nets).
+My research interests are in the proof-theory of second order logic (System F)
+and linear logic (especially proof-nets).
 
 Parametric polymorphism, the central topic of second order proof-theory, lies at
 the border between mathematics, computer science, and philosophy. It can be

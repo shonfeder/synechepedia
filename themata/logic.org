@@ -347,7 +347,7 @@ sequents, but this meaning gets obscured. As an example, "thinning"
 B, A -> C
 #+END_SRC
 
-is valid just because $A \supset C \supbset (B \land A \supset C)$. The "meaning
+is valid just because $A \supset C \subset (B \land A \supset C)$. The "meaning
 explanation" for each structural rule is given the same way.
 **** Digression: Reasons to prefer constructive logic
 
@@ -429,6 +429,28 @@ predicate is a device of disquotation* [emphasis mine].
 *** TODO Related Angles
 
 - [[https://en.wikipedia.org/wiki/Deep_inference#cite_ref-1][Deep Inference]]
+* TODO Whither?
+#+BEGIN_QUOTE
+Linear logic is a refinement of classical logic and intuitionistic logic.
+Instead of emphasizing /truth/, as in classical logic, or /proof/, as in
+intuitionistic logic, linear logic emphasizes the role of formulas as
+/resources/.
+
+([[https://plato.stanford.edu/entries/logic-linear/][SEP]])
+#+END_QUOTE
+
+This suggests that we may discover and evolve as many logics as there are
+structural aspects of the relation between being and thought that can bear
+emphasizing and are *essentially* susceptible to formal articulation (this last
+criterion is essential, and should guard against [[https://girard.perso.math.cnrs.fr/mustard/page1.html]["mustard watches"]]).
+
+One horizon for exploration, then, is the discovery and articulation of
+additional aspects. Another -- at a higher dimension -- is the exploration of
+what makes possible such "aspects", what make emphasizing them possible and
+interesting. When is an aspect adequate to reveal an interesting logic, and how
+can we determine if it is susceptible to formal articulation?
+
+Cf. the theory of [[https://en.wikipedia.org/wiki/Institution_(computer_science)][institutions]] and the project of [[https://en.wikipedia.org/wiki/Universal_logic][universal logic]].
 * Links
 
 - [[http://boole.stanford.edu/~dominic/proofs-without-syntax/][Proofs Without Syntax Group]]

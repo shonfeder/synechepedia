@@ -25,8 +25,7 @@ reach").
 ([[https://www.etymonline.com/word/problem#etymonline_v_2594][etymonline]])
 #+END_QUOTE
 
-
-** The prevailing view
+** The prevailing view on programming with types
 
 The prevailing view[fn:definiate-article] on the meaning and purpose of types in
 programming can be gleaned from excerpts like the following
@@ -49,6 +48,17 @@ at compile time and to improve run-time efficiency.
 (cite:lamport1999should)
 #+END_QUOTE
 
+** Constructivism
+*** Euclid
+*** Spinoza
+Construct objects.
+*** Kant
+Synthetic a priori.
+*** Bishop
+Constructive sets.
+*** Martin-Lof
+Types as problems, programs as solutions.
+
 * Precedent
 
 - Martin Lof's paper
@@ -57,7 +67,7 @@ at compile time and to improve run-time efficiency.
 
 * Implications
 
-- As *sharing* requirements
+- As specifying and *sharing* requirements
 - Precisely constructable specifications
 - Think of a mockup as the "shell of a type", the type which actually
   articulates the problem to solve should fill the form sketched by the mock up.

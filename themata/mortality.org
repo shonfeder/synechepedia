@@ -2,19 +2,19 @@
 
 * TODO Notes to process
 Non-existence as annihilation is neither the negation nor the dual of
-the singular, subjective existence. The dual of being singular is being in
+our singular, subjective existence. The dual of being singular is being in
 common: being in community.
 
-In death, neither the being nor having-been of a subject is annihilated. Though
-the continued presence of the dead is terminated. The non-existence of the
-subject entailed by mortality is only a determinate negation of the persistence
-of the subject in time. It is determinate in that something entirely new is
-created in the passing away: a distinct, aching absence. In the experience of
-losing companions it is absolutely clear that death is not an annihilation,
-because the weight and extraordinary, horrible novelty of their absence is
-utterly imposing and inescapable. Whatever else may or may not happen to the
-dead, for the living, their former presence is transmuted into a /sui generis/
-absence.
+In death, neither the being nor having-been of a subject is annihilated even
+though the continued presence of the dead is terminated. The non-existence of
+the subject entailed by mortality is only a determinate negation of the
+persistence of the subject in time. It is determinate in that something entirely
+new is created in the passing away: a distinct, aching absence. In the
+experience of losing companions it is absolutely clear that death is not an
+annihilation, because the weight and extraordinary, horrible novelty of their
+absence is utterly imposing and inescapable. Whatever else may or may not happen
+to the dead, for the living, their former presence is transmuted into a /sui
+generis/ absence.
 
 Nietzsche's eternal return thought experiment can be read as an analysis of
 Spinoza's [[https://en.wikipedia.org/wiki/Sub_specie_aeternitatis][sub specie aeternitatis]]. It uses subjective imagination to bootstrap

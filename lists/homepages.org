@@ -31,6 +31,18 @@ OCaml, Libre Software
 * Drup's Thingies
 https://drup.github.io/
 OCaml libraries and techniques
+* Equivalent Exchange
+https://equivalentexchange.blog/
+
+#+BEGIN_QUOTE
+ a journey towards a personal philosophy. I don’t claim to have any great
+conclusions. I hope that with enough thrashing about, a gem of understanding may
+eventually be produced. I don’t wait to completely understand something before I
+write about it. If I am inspired to post a diagram or write a scrap of text, I
+do so. As a result, much of what I present here seems incomplete and muddled.
+It’s just a blog, after all.
+#+END_QUOTE
+
 * Frank Pfenning
 http://www.cs.cmu.edu/~fp
 Linear logic, formal verification, type theory

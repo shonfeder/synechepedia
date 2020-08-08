@@ -1,0 +1,12 @@
+#+TITLE: Existence
+
+
+If we take logic seriously, existential quantification should be intimately
+related to the problematics of existence per se.
+
+I wonder if [[./synechism.org][synechistic]] post-structuralism can be understdood as a skolemization
+of existenialism that helps rescue it from the anthropocentric relativism
+towards which it tends. Where existentialism insists on existence preceding
+essence, synechistic post-structuralism lets us reinterpret existence as a
+continuum of structures mapping parameters pertaining to a continuum of possible
+universal properties to into concrete forms through discretion.

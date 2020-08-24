@@ -3,6 +3,10 @@
 * Andreas Rossberg
 https://people.mpi-sws.org/~rossberg/index.html
 Developer of HaMLet and 1ML, working on WASM.
+* Bertie Spell
+https://bertiespell.com/home
+
+Philosophy, sociology, literary theory, blockchain, design.
 * Bob Atkey
 https://bentnib.org/
 

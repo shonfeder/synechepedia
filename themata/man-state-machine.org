@@ -1,6 +1,16 @@
 #+TITLE: The Man/State/Machine
 
-WIP
+*WIP*
+
+gist: I suspect that determination of human being terms of /man/, of ontology in
+terms of /machine/, and of community in terms of /state/ are inextricably
+intertwined. Particular forms such the state-machine, man-machine, and the state
+as machine, are iterations of this mutual determination. The internal logic of
+these determinations is that of command/control, impulse/reaction, and of the
+discrete and orderable sequenced according to manly dictates. It runs through
+all of modernity (even tho not all enlightenment thinking is thoroughly
+subordinated to this framing), and it is driving us into madness, xenocide,
+mono-mania, and other bad stuff.
 
 Who will thrive and predominate in a world thoroughly dominated by the
 ideology of the man/state/machine? Whoever is most able to embody the qualities

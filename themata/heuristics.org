@@ -18,7 +18,9 @@ carefully and effectively.
   anticipation, worry can bend into compassion, anger can smooth into
   determination. Each thing in the world is a portal to alternative
   configurations of being.
-
+- An expedient hack can help, but don't lay hack upon hack (unless you're trying
+  to break the system.)
+ 
 * Software development
 
 - Write and run tests before investing in documentation, application, or

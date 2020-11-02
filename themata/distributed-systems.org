@@ -1,0 +1,15 @@
+#+TITLE: Distributed Systems
+
+A system is said to be distributed when
+
+- There are distinct, autonomous "computational entities"
+- The autonomous entities communicate with each other by "message passing"
+
+#+BEGIN_QUOTE
+A distributed system may have a common goal, such as solving a large
+computational problem;[10] the user then perceives the collection of autonomous
+processors as a unit. Alternatively, each computer may have its own user with
+individual needs, and the purpose of the distributed system is to coordinate the
+use of shared resources or provide communication services to the users.[11]
+([[https://en.wikipedia.org/wiki/Distributed_computing][wikipedia]])
+#+END_QUOTE

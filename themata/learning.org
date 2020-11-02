@@ -1,0 +1,30 @@
+#+TITLE: Learning
+
+#+BEGIN_QUOTE
+tips on how to learn how to learn?
+#+END_QUOTE
+
+While I think on more useful notes, I can share this Heidegger passage with you, which speaks to my view on learning:
+
+#+BEGIN_QUOTE
+What is learning? One learns when they dispose everything they do so that it
+answers to whatever essentials are addressed to him at any given moment.
+#+END_QUOTE
+
+So, take programming, what is essential in programming?
+in my view, the essence of programming is writing: more specifically, writing, reading, and rewriting.
+(See https://www.etymonline.com/search?q=program and Turings seminal paper https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf. in the final sentence of the first paragraph of the latter, Turning write:
+
+According to  my  definition,  a  number  is  computable if its  decimal  can
+be written  down  by  a machine
+
+To be computable is to be writeable. To compute, we program the machine to read our program, and then rewrite, repeatedly, forever or until a desired state is reached.
+So to learn programming, according to Heidegger's dictum on learning, we "dispose everything we do so that it answers to whatever essentials are addressed to us at any given moment". At this moment, programming is addresses itself to us.
+Society, the economy, the people we know, the entire state of the human world is such that programming addresses us in an urgent way.
+So, we grant that programming is addressed to us, and suppose we grant that what is essential to programming is the writing out (of what is to be done) and the reading of this writing so that what is written can be executed.
+How do we "dispose everything we do so that it ansewrs" to this essential aspect?
+Perhaps this means we consider everything we do and think in connection with the practice of programming, of writing what can be read to be executed.
+We see how recipes are programms, and when we cook we consider what it means to execute such a program.
+We see how instructions written to each other are programs.
+We think about how our parents and society have programmed us, by dictating so many rules and policies that "must" be executed and obeyed.
+etc. etc. In this way we explore and find connections between everything (almost) and so each things teaches us about this essential aspect in a different way, and reveals something more about what is taught by another thing.

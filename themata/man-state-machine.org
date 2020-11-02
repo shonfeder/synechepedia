@@ -1,0 +1,161 @@
+#+TITLE: The Man/State/Machine
+
+WIP
+
+Who will thrive and predominate in a world thoroughly dominated by the
+ideology of the man/state/machine? Whoever is most able to embody the qualities
+of man that enable calculating the state and driving the machine: i.e.,
+fortunate, masculine, technocrats, who can internalize the combinatory problems
+relevant to tracking the state transitions, who can work the levers effectively,
+or find clever and self serving ways to throw wrenches into the machine.
+
+The opening passage from Hobbes' *Leviathan*:
+
+#+BEGIN_QUOTE
+Nature (the Art whereby God hath made and governes the World) is by the *Art* of
+man, as in many other things, so in this also imitated, that it can make an
+Artificial Animal. For seeing life is but a motion of Limbs, the beginning
+whereof is in some principall part within; why may we not say, that all
+/Automata/ (Engines that move themselves by springs and wheeles as doth a watch)
+have an artificiall life? For what is the /Heart/, but a /Spring/; and the
+/Nerves/, but so many /Strings/; and the /Joynts/, but so many /Wheels/, giving
+motion to the whole Body, such as was intended by the Artificer? /Art/ goes yet
+further, imitating that Rationall and most excellent worke of Nature, /Man/. For
+by Art is created that great Leviathan called a Common-Wealth, or **State**, (in
+latine Civitas) which is but *an Artificiall Man*
+#+END_QUOTE
+
+
+I think the essay would  make the case that the origin, essential logic, and
+ultimate destiny of the the state-machine  concept is the subordination of the
+human being to the man/state/machine.
+
+Turing, in the "Computable Numbers" paper begins his description of the
+"Computing machines" thus:
+
+#+BEGIN_QUOTE
+We may compare a man in the process of computing a real number to a machine
+which is only capable of a finite number of conditions /q1, q2, ..., qR/ which
+will e called "/m/-configurations".
+#+END_QUOTE
+
+
+And immediately preceding, he notes the justification for this comparison:
+
+#+BEGIN_QUOTE
+the justification lies in the fact that the human memory is necessarily
+limited.
+#+END_QUOTE
+
+
+What makes a man/machine fully determinable (fully controlled?)?
+
+#+BEGIN_QUOTE
+If at each stage the motion of a machine is /completely/ determined by the
+configuration, we shall call the machine an "automatic machine".
+#+END_QUOTE
+
+
+Turing also names another kind of machine, the "choice machine":
+
+#+BEGIN_QUOTE
+For some purposes we might use machines (choice machines or *c*-machines) whose
+motion is only partially determined by the configuration ... When such a machine
+reaches one of these ambiguous configurations, it cannot go on until some
+arbitrary choice has been made by an external operator. (72)
+#+END_QUOTE
+
+Hobbes (for whom "*Imagination* and *Memory* are but one thing" (89), also
+maintained the finitude of memory:
+
+#+BEGIN_QUOTE
+Whatsoever we imagine, is *Finite*. Therefore there is no Idea, or conception
+of anything we call *Infinite*.
+#+END_QUOTE
+
+And rendered Imagination as motion from mechanical impact of bodies on sense
+organs. Reason is the orderly and deterministic sequencing of such impressions
+in a train, after the impressions have been encoded into words:
+
+#+BEGIN_QUOTE
+When a man *Reasoneth*, hee does nothing else but conceive a summe totall, from
+*Addition* of parcels; or conceive a Remainder, from *Subtraction* of one summe
+from another: which (if it be done by Words,) is conceiving of the consequences
+of the names of all the parts, to the name of the whole; or from the names of
+the whole and on epart, to the name of the other part. (110)
+
+...
+
+For Reason, in this sense, is nothing but *Reckoning* (that is, Adding and
+Subtracting) of the Consequences of generall names agreed upon, for the
+*marking* and *signifying* of our thoughts.
+#+END_QUOTE
+
+He casts Science as the knowledge of consequence revealed by this right
+ordering. (See p. 115) Essential to scientific reasoning is the elimination of
+ambiguity:
+
+#+BEGIN_QUOTE
+The Light of humane minds is Perspicuous Words, but by exact definitions first
+snuffed, and purged from ambiguity; *Reason* is the *pace*; Encrease of
+*Science*, the *way*; and the Benefit of man-kind, the *end*.
+#+END_QUOTE
+
+The destiny of a redemable human being, in Hobbe's view, is only via the
+subordination of everything, both human and nature, to the man/state/machine,
+via linguistic programming (or, as he calls it, "Science"):
+
+#+BEGIN_QUOTE
+The only way to erect such a Common Power, as may be able to defend them from
+the invasion of Forraigners, and the injuries of one another ... is, to conferre
+all their power and strength upon one Man, or upon one Assembly of men, that may
+reduce all their Wills, by plurality of voices, unto one Will
+#+END_QUOTE
+
+
+* TODO re: Lacan
+
+#+BEGIN_QUOTE
+There is nothing here, however, that contradicts the vast dialectic that makes
+us serfs of history by superimposing its waves on the brewing of our grand
+migrations, in what attaches each of us to a scrap of discourse that is more
+alive than his very life, if it is true that, as Goethe said, when "that which
+is without life is alive, it can also produce life".
+
+For it is also true that, having been unable to proffer this scrap of discourse
+from our throats, each of us is condemned to make himself into its living
+alphabet to trace out its fatal line.
+
+(Lacan, "Psychoanalysis and Its Teaching")
+#+END_QUOTE
+
+
+---
+
+* TODO re: Longo's letter's to turing
+
+In a letter addressed posthumously to Alan Turing, Giuseppe Longo laments the
+conceptual and technological cul-de-sac into which the state machinsts are
+driving us:
+
+#+BEGIN_QUOTE
+To this we have to add the madness, as I mentioned, of the "everything is
+computational", starting from the analysis of the living, the opposite of what
+you [Turing] were able to offer, and creating the myth of the Universe as a
+Turing Machine, against your very precise observations. These colleagues, who
+are using the only technique that they know, and applying it to every possible
+phenomenon, flattening it onto a universe that is witout meaning and made only
+of formal calculations, act as if yours is the last machine that [humans] will
+be capable of inventing: it is coterminous with the world! I am convinced that
+we shall invent others, but these prophesies risk becoming self-affirming:
+piling computational techniques onto computational techniques, always in the
+same theoretical universe, to grasp the complexity of the Universe (or the brain,
+of DNA ...), in increasingly and abstrusively difficult ways without the very
+simple purity and depth that mathematical invention requires -- all of this
+prevents us from being able to think about the ... next machine, which humankind
+will certainly find ways of inventing.
+#+END_QUOTE
+
+* TODO re: Leslie Lamport's definition of computation
+
+From https://www.youtube.com/watch?v=BDPHfRuAFnU

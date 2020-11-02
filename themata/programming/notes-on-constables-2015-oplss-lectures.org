@@ -1,0 +1,10 @@
+#+TITLE: Notes On Constable's 2015 OPLSS Lectures
+
+* On difference betwen
+* Computation is about parenthesis (8:00)
+
+#+BEGIN_QUOTE
+Parenthesis essentially are the basis of computation.
+#+END_QUOTE
+
+Follows from Rosser's reduction of computation to the single X combinator. (find source for it)

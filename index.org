@@ -29,6 +29,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/praxis.org][Praxis]]
 - [[file:themata/programming/index.org][Programming]]
 - [[file:themata/questions.org][Questions]]
+- [[file:themata/reason.org][Reason]] 
 - [[file:themata/structural-proof-theory.org][Structural Proof Theory]]
 - [[file:themata/structure.org][Structure]]
 - [[file:themata/synechism.org][Synechism]]

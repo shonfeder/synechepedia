@@ -4,7 +4,7 @@ A system is said to be distributed when
 
 - There are distinct, autonomous "computational entities"
 - The autonomous entities communicate with each other by "message passing"
-
+ 
 #+BEGIN_QUOTE
 A distributed system may have a common goal, such as solving a large
 computational problem;[10] the user then perceives the collection of autonomous
@@ -13,3 +13,52 @@ individual needs, and the purpose of the distributed system is to coordinate the
 use of shared resources or provide communication services to the users.[11]
 ([[https://en.wikipedia.org/wiki/Distributed_computing][wikipedia]])
 #+END_QUOTE
+
+* /Time, Clocks, and the Ordering of Events in a Distributed System/
+
+This work aims to impose a /total order/ upon systems of processes bound by a
+conventional metric time and composed of linear orders of discrete events.
+
+In the opening paragraph of cite:lamport78_time_clock_order_event_distr_system,
+Lamport lays out the following ontology as basic for the concept of a
+distributed system:
+
+- The concept of *(clock) time* is derived from the concept of the order of event occurrence. 
+  + Because we say "X happened at time t" if X occurred /after/ a clock reads
+    /t/ and /before/ it reads /t'/. So happening at a time is derived from
+    observations situated in a /after-before/ relationship.
+  + Essentially, Lamport treats time as a metric over a temporal topology.
+- "our way of *thinking*" is founded (at least in part) on the concept of (clock) /time/.
+- Our thinking about *systems*, in particular, depends on temporal ordering.
+  + E.g., an airline reservation system
+  
+The point of the paper is to problematize the temporal ordering of events in the
+kinds of systems which we call /distributed/.
+
+#+BEGIN_QUOTE
+A distributed system consists of a collection of distinct processes which are
+spatially separated, and which communicate with one another by exchanging
+messages.
+
+...
+
+A system is distributed if the message transmission delay is not negligible
+compared to the time between events in a single process.
+#+END_QUOTE
+
+The spatial separation is non-essential. In essence, whether or not a system is
+distributed, according to this characterization, is a function of a threshold in
+a temporal metric allowing comparison of "delay" between distinct, but
+interrelated orders of events.
+
+A /system/ is understood to consist of one or more processes. Each /process/ is
+a single, inherently synchronous and linear, ordering of events. These orders
+can interact through /passing messages/. When the ratio between the time taken
+to pass a message and the time taken between events in a process is
+"non-negligible", the system is said to be "distributed".
+
+* Links
+
+- [[http://lambda-the-ultimate.org/node/5194][LtU eiscussion with Carl Hewitt on Lamportian concurrency vs. actor-model concurrency]] 
+  
+bibliography:~/Dropbox/bibliography/references.bib

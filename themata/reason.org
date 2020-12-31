@@ -1,0 +1,8 @@
+#+TITLE: Reason
+
+*WIP*
+
+* TODO What is reason?
+* TODO What is reasonable?
+* TODO Functional programming is programming reasonably
+* TODO Post-capitalist organization is organizing reasonably

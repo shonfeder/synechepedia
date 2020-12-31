@@ -50,6 +50,14 @@ It’s just a blog, after all.
 * Frank Pfenning
 http://www.cs.cmu.edu/~fp
 Linear logic, formal verification, type theory
+* Giuseppe Longo
+https://www.di.ens.fr/users/longo/
+Logic, computability, epistemology, evolutionary and organismal biology
+* Graham Joncas
+https://gjoncas.github.io/
+#+begin_quote
+on computational economics and formal philosophy
+#+end_quote
 * Laura Crosilla
 https://sites.google.com/view/lauracrosilla/home
 Type theory, constructivism, philosophy of mathematics

@@ -144,6 +144,7 @@ alphabet to trace out its fatal line.
 
 ---
 
+
 * TODO re: Longo's letter's to turing
 
 In a letter addressed posthumously to Alan Turing, Giuseppe Longo laments the
@@ -168,6 +169,125 @@ prevents us from being able to think about the ... next machine, which humankind
 will certainly find ways of inventing.
 #+END_QUOTE
 
-* TODO re: Leslie Lamport's definition of computation
+* TODO Etymology
+
+State is derived
+
+#+begin_quote
+directly from /status/ "a station, position, place; way of standing, posture;
+order, arrangement, condition,"
+#+end_quote
+
+and then figuratively a
+
+#+begin_quote
+"standing, rank; public order, community organization,"
+#+end_quote
+
+Consult the hypothesized PIE root to see that /state/ is rooted in the notion of
+a static standing, a set arrangement.
+
+https://www.etymonline.com/word/state#etymonline_v_22015
+
+State as in stasis, position, a standing. The notion of a state as "political
+organization of a country, supreme civil power, government" dates from c. 1300.
+
+Concretely and primarily, [[http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aentry%3Dstatus2][/status/]] conveyed a gradient of senses from physical
+posture, appearance, or stature, to position in space. Only  figuratively and
+derivatively did it come to mean one's social position, i.e., social status. And
+by this route, finally, to mean "of countries, communities, etc., the condition of
+society, or the state, the public order, public affairs".
+
+Note that this determines sociality and the being together of community through
+static positionality and arrangement (this will become state in the sense of
+situated and configured resources) in a field of relative power or influence.
+Status still has this sense. The concept of the state has always intended an
+ordering of people based on static accumulation and hierarchical positioning.
+
+* Positioning: pro-civilization/anti-state
+
+As per Bookchin, the state is opposed to, other than, and imposed at the expense
+of the urbs/city. Civilization as understood as a social order organized around
+the life of the civilis "relating to a citizen, relating to public life,
+befitting a citizen; popular, affable, courteous" ([[https://www.etymonline.com/word/civilize?ref=etymonline_crossreference][etymonline]]). 
+
+* Models matter
+
+Rewriting vs. state
+
+* TODO State Machine
+
+- [ ] Review https://en.wikipedia.org/wiki/State_(computer_science)
+
+** TODO Genealogy
+
+- [ ] Review the google books results: https://www.google.com/search?q=%22+state+machine+%22&lr=lang_en&tbs=cdr:1,cd_min:1800,cd_max:1893,lr:lang_1en&tbm=bks&sxsrf=ALeKk02GRte-KyqD2-4ucj59go6NIFRnKQ:1608574479411&ei=D-bgX-vIGIii5NoPhoWRqAo&start=10&sa=N&ved=0ahUKEwirjMLz1t_tAhUIEVkFHYZCBKUQ8NMDCJ4B&biw=1682&bih=935&dpr=2
+  
+*** School as a machine that should belong to the state
+
+#+begin_quote
+We confront the whole programme, as an aggregate and all in all its parts, with
+the generic proposition that the public school should be made neither a Catholic
+nor a Protestant machine, ay more than it should be made a Jewish, a Mormon, or
+an infidel machine. It should be a State machine ...
+#+end_quote
+
+Samuel Thayer Spear · 1876
+https://books.google.ca/books?id=TOtMAQAAMAAJ&pg=PA30&dq=%22+state+machine+%22&hl=en&sa=X&ved=2ahUKEwirjMLz1t_tAhUIEVkFHYZCBKUQ6AEwCXoECAcQAg#v=onepage&q=%22%20state%20machine%20%22&f=false
+*** The state as a machine
+https://books.google.ca/books?id=10FcAAAAcAAJ&pg=PA27&dq=%22+state+machine+%22&hl=en&sa=X&ved=2ahUKEwjh-MGd2N_tAhXkFVkFHc9eD144ChDoATAHegQICRAC#v=onepage&q=%22%20state%20machine%20%22&f=false
+
+* TODO The State of Man
+
+** Jean Bodin's "Six Books..."
+
+https://constitution.org/2-Authors/bodin/bodin_1.htm
+
+#+begin_quote
+A COMMONWEALTH may be defined as the rightly ordered government of a number of
+families, and of those things which are their common concern, by a sovereign
+power. 
+#+end_quote
+
+*** Manly hierarchical control as founding principle
+
+#+begin_quote
+A FAMILY may be defined as the right ordering of a group of persons owing
+obedience to a head of a household, and of those interests which are his proper
+concern. 
+#+end_quote
+
+But this wasn't even consistently used as the organizing principle. Only
+/certain/ males were allotted the defining role of head of household. 
+
+#+begin_quote
+From the moment a marriage is consummated the woman is subject to her husband,
+unless he is still living as a dependant in his father's house. Neither slaves
+nor other dependants have any authority over their wives, still less over their
+children. They are all subject to the head of the family until such time as he
+shall have given his married son his independence. No household can have more
+than one head, one master, one seigneur. If there were more than one head there
+would be a conflict of command and incessant family disturbances... wherefore a
+woman marrying a man still living in his father's house is subject to her
+father-in-law. ...
+#+end_quote
+
+
+*** Control and command as the foundation of the state:
+
+#+begin_quote
+The government of all commonwealths, colleges, corporate bodies, or households
+whatsoever, rests on the right to command on one side, and the obligation to
+obey on the other, which arises when the natural liberty which each man has to
+live as he chooses, is exercised subject to the power of another.
+#+end_quote
+
+* TODO re: Leslie Lamport's definition of computation as clock
 
 From https://www.youtube.com/watch?v=BDPHfRuAFnU
+
+Compare with https://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/clocksVSturingM.pdf
+
+-------------------------------------------------------------------------------
+
+bibliography:~/Dropbox/bibliography/references.bib

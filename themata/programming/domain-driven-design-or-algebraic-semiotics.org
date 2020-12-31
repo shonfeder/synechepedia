@@ -1,5 +1,6 @@
-#+TITLE: Domain Driven Design or Algebraic Semiotics?
+#+TITLE: Algebraic Semiotics in OCaml
 
+* TODO A theoretically grounded alternative to "Domain Driven Design"
 #+BEGIN_QUOTE
 *ad hoc*
 Latin phrase, "to this, with respect to this, for this (specific purpose)," from
@@ -7,3 +8,7 @@ ad "to" (see /ad-/) + /hoc/, neuter accusative of hic "this." Hence, "appointed 
 enacted for some particular purpose" (1879).
 ([[https://www.etymonline.com/word/ad%2520hoc][etymonline]])
 #+END_QUOTE
+
+* TODO Integrate references
+
+- https://gjoncas.github.io/posts/2020-12-26-algebraic-semiotics.html

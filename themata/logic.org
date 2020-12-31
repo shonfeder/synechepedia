@@ -12,6 +12,27 @@
 (cite:hart10)
 #+END_QUOTE
 
+#+BEGIN_QUOTE
+*On Formalization*
+
+Sapir said /all systems leak/; he was referring to the fact that no grammatical
+system has ever successfully captured a real natural language, but it is natural
+to generalize his slogan to formalizations of any complex natural sign system.
+There are always "loose ends" ... Thus we cannot expect our semiotic models to
+be perfect. However, a precise description that is somewhat wrong is better than
+a description so vague that no one can tell if it's wrong. We not seek to
+formalize actual living meanings, but rather to express our partial
+understandings more exactly. Precision is also needed to build computer
+programs that use the theory. I do not believe that meaning in the human sense
+can be captured by formal sign systems; however, human analysts can note the
+extent to which the meanings that they see in some sign system are preserved by
+different representations. Thus we seek to formalize particular understandings
+of analysts, without claiming that such understandings are necessarily correct,
+or have some kind of ideal Platonic existence.
+
+(cite:goguen1998introduction)
+#+END_QUOTE
+
 * Why
 ** Jean-Yves Girard
 
@@ -231,6 +252,23 @@ Need to explain the move to multiple antecedents.
 **** TODO Do structural rules perhaps fit other syllogistic figures?
 If not, is it possible to derive "novel" structural rules via encoding other
 figures?
+**** TODO Gathering together
+
+Russel and Whitehead on the juxtaposition of signs effecting a juxtaposition of
+thoughts.
+
+Structurally, logical operators are a way of linking, drawing together, their
+operands. \(A \land B\), \(A \lor B \), and \(A \supset B\) each express a way
+of considering \(A\) and \(B\) gathered together, but in different ways and
+under different conditions.
+
+What about the gathering of \(A\) and \(\land\)? What conditions this gathering
+together? As per Martin-Löf, this is the implicit judgment that \(A \: prop\).
+We seem to need a way of indicating when new space needs to be opened up between
+juxtaposed terms, to make room for more subtle thoughts. Yet we also need to be
+able to fold up this complexity to reduce the noise when we're thinking at a
+higher level of abstraction, or already understand these binding conditions to
+be in effect.
 
 *** Exegesis of Gentzen on the Meaning of his Calculi
 

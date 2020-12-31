@@ -3,6 +3,14 @@
 What are the conditions of possibility for something to be a model of
 computation?
 
+* TODO Models of computation to consider and compare
+
+- [ ] https://www.etymonline.com/word/civilize?ref=etymonline_crossreference
+  + [ ] https://www.researchgate.net/publication/240999491_Interaction-Based_Models_of_Computation
+- [ ] https://en.wikipedia.org/wiki/Abstract_rewriting_system
+  + [ ] https://en.wikipedia.org/wiki/Semi-Thue_system
+ 
+  
 * Criteria
 - Must be able to express non-termination
 

@@ -234,6 +234,8 @@ dissolution of an implication* [emphasis mine].
 
 ***** TODO Note the different meaning of the tunstyle here.
 ***** TODO recapitulate and indicate significance
+**** TODO Girard's Problematization of the ditinction between \(\vdash\) and \(\supset\)
+https://philosophy.stackexchange.com/questions/41143/what-is-behind-girards-idea-of-distinguishing-implication-%E2%87%92-and-entailment
 **** TODO Cut is Barbara (find Hertz example of this)
 **** TODO Structural reasoning is using TFL to formalize MPL
 

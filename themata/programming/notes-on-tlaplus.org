@@ -6,7 +6,8 @@ There are notes compiled while learning the basics of TLA+.
 
 *NOTE:* My initial notes here have a polemical tone. Please know that it is part
 of my learning process, and, until this notice is removed, any critical remarks
-here should be read as an exclamatory rather than an assertoric utterance.
+here should be read as an exclamatory rather than an assertoric utterance. I
+don't know enough yet to have a justified critical opinion.
 
 * My Initial Point of View
 
@@ -125,7 +126,7 @@ you to install a bespoke JVM IDE).
 
 Here's an operation from an example spec that ships with the TLAToolbox:
 
-#+BEGIN_QUOTE TLC
+#+BEGIN_QUOTE tla
 Move(S,b) == /\ Cardinality(S) \in {1,2}
              /\ LET newThisBank  == who_is_on_bank[b] \ S
                     newOtherBank == who_is_on_bank[OtherBank(b)] \cup S
@@ -255,7 +256,7 @@ https://wiki.eecs.yorku.ca/course_archive/2016-17/W/4315/_media/public:lecture24
 
 ** Questions
 - Do the differences between the model checking and theorem proving approaches
-  trace back to a difference betwen the model-theoretic vs. proof-theoretic
+  trace back to a difference between the model-theoretic vs. proof-theoretic
   approaches to logic?
 
 * Resources

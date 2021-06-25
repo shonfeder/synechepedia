@@ -1,0 +1,230 @@
+#+TITLE: Nothing /Really/ Matters
+#+SUBTITLE: The option type as an icon of absence
+
+* A joke about nothing
+
+There is an old philosophy joke, which I learned in this form:
+
+#+begin_quote
+Sartre is at a cafe. The server comes up to take his order. Sartre orders a
+coffee without cream.
+
+The server goes to fetch the coffee, but quickly returns.
+
+"I'm sorry mister Sartre. We are all out of cream. Would you like coffee without
+milk instead?"
+#+end_quote
+
+* Explaining the joke
+
+The punchline's [[https://www.merriam-webster.com/dictionary/gimmick][gimmick]] rests on the idea that non-presence is determined by
+that which is not present[fn:1]: milk is distinct from cream, so having no milk
+is distinct from having no cream, and therefore having coffee with no milk is
+distinct from having coffee with no cream.
+
+I think part of the humor here draws from the sense that this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction
+without a difference]]". The same cup of black coffee is simultaneously a coffee
+with no milk and a coffee with no cream, and if you want a black coffee, it
+makes no difference which dairy product I omit. But not all distinctions in
+non-presense are equally indistinguishable. The frivolousness of /this/ omission
+relates to the dairy's similarity.
+
+# TODO cut?
+Consider the same cup of coffee offered without cream versus offered without
+bleach. The difference in intention is disturbing. I'd refuse the latter: the
+implied possibility of the presence of the bleach promised to be absent is
+unwelcome and the declaration of its non-presence lands like a threat. This
+shows that non-presence is determined by that which is not present even when
+what /is/ present is left unchanged by the absence. Tho this determination only
+makes a difference in terms of sense and intension, a difference /is/ made.
+
+Often, non-presence entails a real and objective difference in what remains
+present. The distinction between having no sight and having no hearing marks a
+meaningful difference. From our lived experience, we know (or will come to) the
+deadly serious difference made by the distinct kinds of nothingness met in the
+absence of each missing loved one.
+
+What is not present determines differences in non-presence in at least two ways:
+the potential presence of what is non-present marks differences in [[https://en.wikipedia.org/wiki/Intension][intention]];
+what remains present can be distinctly different due to the absence of what is
+missing. As a result, everything absent is non-present in its own way.  And yet
+we know there is also a shared structure common to all the different forms of
+absence, which is why it makes sense to consider the general concept of
+non-presence, as we've been doing.
+
+* The option type as an icon of absence
+
+We can interpret [[https://en.wikipedia.org/wiki/Option_type][the =option= type]] as an [[https://en.wikipedia.org/wiki/Iconicity][icon]] of the phenomena of absence. To
+aid in the exposition of this interpretation, we'll build up a small domain of
+discourse.
+
+We assume we have in our domain of discourse the type =int= of integers, and add
+the following types of liquid
+
+#+begin_src ocaml :session
+type milk = [ `Milk ]
+
+type cream = [ `Cream ]
+
+type coffee = [ `Coffee ]
+#+end_src
+
+#+RESULTS:
+: type milk = [ `Milk ]
+: type cream = [ `Cream ]
+: type coffee = [ `Coffee ]
+
+# TODO REMOVE?
+
+Let's specify a way of describing substances. A substance will have some form,
+which we consider to express the type of the substance, and some way of deriving
+material constitutive of that substance.
+
+#+NAME: representation of substance
+#+begin_src ocaml session
+module type Substance = sig
+  type t
+  (** The form of the substance is it's principle type. Depending on your
+      ontology, you might say that the form is given by the substance's
+      chemical composition, its platonic idea, or whatever. *)
+
+  val v : t
+  (** A way to get a material instance of the substance, e.g., by mixing the
+      proper chemical  compounds or uttering the divine word of creation. *)
+end
+#+end_src
+
+The [[representation of substance]] let's us distinguish between kinds of things and
+instances of that kind..
+
+#+RESULTS:
+: * *       *   module type Substance = sig type t val v : t end
+
+and then
+let's define way of constructing measures of different kinds of liquid:
+
+#+begin_src ocaml :session
+module Liquid (S : Substance) : sig
+  type milliliters
+  (** The units by which all our liquids are measured *)
+
+  type t
+  (** The type of an amount of liquid *)
+
+  val v : int -> t
+  (** [v ml] is [ml] milliliters of liquid *)
+
+  val amount : t -> milliliters
+  (** [amount l] is the amount of milliliters of the liquid [l] *)
+end = struct
+  type milliliters = int
+
+  type t = S.t * milliliters
+
+  let v ml = (S.v, ml)
+
+  let amount (_, ml) = ml
+end
+#+end_src
+
+#+RESULTS:
+: module Liquid :
+:   functor (S : Substance) ->
+:     sig
+:       type milliliters
+:       type t
+:       val v : int -> t
+:       val amount : t -> milliliters
+:     end
+
+Let there be some liquids:
+
+#+begin_src ocaml :session
+module Coffee = Liquid (struct
+  type t = Coffee
+
+  let v = Coffee
+end)
+
+module Milk = Liquid (struct
+  type t = Milk
+
+  let v = Milk
+end)
+
+module Cream = Liquid (struct
+  type t = Cream
+
+  let v = Cream
+end)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+module Coffee :
+  sig
+    type milliliters
+    type t
+    val v : int -> t
+    val amount : t -> milliliters
+  end
+module Milk :
+  sig
+    type milliliters
+    type t
+    val v : int -> t
+    val amount : t -> milliliters
+  end
+module Cream :
+  sig
+    type milliliters
+    type t
+    val v : int -> t
+    val amount : t -> milliliters
+  end
+#+end_example
+
+Now we need a way representing
+
+#+NAME: declaration of the option type constructor
+#+begin_src ocaml :session
+module Option = struct
+  type 'a t =
+    | Some of 'a
+    | None
+end
+#+end_src
+
+#+RESULTS:
+: type 'a option = Some of 'a | None
+
+Read the above [[declaration of the option type constructor]] as follows:
+
+- We declare a type constructor =option= which polymorphic over a type ='a=.
+  E.g.,
+  - =int option= :: the type of optional integers
+  - =milk option= :: the type of optional milk
+  - =cream option= :: the type of optional cream
+- For any optional type we construct, we provide two value constructors to
+  derive values of this type:
+  - =Some of 'a= :: representing the presence a value of type ='a=. E.g.
+    - =Some 1= :: a value of type =int option=
+    - =Some Milk= :: a value of type =milk option=
+
+    = is a value of type =int option= and =Some ""
+  - =None= :: representing the absence of a value any value of type ='a=
+
+** TODO Absence of an additive
+Coffee without milk is the same as coffee without cream.
+** TODO Absence of a component
+I would be different without my arms than I would be without my legs.
+** TODO Irreversable vs. reversable additives
+You can pick the pepperonis off a pizza, but cannot take the cream out of
+coffee.
+
+*** Conjunction vs. mixture
+
+* Footnotes
+
+[fn:1] See TODO for a more detail on the philosophical underpinnings of the
+joke.

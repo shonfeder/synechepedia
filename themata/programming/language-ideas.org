@@ -1,0 +1,14 @@
+#+TITLE: Language Ideas
+
+* "Version control" inherent to the language
+
+Because we want to encode history and historical development into our language
+itself.
+
+Transformation of the language itself and the transformation of the code.
+
+Macros stabilized via genealogy.
+
+** Problems
+- API incompatibilities
+- Nonsense code diffs

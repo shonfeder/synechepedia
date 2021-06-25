@@ -1,4 +1,5 @@
 ;;; package -- Configuration for publication of my synechepedia
+(provide 'synechepedia)
 
 (require 'org)
 (require 'ox-rss)

@@ -4,17 +4,12 @@
 
 I'm primarily an OCaml user. I've thought a bit about why I (currently) prefer
 OCaml, despite Haskell having lots of great properties and some clear advantages
-(e.g., larger community and ecosystem, more powerful core language type system).
-Here are some differences I think are worth noting:
+(e.g., larger community and ecosystem, more powerful type system).  Here are
+some differences I think are worth noting:
 
 Note, this is not an argument for why OCaml is superior, it's more along the
 lines of a confession seeking reasons to account for why I prefer to work with
-OCaml.
-
-I've been meaning to reflect on and write up what's made me opt for OCaml as my
-primary medium of expressio nfor some time.
-
-Was also motivated by the desire to respond to
+OCaml. At one point, this was also motivated by the desire to respond to
 https://markkarpov.com/post/haskell-vs-ocaml.html
 
 * Cultural differences:
@@ -26,8 +21,8 @@ hard to overestimate the importance of the developments which have emerged from
 research on Haskell. There are powerful abstractions to learn... etc. but
 Haskellers are notorious for flaunting the obscure math (but often only "mathy")
 jargon associated with the important developments that Haskell has pioneered.
-I've even seen quite empathic and self aware Haskeller's seem to revel in the
-discomfort induced in others by the unfamiliarty of the words.
+I've even seen quite empathic and self aware Haskeller's revel in the discomfort
+induced in others by the unfamiliarity of the jargon.
 
 ** A Research Language vs. a Language for Researchers
 

@@ -1,0 +1,20 @@
+#+TITLE: Galileo On Language
+
+Thus concludes the first day of Galileo's Dialogue Concerning the two Chief
+World Systems:
+
+#+begin_quote
+But surpassing all stupendous inventions, what sublimity of mind was his who
+dreamed of finding means to communicate his deepest thoughts to any other
+person, though distant by mighty intervals of place and time! Of talking with
+those who are in India; of speaking to those who are not yet born and will not
+be born for a thousand or ten thousand years; and with what facility, by the
+different arrangements of twenty characters upon a page!
+
+Let this be the seal of all the admirable inventions of mankind and the close of
+our discussion for this day. The hottest hours now being past, I think that
+Salviati might like to enjoy our cool ones in a gondola; and tomorrow I shall
+expect you both so we may continue the discussion now begun.
+
+*End of the First Day* (Galileo Galilei, Dialogue,105)
+#+end_quote

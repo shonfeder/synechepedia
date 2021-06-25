@@ -1,0 +1,77 @@
+#+TITLE: Ecology Democracy Utopia Notes
+
+Notes taken while participating in the [[https://social-ecology.org/wp/learn/online-course-ecology-democracy-utopia/]["Ecology, Democracy, Utopia" course]]
+given by the institute for Social Ecology in Winter of 2020.
+
+* Unit 1: What is Social Ecology
+** Chodorkoff lecture
+*** Social ecology principles
+**** Theory + practice = praxis
+- epistemology
+- politics
+- ethics
+**** Temporality
+***** Past
+History and natural history.
+***** Present
+Critical, politically and ethically engaged.
+***** Future
+Utopian, visionary.
+**** Principles
+- No nature/man dichotomy.
+- Instead, stratification
+  - 1st nature :: beings adapt to environment
+  - 2nd nature :: adapting environment to beings
+  - 2rd nature :: harmonization between beings and environment
+*** Past
+**** 1st Nature
+***** Non-hierarchical
+- hierarchy ::
+  Institutionalized relationship of command and control, ultimately resting on
+  violent coercion.
+***** Mutualistic
+***** Tendency towards diversity, consciousness, freedom
+- diversity and resilience e
+  - diverse ecosystems are the most resilient
+***** Spontaneity
+- mutations
+- play
+**** 2nd Nature
+*** Present
+Need to critique root problems. I.e. hierarchical structures, capitalism, etc.
+*** Future
+**** Mainstream academic:: futurism
+- A branch of systems theory?
+- Formulaic, mathematical approach, cannot break out of existing framwork.
+**** Social ecology:: utopian
+***** Utopia
+- Eu topia :: good place
+- Ou topia :: no place
+***** Infinite task, horizon of possibility
+***** Has to be informed by our ethics
+- principles for creating ethical society (guides direction)
+***** Point of orientation
+*** Questions
+**** TODO Are, e.g., beavers considered to be part of 2nd nature?
+They transform and adapt their environments to their being.
+**** TODO Hierarchy and dependence
+Chodorkoff suggests that lions are not "kings" (i.e., at the top of some
+hierarchy), because they are dependent on other creatures. But dependency
+seems orthogonal to hierarchy. There is nothing about hierarchy that requires
+higher ranks to be independent of lower ranks.
+**** TODO Why can't there be hierarchy in 1st nature?
+- Is this by principle, or just an empirical fact? Why couldn't we see hierarchy
+  take shape in varying degrees? Is it because, by definition, the institutional
+  can only pertain to 2nd nature?
+- So what if there is some hierarchy in 1st nature? We are not committing the
+  naturalistic fallacy, right? So mightn't we see some hierarchical structures
+  but just rationally, consciously, decide that it is not something we want to support/encourage/propagate.
+**** TODO Why should ethical ideals/models be based on natural fact?
+- Why do we have to derive from what 1st nature is?
+**** TODO How did the hierarchical/explotative system of 2nd nature arise?
+How did this arise? It seems some aspect of 1st nature must have the
+capacity for  "pathological" developments. So we can't simply derive our telo
+and ethos from the dynamics of 1st nature.
+
+We have to make a determination about /which/ dynamics we think are promising,
+healthy, harmonious, etc.

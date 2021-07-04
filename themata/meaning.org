@@ -1,0 +1,65 @@
+#+TITLE: Meaning
+
+Recently I explained the gist of Kant's [[https://en.wikipedia.org/wiki/Kingdom_of_Ends][Kingdom of Ends]] to a friend: each being
+is to be treated only as an end in itself, and never as a means.
+
+The friend asked: Wouldn't this rob human being of its meaning, since to have a
+meaning is to be a means?
+
+Consideration of this question depends upon an analysis of meaning, and the
+relation of meaning to being a means.
+
+I am concerned here with two assumptions in the question:
+
+1. That something can only have a meaning if it is a means to an end.
+2. That humans, or human lives, can have a meaning.
+
+An additional assumption depends on (2): that human beings, or human lives,
+should have meaning.
+
+Here is my current thinking:
+
+Consider the question, "does `S` have meaning?", when `S` ranges over sentient
+beings. Given our current and common parlance, I take this question to be either malformed
+(in that it makes a [[https://en.wikipedia.org/wiki/Category_mistake][category mistake]]) and/or ill advised, (in that it presupposes
+ontological commitments which have morally objectionable consequences),
+depending on how it is understood.
+
+Considering these two definitions of 'meaning' given by the [[https://dictionary.cambridge.org/dictionary/english/meaning][cambridge dictionary]]:
+
+a. "The meaning of something is what it expresses or represents "
+b. "importance or value"
+
+Do sentient beings "have a meaning" in either of these senses?
+
+I think we can answer "no" to sense (a) pretty readily: a sentient has neither a
+sense nor a reference because they are not signs; a sentient being does not
+express anything through their existence (tho they may communicate signs which
+/do/ express various meanings).
+
+If we mistake sentient beings as signs, then we can indeed treat them as have
+meanings in this sense; it happens.  Then humans are made a means for
+accomplishing or signifying something greater than themselves, and we know well
+how that goes. Sentient beings are not the kinds of things that can "have
+meaning".
+
+More often, the usage of 'meaning' in reference to sentient beings invokes sense
+(b). Let us consider the questions "do sentient beings have a value?", and "do
+sentient beings have importance"? We talk of the "value of human life" and the
+"importance of human dignity", and we are generally trained to aspire to "being
+important".
+
+*TODO...*
+
+Rather, I take the existence of sentient beings to be the condition of
+possibility for meaning in both senses (a) and (b).
+
+Similarly, nothing can "give a person's life meaning" without subordinating the
+person and denigrating their sentience.. Meaning is not bestowed, not given, it
+is made through the reciprocal communication of or concerns (always within a
+[[file:~/Dropbox/synechepedia/org/reading-notes/nancy-the-inoperative-community.org][community]]).
+
+My life does not "have" meaning, but [[file:aim.org][i aim]] to care for the meanings that other
+have made, and to make meaning by placing my concerns in the care of others.
+This is what I currently understanding as "living a meaningful life". None of
+this requires being treated as a means, or treating others as means.

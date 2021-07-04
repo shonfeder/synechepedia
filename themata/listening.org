@@ -1,0 +1,103 @@
+#+TITLE: Listening
+
+#+begin_quote
+If we are to survive in the twenty-first century we must become better
+communicators[fn:1]
+#+end_quote
+
+'Listening' is not univocal: 'listening' means many things. Listening is not
+done in just one way: there are many ways to listen.
+
+It is easy enough to perform varying degrees of [[https://en.wikipedia.org/wiki/Pseudolistening][pseudo-listening]]. The ways to
+listen that leave you open to another, that nurture disinterested compassion and
+genuine, reciprocal understanding -- these are very hard for me.
+
+* Ways I listen on the regular:
+
+** Appropriative listening
+
+We can listen for ideas, feelings, circumstances that we already know, that
+interest us, that fit our current understanding. I think of this as identifying
+patterns in my own thinking/feeling/life that map onto what the other is
+communicating.
+
+In this mode of listening, we assimilate the feelings and ideas voiced by the
+other into what is familiar to us. We risk missing what may be very different
+and deeply alien. We are prone to fixating on the first familiar fragments,
+assuming this lets us understand the whole. But this can actually deafen us to
+all the nuances and differences of the broader context, which actually
+invalidate our assumptions.
+
+A common result of this kind of listening is that we latch on something the
+person said which makes sense to us, and then (more or less subtly), we change
+the conversation to be about whatever it was that we identified with.
+
+** Self-involved listening
+
+We want to help. We especially want to help those we care for due to strong
+connections. So we may listen to see how we can help solve their problems, how
+we can further their aims, or how we can provide them with opportunities.
+
+The listening turns around our involvement, and our responses all seek to
+involve ourselves. It centers our abilities, solutions, and connections instead
+of making spake for the other to really communicate their circumstance. Since we
+are listening for how we can help, rather than to understand the real need and
+concern, we are liable to offer irrelevant input. We end up changing the topic
+from what the other person cares about, achieved, needs, etc., and refocusing
+on what we can provide, what we thin matters, and on how our own achievements
+can benefit them.
+
+Often, what the other is saying doesn't involve us at all. In that case,
+inserting ourselves means we'll miss the point.
+
+* Ways I aspire to listen
+
+** Deep listening
+
+Deep listening to sounds, in general, [[https://www.youtube.com/watch?v=_QHfOuRrJB8][as per Pauline Oliveros]]:
+
+#+begin_quote
+Deep has to do with complexity, boundaries, or edges beyond ordinary or
+habitual understanding.
+
+...
+
+A subject that is too deep surpasses one's present understanding, or has too
+many unknown parts to grasp easily. A deep thinker defies stereotypical knowing
+and it may take either a long time or never to understand her.
+
+Deep coupled with listening, is learning to expand perception of sounds to
+include the whole space-time continuum of sound. Encountering the vastness and
+complexities as much as possible. Simultaneously, one ought to be able to target
+a sound or sequence of sounds, perceiving the beginning, middle, and end of them
+as a focus. Such focus and expansion means one is connected to the whole of the
+environment and beyond.
+#+end_quote
+
+Deep listening to speech, in particular, [[https://www.mindful.org/deep-listening/][as per the adoption of Oliveros'
+insights into mindefulness practice.]]
+
+** Communicative listening
+
+Communication is not about the subject internalizing information. Communication
+is about a connection, which requires that the other and their utterances remain
+other. In communication we come in contact with something different, and while
+the communication is liable to change those communicating, it does not involve
+/identification/ of one subject with another.
+
+#+begin_quote
+Communication and the [[file:allophilia.org][alterity]] that is its condition can, in principle, have
+only an instrumental and not an ontological role and status in a thinking that
+views the subject as the negative, but specular, identity of the object, that
+is, as an exteriority without alterity. The subject cannot be outside itself:
+this is even what ultimately defines it--that is outside, and all its
+"alienations" or "extraneousness" should in the end be suppressed by and
+/sublated/ in it. It is altogether different with the being of communication.
+The bing-communicating (and not the subject-representing), or if one wants to
+risk saying it, communication as the predicament of being, as "transcendental",
+/is/ above all /being-outside-itself/. (cite:peter01, 24)
+#+end_quote
+
+* Footnotes
+
+[fn:1] https://www.mindful.org/deep-listening/

@@ -22,6 +22,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/heuristics.org][Heuristics]]
 - [[file:themata/ideals.org][Ideals]]
 - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
+- [[file:themata/listening.org][Listening]]
 - [[file:themata/logic.org][Logic]]
 - [[file:themata/man-state-machine.org][Man/State/Machine]]
 - [[file:themata/mortality.org][Mortality]]
@@ -58,7 +59,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 Notes on maintaining and developing whatever this is.
 
 ** What is a 'Synechepedia'? <<what-is-a-synechepedia>>
-   
+
 'Synechepedia' is a portmanteau of '[[file:themata/synechism.org][synechism]]' and '[[file:themata/encyclopedia.org][encyclopedia]]'.
 
 - [[https://en.wiktionary.org/wiki/-pedia][/-pedia/]] :: relates to learning via a back-formation of /encyclopedia/. In

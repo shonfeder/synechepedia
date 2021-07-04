@@ -1,9 +1,13 @@
 #+TITLE: Mortality
 
-* TODO Notes to process
 Non-existence as annihilation is neither the negation nor the dual of
-our singular, subjective existence. The dual of being singular is being in
-common: being in community.
+our singular, subjective existence.
+
+The dual of being singular is being in common: being in community.
+
+The negation of our singular being is the collective being, which subordinates
+our inherently incomplete singularity to the totalitarian monomania of an
+absolute subject.
 
 In death, neither the being nor having-been of a subject is annihilated even
 though the continued presence of the dead is terminated. The non-existence of
@@ -16,10 +20,22 @@ absence is utterly imposing and inescapable. Whatever else may or may not happen
 to the dead, for the living, their former presence is transmuted into a /sui
 generis/ absence.
 
-Nietzsche's eternal return thought experiment can be read as an analysis of
-Spinoza's [[https://en.wikipedia.org/wiki/Sub_specie_aeternitatis][sub specie aeternitatis]]. It uses subjective imagination to bootstrap
-our myopic self-concern and infantile repetition compulsion into a glimpse of
-the eternality of existence qua structure.
+#+begin_quote
+Instead of fulfilling itself in a work of death and in the immanence of a
+subject, community communicates itself through the repetition of the contagion
+of births: each birth exposes another singularity, a supplementary limit, and
+therefore another communication. This is not the opposite of death, for the
+death of this singular being who has just been born is also inscribed and
+communicated by its limit. It is already exposed to its death, and it exposes us
+to it as well. Which means, essentially, that this death as well as this birth
+are removed from us, are neither our work nor the work of the collectivity.
+(cite:peter01, 60)
+#+end_quote
+
+Nietzsche's experiment of thought dubbed "eternal return" can be read as an
+analysis of Spinoza's [[https://en.wikipedia.org/wiki/Sub_specie_aeternitatis][sub specie aeternitatis]]. It uses subjective imagination to
+bootstrap our myopic self-concern and infantile repetition compulsion into a
+glimpse of the eternality of existence qua structure.
 
 In the Spinozistic view, mind and body are but two out of the infinite modes
 that express the absolute infinitude of substance. In this system, the being of

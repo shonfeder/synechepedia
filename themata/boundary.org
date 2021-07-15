@@ -1,0 +1,35 @@
+#+TITLE: Boundary
+
+#+begin_quote
+*boundary* (n.)
+
+"that which indicates the limits of anything," 1620s, from bound (n.1) + -ary.
+Strictly, a visible mark indicating a dividing line, a bound being the limit or
+furthest point of extension of any one thing.
+
+*bound* (v.2)
+
+"to leap, spring upward, jump," 1590s, from French bondir "to rebound, resound,
+echo," from Old French bondir "to leap, jump, rebound;" originally "make a
+noise, sound (a horn), beat (a drum)," 13c., ultimately "to echo back," from
+Vulgar Latin *bombitire "to buzz, hum" (see bomb (n.)), perhaps on model of Old
+French tentir, from Vulgar Latin *tinnitire.
+
+([[https://www.etymonline.com/word/aim#etymonline_v_40892][etymonline.com]])
+#+end_quote
+
+#+begin_quote
+/The study of boundaries./ Since tearing is what makes a difference in rubber
+sheet topology, and since tearing creates new /boundaries/ in the sheet, these
+would seem an important thing to look at.  The characteristic of a bounary point
+of a set is that however closely you look at it, you can see some neighbouring
+points inside the set and some outside.
+
+cite:vickers89_topol
+#+end_quote
+
+Adding a hole to a space introduces a boundary marking an inexhaustible
+difference: however closely you examine the boundary, you will find further
+distinctions.
+
+bibliography:~/Dropbox/bibliography/references.bib

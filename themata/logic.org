@@ -444,6 +444,11 @@ character"
 ***** TODO Positive and negative parts, polarity, Sommer's Relational TFL
 
 *** TODO Truth and Quotation
+
+**** TODO Dana Scott on semantic assent and encoding implication into the object lanugage
+
+See https://www.pdcnet.org/jphil/content/jphil_1971_0068_0021_0787_0807
+
 **** Each "change" in syntax seems to be a "semantic asset"
 
 **** Truth and Disquotation

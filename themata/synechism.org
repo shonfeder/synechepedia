@@ -1,13 +1,16 @@
 #+TITLE: Synechism
 
 [[https://en.wikipedia.org/wiki/Synechism][Synechism]] is "the tendency to regard everything as continuous". The synechist
-expects to find some continuum coursing between any elements: [[file:elements.org][the elemental]] is a
-relational property, and the we can limn the contours of any relation.
+expects to find some continuum coursing between any elements.
+
+The synechist recognizes [[file:elements.org][the elemental]] as a relational property: elements
+are not absolute [[https://www.merriam-webster.com/dictionary/individuum][individua]]; they are marks of the moment analysis takes leave.
+An element is a promise to unfurl further continua when the analysis resumes.
 
 The different can always be connected. For any opposing ideas, conflicting
-interests, distinct disciplines, dissimilar forms, or unrelated maters, we
-canfind a path of continuous transformations by which we can move from the pole
-to the other.[fn:connection]
+interests, distinct disciplines, dissimilar forms, or unrelated maters, we can
+find a path of continuous transformations by which we can move from one pole to
+the other.[fn:connection]
 
 Conversely, there is always a continuum of difference between that which appears
 the same. There is an inexhaustible margin for error, incommensurable

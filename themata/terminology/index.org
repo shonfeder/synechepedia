@@ -1,6 +1,38 @@
 #+TITLE: Terminology
 
+#+begin_quote
+terminology (n.)
+
+1770, from German /Terminologie/, a hybrid coined by Christian Gottfried Schütz
+(1747-1832), professor of poetry and rhetoric at Jena, from Medieval Latin
+/terminus/ "word, expression, [an end, a limit, a boundary line]" (see terminus) + Greek /-logia/ "a dealing with, a
+speaking of" (see -logy). Related: Terminological.
+#+end_quote
+
+I take terminology to be the [[file:~/Dropbox/synechepedia/org/themata/logic.org][logic]] of terms.
+
 * TODO Terms
+
+#+begin_quote
+In ancient Rome, Terminus was the name of the deity who presided over boundaries and landmarks, focus of the important Roman festival of Terminalia (held Feb. 23, the end of the old Roman year). The meaning "either end of a transportation line" is first recorded 1836.
+
+([[https://www.etymonline.com/word/terminus][etymonline]])
+#+end_quote
+
+* Mutual determination
+
+/Mutual determination/ is a method of discovering concepts (or uncovering the
+muted characteristics of familiar concepts) by listening to the harmonization of
+what is said in the terms of names given to the concepts.
+
+When a concept is formed (or reformed) through mutual determination, we gather
+the concept's [[https://www.etymonline.com/search?q=component][components]] from the ideas revealed in the mutual reflection of
+each term upon the other.
+
+This concept of mutual determination is /not/ mutually determined: we simply
+take the concept of /determination/ as something like "deciding or fixing limits
+and boundaries" and we qualify it as /mutual/, to form the idea of conceptual
+formulation through reciprocal determination of sub-terms.
 
 * Purpose
 To collect, organize, relate, and make available reflections, remarks, and

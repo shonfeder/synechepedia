@@ -40,3 +40,5 @@ glimpse of the eternality of existence qua structure.
 In the Spinozistic view, mind and body are but two out of the infinite modes
 that express the absolute infinitude of substance. In this system, the being of
 a singular subject must also find expression in infinite other modes.
+
+bibliography:../../../bibliography/references.bib

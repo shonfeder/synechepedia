@@ -1,0 +1,18 @@
+#+TITLE: Rhythm
+
+#+begin_quote
+If life is not always poetical, it is at least metrical.  Periodicity rules over the mental experience of man, according to the path of the orbit of his thoughts.  Distances are not gauged, ellipses not measured, velocities not ascertained, times not known.  Nevertheless, the recurrence is sure.  What the mind suffered last week, or last year, it does not suffer now; but it will suffer again next week or next year.  Happiness is not a matter of events; it depends upon the tides of the mind.
+
+(cite:meynell1896rhythm)
+#+end_quote
+
+Characterizations of the infinite in terms of periodicity: do they admit of any
+periodic recurrence? And if so, to what degree?
+
+An infinite so variegated that any recurrence is impossible in principle could
+seem horrifying, as perhaps the pure form of cosmic horror. This is Peirce's
+principle of 1stness, but modified so that no "evolutionary love" where
+possible, no emergence of a pattern, habit, or routine. This is also
+Wittgenstein's nightmare of an absolutely unruly (_un*regel*mäßig_) way of life.
+
+bibliography:../../../bibliography/references.bib

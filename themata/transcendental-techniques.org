@@ -1,0 +1,28 @@
+#+TITLE: Transcendental Techniques
+
+
+Let's gather the concept of "transcendental techniques" through the [[file:terminology/index.org][mutual
+determination]] of its terms:
+
+- The [[https://monoskop.org/Cultural_techniques][techniques]] that form the conditions of possibility for concepts that
+  form the conditions of possibility for the appearance of objects in the world
+  are called "transcendental".
+- "[[Https://plato.stanford.edu/entries/kant-transcendental-idealism/][Transcendental]]" qualifies systems of judgment that are concerned with the
+  conditions of possibility of their objects. The methodologies that enable the
+  formation and utilization of such systems are "transcendental techniques".
+
+* TODO Look at "technic/technique" in Kant
+
+#+begin_quote
+(FI p. 200, p. 7). He illustrates the distinction by redescribing the
+imperatives of skill and prudence presented in GMM as 'technical' imperatives.
+He then extends the concept of technical judgement to include a technical
+procedure which is followed by the power of judgement, and argues that this
+procedure is followed when judging  natural objects. From this he derives a
+'technic of nature' which consists in judging natural objects 'as if their
+possibility rested on art' (p. 201, p. 8). The concept of a 'technic of nature'
+is crucial for Kant's philosophy of nature developed in  the second part of CJ
+and subsequently extended in OP.
+
+(_Kant Dictionary_)
+#+end_quote

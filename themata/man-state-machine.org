@@ -288,6 +288,8 @@ From https://www.youtube.com/watch?v=BDPHfRuAFnU
 
 Compare with https://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/clocksVSturingM.pdf
 
+* TODO "Social Media" is a schizoid leviathan
+
 -------------------------------------------------------------------------------
 
 bibliography:~/Dropbox/bibliography/references.bib

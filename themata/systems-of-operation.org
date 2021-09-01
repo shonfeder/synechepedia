@@ -1,5 +1,12 @@
 #+TITLE: The Seed of the Shell: From Human Computers to Communal Computing
 
+This started out as one thing, and become something very different, but has not
+yet had any finish working or organization to reconcile its ultimate form with
+it's origins.
+
+It began as notes on an inquiry into "the shell", and become a mediation on the
+history and destiny of shared computation.
+
 * Outline
 
 ** The Artificial Intelligence
@@ -70,7 +77,6 @@ for example, to record incoming and outgoing goods.
    was sufficiently precise and detailed, that it could be translated into an
    "Automata", thus giving us the automatic computer.
 
-
 ** Computers as Humans: The ENEAC
 
 ** Humans Operating Computers: The IBM 701
@@ -95,11 +101,21 @@ Most of the things we currently think of as parts of a computer used to be
 considered as ancillary devices. These have all been miniaturized,
 accelerated, automated, and internalized.
 
-** The Mechanical Turk:
+** The [[https://en.wikipedia.org/wiki/Mechanical_Turk][Mechanical Turk]]
+
+Our automated systems of operation begin as humans working to mimic the machine.
+(See Turing's making this explicit -- and thereby giving the general form of the
+mechanization of human activity -- and see the development of the operating system
+described bellow).
+
+Thus, the enduring force of the allegory of the mechanical turk.
+
+** The evolution and transformation of human being
+
 * Questions
 ** What is a shell?
 
-  If your familiar with the computery sense of /shell/, there's a good chance
+  If you are familiar with the computery sense of /shell/, there's a good chance
   you think a shell is something particular to a command-line terminal
   environment. In that case, you can join me and others I've talked to in being
   delightfully surprised to learn that shell, even in the narrow computery
@@ -183,7 +199,7 @@ accelerated, automated, and internalized.
    preserve its germ until it can find fertile ground. Having found a place
    where it can settle, the seed nourishes the germ. As the germ develops into a
    seedling, the latter should break free of the shell. Thence, the germ quickly
-   outgrows and consumes its kernel. If all goes will, the newly sprouted
+   outgrows and consumes its kernel. If all goes well, the newly sprouted
    seedling will realize a self-sufficient form of growth, and begin feeding on
    intake from the world at large.
 
@@ -242,7 +258,7 @@ accelerated, automated, and internalized.
     In the 1950s, computing machines where gigantic, expensive, and rare. Robert
     L. Patrick worked on developing some of the earliest operating systems and
     the operational practices that preceded systematic automation. In 1987,
-    Patrick was asked by ??? to prepare a paper[fn:2] reflecting on his work
+    Patrick was asked to prepare a paper[fn:2] reflecting on his work
     developing systems for operating these kinds of devices.
 
     The roots of this work go back to 1954, wrote Patrick. At that time, he was
@@ -302,15 +318,14 @@ accelerated, automated, and internalized.
     programmer-operators to work in teams so there was always an assistant or
     standardizing plug boards to reduce the need for switching. Some important
     technical improvements also contributed. Most worthy of note, perhaps, was
-    the advent of "interpretive programming packages", such as
-    [Speedcoding](https://en.wikipedia.org/wiki/Speedcoding). These "high-level"
-    languages abstracted away from hardware instructions, providing a
-    human-readable language for specifying machines programs.
+    the advent of "interpretive programming packages", such as [[https://en.wikipedia.org/wiki/Speedcoding][Speedcoding]].
+    These "high-level" languages abstracted away from hardware instructions,
+    providing a human-readable language for specifying a machine's programs.
 
     The specification of an operating system was for the IBM 704, developed as a
     collaborative effort between GM and North Western ?? and the SHARE group
-    ???. I will provide the highlights from Patrick's highlights, to give a
-    sense for what exactly an operating system consisted in:
+    ???. I recommend skimming Patrick's highlights, to get a sense for what
+    exactly an operating system consisted in.
 
 **** The sound of one of these computing rooms
      From the first business computer LEO:

@@ -1,0 +1,5 @@
+#+TITLE: A Cursory Introduction to λProlog
+
+#+BEGIN_ABSTRACT
+Prolog is a wonderful language (but ...)
+#+END_ABSTRACT

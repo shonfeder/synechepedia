@@ -20,7 +20,7 @@ system has ever successfully captured a real natural language, but it is natural
 to generalize his slogan to formalizations of any complex natural sign system.
 There are always "loose ends" ... Thus we cannot expect our semiotic models to
 be perfect. However, a precise description that is somewhat wrong is better than
-a description so vague that no one can tell if it's wrong. We not seek to
+a description so vague that no one can tell if it's wrong. We do not seek to
 formalize actual living meanings, but rather to express our partial
 understandings more exactly. Precision is also needed to build computer
 programs that use the theory. I do not believe that meaning in the human sense
@@ -474,6 +474,180 @@ predicate is a device of disquotation* [emphasis mine].
 *** TODO Related Angles
 
 - [[https://en.wikipedia.org/wiki/Deep_inference#cite_ref-1][Deep Inference]]
+** TODO Modality
+
+Roughing in my current thoughts on modality (excerpted from a conversation with
+[[https://boarders.github.io/][Callan McGill]]):
+
+#+begin_quote
+I think I have a clearer understanding of my worry, which I think also helps
+clarify the stakes for me, and gives some somewhat clearer criteria by which I
+can end up convincing myself whether or not I should embrace modalities.  I
+think my hypothesis is that phenomena like time are possibility ideally do not
+need to be imported as conceptual primitives into our logics.  Particularly
+because the way we encode these phenomena reifies and reinforces post-hoc
+conceptual framings.  E.g., in the case of temporal logic, the idea of time
+being adequately encoded as a space-like dimension
+
+Looking at how intuitionistic and linear logic works in contrast to modal logic
+I think is instructive in this regard.  If you'll allow me the gross
+simplification: Brouwer wanted to be sure we accounted for the phenomena of
+things which may not be true one way or the other.  Which may neither be
+provable nor disprovable (let's say, because they are simply inconceivable, and
+we can't construct a fact of the mater).  But he didn't bolt on an axiom system
+or a propositional modality that allows us to state: "this proposition may not
+be provable".  Rather, the phenomena of unprovability is made immanent in the
+logic itself.  By moving to a "weaker logic" that lets us attend to this
+difference.  (I hope this isn't an entirely BS account.)
+
+My understanding is the same re:The way to accommodate the phenomena of
+resources is not to add a "resource theory" into the logic.  It's to learn how
+to move back to a subtler, "weaker" logic that lets us recognize the way in
+which the phenomena of resource limitation is already at play. Girard and linear
+logic vis-a-vis "resources".
+
+So, given this refined understanding, I think I can prove to myself that
+modalities are needed, if it turns out that time is not, cannot be, something
+which is "essentially logical".  That is, that the phenomenon of time is not an
+inherent and immanent part of what it is to "do logic".
+#+end_quote
+
+This seems exceedingly unlikely to me, but we'll see!
+
+Callan connected this POV with the problems arising from internalizing judgments
+in type theory:
+
+#+begin_quote
+Me:
+
+iiuc, the relation is somewhat like this?  The identity judgment is a
+fundamental constitutive component of our logic in this case. But if we
+internalize that judgment, make it an object inside of the logic, then we
+undermine the structural integrity of the system?
+
+Callan:
+
+Yes, there are two things: the equality judgment - the part that is determined
+by just unrolling definitions and there is the equality type of the theory which
+is subtle and the basis of almost all the mathematical aspects of the theory.
+Internalizing the equality judgment undermines the other equality type to the
+point the nature is completely changed so somehow the logic becomes ruined
+
+Me:
+
+And so a similar framing in this case would be to say, perhaps if the phenomena
+time is "really" part of the constitutive structure of a logic, then we
+undermine the cohesiveness (or the "structural adequacy", something to unpack
+later) of logic by putting that phenomena in the logic as object to manipulate.
+
+Callan:
+
+Yes.  and it made me think that internalizing external judgments of the theory
+(e.g. that not ever statement can be decided) ruins the logic This
+internalization seems to be a case of what Wittgenstein warned of.  When we've
+let the unutterable, but essentially constitutive, take shape as questions, they
+turn up as monstrous puzzles which don't actually have a solution.
+
+#+end_quote
+
+The above is a simplistic view on the relation between modality and linear
+logic.  Girard notes that the exponential are "something like" the modal
+operators from S4 (he characterizes linear logic as "S4 + structural rules")  in
+[[http://girard.perso.math.cnrs.fr/truth.pdf][Truth, modality and intersubjectivity]].
+
+Interesting to note that it is precisely these modal operators where linear
+logic loses the security of its footing:
+
+#+begin_src
+The exponentials $!$ and $?$ in linear logic are less carved in the marble than
+the other connectives. Indeed, if one uses traditional sequent calculus
+presentations, the exponentials are not “canonical”: if you introduce another
+copy of exponentials, say $!′$ and $?′$, with the same rules as the original
+ones, there is no way to prove that $!$ is equivalent to $!′$, and $?$ to $?′$,
+while for the other connectives this is easily established.
+
+In this respect, the $!$ and $?$ resemble the box and diamond connectives found
+in modal logic, and it is then possible and interesting to study variations for
+the logical rules of these connectives. For example, elementary linear logic
+(ELL) is obtained by replacing the $!$ and $?$ introduction by a single rule
+introducing $!$ and $?$ at the same time. As a consequence, ELL can encode all
+and only the functions over integers that normalize in time bounded by an
+elementary function.
+#+end_src
+
+https://stanford.library.sydney.edu.au/archives/spr2014/entries/logic-linear/#DifTreMod
+
+Following Girard, we can attribute the unsteady nature of the exponential's to
+the fact they mark the interjection of the subjective into the logic!
+
+#+begin_quote
+This means that !A is subjective, since depending on a viewpoint
+$P$.
+
+We eventually discover that the <<necessity>> $!A$ is exactly an affirmation:
+$!A$ means that $A$ is true w.r.t. a certain viewpoint $P$ ; it should therefore be
+noted $!_PA$.
+#+end_quote
+(Girard, "Truth, modality and intersubjectivity")
+
+In cite:Baelde_2012, they replace the modal operators with least and greatest
+fixed points, to provide induction and coinduction on terms, as an alternative
+means of enabling reasoning about "unbounded (infinite) behavior"
+
+#+begin_quote
+The first-order theory of MALL (multiplicative, additive linear logic) over only
+equalities is an interesting but weak logic since it cannot capture unbounded
+(infinite) behavior. Instead of accounting for unbounded behavior via the
+addition of the exponentials ($!$ and $?$), we add least and greatest fixed
+point operators. The resulting logic, which we call ${\mu}MALL^=$, satisfies two
+fundamental proof theoretic properties. In particular ${\mu}MALL^=$, satisfies
+cut-elimination, which implies consistency, and has a complete focused proof
+system. The second result about focused proofs provides a strong normal form for
+cut-free proof structures that can be used, for example, to help proof search.
+#+end_quote
+
+Time consciousness (phenomenologically speaking) has at least the following two
+aspects:
+
+- directed ::
+
+  #+begin_quote
+  One of the most marked features about the law of the mind is that it makes
+  time to have a definite direction of flow from past to future. The relation of
+  past to future is, in reference to the law of mind, different from the
+  relation of future to past. This makes one of the great contrasts between the
+  law of mind and the law of physical force, where there is no more distinction
+  between the two oposite direction in time than between moving northward and
+  moving southward.
+
+  (cite:peirce92_peirc)
+  #+end_quote
+
+- recurrent ::
+
+  #+begin_quote
+  If life is not always poetical, it is at least metrical.  Periodicity rules over the mental experience of man, according to the path of the orbit of his thoughts.  Distances are not gauged, ellipses not measured, velocities not ascertained, times not known.  Nevertheless, the recurrence is sure.  What the mind suffered last week, or last year, it does not suffer now; but it will suffer again next week or next year.  Happiness is not a matter of events; it depends upon the tides of the mind.
+
+  (cite:meynell1896rhythm)
+  #+end_quote
+
+Girard has indicated that he connects the directedness with non-commutative
+operations:
+
+#+begin_quote
+Time occurs when we cannot permute two rules, since one must be performed before
+the other, for fear of a procedural catastrophe. This is therefore the
+alternation positive/negative, answer/question, explicit/implicit.
+
+(cite:girard11)
+#+end_quote
+
+It is sensible to me that the right place to find the recurrence (and, thereby
+the metricality) might be in fixedpoints, that allow structural induction,
+rather than the admission of operators that let us posit permanence and
+inexhaustability by fiat.
+
+
 * TODO Whither?
 #+BEGIN_QUOTE
 Linear logic is a refinement of classical logic and intuitionistic logic.
@@ -502,7 +676,8 @@ Cf. the theory of [[https://en.wikipedia.org/wiki/Institution_(computer_science)
 
 * References
 
-bibliography:~/Dropbox/bibliography/references.bib
+bibliography:../../../bibliography/references.bib
+
 
 * Footnotes
 

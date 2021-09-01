@@ -1,0 +1,102 @@
+#+TITLE: Social Media
+
+#+begin_quote
+social (adj.)
+
+c. 1400, "devoted to or relating to home life;" 1560s as "living with others,"
+from French social (14c.) and directly from Latin socialis "of companionship,
+of allies; united, living with others; of marriage, conjugal," from socius
+"companion, ally," probably originally "follower," from PIE *sokw-yo-,
+suffixed form of root *sekw- (1) "to follow."
+
+([[https://www.etymonline.com/word/social][etymonline]])
+#+end_quote
+
+#+begin_quote
+medium (n.)
+
+1580s, "a middle ground, quality, or degree; that which holds a middle place or position," from Latin medium "the middle, midst, center; interval," noun use of neuter of adjective medius "in the middle, between; from the middle" (from PIE root *medhyo- "middle").
+
+([[https://www.etymonline.com/word/medium][etymonline]])
+#+end_quote
+
+For a century or more, we have called a subset of the communicative systems that
+mediate our sociality "[[https://www.etymonline.com/word/media][the media]]". I.e., "newspapers, radio, TV, etc".
+
+When the name of a [[file:transcendental-techniques.org][transcendental technique]] becomes a synecdoche for some
+commercial industry, another terrifying turn of our mechanization is in the
+works.
+
+At first, it might have seemed absurd that systems based on regimenting the
+forms of documents exchanged through the world wide web would be designed as
+"social media". But now, at a time when these platforms are calld the "socials",
+We seem to have the better sense to be terrified at the further mechanization of
+our mediated sociality.
+
+#+begin_quote
+The notion of the free expression of opinion, indeed, that of intellectual
+freedom itself in bourgeois society, upon which cultural criticism is founded,
+has its own dialectic. For while the mind extricated itself from a
+theological-feudal tutelage, it has fallen increasingly under the anonymous sway
+of the /status quo/. This regimentation, the result of the progressive
+societalization of all human relations, did not simply confront the mind from
+without; it immigrated into its immanent consistency. it imposes itself as
+relentlessly on the autonomous mind as heteronomous orders were formerly imposed
+on the mind which was bound. Not only does the mind mould itself for the sake of
+its marketability, and thus reproduce socially prevalent categories. Rather, it
+grows to resemble ever more closely the /status quo/ even where it subjectively
+refrains from making a commodity of itself. The network of the whole is drawn
+every tighter, modeled after the act of exchange. It leaves the individual
+consciousness less and less room for evasion, preforms it more and more
+thoroughly, cuts it off /a priori/ as it were from the possibility of
+differencing itself as all difference degenerates to a nuance in the monotony of
+supply.
+
+(cite:adorno81_prism, 21)
+#+end_quote
+
+On *the socials*, we construct our subjectivity by marketing our exposure, expression,
+ideas, emotions, relations, etc., and this marks a momentous turn the
+mechanization of our subjectivity. Difference is ground down into nodes in a network of
+preferences and our intellect joins as a cog in the [[file:systems-of-operation.org][artificial intelligence
+foretold by Hobbes]].
+
+* TODO Web 2.0: Disciplining communication to enforce the segregation of Style and Content
+In early '00s those building the web we're indoctrinated with the [[http://www.digital-web.com/articles/web_2_for_designers/][supreme
+importance of the separation of style and content]].
+
+Form/Content
+
+This was a precondition of regimenting communications.
+
+* TODO Formal homogenization: all communication reduced to communiques
+No more wonky web pages. We get the same boxes and grids to organize and contain
+all our expressions.
+
+* TODO All your base are belong to us: the mimetic reduction of expression
+Expression reduced to permutations of the trending formulae.
+
+As with any expressive habit, this is internalized, and we begin to
+conceptualize in these mimetic forms in our inner monologues. "Is /this/ an
+authentic thought?"
+
+* TODO Quantity over quality: likes, shares, and upvotes
+Visibility and virality are determined by minimal-information-carrying signals,
+allowing purely quantitative filters over the "noise" of unformed expression.
+
+Ideas and information trade and trend [[https://www.reddit.com/r/MemeEconomy/][just likes stocks and commodities]].
+
+* TODO Trends: auto-complete, tags, and suggestion algorithms
+Variation in forms of expression is reduced at its source: communicators are
+trained to form their phrases from a menu of pre-constitued sub-phrases.
+
+Variation in interests is managed by prompting the reader to select from
+trending topics (rather than seeking out connections based on their personal
+concerns).
+
+Taste is cultivated by training us to ingest streams of self-similar content.
+
+
+* References
+
+bibliography:~/Dropbox/bibliography/references.bib

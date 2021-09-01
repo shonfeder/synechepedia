@@ -17,12 +17,21 @@ My research is on programming languages. I use mathematical ideas and structure
 from logic, category theory, type theory, and denotational semantics to study
 programming languages and the systems they describe.
 #+END_QUOTE
+* Boris Eng
+Logic and computation, focused on Girard's transcendental syntax
+
+https://www.engboris.fr/
 * Catuscia Palamidessi
 http://www.lix.polytechnique.fr/Labo/Catuscia.Palamidessi/
 
 Information theory, privacy, via logical lenses.
 
 (Spouse of Dale Miller.)
+* Callan McGill
+
+PLT, computation, dependent types, category theory.
+
+https://boarders.github.io/
 * Dale Miller
 http://www.lix.polytechnique.fr/Labo/Dale.Miller/
 
@@ -58,6 +67,16 @@ https://gjoncas.github.io/
 #+begin_quote
 on computational economics and formal philosophy
 #+end_quote
+* Jean-Yves Girard
+Originator of
+
+- System-F
+- Linear Logic
+- GoI & Proof Nets
+- Transcendental Syntax
+
+http://girard.perso.math.cnrs.fr/Accueil.html
+
 * Laura Crosilla
 https://sites.google.com/view/lauracrosilla/home
 Type theory, constructivism, philosophy of mathematics
@@ -83,6 +102,22 @@ languages and has deep connections with category theory (dinaturality, coherence
 theorems, fibrations).
 #+END_QUOTE
 
+* PARTOUT
+
+#+begin_quote
+Proof Automation and RepresenTation: a fOundation of compUtation and deducTion
+#+end_quote
+
+https://team.inria.fr/partout/
+
 * Roddy MacSween
 Graduate student in CS who has built some useful ocaml web tools.
 https://roddymacsween.co.uk/
+
+* Vito Michele Abrusci
+
+Linear logic, proof theory, informatics. Has papers on topics unearthing the
+continuity of logic from ancient to post-modern: e.g., Girard cites is paper
+"Syllogisms and Linear Logic" in /The Blind Spot/.
+
+http://www.matfis.uniroma3.it/persone/docenti/docenti_beige.php?persona=71

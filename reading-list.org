@@ -1,8 +1,12 @@
 #+TITLE: Reading List
 #+OPTIONS: toc:3
 
-This page documents things I have read (since <2018-04-08 Sun>), and things I
-intend to read in the coming months (and years)[fn:1].
+This page was an experiment in recording a lit of the things I was reading. I
+didn't not keep the listing up. As I am not at al sure of its value.
+
+I began recording on (since <2018-04-08 Sun>), and the record keeping was spotty
+and inaccurate, since it also included things I inteded to read in coming months
+and years (and years)[fn:1].
 
 * Currently Reading
 ** Modules for Standard ML

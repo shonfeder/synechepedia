@@ -1,11 +1,56 @@
 #+TITLE: Allophilia
 
-Allophelia is a term I fabricated to express a radical openness and caring
-concern for what is other (even and especially what is radically other). It was
-already in use in an intimately related, but more limited sense, in social
-science. See the [[https://en.wikipedia.org/wiki/Allophilia][wikipedia entry on allophilia]], which defines it as
+Allophelia is a term I fabricated for myself to express a radical openness and
+caring concern for what is other (even and especially what is radically other).
+I quickly learned that it was already in use in an intimately related, but more
+limited sense, in social science. See the [[https://en.wikipedia.org/wiki/Allophilia][wikipedia entry on allophilia]], which
+defines it as
 
 
 #+BEGIN_QUOTE
 having a positive attitude towards outgroup members
 #+END_QUOTE
+
+My understanding of the idea of allophilia continues to change over time. Such
+is only proper: the idea of a caring embrace of what is radically other should
+probably not insist on being static and self-similar over time.
+
+* On being plural
+
+One implication of embracing otherness per se, is the recognition that each of
+us are other unto our "own" selves. More: there is no self that owns our inner
+plurality.
+
+Self is a being together in community. We are a communication of the feelings,
+ideas, persons, animals, and all the beings which we experience as "other",
+inside and out.
+
+#+begin_quote
+The consciousness of a general idea has a certain "unity of the ego" in it,
+which is identical when it passes from one mind to another. It is, therefore,
+quite analogous to a person; and, indeed, a person is only a particular kind of
+general idea. Long ago ... I pointed out that a person is nothing but a symbol
+involving a general idea; but my views were, then, too nominalistic to enable me
+to see that every general idea has a unified living feeling of a person.
+
+All that is necessary, upon this theory, to the existence of a person is that
+the feelings out of which he is constructed should be in a close enough
+connection to influence on another. Here we can draw a consequence which it may
+be possible to experimental test. namely, if this be the case, there should be
+something like personal consciousness in bodies of men who are in intimate and
+intensely sympathetic communion. It is true that when the generalization of
+feeling has been carried so far as to include all within a person, a
+stopping-place, in a certain sense, has been attained; and further
+generalization will have a less lively character. But we must not think it will
+cease. /Esprit de corps/, national sentiment, sym-pathy, are no mere metaphors.
+None of us can fully realize  what minds of corporations are, any more than one
+of my brain-cells can know what the whole brain is thinking. But the law of the
+mind clearly points to the existence of such personalities, and there are many
+ordinary observations which, if they were critically examined and supplemented
+by special experiments, might, as first appearances promise, give evidence of
+the influence of such greater persons upon individuals.
+
+(cite:peirce92_peirc, 350)
+#+end_quote
+
+bibliography:~/Dropbox/bibliography/references.bib

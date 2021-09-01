@@ -28,8 +28,6 @@ VMs use an abstraction of machine hardware to run real OSes on the host machine.
 Containers use an abstractions of an operating systems to run programs in the
 host operating system.
 
-
-bibliography:../../bibliography/references.bib
 * Pattern matching is in tension with representation independence
 Pattern matching is lovely. I'd strongly encourage anyone who hasn't played with
 a language supporting pattern matching to do so ASAP. As a matter of fact, skip
@@ -63,3 +61,8 @@ to form our communities to serve this end.
 * Wild guesses
 - Girard's cite:girard11 culminates in a formal theory of /transcendental
   inter-subjectivity/.
+* Analytic sophistry
+
+* References
+
+bibliography:../../bibliography/references.bib

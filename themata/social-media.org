@@ -40,9 +40,9 @@ has its own dialectic. For while the mind extricated itself from a
 theological-feudal tutelage, it has fallen increasingly under the anonymous sway
 of the /status quo/. This regimentation, the result of the progressive
 societalization of all human relations, did not simply confront the mind from
-without; it immigrated into its immanent consistency. it imposes itself as
+without; it immigrated into its immanent consistency. It imposes itself as
 relentlessly on the autonomous mind as heteronomous orders were formerly imposed
-on the mind which was bound. Not only does the mind mould itself for the sake of
+on the mind which was bound. Not only does the mind mold itself for the sake of
 its marketability, and thus reproduce socially prevalent categories. Rather, it
 grows to resemble ever more closely the /status quo/ even where it subjectively
 refrains from making a commodity of itself. The network of the whole is drawn
@@ -55,11 +55,16 @@ supply.
 (cite:adorno81_prism, 21)
 #+end_quote
 
-On *the socials*, we construct our subjectivity by marketing our exposure, expression,
-ideas, emotions, relations, etc., and this marks a momentous turn the
-mechanization of our subjectivity. Difference is ground down into nodes in a network of
-preferences and our intellect joins as a cog in the [[file:systems-of-operation.org][artificial intelligence
-foretold by Hobbes]].
+On *the socials*, we construct our subjectivity by marketing to our followers.
+Our sociability is measured by the size of our following, which is to say, the
+amount of demand for our products. In producing our "spontaneous" expressions,
+ideas, emotions, relations, as advert/product to build and sustain our
+following, we program our minds to operate "after the model of exchange". This
+marks another momentous turn in the mechanization of our subjectivity.
+Difference is ground down into nodes in a network of topical preference and our
+intellect joins as a cog in the [[file:systems-of-operation.org][artificial intelligence foretold by Hobbes]]. Our
+every thought and utterance becomes a mere permutation in the "montony of
+supply".
 
 * TODO Web 2.0: Disciplining communication to enforce the segregation of Style and Content
 In early '00s those building the web we're indoctrinated with the [[http://www.digital-web.com/articles/web_2_for_designers/][supreme
@@ -74,7 +79,8 @@ No more wonky web pages. We get the same boxes and grids to organize and contain
 all our expressions.
 
 * TODO All your base are belong to us: the mimetic reduction of expression
-Expression reduced to permutations of the trending formulae.
+Expression reduced to permutations of the trending formulae. The colonization
+of all expressive forms by templates and set-phrases.
 
 As with any expressive habit, this is internalized, and we begin to
 conceptualize in these mimetic forms in our inner monologues. "Is /this/ an

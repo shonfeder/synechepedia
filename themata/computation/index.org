@@ -1,0 +1,4 @@
+#+TITLE: Computation
+
+- [[file:computational-communalism.org][Computational Communalism]]
+- [[file:critique-of-computability.org][Critique of Computability]]

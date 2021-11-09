@@ -1,7 +1,9 @@
-#+TITLE: Towards a Transcendental Critique of Computation Models
+#+TITLE: A Critique of Computability
 
 What are the conditions of possibility for something to be a model of
 computation?
+
+* Models
 
 * TODO Models of computation to consider and compare
 
@@ -9,8 +11,17 @@ computation?
   + [ ] https://www.researchgate.net/publication/240999491_Interaction-Based_Models_of_Computation
 - [ ] https://en.wikipedia.org/wiki/Abstract_rewriting_system
   + [ ] https://en.wikipedia.org/wiki/Semi-Thue_system
- 
-  
+- [ ] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3513920/
+
+** turing-machines
+- materialist
+- unreasonable (there is not concept to guide programs)
+** λ-calculus
+- idealist
+- unrealisable (there is not a direct mechanical implementation)
+** π-calculus
+- dialectical (communicative)
+- realisable? reasonable?
 * Criteria
 - Must be able to express non-termination
 

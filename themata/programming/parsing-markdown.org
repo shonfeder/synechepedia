@@ -1,0 +1,25 @@
+#+TITLE: Parsing Markdown
+
+* TODO Context
+
+In 2020, I volunteered to help maintain [[https://github.com/ocaml/omd][=omd=]], the "extensible Markdown library and
+tool in 'pure OCaml'"
+
+The ostensible extensibility in the tagline dates back to version 1. It was
+based on leveraging the object system that puts the 'O' in 'OCaml'.
+
+By the time we inherited the library, the parser had been rewritten, and the
+extensibility traded in for performance. My own meager abilities were not even
+up the task of making slight improvements or correction to the received block
+parser, so I attempted rewrite aimed to clarify the implementation and recover
+extensibility.
+
+* Context free
+
+- Parsing strategies.
+- The sketch in the commonmark spec.
+- Formal grammars. Has/can/will markdown be formalized?
+
+* Context sensitive
+
+* Mildly context sensitive

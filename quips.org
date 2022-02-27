@@ -3,20 +3,28 @@
 Things to sort, expand, or delete...
 
 * Atomic individuality
-Atomic individuality and absolute independence are illusions born of the
+Atomic individuality and absolute independence are illusions born from the
 misapplication of pure reason. An atomic individual with total independence is
 not a possible object of cognition.
 
 This fantasy (really a "nightmare of reason") can entertain lifestyle
 anarchists, ancaps, and neoliberals only because they suppress the necessary
-context in which humans must come into being.
+context in which humans must come into being: [[file:reading-notes/nancy-the-inoperative-community.org][community]].
+
 * Efficiency
-"Optimizing for efficiency" easily leads to optimizing for the maximum effect
+
+"Optimizing for efficiency" is usually taken to mean optimizing for the maximum effect
 attainable with minimum effort. In the absence of a proper critique of the value
-of the expected effect, *this is deleterious*! In most cases, we should actually
-be pursuing a course which rewards /greater effort/ with /improved outcomes/
-even (and perhaps especially) when the efficiency ratio of effort to outcomes is
+of the expected effect, *this is deleterious*!
+
+In most cases, we should actually be pursuing a course which rewards /greater
+effort/ with /improved outcomes/ even (and perhaps especially) when the
+"efficiency", the ratio of the amount of effort to the size of the outcome, is
 reduced.
+
+Let's abandon the efficiency fetish in favor of working more carefully, with
+finer resolution, to realize better quality.
+
 * Programming with Type Discipline
 I want to be codifying the design of infrastructure, the deployment of
 software, and the flow of information with inference figures.
@@ -40,7 +48,7 @@ iconic>.
 
 Pattern matching lets us access arbitrarily nested components of data by
 matching an instance of the data against a schematic form of it, with free
-variables located at situations where we'd will find the components we want to
+variables located at situations where we will find the components we want to
 extract.
 
 This places naive pattern matching in direct opposition to *representation
@@ -55,9 +63,9 @@ whenever we try to reason from purely general logical principles to *existence*
 of any sort. This occurs, for instance, in the axiom of unrestricted
 comprehension.
 * We deserve to live well
-Humanity as a whole does not seem to believe that it deserves to live well. We
-must become convinced that we deserve to live well so that we become compelled
-to form our communities to serve this end.
+Humanity's humans don't generally believe it, but /they deserve to live well/.
+We must become convinced that we deserve to live well, so that we become
+compelled to form our communities to serve this end.
 * Wild guesses
 - Girard's cite:girard11 culminates in a formal theory of /transcendental
   inter-subjectivity/.
@@ -66,7 +74,7 @@ to form our communities to serve this end.
 
 - Q. :: Why can't a bear be borne?
 - A. :: Because it is unbearable.
-* Conjugating wants
+* Conjugating want
 
 I wish I wanted what I want to want.
 

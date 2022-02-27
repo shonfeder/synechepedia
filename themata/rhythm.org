@@ -15,4 +15,6 @@ principle of 1stness, but modified so that no "evolutionary love" where
 possible, no emergence of a pattern, habit, or routine. This is also
 Wittgenstein's nightmare of an absolutely unruly (_un*regel*mäßig_) way of life.
 
+Can we define equality starting in terms of fixed points?
+
 bibliography:../../../bibliography/references.bib

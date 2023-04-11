@@ -1,0 +1,32 @@
+#+title: Robert Brandom: Articulating Reasons
+
+#+begin_quote
+The major axes articulating the region inhabited by the line of thought pursued
+here can be presented as a series of start binary oppositions, which
+collectively make it possible to map the surrounding terrain. (2)
+#+end_quote
+
+|   |                |                 |                                       | Tendency |
+|---+----------------+-----------------+---------------------------------------+----------|
+|   | Assimilation   | Differentiation | "of concepts"                         |          |
+|   | Platonism      | Pragmatism      | "of concepts"                         |          |
+|   | Mind           | Language        | "fundamental locus of intentionality" |          |
+|   | Representation | Expression      | "genus of conceptual activity"        |          |
+|   | Intensionalism | Inferentialism  | "distinguishing the conceptual"       |          |
+|   | Bottom-up      | Top-down        | "semantic explanation"                |          |
+|   | Atomism        | Holism          |                                       |          |
+|   | Traditional    | Rationalist     | "expressivism"                        |          |
+|   |                |                 |                                       |          |
+
+* Dichotomies
+** Discontinuities over continuities between conceptual and non-
+p. 3
+** Platonist or pragmatist account of the conceptual
+** Mind or language as "locus of intentionality"
+
+* Assumptions
+
+** Dichotomy of conceptual vs. non-conceptual
+The "judgments and actions of concept users" is different in kind from the "update of environmental
+information" or "instrumental interventions" of "non-concept-using organisms and
+artifacts". (pp. 2-3)

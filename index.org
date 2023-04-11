@@ -11,6 +11,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/allophilia.org][Allophilia]]
 - [[file:themata/analogy.org][Analogy]]
 - [[./themata/anxiety.org][Anxiety]]
+- [[file:themata/automation.org][Automation]]
 - [[file:themata/axiomatics.org][Axiomatics]]
 - [[file:themata/containment.org][Containment]]
 - [[file:themata/disintegration.org][Disintegration]]
@@ -55,6 +56,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 ** Lists
 - [[file:lists/leftist-tech-companies.org][Leftist tech companies]]
 - [[file:lists/homepages.org][Interesting homepages]]
+- [[file:lists/podcasts.org][Podcasts]]
 ** [[file:quips.org][Quips]] (things To be sorted and expanded or deleted...)
 * Meta
 Notes on maintaining and developing whatever this is.
@@ -80,14 +82,6 @@ of emancipatory education (my own, at the very least) through a sustained effort
 to connect thoughts, clues, quotes, references, and questions which -- though
 always converging towards a more harmonious continuity -- have abandoned all
 hope of achieving completion.
-
-** Tasks
-*** TODO Function to create new page with link and title
-Given a phrase =Foo Bar Baz=, it'll create a link ==\[[foo-bar-baz][Foo Bar
-Baz]\]= and a page topped with =#+TITLE: Foo Bar Baz=.
-
-*** TODO Replace Excerpts section with link to bibliography notes
-*** TODO Automatically populate Themata, Excerpts, and Lists
 
 * References
 

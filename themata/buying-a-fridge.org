@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c4a63066-f798-4f06-a0a4-e81f155f7ab2
+:END:
+#+title: Buying A Fridge
+
+Notes on buying a fridge.
+
+Top-mounted freezers are [[https://homeguides.sfgate.com/energy-top-freezer-vs-bottom-freezer-88513.html]["10 to 25 percent" more energy efficient]] than
+bottom-mounted freezeers when the compressor is bottom-mounted, since it places
+the freezer further from the compressor, which generates heat.
+
+However, it seems that the optimal configuration would then be top-mounted
+compressor and bottom-mounted freezer, since it would allow the heat (which
+rises) to radiate out with least interference to any cooling compartments.

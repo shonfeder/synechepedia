@@ -1,0 +1,32 @@
+#+title: Podcasts
+
+* What's Left of Philosophy
+
+- [[https://www.patreon.com/posts/62-what-is-part-80949460][What is Aesthetics? Part I. Schiller's Letters on Aesthetic Education]] :: Live
+  discursive dynamics animated by interesting differences in attitudes.  Keen
+  insights and penetrating diagnoses articulated on the basis of the source. In
+  the discussion, they fail to note the difference between spiritually and
+  aesthetically "high art" (let alone the ) and commercially successfully "fine
+  art", and the dunks on modern art are less keen as a result.
+
+* Robert Brandom
+
+- [[https://cast.itunes.uni-muenchen.de/vod/playlists/Fzf12TawaF.html][Hegel Lectures]] :: Intro to Brandom's Hegel in 3 dense, beautifully articulated
+  hours.
+
+* Come as You Are
+
+- [[https://www.pushkin.fm/podcasts/come-as-you-are/prelude-pleasure-is-the-measure][Prelude: Pleasure is The Measure]] :: Wanting vs. enjoying. Sex and pleasure and
+  joy and politics and relationships.
+
+* Death Panel
+
+- [[https://soundcloud.com/deathpanel/why-mask-mandates-work-w-ellie-murray-030923][Why Mask Mandates Work w/ Ellie Murray]] :: How radically transformative
+  harmonies in our ways of life can emerge from collective action in our complex
+  social systems.
+
+* Type Theory For All
+
+- [[https://www.typetheoryforall.com/2022/05/09/17-The-Lost-Elegance-of-Computation-(Conal-Elliott).html][Conal Elliot: The Lost Elegance of Computation]] :: Instrumental vs. reflective
+  reason in computer science. Computers as "telescopes for meaning". A platonic
+  view on the primacy of semantics.

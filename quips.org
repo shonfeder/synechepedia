@@ -78,6 +78,22 @@ compelled to form our communities to serve this end.
 
 I wish I wanted what I want to want.
 
+* Being "Open to Everything"
+
+Scientific progress is not well served by investigating every hypothesis and
+running every conceivable experiment. The search space is infinite, but our time
+and resources are finite. Scientific understanding advances by abducting
+plausible and promising hypothesis based on penetrating understanding of current
+ways of knowing. Promising heterodox theories must be investigated, but not
+every crumb from every half baked theory advanced by every crank.
+
+The same holds for political and social progress. Nothing is gained by giving
+mind share to every last ranting idiot. Those who try to equalize all discourse,
+and claim every dissenting view must be entertained, no matter how absurd,
+disingenuous, or ill-founded, are either profoundly mistaken about the nature of
+inquiry and insight, or are operating in bad faith.
+
+
 * References
 
 bibliography:../../bibliography/references.bib

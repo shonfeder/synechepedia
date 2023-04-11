@@ -290,6 +290,13 @@ Compare with https://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/cloc
 
 * TODO "Social Media" is a schizoid leviathan
 
+* TODO Dress / Dressage
+
+- Etymology :: https://www.etymonline.com/word/dress?ref=etymonline_crossreference#etymonline_v_15901
+- Lefebvre, rhythmanalysis :: section 4
+
 -------------------------------------------------------------------------------
 
 bibliography:~/Dropbox/bibliography/references.bib
+
+* TODO Machine vs. State Machine

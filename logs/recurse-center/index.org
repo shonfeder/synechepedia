@@ -19,7 +19,7 @@
 - [[file:day-8.org][Day 8: Unsure]] --- 2019-09-30
 - [[file:day-7.org][Day 7: Weekend 1.2]] --- 2019-09-29
 - [[file:day-6.org][Day 6: Weekend 1.1]] --- 2019-09-28
-- [[file:day-5.org][Day 5: Abstraction]] --- 2019-09-27
+- [[file:day-5.org][day-5]] --- 2019-09-27
 - [[file:day-4.org][Day 4: Exhaustion]] --- 2019-09-26
 - [[file:day-3.org][Day 3: Focusing]] --- 2019-09-25
 - [[file:day-2.org][Day 2: Disorientation]] --- 2019-09-24

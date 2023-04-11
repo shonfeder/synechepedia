@@ -121,6 +121,13 @@ https://team.inria.fr/partout/
 Graduate student in CS who has built some useful ocaml web tools.
 https://roddymacsween.co.uk/
 
+* Stefan Monnier
+Prof at University of Montreal.
+
+Into PLT focused on strongly typed languages, emacs, and meta-programming. Designed [[https://gitlab.com/monnier/typer/][Typer]].
+
+https://www.iro.umontreal.ca/~monnier/
+
 * Vito Michele Abrusci
 
 Linear logic, proof theory, informatics. Has papers on topics unearthing the

@@ -1,0 +1,108 @@
+#+TITLE: Automation
+
+
+#+begin_quote
+But, supposing for a moment that a lesser mind existed, why would I want to
+control it?
+
+(cite:Clarke_Susanna2020-09-12)
+#+end_quote
+
+- Hypothesis :: In equating technological progress with mechanical automation,
+  we lose sight of a way of being in the world may open to thoughtful,
+  mutualistic, receptive, and insightful techniques which we can now, hardly
+  imagine.
+
+* Mechanizing the automatic
+
+#+begin_quote
+*Automatic*
+
+"self-acting, moving or acting on its own," 1812 (automatical is from 1580s;
+automatous from 1640s), from Greek /automatos/ of persons "acting of one's own
+will;" of things "self-moving, self-acting," used of the gates of Olympus and
+the tripods of Hephaestus (also "without apparent cause, by accident"), from
+autos "self" (see auto-) + matos "thinking, animated," *men- (1) "to think."
+
+Of involuntary animal or human actions, from 1748, first used in this sense by
+English physician and philosopher David Hartley. Meaning "done by self-acting
+machinery" is by 1850. In reference to a type of firearm, from 1877;
+specifically of machinery that imitates human-directed action from 1940.
+
+([[https://www.etymonline.com/word/automatic?ref=etymonline_crossreference#etymonline_v_26762][etymonline]])
+#+end_quote
+
+In reducing the ideal of a voluntary, self-thinking, self-acting, and
+self-directed movement to engines of heteronomously determined mechanization,
+animated, thoughtfull action is subordinated to the management of involuntary
+and thoughtless /work/.
+
+David Hartley invokes "atomatic" to differentiate the actions of the
+"mechanical" organs from the actions of the "will":
+
+#+begin_quote
+The /motions/ of the body are of two kinds, /automatic/ and /voluntary/. The
+/automatic/ motions are those which arise from the mechanism of the body in an
+evident manner. They are called /automatic/, from their resemblance to the
+motions of /automata/, or machines, whose principle of motion is within
+themselves. The /voluntary motions/ are those which arise form ideas and
+affections, and which therefore are referred to the mind; the immediately
+preceding state of the mind, or of ideas and affections, being termed /will/.
+
+(cite:hartley_obser_man_his_frame_his)
+#+end_quote
+
+But note that the theory of will here is already mechanized. Will is just the
+antecedent state of the ideas. Ideas are compounds of "inernal feelings of the
+mind which arise, from the impressions made by external objects upon the several
+parts of the body".
+
+The "mechanisms of the body" "are called /automatic/, from their resemblance to
+the motions of /automata/, or machines, whose principle of motion is within
+themselves". And yet, in the mind, whence the "voluntary" motions are located,
+we also find motion that appears to arise from an internal principle:
+
+#+begin_quote
+/Sensations/ are those internal feelings of the mind, which arise from the
+impressions made by external objects upon the several parts of our bodies.
+
+All our other internal feelings may be called /ideas/. Some of these appear to
+spring up in the mind of themselves, some are suggested by words, others arise
+in other ways.
+
+
+(cite:hartley_obser_man_his_frame_his)
+#+end_quote
+
+The segregation of "voluntary movements" and "automatic movements" is grounded
+in a mind/body dualism that belied the materialism of so many modern
+empiricists. The automatic, mechanical actions of the body are opposed to the
+voluntary, and subordinated to the autonomous, but *also mechanical* actions of
+the mind -- in the context of a theory of mind which reduces its context to a
+clockwork of compounded impressions -- minus a critical remainder which "appear
+to spring up in the mind of themselves".
+
+I suspect a mystification at work here. What allows a mechanistic, and
+thoroughly materialistic, theory of mind to underwrite the subordination of most
+bodily organs to "ideas" in the "mind"? Perhaps a clue in the lies in the key
+characterization of "automatic motions" as those which arise in an "evident manner":
+
+#+begin_quote
+The /automatic/ motions are those which arise from the mechanism of the body in
+an evident manner.
+#+end_quote
+
+What is mysterious and inscrutable from the perspective of an objectifying,
+mechanistic analysis gets promoted to the voluntary and governing position, and
+what moves in a way that is (ostensibly) "evident" is subordinated as a mere
+mechanism.
+
+
+** See also
+
+- [[https://19.bbk.ac.uk/article/id/1726/download/pdf/][Becoming Automatous: Automata in The Old Curiosity Shop and Our Mutual Friend]]
+  by [[https://www.ed.ac.uk/profile/katherine-inglis][Katherine Inglis]].
+- [[file:man-state-machine.org][The Man/State/Machine]]
+- [[https://www.typetheoryforall.com/2022/05/09/17-The-Lost-Elegance-of-Computation-(Conal-Elliott).html][The Lost Elegance of Computation]], interview with Conal Elliott
+
+bibliography:../../../bibliography/references.bib

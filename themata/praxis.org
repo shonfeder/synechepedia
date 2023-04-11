@@ -9,7 +9,7 @@ what choices I should make from the principles and axioms which I hold.
 
 A derivation of this sort has a very [[file:~/Dropbox/synechepedia/org/themata/foundations.org][foundationalist]] quality. However, my way of
 thinking is generally non-foundational (nearly anti-foundationalist) so I will
-rather let begin mapping connections and relations. Praxis should emerge as a
+rather begin mapping connections and relations. Praxis should emerge as a
 projection thereform.
 
 *** Principles
@@ -25,7 +25,17 @@ civilization.
 **** Technique: /Synechism/
 
 [[file:synechism.org][Synechism]] is the means by which the alterity and disconnectedness of being can
-be woven into a community of shared, con- and di-verging ways of existing.
+be woven into a community of shared, converging and diverging ways of existing.
+
+***** Existential synechism
+
+Existential synechism should be concerned with finding, establishing, and
+acknowledging the continua that from which our being (qua
+differentiated and individuated experience) can emerge.
+
+***** Communitarian synechism
+
+Communitarian synechism should be concerned with finding,
 
 *** Implications
 **** Synechism entails structuralism

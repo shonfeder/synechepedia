@@ -390,19 +390,25 @@ B, A -> C
 is valid just because $A \supset C \subset (B \land A \supset C)$. The "meaning
 explanation" for each structural rule is given the same way.
 **** Digression: Reasons to prefer constructive logic
+***** Classical logic encourages weak arguments
 
-Viewed from the perspective of rhetoric, sequent calculus is a formal language
-for reasoning about forms of argument. In the sequent calculus, the only
-difference between intuitionistic logic and classical logic is whether multiple
-terms are allowed in the consequent: in intuitionistic logic, all sequents are
-of the form
+#+begin_quote
+If you grant my premises, then one or more of the following conclusions must
+follow, but I can't tell you which one.
+#+end_quote
+
+
+Viewed from a rhetorical perspective, sequent calculus is a formal language for
+reasoning about forms of argument. In the sequent calculus, the only difference
+between intuitionistic logic and classical logic is whether multiple terms are
+allowed in the consequent: in intuitionistic logic, all sequents are of the form
 
 $$
 A_1, ..., A_u \to B
 $$
 
-with a single term in the consequent. To get classical logic, it suffices to
-allow sequents of the form
+I.e., intuitionistic sequents only allow a single term in the consequent. To get
+classical logic, it suffices to allow sequents of the form
 
 $$
 A_1, ..., A_u \to B_1, ..., B_v
@@ -420,7 +426,11 @@ interlocutors are allowed to make claims like: Assuming $A_1$ through $A_u$, one
 or more of these following propositions is true: $B_1, ..., B_2$. It seems
 reasonable to lay down a rule that says: when you make an assertion conditional on
 some assumptions, stick to one conclusion per hypothetical!
+***** Classically, not A "implies" A
 
+$$
+\neg A \supset A
+$$
 
 *** TODO Reiterated by Girard
 
@@ -669,7 +679,9 @@ what makes possible such "aspects", what make emphasizing them possible and
 interesting. When is an aspect adequate to reveal an interesting logic, and how
 can we determine if it is susceptible to formal articulation?
 
-Cf. the theory of [[https://en.wikipedia.org/wiki/Institution_(computer_science)][institutions]] and the project of [[https://en.wikipedia.org/wiki/Universal_logic][universal logic]].
+Cf. the theory of [[https://en.wikipedia.org/wiki/Institution_(computer_science)][institutions]] and the project of [[https://en.wikipedia.org/wiki/Universal_logic][universal logic]], and the
+project of [[file:transcendental-techniques.org][transcendental techniques]].
+
 * Links
 
 - [[http://boole.stanford.edu/~dominic/proofs-without-syntax/][Proofs Without Syntax Group]]

@@ -66,7 +66,7 @@ turns out to be the logic we started with.
 Circularity is therefore not only a tarskian void, it is also a sign of harmony.
 But one cannot content oneself with that!
 
-([cite:@girard11], 139)
+[cite:@girard11 p. 139]
 #+END_QUOTE
 
 Some patterns seem to cycle -- spiraling -- through the thoughts and techniques
@@ -81,7 +81,7 @@ proof-theoretic formal systems that have been transforming computer science.
 ... structural systems may be considered as providing a general framework of
 consequence, in terms of which specific logical systems can be defined.
 
-([cite:@schroeder2002resolution], 3)
+[cite:@schroeder2002resolution p. 3]
 #+END_QUOTE
 
 
@@ -146,7 +146,8 @@ certain sentences other ones follow: So, e.g., the validity of the sentences =a
 However, what is actually meant by such a sentence, what the symbol =→= means in
 the combination of characters =a → b= or the word ‘if’ in the corresponding
 linguistic formulation, does not have to be indicated here.
-[cite:@hertz12]_axiom_system_arbit_system_senten
+
+[cite:@hertz12_axiom_system_arbit_system_senten]
 #+END_QUOTE
 
 *Recapitulation*: Hertz aimed to analyze systems of sentences determined by a
@@ -161,13 +162,13 @@ However, in a footnote, he reveals a critically important interpretation:
 
 #+BEGIN_QUOTE
 It might be added though, that our sentences =a → b= are nothing other than
-formal “implications” in the sense of Russell [cite:whitehead2005_principia,
+formal “implications” in the sense of Russell [cite: @whitehead2005_principia p.
 22], and that the scheme of inference used as a base in the first part is the
 Theorem listed by Russell as No. 10, 3 [*10·3], p. 150, or put differently: Our
-sentences are judgements of subsumptions, our inferences are syllogisms of
-modus Barbara.
+sentences are judgements of subsumptions, our inferences are syllogisms of modus
+Barbara.
 
-[cite:@hertz12_axiom_system_arbit_system_senten, 12]
+[cite:@hertz12_axiom_system_arbit_system_senten p. 12]
 #+END_QUOTE
 
 Russell and Whitehead's "formal implications" are the propositions stated by
@@ -224,7 +225,7 @@ in fact the same abbreviation, essentially, as this is; for "\(p\), therefore
 implies \(q\), an *inference is the dropping of a true premiss; it is the
 dissolution of an implication* [emphasis mine].
 
-[cite:@whitehead2005_principia, 9]
+[cite:@whitehead2005_principia p. 9]
 #+END_QUOTE
 
 ***** TODO Note the different meaning of the tunstyle here.
@@ -438,7 +439,7 @@ is a pure duplicate, since the deduction theorem equates the two notions.
 Sequent calculus makes sense only when one steps beyond mere provability, when
 one works /en finesse/.
 
-[cite:@girard11, 42]
+[cite:@girard11 p. 42]
 #+END_QUOTE
 *** TODO What is happening here?
 **** TODO Analysis by Shütte [cite:@schutte77_prooftheory], 2-3 Higher order reasoning required
@@ -471,7 +472,7 @@ about snow. The quotation is a name of a sentence that contains a name, namely
 'snow', of snow. By calling the sentence true, we call snow white. *The truth
 predicate is a device of disquotation* [emphasis mine].
 
-([cite:@quine86_philos], 12)
+[cite:@quine86_philos p. 12]
 #+END_QUOTE
 
 *** TODO How much of the "ad hoc" machinery in some formalisms could be dispensed with if we could formalize this process, and make it flexible enough to recycle and spin up into semantic asscent at will?

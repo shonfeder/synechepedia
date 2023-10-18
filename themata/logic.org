@@ -688,7 +688,7 @@ project of [[file:transcendental-techniques.org][transcendental techniques]].
 
 * References
 
-bibliography:../../../bibliography/references.bib
+#+bibliography: ../../../bibliography/references.bib
 
 
 * Footnotes

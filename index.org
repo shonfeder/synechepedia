@@ -86,4 +86,4 @@ hope of achieving completion.
 
 * References
 
-bibliography:../../bibliography/references.bib
+#+bibliography: ../../bibliography/references.bib

@@ -6,7 +6,7 @@ Composing signs from other signs is a fundamental strategy for managing the
 complexity of non-trivial communication, regarding complex signs at one level as
 individual signs at a higher level.
 
-(cite:goguen1998introduction, 3)
+[cite:@goguen1998introduction p. 3)]
 #+END_QUOTE
 
 * Today's Progress
@@ -16,7 +16,7 @@ individual signs at a higher level.
   =Data.Align= in OCaml.
 - I spent some time researching, thinking, and taking notes on a semiotic analysis of
   λ-calculus. The ultimate aim of this line of thinking is to see if I can use
-  Goguen's methodology of algebraic semiotics (see cite:goguen1998introduction)
+  Goguen's methodology of algebraic semiotics (see [cite:@goguen1998introduction])
   to represent type systems as "semiotic morphisms" from the untyped λ-calculus.
   This follows a suspicion that, for type systems on the left side of the λ-cube
   (where types never depend on terms) type systems can be understood as
@@ -33,7 +33,7 @@ providing algebraic data structures.
 ** Writing
 Spend some time collecting my thoughts on the speculative
 convergence of semiotics (in the tradition of Peirce advaced by Goguen) with
-some of Girard's writing in cite:girard11 and the concern with communication and
-community in Nancy's cite:peter01.
+some of Girard's writing in [cite:@girard11] and the concern with communication and
+community in Nancy's [cite:@peter01].
 
 bibliography:~/Dropbox/bibliography/references.bib

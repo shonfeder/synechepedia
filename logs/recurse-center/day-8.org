@@ -4,7 +4,7 @@
 #+BEGIN_QUOTE
 The counterpart of abstraction is /application/.
 
-(cite:rob2014type)
+[cite:@rob2014type]
 #+END_QUOTE
 
 I must not neglect application: I cannot abide theory without praxis. And yet, a
@@ -72,7 +72,7 @@ and, most importantly, I feel pretty confident in my understanding of these
 algorithms. I'm going to postpone tests for their correctness for the sake of
 moving on to the implementation of λ2 tomorrow.
 
-I also finished reading Chapter 2 of cite:rob2014type, whence I took my
+I also finished reading Chapter 2 of [cite:@rob2014type], whence I took my
 instruction on the implementation of the above. I'm getting started with Chapter
 3 tonight.
 
@@ -91,6 +91,6 @@ expedite the process:
   around the language implementation, just drive forward with the
   implementation. After it is done, I'll refactor out common elements with the
   other implementations.
-*** Finish Chapter 2 of cite:rob2014type
+*** Finish Chapter 2 of [cite:@rob2014type]
 
 bibliography:~/Dropbox/bibliography/references.bib

@@ -17,4 +17,4 @@ brat' "to take," bremya "a burden").
 General sense of "draw a conclusion" is first attested 1520s; intransitive sense
 is from 1570s.
 #+END_QUOTE
-cite:etymonline
+[cite:@etymonline]

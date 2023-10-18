@@ -56,7 +56,7 @@ investigations with Ravi Sethi and Gordon Plotkin [MAC82, MAC84] that were
 motivated by those designs. The module designs for Hope were in turn influenced
 by the Clear specification language of Burstall and Goguen [BUR77].
 
-(cite:macqueen84_modul_ml)
+[cite:@macqueen84_modul_ml]
 #+END_QUOTE
 
 "[BUR77]" refers to Burstall and Goguen's paper "Putting theories together to
@@ -66,7 +66,7 @@ make specifications." The first line reads:
 We have been developing a language in which you can give structured
 descriptions of theories.
 
-(cite:Burstall:1977:PTT:1622943.1623045)
+[cite:@Burstall:1977:PTT:1622943.1623045]
 #+END_QUOTE
 
 Under the section "What we mean by a theory", they explain
@@ -76,7 +76,7 @@ The notion of theory is a loose intuitive one in mathematics. There should be
 axioms, rules of inference and theorems, but the language in which they are
 expressed is open to choice. ... We have chosen an algebraic notion of theory,
 due to Lawvere (1963) [references his 1963 thesis /Functorial Semantics Of Algebraic
-Theories/ (cite:lawvere63_funct_seman_algeb_theor)] ...
+Theories/ [cite:@lawvere63_funct_seman_algeb_theor]] ...
 
 (1047)
 #+END_QUOTE
@@ -121,7 +121,7 @@ ML modules are composable, nestable, inheritable, and parametric environments.
 * TODO Modularity and parametricity
 
 Reynolds introduced λ2 in the 1974 paper "Towards a theory of type structure"
-(cite:reynolds74_towar). In that paper, the innovation explained in the
+[cite:@reynolds74_towar]. In that paper, the innovation explained in the
 preceding is described as a solution to "the old but neglected problem of
 polymorphic functions", but this problem is only given secondary importance. The
 principle aim of the work is to formalize a theory of representation
@@ -143,7 +143,7 @@ of this representation. We expect that the meaning of such a program will remain
 unchanged if the inner region is altered by changing the representation of the
 type and redfining its primitive operations in a consistent manner.
 
-(cite:reynolds74_towar)
+[cite:@reynolds74_towar]
 #+END_QUOTE
 
 #+BEGIN_QUOTE
@@ -160,7 +160,7 @@ This representation can be specified by the expression
     (Λcmp. λadd : cmp × cmp -> cmp. λmagn : cmp -> real. λi : cmp. outer)
         [real × real] (addrep) (magnrep) (irep) .
 
-(cite:reynolds74_towar)
+[cite:@reynolds74_towar]
 #+END_QUOTE
 
 * TODO Relation to Objects

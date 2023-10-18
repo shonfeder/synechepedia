@@ -44,7 +44,7 @@ system"; "a letter of the alphabet"; "a fundamental principle of a science".
     (Ch. I; ln. 819)
 
 
-cite:carus69
+[cite:@carus69]
 #+END_QUOTE
 
 bibliography:../../../bibliography/references.bib

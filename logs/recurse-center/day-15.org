@@ -10,7 +10,7 @@ broader analysis of space that does not restrict space merely to the sense
 associated with notions of physical extension and position. Arriving at an
 adequate account of place, then, requires a rethinking of space also.
 
-(cite:malpas07_place)
+[cite:@malpas07_place]
 #+END_QUOTE
 
 * Today's Progress

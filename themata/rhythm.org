@@ -3,7 +3,7 @@
 #+begin_quote
 If life is not always poetical, it is at least metrical.  Periodicity rules over the mental experience of man, according to the path of the orbit of his thoughts.  Distances are not gauged, ellipses not measured, velocities not ascertained, times not known.  Nevertheless, the recurrence is sure.  What the mind suffered last week, or last year, it does not suffer now; but it will suffer again next week or next year.  Happiness is not a matter of events; it depends upon the tides of the mind.
 
-(cite:meynell1896rhythm)
+[cite:@meynell1896rhythm]
 #+end_quote
 
 Characterizations of the infinite in terms of periodicity: do they admit of any

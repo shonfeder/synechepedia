@@ -22,7 +22,7 @@ System *F*, contrary to simply typed λ-calculus, is constructed /around/
 Curry-Howard, as the isomorphic image of intuitionistic second-order
 /propositional/ calculus.
 
-(cite:girard11)
+[cite:@girard11]
 #+END_QUOTE
 
 Two years later, Reynolds would introduce the same formalism with slightly
@@ -35,7 +35,7 @@ Independent of Girard, J.C. Reynolds invented a similar typed lambda calculus
 that he called the /polymorphic lambda calculus/. He constructed this system in
 order to capture the notion of /parametricity/.
 
-(cite:rob2014type)
+[cite:@rob2014type]
 #+END_QUOTE
 
 λ2 "captures the notion of parametricity" in a way that is immanent to the
@@ -74,7 +74,7 @@ let fun_id (t : type) : (t -> t) -> (t -> t) = id (t -> t : type)
 #+END_SRC
 
 Reynolds introduced λ2 in the 1974 paper "Towards a theory of type structure"
-(cite:reynolds74_towar). The innovation of polymorphic functions just explained
+[cite:@reynolds74_towar]. The innovation of polymorphic functions just explained
 is described therein as a solution to "the old but neglected problem of
 polymorphic functions", but this problem is only given secondary importance. The
 principle aim of the work is to formalize a theory of representation
@@ -96,7 +96,7 @@ of this representation. We expect that the meaning of such a program will remain
 unchanged if the inner region is altered by changing the representation of the
 type and redfining its primitive operations in a consistent manner.
 
-(cite:reynolds74_towar)
+[cite:@reynolds74_towar]
 #+END_QUOTE
 
 It seems to me that we can clearly recognize the reference independence and
@@ -148,7 +148,7 @@ module L2 = Make (struct
 **** Deriving
 I refactored out and functorized the definition of a derivation, including
 concepts like /statement/, /declaration/, /context/, and /judgment/, as defined
-in cite:rob2014type.
+in [cite:@rob2014type.]
 
 The basic tools for working with a derivations in a calculi can now be generated
 for use in an module defining derivation rules with
@@ -164,7 +164,7 @@ calculus.
 - Defined a parser using ocamllex and menhir
 - Wrote unit tests for the parser
 - Started writing the type checker
-- Finished reading Chapter 3 of cite:rob2014type, which presents λ2
+- Finished reading Chapter 3 of [cite:@rob2014type], which presents λ2
 - Spent some time reading Girard and Reynolds, both very fun :)
 
 ** Tooling
@@ -182,7 +182,7 @@ today. That's great progress :)
 
 ** PLT
 - Finish implementing λ2
-- Read Chapter 4 of cite:rob2014type
+- Read Chapter 4 of [cite:@rob2014type]
 ** Community
 - I have some pairing and coffee chats scheduled
 ** Writing

@@ -60,7 +60,7 @@ But when the issue is to put into language something has never yet been spoken,
 then everything depends on whether language gives or witholds the appropriate
 word. Such is the case of the poet.
 
-(cite:heidegger1982way)
+[cite:@heidegger1982way]
 #+END_QUOTE
 
 * Footnotes

@@ -19,7 +19,7 @@ use of shared resources or provide communication services to the users.[11]
 This work aims to impose a /total order/ upon systems of processes bound by a
 conventional metric time and composed of linear orders of discrete events.
 
-In the opening paragraph of cite:lamport78_time_clock_order_event_distr_system,
+In the opening paragraph of [cite:@lamport78_time_clock_order_event_distr_system],
 Lamport lays out the following ontology as basic for the concept of a
 distributed system:
 

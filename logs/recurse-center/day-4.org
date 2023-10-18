@@ -10,7 +10,7 @@ accessible to anyone familiar with System Fω, the higher-order polymorphic
 ...
 
 /ML modules are merely a particular mode of use of System Fω./
-(cite:Rossberg_2010)
+[cite:@Rossberg_2010]
 #+END_QUOTE
 
 * Vibe
@@ -24,7 +24,7 @@ Due to over-extending myself over the last three days, I wasn't able to stay on
 task with my planned goals today. I did manage to make some meaningful progress
 however.
 
-By the third page of cite:Rossberg_2010 (the epigraph to this entry) is was
+By the third page of [cite:@Rossberg_2010] (the epigraph to this entry) is was
 clear that I would need improve my graphs of System Fω in order to work
 effectively on 1Ml. This has motivated me to see through ongoing studies into
 typed lambda calculi, and push forward quickly until I have covered the left
@@ -79,7 +79,7 @@ term: /* singular terms here */
 
 ** PLT: 1ML × Type Theory
 - Study and take notes on the distinction between small and large types in 1ML
-- Continue reading cite:Rossberg_2010
+- Continue reading [cite:@Rossberg_2010]
 - Begin working on tuple type-checking error
 - Begin trying to fix the biggest type-checking bug I found today
 - Finish parser for λ⟶

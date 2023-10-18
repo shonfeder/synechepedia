@@ -41,7 +41,7 @@ freely-expandable collection of interlinked Web pages, a hypertext system for
 storing and modifying information--a database, where each page is easily
 editable by any user."
 
-(cite:singh09_socioc_implic_wikip)
+[cite:@singh09_socioc_implic_wikip]
 #+END_QUOTE
 
 Lukács traced an analogous trajectory for the transformation of narrative as it
@@ -59,7 +59,7 @@ in this way, he becomes a mere instrument, and his central position in the work
 means only that he is particularly well suited to reveal a certain problematic of
 life.
 
-(cite:lukács1971theory)
+[cite:@lukács1971theory]
 #+END_QUOTE
 
 Analogously, the onto-theo-epistemo-logical outlook that enabled the
@@ -85,7 +85,7 @@ invented the productivity of the spirit: that is why the primaeval images have
 irrevocably lost their objective self-evidence for us, and our thinking follows
 endless path of an approximation that is never fully accomplished.
 
-(cite:lukács1971theory)
+[cite:@lukács1971theory]
 #+END_QUOTE
 
 bibliography:../../../bibliography/references.bib

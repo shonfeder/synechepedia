@@ -67,7 +67,7 @@ Humanity's humans don't generally believe it, but /they deserve to live well/.
 We must become convinced that we deserve to live well, so that we become
 compelled to form our communities to serve this end.
 * Wild guesses
-- Girard's cite:girard11 culminates in a formal theory of /transcendental
+- Girard's [cite:@girard11] culminates in a formal theory of /transcendental
   inter-subjectivity/.
 * Analytic sophistry
 * Conjugating want

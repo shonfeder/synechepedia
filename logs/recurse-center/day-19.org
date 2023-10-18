@@ -12,7 +12,7 @@ adequate as a foundation, because it assumes that signs represent things in a
 real, objective world; we need a social semiotics, rather than a logical
 semiotics.
 
-cite:goguen1997towards
+[cite:goguen1997towards]
 #+END_QUOTE
 
 I'd like to muse on this more, but it'll have to wait.

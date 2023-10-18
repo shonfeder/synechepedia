@@ -11,7 +11,7 @@ possible way when we regard it as something neutral; for this conception of it,
 to which today we particularly like to do homage, makes us utterly blind to the
 essence of technology.
 
-(cite:Heidegger1981-HEITQC-2)
+[cite:@Heidegger1981-HEITQC-2]
 #+END_QUOTE
 
 My heart and mind and body are a bit numb from the intensive programming and
@@ -25,7 +25,7 @@ world and revitalize.
 - Implemented the evaluator for themis' λ2. This went fairly smoothly, and it
   was interesting to work out the substitution rule application of for
   type-level abstraction.
-- Finished Chapter 4 of cite:rob2014type
+- Finished Chapter 4 of [cite:@rob2014type]
 ** Writing
 I expanded, reformatted, and touched up some of the first two sections of the
 [[https://en.wikipedia.org/wiki/Lambda_cube][Wikipedia entry on the lambda cube]]. I think my additions helped clarify and

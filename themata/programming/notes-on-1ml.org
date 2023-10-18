@@ -138,7 +138,7 @@ One of the most importnat features of modern programming is abstract data types
 (hereafter, ADTs), which encapsulate some data within a module, providing access
 to it only through operations that are associated with the module.
 
-cite:goguen1999tossing
+[cite:@goguen1999tossing]
 #+END_QUOTE
 
 For an ADT essence is form, since ADTs are defined by specification of their

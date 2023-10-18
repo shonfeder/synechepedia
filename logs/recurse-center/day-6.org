@@ -40,13 +40,13 @@ an auxiliary function to display the result of lexing, which made the problem
 apparent immediately.
 *** Systems F and Fω
 I read on and around [[https://en.wikipedia.org/wiki/System_F][systems F and Fω]]. I am studying typed lambda calculi out of
-cite:rob2014type, which is a wonderfully clear and illuminating introduction to
+[cite:rob2014type], which is a wonderfully clear and illuminating introduction to
 the subject. However, I like to skim over primary texts too when I can find
 them, as I find it insightful to see the context in which concepts first find
 their place in the world. System F was independently developed by Jeav-Yves
 Girard and John C. Reynolds. Since Girard's work is in French, and I am
 unfortunately frenchless, I started looking over Reynold's
-cite:reynolds74_towar. I'll dig into both TTFP and Reynold's paper more
+[cite:reynolds74_towar]. I'll dig into both TTFP and Reynold's paper more
 tomorrow.
 
 ** Community

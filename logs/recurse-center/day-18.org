@@ -19,7 +19,7 @@ undergoing, in whatever manner, the experience of community as communication: it
 implies writing. We must not stop writing, or letting the singular outline of
 our being-in-common expose itself.
 
-(cite:peter01, 41)
+[cite:@peter01 p. 41)]
 #+END_QUOTE
 
 Today I finished, but did not complete, some rambling on the topic of [[file:../../themata/finishing-the-incomplete.org][Finishing
@@ -56,7 +56,7 @@ Community is not the work of singular beings, for community is simply their
 being--their being suspended upon its limit. Communication is the unworking of
 work that is social, economic, technical, and institutional.
 
-(cite:peter01, 31)
+[cite:@peter01 p. 31)]
 #+END_QUOTE
 
 The /objectification of common being/ is the metaphysical gesture belonging to

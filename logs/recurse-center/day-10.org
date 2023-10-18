@@ -4,7 +4,7 @@
 #+BEGIN_QUOTE
 Type structure is a syntactic discipline for enforcing levels of abstraction.
 
-(cite:ma92_types)
+[cite:@ma92_types]
 #+END_QUOTE
 
 * Today's Progress
@@ -18,7 +18,7 @@ Type structure is a syntactic discipline for enforcing levels of abstraction.
   simply typed lambda-calculus, so I'm reaping the benefits of iteration.
 - Added (not very) pretty printing for the derivations constructed during type
   checking.
-- Read about half of Chapter 4 in cite:rob2014type. I will finish tomorrow, and
+- Read about half of Chapter 4 in [cite:@rob2014type]. I will finish tomorrow, and
   have all the theoretical underpinnings needed to start tackling 1ML in earnest
   by Thursday.
 ** Tooling

@@ -50,7 +50,7 @@ ordinary observations which, if they were critically examined and supplemented
 by special experiments, might, as first appearances promise, give evidence of
 the influence of such greater persons upon individuals.
 
-(cite:peirce92_peirc, 350)
+[cite:@peirce92_peirc p. 350)]
 #+end_quote
 
 bibliography:~/Dropbox/bibliography/references.bib

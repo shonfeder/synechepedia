@@ -5,7 +5,7 @@
 * Computational Type Theory
 
 Robert Constable, in his article "Computational Type Theory"
-(cite:constable09_comput_type_theor):
+[cite:@constable09_comput_type_theor]:
 
 #+BEGIN_QUOTE
 Computational type theory [CTT] answers questions such as: What is a type? What is a
@@ -32,7 +32,7 @@ computation that is physically realizable by explicit, verifiable human actions
 and by machines that humans understand. Thus to explain types, we first need to
 explain terms and how to compute with them.
 
-(cite:constable09_comput_type_theor)
+[cite:@constable09_comput_type_theor]
 #+END_QUOTE
 
 # TODO Is this a correct reading?
@@ -69,7 +69,7 @@ canonical elements of the type, and we define an equality relation declaring
 when two canonical terms denote the same abstract object. The equality relation
 creates abstract objects out of terms.
 
-(cite:constable09_comput_type_theor)
+[cite:@constable09_comput_type_theor]
 #+END_QUOTE
 
 Note that these types presuppose the /construction of ideal/ (abstract)
@@ -82,7 +82,7 @@ together) and /equalization/ (of terms that are taken to be the same).
 * A Short Genealogy of Types
 
 The roots of type theories, computational or otherwise, extend back through the
-history of philosophy, at least to Aristotle (cite:constable09_comput_type_theor).
+history of philosophy, at least to Aristotle [cite:@constable09_comput_type_theor].
 
 ** Prehistory of the Theories of Types
 
@@ -93,7 +93,7 @@ must contain that which is represented in the object that is to be subsumed
 under it, for that is just what is meant by the expression "an object is
 contained under a concept".
 
-(cite:kant98_critiq, A137/B176)
+[cite:@kant98_critiq p. A137/B176)]
 #+END_QUOTE
 
 ** Dawn of the Theories of Types
@@ -110,7 +110,7 @@ according to which a type is the range of significance of a propositional
 function, because in the theory that I am about to describe every propositional
 function will indeed have a type as its domain.
 
-(cite:martin1998intuitionistic)
+[cite:@martin1998intuitionistic]
 #+END_QUOTE
 
 Russell's theory of types puts the concept of a propositional /function/ *under*
@@ -130,12 +130,12 @@ Hence we can speak of all of a collection when and only when the collection
 forms part or the whole of the range of significance of some propositional
 function, the range of significance being defined as the collection of those
 arguments for which the function in question is significant, i. e., has a value.
-(cite:10.2307/2369948)
+[cite:@10.2307/2369948]
 #+END_QUOTE
 
 Hence, "a type is defined as the range of significance of a propositional
 function, i.e., as the collection of arguments for which the said function has
-values" (cite:10.2307/2369948).
+values" [cite:@10.2307/2369948].
 
 But what determines the /validity/ of this range? Russell names it "logical
 homogeneity":
@@ -150,7 +150,7 @@ common logical terms such as true and false, which gives an appearance of being
 a single function to what is really a conglomeration of many functions with
 different ranges of significance.
 
-(cite:10.2307/2369948)
+[cite:@10.2307/2369948]
 #+END_QUOTE
 
 /Logical homogeneity/ is a property of /collections of terms/. A collection of
@@ -204,7 +204,7 @@ provides dependent types, as implemented in Pebble and other languages. (Note
 that "type theory" is not a general theory of types, but rather a specific
 intuitionistic logic which provides one specific notion of type).
 
-(cite:Programming91typesas)
+[cite:@Programming91typesas]
 #+END_QUOTE
 
 Goguen counters the "types as predicates" view with another interpretation,
@@ -216,7 +216,7 @@ associated with data are at least as important as the values. Thus, the this
 approach generalized from [types as] sets to /algebras/, which are just sets
 with some given operations.
 
-(cite:Programming91typesas)
+[cite:@Programming91typesas]
 #+END_QUOTE
 
 Let's lean on the proof-theory side of types-as-propositions and recall (what I
@@ -232,7 +232,7 @@ as follows: In eliminating a symbol, we may use the formula with whose terminal
 symbol we are dealing only 'in the sense afforded by the introduction of that
 symbol'.
 
-cite:m.69_gerhar_gentz_german
+[cite:@m.69_gerhar_gentz_german]
 #+END_QUOTE
 
 That is, the meaning of the logical connectives (i.e., the correspondents of the

@@ -1,6 +1,6 @@
 #+TITLE: Notes on The Inoperative Community
 
-(cite:peter01)
+[cite:@peter01]
 
 * Community
 

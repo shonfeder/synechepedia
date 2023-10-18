@@ -31,7 +31,7 @@ of these categories:
 The /grounds/ for such anxious moods are not the object on which the anxiety
 focuses. Rather, some concern, a pervasive care, first enables a mood to
 arise and bend our intention. As Heidegger notes in /Being and Time/
-(cite:heidegger1967being), a frightening object can only appear as
+[cite:@heidegger1967being], a frightening object can only appear as
 frightening because one is experiencing in the mood of fear:
 
 #+BEGIN_QUOTE
@@ -175,7 +175,7 @@ others.
 #+BEGIN_QUOTE
 There's nothing more advanced than relating with others. There's nothing more
 advanced than communication — compassionate communication.
-(cite:chödrön2005things)
+[cite:@chödrön2005things]
 #+END_QUOTE
 
 In my estimation, there can be no meaning or value to our work outside of our

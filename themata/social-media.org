@@ -52,7 +52,7 @@ thoroughly, cuts it off /a priori/ as it were from the possibility of
 differencing itself as all difference degenerates to a nuance in the monotony of
 supply.
 
-(cite:adorno81_prism, 21)
+[cite:@adorno81_prism p. 21]
 #+end_quote
 
 On *the socials*, we construct our subjectivity by marketing to our followers.

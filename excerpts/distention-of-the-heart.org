@@ -5,7 +5,7 @@ The human heart is distended until it is as big as all outdoors.
 
 [...] there are uncharted moral wastes over which only our dim consciences,
 briefed by a conscientious assessment of probable consequences, are our
-faltering guides. (cite:quine1987quiddities, 5)
+faltering guides. [cite:@quine1987quiddities p. 5]
 #+END_QUOTE
 
 

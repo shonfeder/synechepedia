@@ -9,7 +9,7 @@ individuals alone is not knowledge. It is also aesthetic or mystical. True
 knowledge is achieved only when ideas, or concepts, are discovered in or apply
 to individual wholes, in our terms, when parameters measure actuality.
 
-(cite:buchanan2014possibility)
+[cite:@buchanan2014possibility]
 #+END_QUOTE
 
 As I noted yesterday, I took Friday to let my mind relax and wander. I'm trying
@@ -60,7 +60,7 @@ Forms of compliance and complicity masquerade as kindness.
  types, be representative of several essences. Their /locativity/ becomes
  essential.
 
- (cite:girard11)
+ [cite:@girard11]
 #+END_QUOTE
 
 I suspect...
@@ -74,7 +74,7 @@ Girard presents polymorphism as a subspecies of subtyping:
 #+BEGIN_QUOTE
 Polymorphism is the observation that the same λ-term can admit several types.
 
-(cite:girard11, 135)
+[cite:@girard11 p. 135)]
 #+END_QUOTE
 
 The jiggering and exploring of various type systems is all in pursuit of an
@@ -93,11 +93,11 @@ terms our types can provide an interface to, allowing new distinctions (maybe
 also allowing terms untypeable in other systems into the domain?).
 
 There are types correlating interfaces between systems of types. This is what
-Goguen advocates in cite:Programming91typesas.
+Goguen advocates in [cite:@Programming91typesas.]
 
 ** Structure and stuff
 
-Girard's cite:girard11 culminates in a formal theory of /transcendental
+Girard's [cite:@girard11] culminates in a formal theory of /transcendental
 inter-subjectivity/.
 
 Encodings usually embed a "fuller" structure into dimensions of relation in a
@@ -134,7 +134,7 @@ I wrote the above notes!
 I'll mostly be spending the day with my spouse.
 
 ** PLT
-Spend some time reading cite:reynolds74_towar
+Spend some time reading [cite:@reynolds74_towar]
 
 ** OCaml Ecosystem
 I'll continue work on =These= when I get a chance.

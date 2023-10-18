@@ -9,7 +9,7 @@ more than that, the algebraic approach established an equivalence between
 abstractness in ADTs and abstractness in algebra; furthermore, equations among
 operations came into specifications of ADTs the same way as in abstract algebra.
 
-cite:goguen1999tossing
+[cite:goguen1999tossing]
 #+END_QUOTE
 
 * Vibe

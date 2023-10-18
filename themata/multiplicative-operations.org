@@ -2,7 +2,7 @@
 
 #+BEGIN_QUOTE
 If composition of maps is analogous to multiplication of numbers, what is te
-analog of division of numbers? (cite:f.08_concep 60)
+analog of division of numbers? [cite:@f.08_concep p. 60]
 #+END_QUOTE
 
 * Conjunction
@@ -29,7 +29,7 @@ analog of division of numbers? (cite:f.08_concep 60)
 
 ** TODO Investigate [0/2]
 
-   - [ ] See cite:gabbay04_leibn_frege for a discussion of a notion of logical
+   - [ ] See [cite:@gabbay04_leibn_frege] for a discussion of a notion of logical
      division discussed by Boole and Peirce.
    - [ ] Study [[https://en.wikipedia.org/wiki/Magma_(algebra)#Types_of_magma][magmas]], [[https://en.wikipedia.org/wiki/Group_(mathematics)#Division][division in groups]], and [[https://en.wikipedia.org/wiki/Quasigroup][quasigroups]]
 

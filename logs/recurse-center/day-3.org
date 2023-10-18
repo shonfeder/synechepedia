@@ -11,8 +11,8 @@ Recovered. Feeling fortunate. Still a bit winded and wanting for focus.
 - Paired on an OCaml parsing project, and we both came away with an
   understanding of how to use =ocamllex=.
 ** PLT: 1ML × Type Theory
-- Finished reading cite:macqueen84_modul_ml
-- Began reading cite:Rossberg_2010
+- Finished reading [cite:@macqueen84_modul_ml]
+- Began reading [cite:@Rossberg_2010]
 - Implemented a stack in 1ML
 - Turned up a number of bugs and missing features in the 1ML implementation in
   the process. Some of these are quite interesting type-checking bugs, and I've
@@ -29,7 +29,7 @@ Recovered. Feeling fortunate. Still a bit winded and wanting for focus.
 
 ** PLT: 1ML × Type Theory
 - Study and take notes on the distinction between small and large types in 1ML
-- Continue reading cite:Rossberg_2010
+- Continue reading [cite:@Rossberg_2010]
 - Begin trying to fix the biggest type-checking bug I found today
 ** Community
 - Pairing to improve and rework Haskell game of life exercise

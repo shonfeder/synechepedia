@@ -34,8 +34,8 @@ I still have a lot to sort out.
 * Tomorrow's Program
 
 ** PLT
-- Finish reading cite:macqueen84_modul_ml
-- Begin reading cite:Rossberg_2010
+- Finish reading [cite:@macqueen84_modul_ml]
+- Begin reading [cite:@Rossberg_2010]
 - Solidify understanding of distinction between small and large types in 1ML,
   and how to use =wrap= and =unwrap= appropriately.
 - Code up some basic data structures, starting with a stack.

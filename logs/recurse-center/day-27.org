@@ -6,7 +6,7 @@ If one has the strength to look at things unceasingly, so to speak without
 blinking, one sees a great deal; but if one falters only once and shuts one's
 eyes, everything instantly slips away into darkness.
 
-(From a passage deleted in cite:kafka95)
+(From a passage deleted in [cite:@kafka95])
 #+END_QUOTE
 
 Life is incredibly fragile and any semblance of stability or security

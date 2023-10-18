@@ -28,7 +28,7 @@ the selection of subpar alternatives to meet a short-sighted vision.
 ... harmonize right and wrong  and rest in the balance of nature. This is called
 taking both sides at once.
 
-(cite:zhuangzi08_chuan_tsu)
+[cite:@zhuangzi08_chuan_tsu]
 #+end_quote
 
 

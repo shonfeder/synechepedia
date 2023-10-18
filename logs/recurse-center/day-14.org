@@ -8,7 +8,7 @@ I spent most of the day with my spouse.
 * Today's Progress
 
 ** PLT
-I'll be reading cite:reynolds74_towar tonight before bed.
+I'll be reading [cite:@reynolds74_towar] tonight before bed.
 
 ** OCaml Ecosystem
 I spent a couple hours working on the port of =Data.These=, mostly fiddling with

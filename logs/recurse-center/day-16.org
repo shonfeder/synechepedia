@@ -4,7 +4,7 @@
 #+BEGIN_QUOTE
 "... In Galileo's mathematization of nature, /nature itself/ is idealized on the
 model of the new mathematics. In modern terms, it becomes a mathematical
-manifold" [Horkheimer and Adorno are here quoting from cite:husserl70_europ].
+manifold" [Horkheimer and Adorno are here quoting from [cite:@husserl70_europ]].
 Thought is reified as an autonomous, automatic process, aping the machine it has
 itself produced, so that it can finally be replaced by the machine.
 Enlightenment pushed aside the classical demand to "think thinking" ... because
@@ -13,7 +13,7 @@ procedure became a kind of ritual of thought. Despite its axiomatic
 self-limitation, it installed itself as necessary and objective: mathematics
 made thought into a thing -- a tool, to use its own term.
 
-(cite:horkheimer02_dialec, 19)
+[cite:@horkheimer02_dialec p. 19]
 #+END_QUOTE
 
 I spent most of the day prepping for a non-technical talk on Critical Theory.
@@ -164,7 +164,7 @@ nature of sexual acts and identities.
 #+BEGIN_QUOTE
 The dialectic of enlightenment is culminating in objective madness.
 
-cite:horkheimer02_dialec
+[cite:horkheimer02_dialec]
 #+END_QUOTE
 
 
@@ -181,7 +181,7 @@ into a cultural asset and handed out for consumption purposes. The flood of
 precise information and brand-new amusements make people smarter and more stupid
 at once.
 
-(cite:horkheimer02_dialec, xvii)
+[cite:@horkheimer02_dialec p. xvii)]
 #+END_QUOTE
 
 #+BEGIN_QUOTE
@@ -190,7 +190,7 @@ enlightenment to reflect on itself if humanity is not to be totally betrayed.
 What is at stake is not conservation of the past but the fulfillment of past
 hopes.
 
-(cite:horkheimer02_dialec, xvii)
+[cite:@horkheimer02_dialec p. xvii)]
 #+END_QUOTE
 
 ** Traditional and Critical Theory

@@ -19,7 +19,7 @@ sub-discipline):
  types, be representative of several essences. Their /locativity/ becomes
  essential.
 
- (cite:girard11)
+ [cite:@girard11]
 #+END_QUOTE
 
 I suspect that, when cleansed of it's humanist and historicist distortions,
@@ -36,7 +36,7 @@ Girard presents polymorphism as a subspecies of subtyping:
 #+BEGIN_QUOTE
 Polymorphism is the observation that the same λ-term can admit several types.
 
-(cite:girard11, 135)
+[cite:@girard11 p. 135]
 #+END_QUOTE
 
 The jiggering and exploring of various type systems is all in pursuit of an
@@ -55,7 +55,7 @@ terms our types can provide an interface to, allowing new distinctions (maybe
 also allowing terms untypeable in other systems into the domain?).
 
 There are types correlating interfaces between systems of types. This is what
-Goguen advocates in cite:Programming91typesas.
+Goguen advocates in [cite:@Programming91typesas].
 
 ** A confusion regarding the Curry-Howard analogy
 
@@ -77,7 +77,7 @@ Logical syntax can thus be seen both as a constructive tool, enabling the
 formation of (normalizing) typed terms, and as a constraining one, imposing a
 /custom/ on pure terms (and their socialization) in order to force termination.
 
-(cite:abrusci14_transc)
+[cite:@abrusci14_transc]
 #+END_QUOTE
 
 *** TODO Extract Thread from Twitter

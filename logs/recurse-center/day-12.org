@@ -8,7 +8,7 @@
  types, be representative of several essences. Their /locativity/ becomes
  essential.
 
- (cite:girard11)
+ [cite:@girard11]
 #+END_QUOTE
 
 I let my mind roam free today. It found its way back refreshed. I have some

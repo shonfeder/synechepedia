@@ -25,7 +25,7 @@ would seem an important thing to look at.  The characteristic of a bounary point
 of a set is that however closely you look at it, you can see some neighbouring
 points inside the set and some outside.
 
-cite:vickers89_topol
+[cite:@vickers89_topol]
 #+end_quote
 
 Adding a hole to a space introduces a boundary marking an inexhaustible

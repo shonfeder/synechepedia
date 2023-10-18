@@ -30,7 +30,7 @@ the Absolute), is to be taken with an indefinite qualification
 This principle is, of course, itself to be understood in a synechistic sense;
 and, so understood, it in no wise contradicts itself.
 
-(cite:peirce98_peirc)
+[cite:@peirce98_peirc]
 #+END_QUOTE
 
 #+BEGIN_QUOTE
@@ -39,7 +39,7 @@ a triangle exactly equals two right angles, but only that it equals that
 quantity plus or minus some quantity which is excessively small for all the
 triangles we can measure
 
-(cite:peirce98_peirc)
+[cite:@peirce98_peirc]
 #+END_QUOTE
 
 ** Communalism
@@ -53,7 +53,7 @@ circumstances are, in a measure, yourself.
 ...
 All communication from mind to mind is through continuity of being.
 
-(cite:peirce98_peirc)
+[cite:@peirce98_peirc]
 #+END_QUOTE
 
 ** Mortality
@@ -72,7 +72,7 @@ consciousness passes away in death, we shall at once perceive that we have had
 all along a lively spiritual consciousness which we have been confusing with
 something different.”
 
-(cite:peirce98_peirc)
+[cite:@peirce98_peirc]
 #+END_QUOTE
 
 

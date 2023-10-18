@@ -10,9 +10,9 @@ and years (and years)[fn:1].
 
 * Currently Reading
 ** Modules for Standard ML
-cite:macqueen84_modul_ml
+[cite:@macqueen84_modul_ml]
 ** Type theory and formal proof: an introduction
-cite:rob2014type
+[cite:@rob2014type]
 
 * Have Read
 Texts in this list are read to my satisfaction /for the moment/. They are
@@ -21,27 +21,27 @@ liable to move back to one of the other lists.
 ** 2019
 *** Bidirectional typing rules: a tutorial (2013).
 <2019-09-21 Sun>
-cite:christiansen2013bidirectional
+[cite:@christiansen2013bidirectional]
 *** 1ML: Core and Modules United
 <2019-09-20 Sat>
-(ref: cite:ROSSBERG_2018)
+(ref: [cite:@ROSSBERG_2018])
 *** Analytic and Synthetic Judgements in Type Theory
 <2019-08-14 Wed>
-cite:Martin_L_f_1994
+[cite:@Martin_L_f_1994]
 *** An Introduction to Mathematics
 <2019-09-23 Mon>
 
-(ref: cite:whitehead93)
+(ref: [cite:@whitehead93])
 
 [[file:reading-notes/whitehead-introduction-to-mathematics.org][Notes]]
 *** The Purely Functional Software Deployment Model
 <2019-02-01 Mon>
 
-(ref: cite:DBLP:phd/basesearch/Dolstra06)
+(ref: [cite:@DBLP:phd]/basesearch/Dolstra06)
 *** Constructive Mathematics and Computer Programming
 <2019-01-13 Sun>
 
-(ref: cite:Martin_L_f_1982)
+(ref: [cite:@Martin_L_f_1982])
 
 **** On the semantics of lazy evaluation
 #+BEGIN_QUOTE
@@ -69,11 +69,11 @@ of propositions as types. (184)
 *** Build systems a la carte
 <2018-11-15 Thu>
 
-(ref cite:Mokhov_2018)
+(ref [cite:@Mokhov_2018])
 *** Networks: A Very Short Introduction
 <2018-08-13 Mon>
 
-(ref: cite:caldarelli2012networks)
+(ref: [cite:@caldarelli2012networks])
 
 *** "Marx's Concept Of Socialism" from Eric Fromm's /Marx's Concept of Man/
 https://www.marxists.org/archive/fromm/works/1961/man/ch06.htm
@@ -104,7 +104,7 @@ basis."
 #+END_QUOTE
 
 *** The Triumph of Types: Principia Mathematica's Impact on Computer Science
-(ref: cite:ConstableManuscript-CONTTO-4)
+(ref: [cite:@ConstableManuscript]-CONTTO-4)
 
 <2018-08-07 Tue>
 
@@ -127,17 +127,17 @@ are not entirely deterministic because they depend on asynchronous message
 passing over a network which can only be modeled faithfully by allowing
 #+END_QUOTE
 *** Structuralism, Invariance, and Univalence
-(ref: cite:Awodey_2013)
+(ref: [cite:@Awodey_2013])
 
 <2018-07-26 Thu>
 
 *** Frob: Functional Reactive Programming Applied to Robotics
-(ref: cite:hagerfrob)
+(ref: [cite:@hagerfrob])
 
 <2018-07-20 Thu>
 
 *** Community, Democracy, and Mutual Aid
-(ref: cite:Colon_2017)
+(ref: [cite:@Colon_2017])
 
 <2018-07-05 Fri>
 
@@ -154,18 +154,18 @@ By Ian Thacker (Not yet published)
 
 Motto: "Perceptual inferences become causal rules"
 *** Consistent Overhead Byte Stuffing
-(ref: cite:cheshire1999consistent)
+(ref: [cite:@cheshire1999consistent])
 
 <2018-04-24 Tue>
 
 *** A Theory of the Learnable
-(ref: cite:valiant84_theor_learn)
+(ref: [cite:@valiant84_theor_learn])
 
 <2018-04-18 Fri>
 
 [[file:reading-notes/valiant-a-theory-of-the-learnable.org][Notes]]
 *** The Marx and Engels Reader
-(cite:tucker78_marx_engel)
+[cite:@tucker78_marx_engel]
 
 [[file:reading-notes/marx-engles-reader.org][Notes]]
 
@@ -175,7 +175,7 @@ Motto: "Perceptual inferences become causal rules"
 - "To Make the World Philosophical"
 - "For a Ruthless Criticism of Everything Existing"
 *** The Inoperative Community
-(cite:peter01)
+[cite:@peter01]
 
 [[file:reading-notes/nancy-the-inoperative-community.org][Notes]]
 
@@ -189,40 +189,40 @@ Texts in this list are not being actively read, but they may have been started
 or partially read. They are, in any case, yet to be completed.
 ** On the Meanings of the Logical Constants and the Justifications of the Logical Laws
 
-(ref: cite:Martin-Lof1996-MAROTM-7)
+(ref: [cite:@Martin]-Lof1996-MAROTM-7)
 ** Intuitionistic Type Theory
-(ref: cite:martin1984intuitionistic)
+(ref: [cite:@martin1984intuitionistic])
 
 [[file:reading-notes/martin-lof-itt.org][Notes]]
 
 ** Miscomputation in Software: Learning to live with errors
-(ref: cite:Petricek_2017)
+(ref: [cite:@Petricek_2017])
 ** Logic -> TypeTheory+
 Listed in approximate order of ascent.
 *** Software Foundations: Logical Foundations
-(ref: cite:Pierce:SF)
+(ref: [cite:@Pierce:SF])
 
 [[file:reading-notes/pierce-software-foundations-logical-foundations.org][Notes]]
 *** On Axiomatic Systems for Arbitrary Systems of Sentences
-(ref: cite:hertz12_axiom_system_arbit_system_senten)
+(ref: [cite:@hertz12_axiom_system_arbit_system_senten])
 *** Investigations into Logical Deduction
-(ref: cite:m.69_gerhar_gentz_german)
+(ref: [cite:@m.69_gerhar_gentz_german])
 *** Natural Deduction
-(ref: cite:dag06_natur)
+(ref: [cite:@dag06_natur])
 *** Type Theory and Formal Proof
-(ref: cite:rob2014type)
+(ref: [cite:@rob2014type])
 ** (Abstract) Algebra -> Topology+
 Listed in approximate order of ascent.
 *** Experiments in Topology
-(ref: cite:barr89_exper)
+(ref: [cite:@barr89_exper])
 *** Conceptual Mathematics
-(ref: cite:f.08_concep)
+(ref: [cite:@f.08_concep])
 *** Algebra
-(ref: cite:saunders88_algeb)
+(ref: [cite:@saunders88_algeb])
 *** Topoi: the Categorial Analysis of Logic
-(ref: cite:robert06_topoi)
+(ref: [cite:@robert06_topoi])
 *** The Blind Spot
-(ref: cite:girard11)
+(ref: [cite:@girard11])
 
 [[file:reading-notes/girard-the-blind-spot.org][Notes]]
 

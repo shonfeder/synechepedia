@@ -25,7 +25,7 @@ Valiant, L. G., A theory of the learnable, Communications of the ACM, 27(11), 11
 *** Generally helped initiate "Computational Learning Theory"
 
    Generally, it has been credited with inaugurating the field of /computational
-   learning theory/ (cite:wigderson09_leslie_valian). Computational learning
+   learning theory/ [cite:@wigderson09_leslie_valian]. Computational learning
    theory studies the "design and analysis of machine learning algorithms".
    Philosophically, it also seems to be a computational theory of /learning/.
 

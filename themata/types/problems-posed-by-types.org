@@ -45,7 +45,7 @@ languages can be quite similar except for the use of types—for example, C and
 BCPL, or ML and Lisp. Programming languages use type checking to catch errors
 at compile time and to improve run-time efficiency.
 
-(cite:lamport1999should)
+[cite:@lamport1999should]
 #+END_QUOTE
 
 ** Constructivism

@@ -7,7 +7,7 @@ could not go on living. I came to theory desperate, wanting to comprehend—to
 grasp what was happening around and within me. Most importantly, I wanted to
 make the hurt go away. I saw in theory then a location for healing.
 
-(cite:hooks94_teach, 59)
+[cite:@hooks94_teach p. 59]
 #+END_QUOTE
 
 Here's a shot at articulating my greatest hope for what I might contribute to

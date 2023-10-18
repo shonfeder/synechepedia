@@ -10,4 +10,4 @@ give birth to"), from PIE root *bher- (1) meaning both "give birth" (though only
 English and German strongly retain this sense, and Russian has beremennaya
 "pregnant") and "carry a burden, bring" (see infer).
 #+END_QUOTE
-cite:etymonline
+[cite:@etymonline]

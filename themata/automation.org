@@ -5,7 +5,7 @@
 But, supposing for a moment that a lesser mind existed, why would I want to
 control it?
 
-(cite:Clarke_Susanna2020-09-12)
+[cite:@Clarke_Susanna2020-09-12]
 #+end_quote
 
 - Hypothesis :: In equating technological progress with mechanical automation,
@@ -49,7 +49,7 @@ themselves. The /voluntary motions/ are those which arise form ideas and
 affections, and which therefore are referred to the mind; the immediately
 preceding state of the mind, or of ideas and affections, being termed /will/.
 
-(cite:hartley_obser_man_his_frame_his)
+[cite:@hartley_obser_man_his_frame_his]
 #+end_quote
 
 But note that the theory of will here is already mechanized. Will is just the
@@ -71,7 +71,7 @@ spring up in the mind of themselves, some are suggested by words, others arise
 in other ways.
 
 
-(cite:hartley_obser_man_his_frame_his)
+[cite:@hartley_obser_man_his_frame_his]
 #+end_quote
 
 The segregation of "voluntary movements" and "automatic movements" is grounded

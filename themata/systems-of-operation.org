@@ -23,7 +23,9 @@ history and destiny of shared computation.
    goes yet further, imitating that Rationall and most excellent worke of
    Nature, /Man/. For by Art is created that great LEVIATHAN called a
    COMMON-WEALTH, or STATE, (in latine CIVITAS) which is but an Artificiall
-   Man... cite:9780140431957
+   Man...
+
+   [cite:@9780140431957]
    #+END_QUOTE
 
    According to Hobbes, The original artificial intelligence is the political

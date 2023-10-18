@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-06-07 Wed 08:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Notes on The Inoperative Community</title>
+<meta name="author" content="um" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Notes on The Inoperative Community</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org57f013e">1. Community</a></li>
+<li><a href="#org6201991">2. Communication</a></li>
+<li><a href="#org41b7e39">3. Literature</a></li>
+</ul>
+</div>
+</div>
+<p>
+(<a href="peter01">peter01</a>)
+</p>
+
+<div id="outline-container-org57f013e" class="outline-2">
+<h2 id="org57f013e"><span class="section-number-2">1.</span> Community</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Nancy tries to describe the possibility of <b>an intrinsically anti-totalitarian
+community</b>. This would be a way of being together which is not subordinated to
+any totalizing idealogy, whether of race, nation, individualism, collectivism,
+expansion,  domination of nature, utilitarian calculation, techno-theo-logico
+transcendence, etc.
+</p>
+
+<p>
+How would we articulate the possibility of such community? It resists
+summarization<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>, but the passage I&rsquo;ve found most evocative and
+perspicuous is the following. Here, Nancy differentiates <i>community</i> from
+<i>organization</i>:
+</p>
+
+<blockquote>
+<p>
+Organic totality is a totality in which the reciprocal articulation of the parts
+is thought under the general law of an instrumentation which cooperates to
+produce and maintain the whole as form and final reason of the ensemble (at
+least this is the way the &ldquo;organism&rdquo; has been conceived since Kant: it is not
+obvious that a living body is to be thought only according to this model).
+Organic totality means the totality of the operation as means and of the work as
+end. But the totality of community&#x2013;by which I understand the totality of
+community resisting its own setting to work&#x2013;is a whole of articulated
+singularities. Articulation does not mean organization. It refers neither to the
+notion of instrument nor to that of operation or work. Articulation has nothing
+to do, as such, with an operative system of finalities&#x2013;although it can no doubt
+always be related to such a system or be integrated into it. By itself,
+articulation is only a juncture, or more exactly the play of the juncture: what
+takes place where different pieces touch each other without fusing together,
+where they slide, pivot, or tumble over one another, one at the limit of the
+other&#x2013;exactly at its limit&#x2013;where these singular and distinct pieces fold or
+stiffen, flex or tense themselves together and through one another, unto one
+another, without this mutual <i>play</i>&#x2013;which always remains, at the same time, a
+play <i>between</i> them&#x2013;ever forming into the substance or the higher power of a
+Whole. Here, <i>the totality is itself the play</i> of the articulations. This is why
+a whole of singularities, which his indeed a whole, does not close in around the
+singularities to elevate them to its power: the whole is essentially the opening
+of the singularities in their articulations, the tracing and the pulse of their
+limits. (76)
+</p>
+</blockquote>
+
+<p>
+Imagine a way of being together, of being in community, in which that
+togetherness cannot eclipse or subordinate those who gather, because &ldquo;the
+totality is itself the play&rdquo; of the articulations that differentiate each from
+the other (and connect each to the other). Imagine a community which is
+&ldquo;essentially the opening of the singularities in their articulations, the
+tracing and the pulse of their limits.&rdquo;
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6201991" class="outline-2">
+<h2 id="org6201991"><span class="section-number-2">2.</span> Communication</h2>
+<div class="outline-text-2" id="text-2">
+<blockquote>
+<p>
+Community means, consequently, that there is no singular being without another
+singular being &#x2026; that there is no communion of singularities in a totality
+superior to them and immanent to their common being.
+</p>
+
+<p>
+In place of such a communion there is communication. Which is to say, in very
+precise terms, that finitude itself <i>is</i> nothing; it is neither a ground, nor an
+essence, nor a substance. But it appears, it presents itself, it exposes itself,
+and thus it <i>exists</i> as communication. In order to designate this singular mode
+of appearing, this specific phenomenality, which is no doubt more originary than
+any other (for it could be that the world appears to the community, not the
+individual), we would need to be able to say that finitude <i>co-appears</i> or
+<i>compears</i> (com-paraît) and can only <i>compear</i>: in this formulation we would
+need to hear that finite being always presents itself &ldquo;together&rdquo;, hence
+severally; for finitude always presents itself in being-in-common and as this
+being itself, and it always presents itself at a <i>hearing</i> and before the
+judgment of the law of community, or, more originarily, before the judgment of
+the community as law.
+</p>
+
+<p>
+Communication consists before all else in this sharing and in this compearance
+(com-parution) of finitude: that is, in the dislocation and in the
+interpellation that reveal themselves to be constitutive of being-in-common &#x2013;
+precisely inasmuch as being-in-common is not a common being. The finite-being
+exists first of all according to a division of sites, according to an
+extension &#x2013; <i>partes extra partes</i> &#x2013; such that each singularity is extended (in
+the sense that Freud says: &ldquo;The psyche is extended&rdquo;). It is not enclosed in a
+form &#x2013; although its whole being touches against its singular limit &#x2013; but it is
+what it is, singular being (singularity of being), only through its extension,
+through the areality that above all extroverts it in its very being &#x2013; whatever
+the degree or the desire of its &ldquo;egoism&rdquo; &#x2013; and that makes it exist only by
+<i>exposing it to an outside</i>. This outside is in its turn nothing other than the
+exposition of another areality, of another singularity &#x2013; the same other. This
+exposure, or this exposing-sharing, gives rise, from the outset, to a mutual
+interpellation of singularities prior to any address in language (though it
+gives to this latter its first condition of possibility). Finitude compears,
+that is to say it is exposed: such is the essence of community.
+</p>
+
+<p>
+(29)
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org41b7e39" class="outline-2">
+<h2 id="org41b7e39"><span class="section-number-2">3.</span> Literature</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+We see an image of such community take shape in reciprocal, responsive,
+rupturing dialogue. The word &ldquo;rupture&rdquo; indicates a dialogue which is not a
+mechanical convergence upon a predestined agreement, but rather an interplay of
+saying and remaining silent that is transformative. In such dialogue, the
+communicating exposes each to the other: &ldquo;each one articulated upon itself or in
+itself, facing the other, at the limit of itself and of the other&rdquo;. In such
+dialogue, there can be rupture, transformation&#x2013;&ldquo;tracing&rdquo; and &ldquo;pulse&rdquo; of our
+limits&#x2013;because each saying is prepared to interrupt itself to make room for
+receiving what the other has to say, and how the other is in their saying.
+</p>
+
+<blockquote>
+<p>
+Dialogue, this articulation of speech, or rather this sharing of voices is, in
+the sense I am trying to communicate, &ldquo;literature&rdquo;.
+</p>
+</blockquote>
+
+<p>
+For Nancy, in this work, &ldquo;literature&rdquo; is the name for communication which
+interrupts itself, and in so doing makes room for the space to receive the
+transformation of the other. Literature, the &ldquo;writing that interrupts itself&rdquo;,
+is communication that limns the countours of the singular beings who are
+together in community.
+</p>
+
+<blockquote>
+<p>
+Literature interrupts itself: this is, essentially, what makes it literature
+(writing) and not myth. Or better, what interrupts itself — discourse or song,
+gesture or voice, narrative or proof — <i>that</i> is literature (or writing).
+Precisely what interrupts or suspends its own <i>mythos</i> (that is to say, it’s
+<b>logos</b>). (72)
+</p>
+</blockquote>
+
+<p>
+<a href="../themata/programming/index.html">Programming</a> is a form of writing. Can it be a form of literature? Given
+<a href="http://www.scholarpedia.org/article/Computational_type_theory#Proofs">types-as-propositions/programs-as-proof</a>, where
+</p>
+
+<blockquote>
+<p>
+&#x2026; the proof of the goal can be seen as creating a program to compute a
+function meeting a certain specification. We say that the proof acts as a
+program. This proofs-as-programs principle is a consequence of the propositions
+as types principle.
+</p>
+</blockquote>
+
+<p>
+we get programs as a form of proof, which is a form of literature. Imagine
+programs that interrupt themselves, that invite&#x2013;far beyond mere
+interaction--<i>intervention</i> from those who write/read/run them. Think on the
+possibility of a &ldquo;computational communism&rdquo; or, perhaps better, a &ldquo;programmatical
+communism&rdquo;.
+</p>
+
+<p>
+<a href="~/Dropbox/bibliography/references.bib">~/Dropbox/bibliography/references.bib</a>
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+It resists summarization because a summary encapsulates the
+totality (<a href="https://www.etymonline.com/word/summary"><i>summa</i></a>) of the subject in an abbreviated form, but the point of the
+inoperable (more literally &ldquo;unworking&rdquo; or &ldquo;idle&rdquo;) community is that there are
+not short cuts to its totality: it is whole only in the irreducible and
+ungeneralizable articulation of each singular part.
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: um</p>
+<p class="date">Created: 2023-06-07 Wed 08:29</p>
+</div>
+</body>
+</html>

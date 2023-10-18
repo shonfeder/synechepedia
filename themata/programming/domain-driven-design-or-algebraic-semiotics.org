@@ -1,6 +1,14 @@
-#+TITLE: Algebraic Semiotics in OCaml
+#+TITLE: Algebraic Semiotics in ML
 
-* TODO A theoretically grounded alternative to "Domain Driven Design"
+* Comparisons
+** TODO Denotational Design
+Denotation is about reference and semantics, referentially conceived.
+Semiotics is about sense and pragmatics, inferentially conceived.
+
+** TODO "Domain Driven Design"
+
+Domain driven design is informal and adhoc, i.e. coloquial and context specific.
+
 #+BEGIN_QUOTE
 *ad hoc*
 Latin phrase, "to this, with respect to this, for this (specific purpose)," from

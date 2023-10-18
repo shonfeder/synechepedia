@@ -1,0 +1,6 @@
+#+title: Bearing Being Borne, Barely
+
+- Q. :: Why can't a bear be borne?
+- A. :: Because it is unbearable.
+
+Cs. [[file:terminology/bear.org][Bear]]

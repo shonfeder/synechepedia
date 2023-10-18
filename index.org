@@ -14,6 +14,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/automation.org][Automation]]
 - [[file:themata/axiomatics.org][Axiomatics]]
 - [[file:themata/containment.org][Containment]]
+- [[file:themata/birth.org][Birth]]
 - [[file:themata/disintegration.org][Disintegration]]
 - [[file:themata/distributed-systems.org][Distributed Systems]]
 - [[file:themata/dis-en-abled.org][(Dis|En)abled]]

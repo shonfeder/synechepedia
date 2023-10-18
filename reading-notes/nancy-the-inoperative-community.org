@@ -2,16 +2,18 @@
 
 (cite:peter01)
 
+* Community
+
 Nancy tries to describe the possibility of *an intrinsically anti-totalitarian
 community*. This would be a way of being together which is not subordinated to
 any totalizing idealogy, whether of race, nation, individualism, collectivism,
-domination of nature, utilitarian calculation, techno-theo-logico transcendence,
-etc.
+expansion,  domination of nature, utilitarian calculation, techno-theo-logico
+transcendence, etc.
 
-How do we encapsulate an articulation of the possibility of such a community in
-a phrase? It resists summarization (for good reason). The passage I've found
-most evocative and perspicuous so far[fn:almost-ontology] is the following, in
-which /community/ is differentiated from /organization/:
+How would we articulate the possibility of such community? It resists
+summarization[fn:summary], but the passage I've found most evocative and
+perspicuous is the following. Here, Nancy differentiates /community/ from
+/organization/:
 
 #+BEGIN_QUOTE
 Organic totality is a totality in which the reciprocal articulation of the parts
@@ -46,6 +48,50 @@ totality is itself the play" of the articulations that differentiate each from
 the other (and connect each to the other). Imagine a community which is
 "essentially the opening of the singularities in their articulations, the
 tracing and the pulse of their limits."
+
+* Communication
+
+#+begin_quote
+Community means, consequently, that there is no singular being without another
+singular being ... that there is no communion of singularities in a totality
+superior to them and immanent to their common being.
+
+In place of such a communion there is communication. Which is to say, in very
+precise terms, that finitude itself /is/ nothing; it is neither a ground, nor an
+essence, nor a substance. But it appears, it presents itself, it exposes itself,
+and thus it /exists/ as communication. In order to designate this singular mode
+of appearing, this specific phenomenality, which is no doubt more originary than
+any other (for it could be that the world appears to the community, not the
+individual), we would need to be able to say that finitude /co-appears/ or
+/compears/ (com-paraît) and can only /compear/: in this formulation we would
+need to hear that finite being always presents itself "together", hence
+severally; for finitude always presents itself in being-in-common and as this
+being itself, and it always presents itself at a /hearing/ and before the
+judgment of the law of community, or, more originarily, before the judgment of
+the community as law.
+
+Communication consists before all else in this sharing and in this compearance
+(com-parution) of finitude: that is, in the dislocation and in the
+interpellation that reveal themselves to be constitutive of being-in-common --
+precisely inasmuch as being-in-common is not a common being. The finite-being
+exists first of all according to a division of sites, according to an
+extension -- /partes extra partes/ -- such that each singularity is extended (in
+the sense that Freud says: "The psyche is extended"). It is not enclosed in a
+form -- although its whole being touches against its singular limit -- but it is
+what it is, singular being (singularity of being), only through its extension,
+through the areality that above all extroverts it in its very being -- whatever
+the degree or the desire of its "egoism" -- and that makes it exist only by
+/exposing it to an outside/. This outside is in its turn nothing other than the
+exposition of another areality, of another singularity -- the same other. This
+exposure, or this exposing-sharing, gives rise, from the outset, to a mutual
+interpellation of singularities prior to any address in language (though it
+gives to this latter its first condition of possibility). Finitude compears,
+that is to say it is exposed: such is the essence of community.
+
+(29)
+#+end_quote
+
+* Literature
 
 We see an image of such community take shape in reciprocal, responsive,
 rupturing dialogue. The word "rupture" indicates a dialogue which is not a
@@ -96,6 +142,8 @@ bibliography:~/Dropbox/bibliography/references.bib
 
 * Footnotes
 
-[fn:almost-ontology] And this is because the passage comes closest to presenting a
-ontology, tho Nancy leaves it as a poeticizing gesture rather than claiming
-formalizing hypostatization.
+[fn:summary] It resists summarization because a summary encapsulates the
+totality ([[https://www.etymonline.com/word/summary][/summa/]]) of the subject in an abbreviated form, but the point of the
+inoperable (more literally "unworking" or "idle") community is that there are
+not short cuts to its totality: it is whole only in the irreducible and
+ungeneralizable articulation of each singular part.

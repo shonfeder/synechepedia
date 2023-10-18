@@ -78,4 +78,7 @@ Surfing trip!
 ** Community
 - Read up on degrowth
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

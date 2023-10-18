@@ -88,4 +88,6 @@ term: /* singular terms here */
 - Write up implementation of stack
 - Write up notes on small vs. large types
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

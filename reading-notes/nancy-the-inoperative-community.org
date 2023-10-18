@@ -138,8 +138,6 @@ interaction--/intervention/ from those who write/read/run them. Think on the
 possibility of a "computational communism" or, perhaps better, a "programmatical
 communism".
 
-bibliography:~/Dropbox/bibliography/references.bib
-
 * Footnotes
 
 [fn:summary] It resists summarization because a summary encapsulates the
@@ -147,3 +145,7 @@ totality ([[https://www.etymonline.com/word/summary][/summa/]]) of the subject i
 inoperable (more literally "unworking" or "idle") community is that there are
 not short cuts to its totality: it is whole only in the irreducible and
 ungeneralizable articulation of each singular part.
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

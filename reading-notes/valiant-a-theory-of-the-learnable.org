@@ -139,4 +139,6 @@ Valiant, L. G., A theory of the learnable, Communications of the ACM, 27(11), 11
    #+END_QUOTE
 
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

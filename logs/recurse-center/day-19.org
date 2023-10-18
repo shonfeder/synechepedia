@@ -33,4 +33,6 @@ I'd like to muse on this more, but it'll have to wait.
 - Finish off the core logic for =These=, and hopefully start on fleshing out
   property based tests. (Hopefully using =crowbar=!)
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

@@ -76,5 +76,6 @@ general, offered feedback, or invited the opportunity to give feedback.
 usual boilerplate phrase: "for some value of /x/". Probably a failed experiment.
 
 
+* References
 
-bibliography:~/Dropbox/bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

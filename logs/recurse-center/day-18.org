@@ -98,4 +98,7 @@ publication by next Wednesday. I'll shoot for that.
 
 * ...
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

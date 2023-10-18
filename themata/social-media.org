@@ -105,4 +105,4 @@ Taste is cultivated by training us to ingest streams of self-similar content.
 
 * References
 
-bibliography:~/Dropbox/bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

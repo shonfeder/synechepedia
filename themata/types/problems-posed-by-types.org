@@ -72,7 +72,6 @@ Types as problems, programs as solutions.
 - Think of a mockup as the "shell of a type", the type which actually
   articulates the problem to solve should fill the form sketched by the mock up.
 
-  bibliography:~/Dropbox/bibliography/references.bib
 * Example
 
 #+BEGIN_SRC ocaml
@@ -84,3 +83,7 @@ type commit : repo * data disk -> repo
 * Footnotes
 
 [fn:definiate-article] Or, at least, "a very prominent view".
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

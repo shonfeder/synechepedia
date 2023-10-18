@@ -53,4 +53,6 @@ the influence of such greater persons upon individuals.
 [cite:@peirce92_peirc p. 350)]
 #+end_quote
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

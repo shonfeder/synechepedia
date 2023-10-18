@@ -55,4 +55,4 @@ Perhaps they might also be useful to others prone to similar sorts of errors.
 
 You can find this nascent list under the theme of [[file:../../themata/heuristics.org][Heuristics]].
 
-bibliography:~/Dropbox/bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

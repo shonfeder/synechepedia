@@ -105,4 +105,6 @@ mechanism.
 - [[file:man-state-machine.org][The Man/State/Machine]]
 - [[https://www.typetheoryforall.com/2022/05/09/17-The-Lost-Elegance-of-Computation-(Conal-Elliott).html][The Lost Elegance of Computation]], interview with Conal Elliott
 
-bibliography:../../../bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

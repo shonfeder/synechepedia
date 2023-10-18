@@ -82,4 +82,7 @@ formation of (normalizing) typed terms, and as a constraining one, imposing a
 
 *** TODO Extract Thread from Twitter
 
-bibliography:../../../../bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

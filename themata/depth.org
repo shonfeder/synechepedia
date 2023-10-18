@@ -6,4 +6,4 @@ Exploration is not so much a covering of surface distance as a study in depth...
 [cite:@strauss12_trist]
 #+end_quote
 
-bibliography:~/Dropbox/bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

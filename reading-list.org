@@ -231,4 +231,7 @@ Listed in approximate order of ascent.
 [fn:1] This list is not complete. It only reflects writing which I remembered to
 enter and which I felt were actually worth the time to enter.
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

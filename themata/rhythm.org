@@ -17,4 +17,4 @@ Wittgenstein's nightmare of an absolutely unruly (_un*regel*mäßig_) way of lif
 
 Can we define equality starting in terms of fixed points?
 
-bibliography:../../../bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

@@ -198,4 +198,6 @@ here at the Recurse Center need to be skewed towards the practical, my current
 reading around the topic is orbitting around Reynold's work rather than
 Girard's.
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

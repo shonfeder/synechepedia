@@ -23,4 +23,6 @@ notes to review and organize, and I'll type up the relevant bits tomorrow.
 - Evaluate and type up notes from tonight
 - Reflect on reconnecting with poetic origination
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

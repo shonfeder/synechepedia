@@ -334,7 +334,6 @@ module Option = struct
 end
 #+END_SRC
 
-bibliography:~/Dropbox/bibliography/references.bib
 
 * Footnotes
 
@@ -362,3 +361,7 @@ useful for computation.
 [fn:experimental] afaik, there is not yet any evidence to suggest fine
 grained use of algebraic structures will be as effective in OCaml as it is in
 Haskell.
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

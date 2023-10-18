@@ -93,4 +93,6 @@ expedite the process:
   other implementations.
 *** Finish Chapter 2 of [cite:@rob2014type]
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

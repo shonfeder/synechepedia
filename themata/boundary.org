@@ -32,4 +32,4 @@ Adding a hole to a space introduces a boundary marking an inexhaustible
 difference: however closely you examine the boundary, you will find further
 distinctions.
 
-bibliography:~/Dropbox/bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

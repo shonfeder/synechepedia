@@ -26,4 +26,7 @@ files to HTML is down by at least 75%.
 - Add type checking to themis' simply typed lambda calculus
 - Start CH. 3 [cite:@rob2014type]
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

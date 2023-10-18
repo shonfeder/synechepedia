@@ -56,4 +56,7 @@ this on hold until I wrap up the work on packaging and documenting =These= and
 ** Community
 - Get advice on packaging from more experienced OCamlers at RC.
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

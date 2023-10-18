@@ -48,4 +48,6 @@ I still have a lot to sort out.
 ** Writing
 - Short write up on the basics of defining 1ML modules.
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

@@ -32,4 +32,4 @@ taking both sides at once.
 #+end_quote
 
 
-bibliography:../../../bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

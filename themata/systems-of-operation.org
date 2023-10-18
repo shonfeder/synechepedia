@@ -609,4 +609,6 @@ intelligence".
 
 [fn:1] https://en.wikipedia.org/wiki/Shell_(computing)
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

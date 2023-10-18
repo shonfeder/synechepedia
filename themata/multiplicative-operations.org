@@ -37,4 +37,6 @@ analog of division of numbers? [cite:@f.08_concep p. 60]
    file:./notes-on-logical-quotient.HEIC
 
 
-   bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

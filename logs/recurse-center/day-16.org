@@ -22,7 +22,7 @@ doing the topic justice. I'm also unsure that the non-technical talks are an
 appropriate forum for the topic.
 
 Spending the day reading critical theory meant reconnecting with the weighty and
-all important question of whether the enlightenment can realize its promiss of
+all important question of whether the enlightenment can realize its promise of
 emancipated human communities and a reconciliation with (and redemption of)
 nature, or whether it will tend towards ever more exacting exploitation and
 perfected systems of control. With this concern rekindled, I found it difficult
@@ -228,4 +228,7 @@ anybody has any revolutionary potential left.
 ([[https://pages.gseis.ucla.edu/faculty/kellner/Illumina%20Folder/Angela_Davis%5B1%5D%5B1%5D.pdf][Angela Davis]])
 #+END_QUOTE
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

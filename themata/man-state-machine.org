@@ -297,6 +297,8 @@ Compare with https://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/cloc
 
 -------------------------------------------------------------------------------
 
-bibliography:~/Dropbox/bibliography/references.bib
-
 * TODO Machine vs. State Machine
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

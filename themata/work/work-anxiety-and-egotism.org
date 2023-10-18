@@ -216,4 +216,6 @@ disposition must remain open for the moment, as perhaps is should for all
 time. The attempt to deduce a /single/ motive for a mood is probably a
 category mistake, and a misapplication of foundationalism.
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

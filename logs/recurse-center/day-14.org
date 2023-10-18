@@ -23,4 +23,6 @@ modules to reproduce type-class gimmicks.
 ** Community
 - Pairing on dungen generation in OCaml! :D
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

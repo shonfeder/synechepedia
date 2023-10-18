@@ -42,4 +42,6 @@ Recovered. Feeling fortunate. Still a bit winded and wanting for focus.
 - Write up notes on small vs. large types
 - Start adding an epigraph to the beginning of each log entry
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

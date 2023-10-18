@@ -88,4 +88,4 @@ endless path of an approximation that is never fully accomplished.
 [cite:@lukács1971theory]
 #+END_QUOTE
 
-bibliography:../../../bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

@@ -9,4 +9,4 @@ faltering guides. [cite:@quine1987quiddities p. 5]
 #+END_QUOTE
 
 
-bibliography:~/Dropbox/bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

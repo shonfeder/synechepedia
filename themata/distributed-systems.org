@@ -60,5 +60,7 @@ to pass a message and the time taken between events in a process is
 * Links
 
 - [[http://lambda-the-ultimate.org/node/5194][LtU eiscussion with Carl Hewitt on Lamportian concurrency vs. actor-model concurrency]] 
-  
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

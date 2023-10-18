@@ -92,4 +92,4 @@ inquiry and insight, or are operating in bad faith.
 
 * References
 
-bibliography:../../bibliography/references.bib
+#+PRINT_BIBLIOGRAPHY:

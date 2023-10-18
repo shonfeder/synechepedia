@@ -68,4 +68,6 @@ word. Such is the case of the poet.
 [fn:de-gendered] I de-gendered the pronouns in this passage.
 
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

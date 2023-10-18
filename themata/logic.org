@@ -3,7 +3,6 @@
 *WIP*
 
 #+OPTIONS: toc:2
-#+bibliography: ../../../bibliography/references.bib
 
 * What
 
@@ -681,10 +680,10 @@ project of [[file:transcendental-techniques.org][transcendental techniques]].
 
 - [[http://boole.stanford.edu/~dominic/proofs-without-syntax/][Proofs Without Syntax Group]]
 
-* References
-
-#+PRINT_BIBLIOGRAPHY:
-
 * Footnotes
 
 [fn:translation] Please pardon my inexpert translation.
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

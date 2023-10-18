@@ -139,4 +139,7 @@ Spend some time reading [cite:@reynolds74_towar]
 ** OCaml Ecosystem
 I'll continue work on =These= when I get a chance.
 
-bibliography:~/Dropbox/bibliography/references.bib
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

@@ -41,4 +41,6 @@ Type structure is a syntactic discipline for enforcing levels of abstraction.
   remain to be addressed, and rehearsing what I've been learning should help me
   internalize the lessons.
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

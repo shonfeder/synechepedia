@@ -36,4 +36,6 @@ convergence of semiotics (in the tradition of Peirce advaced by Goguen) with
 some of Girard's writing in [cite:@girard11] and the concern with communication and
 community in Nancy's [cite:@peter01].
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

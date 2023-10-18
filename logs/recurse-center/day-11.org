@@ -50,4 +50,6 @@ I'm working from home tomorrow, to give my aching hands a rest and recoup a bit.
 I have planning to participate in the Haskell CoHack all day Saturday, so I
 could use a day away from the keybard.
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

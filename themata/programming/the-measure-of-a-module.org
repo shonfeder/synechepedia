@@ -186,7 +186,6 @@ How does modularity relate to SOLID?
 * TODO Explain modules as an existential type quantification
 
 
-bibliography:~/Dropbox/bibliography/references.bib
 * TODO Anti-modular cultural tendencies
 
 Several years back, I spent a chunk of time filing in missing pieces of the
@@ -216,3 +215,7 @@ Two tiny actions I took to change the culture:
 
 - https://rosettacode.org/wiki/Talk:Parsing/RPN_to_infix_conversion#Extraneous_Requirements
 - https://rosettacode.org/wiki/Talk:Parsing/RPN_calculator_algorithm#Extraneous_Requirements
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

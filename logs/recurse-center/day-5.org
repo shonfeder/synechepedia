@@ -37,4 +37,6 @@ and was able to get some focused writing and programming done.
 I'll likely make more progress over the weekend and am not going to predicate
 what I'll want to do on Monday this far in advance.
 
-bibliography:~/Dropbox/bibliography/references.bib
+* References
+
+#+PRINT_BIBLIOGRAPHY:

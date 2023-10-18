@@ -3,13 +3,14 @@
 *WIP*
 
 #+OPTIONS: toc:2
+#+bibliography: ../../../bibliography/references.bib
 
 * What
 
 #+BEGIN_QUOTE
 ... this is a way the mind /moves/, from the first two to the third.
 
-(cite:hart10)
+[cite:@hart10]
 #+END_QUOTE
 
 #+BEGIN_QUOTE
@@ -30,7 +31,7 @@ different representations. Thus we seek to formalize particular understandings
 of analysts, without claiming that such understandings are necessarily correct,
 or have some kind of ideal Platonic existence.
 
-(cite:goguen1998introduction)
+[cite:@goguen1998introduction]
 #+END_QUOTE
 
 * Why
@@ -46,12 +47,7 @@ the benchmark for such an endeavor being an updated version of incompleteness:
 to prove, once and for all, that questions are not the same thing as answers,
 i.e., the inexistence of those unlikely /X-rays of knowledge/.
 
-(cite:girard11)
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Put some text here
-cite:Martin_L_f_1994
+[cite:@girard11]
 #+END_QUOTE
 
 * TODO How
@@ -70,7 +66,7 @@ turns out to be the logic we started with.
 Circularity is therefore not only a tarskian void, it is also a sign of harmony.
 But one cannot content oneself with that!
 
-(cite:girard11, 139)
+([cite:@girard11], 139)
 #+END_QUOTE
 
 Some patterns seem to cycle -- spiraling -- through the thoughts and techniques
@@ -85,15 +81,15 @@ proof-theoretic formal systems that have been transforming computer science.
 ... structural systems may be considered as providing a general framework of
 consequence, in terms of which specific logical systems can be defined.
 
-(cite:schroeder2002resolution, 3)
+([cite:@schroeder2002resolution], 3)
 #+END_QUOTE
 
 
 **** A Note on Genealogy
 
 Paul Hertz is the progenitor of the structural analysis of proofs. Gentzen
-utilized this approach to found [[https://plato.stanford.edu/entries/proof-theory-development/#SeqCalLatDev][structural proof theory]] (see cite:legris2012paul
-and cite:schroeder2002resolution). Hertz published his work, /On Axiomatic
+utilized this approach to found [[https://plato.stanford.edu/entries/proof-theory-development/#SeqCalLatDev][structural proof theory]] (see [cite:@legris2012paul]
+and [cite:@schroeder2002resolution]). Hertz published his work, /On Axiomatic
 Systems for Arbitrary Systems of Sentences/, in 1922. In [[https://www.deutsche-biographie.de/gnd11675446X.html#ndbcontent][a short biography]] by
 Hilbert's collaborator [[https://en.wikipedia.org/wiki/Paul_Bernays][Paul Barneys]], Barneys described the contribution thus:
 
@@ -150,8 +146,7 @@ certain sentences other ones follow: So, e.g., the validity of the sentences =a
 However, what is actually meant by such a sentence, what the symbol =→= means in
 the combination of characters =a → b= or the word ‘if’ in the corresponding
 linguistic formulation, does not have to be indicated here.
-
-cite:hertz12_axiom_system_arbit_system_senten
+[cite:@hertz12]_axiom_system_arbit_system_senten
 #+END_QUOTE
 
 *Recapitulation*: Hertz aimed to analyze systems of sentences determined by a
@@ -172,7 +167,7 @@ Theorem listed by Russell as No. 10, 3 [*10·3], p. 150, or put differently: Our
 sentences are judgements of subsumptions, our inferences are syllogisms of
 modus Barbara.
 
-(cite:hertz12_axiom_system_arbit_system_senten, 12)
+[cite:@hertz12_axiom_system_arbit_system_senten, 12]
 #+END_QUOTE
 
 Russell and Whitehead's "formal implications" are the propositions stated by
@@ -229,7 +224,7 @@ in fact the same abbreviation, essentially, as this is; for "\(p\), therefore
 implies \(q\), an *inference is the dropping of a true premiss; it is the
 dissolution of an implication* [emphasis mine].
 
-(cite:whitehead2005_principia, 9)
+[cite:@whitehead2005_principia, 9]
 #+END_QUOTE
 
 ***** TODO Note the different meaning of the tunstyle here.
@@ -443,11 +438,10 @@ is a pure duplicate, since the deduction theorem equates the two notions.
 Sequent calculus makes sense only when one steps beyond mere provability, when
 one works /en finesse/.
 
-(cite:girard11, 42)
+[cite:@girard11, 42]
 #+END_QUOTE
 *** TODO What is happening here?
-**** TODO Analysis by Shütte
-cite:schutte77_prooftheory, 2-3 Higher order reasoning required
+**** TODO Analysis by Shütte [cite:@schutte77_prooftheory], 2-3 Higher order reasoning required
 
 "...using induction that goes beyond mathematical induction but with a finite
 character"
@@ -477,7 +471,7 @@ about snow. The quotation is a name of a sentence that contains a name, namely
 'snow', of snow. By calling the sentence true, we call snow white. *The truth
 predicate is a device of disquotation* [emphasis mine].
 
-(cite:quine86_philos, 12)
+([cite:@quine86_philos], 12)
 #+END_QUOTE
 
 *** TODO How much of the "ad hoc" machinery in some formalisms could be dispensed with if we could formalize this process, and make it flexible enough to recycle and spin up into semantic asscent at will?
@@ -600,7 +594,7 @@ noted $!_PA$.
 #+end_quote
 (Girard, "Truth, modality and intersubjectivity")
 
-In cite:Baelde_2012, they replace the modal operators with least and greatest
+In [cite:@Baelde_2012], they replace the modal operators with least and greatest
 fixed points, to provide induction and coinduction on terms, as an alternative
 means of enabling reasoning about "unbounded (infinite) behavior"
 
@@ -630,7 +624,7 @@ aspects:
   between the two oposite direction in time than between moving northward and
   moving southward.
 
-  (cite:peirce92_peirc)
+  [cite:@peirce92_peirc]
   #+end_quote
 
 - recurrent ::
@@ -638,7 +632,7 @@ aspects:
   #+begin_quote
   If life is not always poetical, it is at least metrical.  Periodicity rules over the mental experience of man, according to the path of the orbit of his thoughts.  Distances are not gauged, ellipses not measured, velocities not ascertained, times not known.  Nevertheless, the recurrence is sure.  What the mind suffered last week, or last year, it does not suffer now; but it will suffer again next week or next year.  Happiness is not a matter of events; it depends upon the tides of the mind.
 
-  (cite:meynell1896rhythm)
+  [cite:@meynell1896rhythm]
   #+end_quote
 
 Girard has indicated that he connects the directedness with non-commutative
@@ -649,7 +643,7 @@ Time occurs when we cannot permute two rules, since one must be performed before
 the other, for fear of a procedural catastrophe. This is therefore the
 alternation positive/negative, answer/question, explicit/implicit.
 
-(cite:girard11)
+[cite:@girard11]
 #+end_quote
 
 It is sensible to me that the right place to find the recurrence (and, thereby
@@ -688,8 +682,7 @@ project of [[file:transcendental-techniques.org][transcendental techniques]].
 
 * References
 
-#+bibliography: ../../../bibliography/references.bib
-
+#+PRINT_BIBLIOGRAPHY:
 
 * Footnotes
 

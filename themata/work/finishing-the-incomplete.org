@@ -1,4 +1,5 @@
 #+TITLE: Finishing Work on the Incomplete
+#+DATE: <2020-01-26 Sun>
 
 These notes are aimed at the problem of unfinished work in the context of an
 inexhaustible project.[fn:confession]
@@ -139,7 +140,7 @@ Further work to be done:
   the malicious use of power
 - elaborate a theory of the module (or an understanding of the module as theory)
   that helps explain how these units of finished work can form larger
-  composites, and thus build towards the goal. Cf. [[file:programming/the-measure-of-a-module.org][The Measure of a Module]].
+  composites, and thus build towards the goal. Cf. [[../programming/the-measure-of-a-module.org][The Measure of a Module]].
 
 * Footnotes
 

@@ -1,0 +1,14 @@
+#+title: A Wandering Way To Linear Logic
+
+* TODO Intro
+* TODO What Linear Logic is Not
+* TODO Signs of the Sequent Calculus
+* TODO "Structural Rules"
+https://en.wikipedia.org/wiki/Structural_rule
+* TODO Changing the Rules, Change the Topic
+- Classical: sets of formula to sets of formula
+- Intuitionistic: sets of formula to individual sormula
+- Linear: multi sets of formula to multi-sets of formula
+* TODO Weakening, Resources, and Redundancy
+* TODO Contraction, Responsibility, and Omission
+* TODO

@@ -1,4 +1,5 @@
 #+TITLE: Listening
+#+DATE: [2021-07-04]
 
 #+begin_quote
 If we are to survive in the twenty-first century we must become better
@@ -10,7 +11,7 @@ done in just one way: there are many ways to listen.
 
 It is easy enough to perform varying degrees of [[https://en.wikipedia.org/wiki/Pseudolistening][pseudo-listening]]. The ways to
 listen that leave you open to another, that nurture disinterested compassion and
-genuine, reciprocal understanding -- these are very hard for me.
+genuine, reciprocal understanding -- these are much harder.
 
 * Ways I listen on the regular:
 
@@ -22,30 +23,30 @@ patterns in my own thinking/feeling/life that map onto what the other is
 communicating.
 
 In this mode of listening, we assimilate the feelings and ideas voiced by the
-other into what is familiar to us. We risk missing what may be very different
-and deeply alien. We are prone to fixating on the first familiar fragments,
-assuming this lets us understand the whole. But this can actually deafen us to
-all the nuances and differences of the broader context, which actually
-invalidate our assumptions.
+other into what is familiar to us. We risk missing what is different and deeply
+alien. We are prone to fixating on the first familiar fragments, assuming this
+lets us understand the whole. But this can actually deafen us to all the nuances
+and differences of the broader context (which might invalidate our assumptions).
 
-A common result of this kind of listening is that we latch on something the
+A common result of this kind of listening is that we latch on to something the
 person said which makes sense to us, and then (more or less subtly), we change
 the conversation to be about whatever it was that we identified with.
 
 ** Self-involved listening
 
-We want to help. We especially want to help those we care for due to strong
-connections. So we may listen to see how we can help solve their problems, how
-we can further their aims, or how we can provide them with opportunities.
+We want to help. We especially want to help those we care for and to whom we are
+bound by strong connections. So we may listen for ways we can ease their
+burdens, solve their problems, further their aims, or provide them with
+opportunities.
 
-The listening turns around our involvement, and our responses all seek to
-involve ourselves. It centers our abilities, solutions, and connections instead
-of making spake for the other to really communicate their circumstance. Since we
-are listening for how we can help, rather than to understand the real need and
-concern, we are liable to offer irrelevant input. We end up changing the topic
-from what the other person cares about, achieved, needs, etc., and refocusing
-on what we can provide, what we thin matters, and on how our own achievements
-can benefit them.
+This listening is other-interested, but it is oriented around our involvement,
+and our responses all seek to involve ourselves. It centers our abilities,
+solutions, and connections instead of making space for the other to really
+communicate their circumstance. Since we are listening for how we can help,
+rather than to understand the real need and concern, we are liable to offer
+irrelevant input. We end up changing the topic from what the other person cares
+about, achieved, needs, etc., and refocusing on what we can provide, what we
+thin matters, and on how our own achievements can benefit them.
 
 Often, what the other is saying doesn't involve us at all. In that case,
 inserting ourselves means we'll miss the point.

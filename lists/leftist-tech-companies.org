@@ -23,6 +23,24 @@ that respect your freedom. We provide training and consultation to meet your
 goals.
 #+END_QUOTE
 
+* [[https://autonomic.zone/][Autonomic]]
+
+#+begin_quote
+Autonomic is a hive mind of 13 people around the world turning gentle chaos into
+websites, infrastructure and design. We share 1 email inbox, we make decisions
+using consensus and we all get paid the same.
+#+end_quote
+
+* [[https://coopcloud.tech/][Co-op Cloud]]
+
+#+begin_quote
+Co-op Cloud is a software stack that aims to make hosting libre software
+applications simple for small service providers such as tech co-operatives who
+are looking to standardise around an open, transparent and scalable
+infrastructure. It uses the latest container technologies and configurations are
+shared into the commons for the benefit of all.
+#+end_quote
+
 * De[[https://designjustice.org/][sign Justice Network]]
 
 #+BEGIN_QUOTE
@@ -59,3 +77,10 @@ communications.
 #+BEGIN_QUOTE
 North American Technology Worker Cooperatives
 #+END_QUOTE
+
+* [[https://utaw.tech/about/][UTAW]]
+
+#+begin_quote
+United Tech and Allied Workers is a branch of the Communication Workers Union
+which seeks to represent and fight for workers interests in the tech industry.
+#+end_quote

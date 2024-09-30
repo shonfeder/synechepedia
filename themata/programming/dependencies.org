@@ -1,0 +1,10 @@
+#+title: Dependencies
+
+"Classical logic is the logic of complete information ... it's the logic of a
+closed world" (Harper's 2015 OPLSA lecture:
+https://youtu.be/U8pBjQ84E9g?feature=shared&t=1956 -- but find another
+reference.)
+
+The question of whether we should have a constructive or a classical approach to
+dependency management should hinge on whether this is a domain in which we
+should expect to have complete information.

@@ -1,4 +1,4 @@
-#+TITLE: Nothing /Really/ Matters
+#+TITLE: WIP: Nothing /Really/ Matters
 #+SUBTITLE: The option type as an icon of absence
 
 * A joke about nothing
@@ -22,27 +22,31 @@ that which is not present[fn:1]: milk is distinct from cream, so having no milk
 is distinct from having no cream, and therefore having coffee with no milk is
 distinct from having coffee with no cream.
 
-I think part of the humor here draws from the sense that this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction
-without a difference]]". The same cup of black coffee is simultaneously a coffee
-with no milk and a coffee with no cream, and if you want a black coffee, it
-makes no difference which dairy product I omit. But not all distinctions in
-non-presence are equally indistinguishable. The frivolousness of /this/ omission
-relates to the dairy's similarity.
+An important basis of the humor is that, viewed purely [[https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions][extensionally]], concerned
+only with the denotation, this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction without a difference]]". The set
+of all cups of coffee without cream is identical to the set of all cups of
+coffee without milk, so if you just want a black coffee, it makes no difference
+which dairy product is ommitted. But the key [[https://en.wiktionary.org/wiki/gimmick#Noun][gimmick]] at work in the joke is
+this, viewed intensionally, concerned with the sense, the distinction does make
+a difference, it's not a distinction that makes any difference to our common
+sense. The frivolousness of /this/ additive omission is tied to the similarity
+of the dairy. But not all distinctions in non-presence are equally
+indistinguishable.
 
 # TODO cut?
 Consider the same cup of coffee offered without cream versus offered without
 bleach. The difference in intention is disturbing. I'd refuse the latter: the
-implied possibility of the presence of the bleach promised to be absent is
-unwelcome and the declaration of its non-presence lands like a threat. This
-shows that non-presence is determined by that which is not present even when
-what /is/ present is left unchanged by the absence. Tho this determination only
-makes a difference in terms of sense and intention, a difference /is/ made.
+offer to omit bleach implies the possibility of its presence so it lands like
+a threat. This shows that /non-presence/ is determined by /that which is not
+present/ even when what is present is left unchanged by the absence. Tho this
+determination only makes a difference in terms of sense and intention, a
+difference /is/ made.
 
-Often, non-presence entails a real and objective difference in what remains
-present. The distinction between having no sight and having no hearing marks a
-meaningful difference. From our lived experience, we know (or will come to know)
-the deadly serious difference made by the distinct kinds of nothingness met in
-the absence of each missing loved one.
+Often, varieties of non-presence entail a real and objective difference in what
+is present: the distinction between having no sight and having no hearing marks
+a meaningful difference; we each know (or will come to know) the deadly serious
+difference made by the distinct kinds of nothingness met in the absence of each
+missing loved one.
 
 What is not present determines differences in non-presence in at least two ways:
 the potential presence of what is non-present marks differences in [[https://en.wikipedia.org/wiki/Intension][intention]];
@@ -52,7 +56,7 @@ we know there is also a shared structure common to all the different forms of
 absence, which is why it makes sense to consider the general concept of
 non-presence, as we've been doing.
 
-* The option type as an icon of absence
+* TODO The option type as an icon of absence
 
 We can interpret [[https://en.wikipedia.org/wiki/Option_type][the =option= type]] as an [[https://en.wikipedia.org/wiki/Iconicity][icon]] of the phenomena of absence. To
 aid in the exposition of this interpretation, we'll build up a small domain of
@@ -89,23 +93,23 @@ module type Substance = sig
       chemical composition, its platonic idea, or whatever. *)
 
   val v : t
-  (** A way to get a material instance of the substance, e.g., by mixing the
-      proper chemical  compounds or uttering the divine word of creation. *)
+  (** A material instances of the substance, e.g., chemical compounds, monads,
+      or divine eminations. *)
 end
 #+end_src
 
-The [[representation of substance]] let's us distinguish between kinds of things and
-instances of that kind..
-
-#+RESULTS:
+#+RESULTS: representation of substance
 : * *       *   module type Substance = sig type t val v : t end
 
-and then
-let's define way of constructing measures of different kinds of liquid:
+The [[representation of substance]] let's us distinguish between kinds of things and
+instances of that kind.
+
+
+Let's define a way of constructing measures of different kinds of liquid:
 
 #+begin_src ocaml :session
 module Liquid (S : Substance) : sig
-  type milliliters
+  type milliliters = int
   (** The units by which all our liquids are measured *)
 
   type t
@@ -131,7 +135,7 @@ end
 : module Liquid :
 :   functor (S : Substance) ->
 :     sig
-:       type milliliters
+:       type milliliters = int
 :       type t
 :       val v : int -> t
 :       val amount : t -> milliliters
@@ -163,28 +167,28 @@ end)
 #+begin_example
 module Coffee :
   sig
-    type milliliters
+    type milliliters = int
     type t
     val v : int -> t
     val amount : t -> milliliters
   end
 module Milk :
   sig
-    type milliliters
+    type milliliters = int
     type t
     val v : int -> t
     val amount : t -> milliliters
   end
 module Cream :
   sig
-    type milliliters
+    type milliliters = int
     type t
     val v : int -> t
     val amount : t -> milliliters
   end
 #+end_example
 
-Now we need a way representing
+Now we need a way of representing the absence of a liqid
 
 #+NAME: declaration of the option type constructor
 #+begin_src ocaml :session
@@ -200,19 +204,20 @@ end
 
 Read the above [[declaration of the option type constructor]] as follows:
 
-- We declare a type constructor =option= which polymorphic over a type ='a=.
+- We declare a type constructor =Option.t= which is polymorphic over a type
+  ='a=.
   E.g.,
-  - =int option= :: the type of optional integers
-  - =milk option= :: the type of optional milk
-  - =cream option= :: the type of optional cream
-- For any optional type we construct, we provide two value constructors to
-  derive values of this type:
-  - =Some of 'a= :: representing the presence a value of type ='a=. E.g.
+  - =int Option.t= :: the type of optional integers
+  - =milk Option.t= :: the type of optional milk
+  - =cream Option.t= :: the type of optional cream
+- For any optional type we construct, we provide two ways to constructor values
+  of this type:
+  - =Some of 'a= :: representing the presence of a value of type ='a=. E.g.
     - =Some 1= :: a value of type =int option=
-    - =Some Milk= :: a value of type =milk option=
-
-    = is a value of type =int option= and =Some ""
-  - =None= :: representing the absence of a value any value of type ='a=
+    - =Some Milk.v= :: a value of type =Milk.t option=
+  - =None= :: representing the absence of a value of any type ='a=. E.g.,
+    - =None : Milk.t option= :: the absence of milk
+    - =None : Cream.t option= :: the absence of cream
 
 ** TODO Absence of an additive
 Coffee without milk is the same as coffee without cream.

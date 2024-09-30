@@ -6,15 +6,34 @@ If life is not always poetical, it is at least metrical.  Periodicity rules over
 [cite:@meynell1896rhythm]
 #+end_quote
 
+* Meditation
+
+Find the fixpoint of thoughtful being by relaxing into the rhythm of
+communication's constitutive continuities.
+
+Abide in the eternal recurrence, becoming being in the communication of care.
+
+* Practice
+
+Knowing my rhythm, it can be used: when I'm up, I can throw myself into the
+work, and just let myself be carried away by it. When I'm down, I can use the
+negative polarity of it to (constructively) critique what I did before, to
+identify short-comings and have some fruits that will guide improved work on
+the next cycle. And rest! Don't forget to rest.
+
+* Questions and quips
+
 Characterizations of the infinite in terms of periodicity: do they admit of any
 periodic recurrence? And if so, to what degree?
 
 An infinite so variegated that any recurrence is impossible in principle could
-seem horrifying, as perhaps the pure form of cosmic horror. This is Peirce's
-principle of 1stness, but modified so that no "evolutionary love" where
-possible, no emergence of a pattern, habit, or routine. This is also
-Wittgenstein's nightmare of an absolutely unruly (_un*regel*mäßig_) way of life.
+seem horrifying, as perhaps the pure form of cosmic horror. This would be
+Peirce's principle of firstness, but modified such that no "evolutionary love"
+were possible: the emergence of a pattern, habit, and routine ruled out. This is
+also Wittgenstein's nightmare of an absolutely unruly (_un*regel*mäßig_) way of
+life.
 
 Can we define equality starting in terms of fixed points?
+
 
 #+PRINT_BIBLIOGRAPHY:

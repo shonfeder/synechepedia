@@ -475,6 +475,12 @@ predicate is a device of disquotation* [emphasis mine].
 #+END_QUOTE
 
 *** TODO How much of the "ad hoc" machinery in some formalisms could be dispensed with if we could formalize this process, and make it flexible enough to recycle and spin up into semantic asscent at will?
+The principle of explosion holds that a contradiction entails any statement. But
+our historical practice makes pretty clear that when a contradiction is derived,
+it entails that the inference system that allowed it must be revised. By
+enabling immanent reflection and reasoning about the meta logic, could we not
+formalize this practice? Can we overcome the nihilism of explosion and ascend to
+a dialectic of forgiveness and recovery?
 *** TODO Related Angles
 
 - [[https://en.wikipedia.org/wiki/Deep_inference#cite_ref-1][Deep Inference]]
@@ -675,6 +681,16 @@ can we determine if it is susceptible to formal articulation?
 
 Cf. the theory of [[https://en.wikipedia.org/wiki/Institution_(computer_science)][institutions]] and the project of [[https://en.wikipedia.org/wiki/Universal_logic][universal logic]], and the
 project of [[file:transcendental-techniques.org][transcendental techniques]].
+* TODO Axiom and Structure
+
+Algorith designers and implementers are familiar with how often we are able to
+simplify the computation by choosing the right data structure.
+
+When we are programming/proving, data is specified in the type/proposition and
+declaring a type is stipulating an axiom. So this pattern of optimizations is
+about setting up the right set of axioms to improve our proof.
+
+
 
 * Links
 

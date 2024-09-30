@@ -1,0 +1,17 @@
+#+title: Fixed Points
+
+A [[https://en.wikipedia.org/wiki/Fixed_point_(mathematics)][fixed point]] of a function $$F : X \to X$$ is a point $$x \in X$$ such that $$F(x) = x$$.
+
+* TODO Re: cognition
+- Thinking of a thing is a morphism from one form of being to another.
+  - In thinking of things we (may) undergo a transformation/passage in the "topology
+    of being"
+  - This is the nature or radical awareness
+
+- Fixed point combinator for thinking
+
+Consider =cognition= as a function from (time indexed) representations to judgements,
+
+  - where judgements are
+
+And this has suddenly given be a (maybe trivial but still not uninteresting?) clarification of one sense in which the self is a fixed point (which I am preoccupied with thanks to Egan's Diaspora and Nietzsche's eternal return etc.): I think we can say that Descartes' "cogito" is the identity function on identitarian consciousness: "ego cogito" is a constructive proof of the existence of the ego, because `cogito(ego) -> ego`

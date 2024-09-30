@@ -2,15 +2,15 @@
 
 *WIP*
 
-gist: I suspect that determination of human being terms of /man/, of ontology in
-terms of /machine/, and of community in terms of /state/ are inextricably
-intertwined. Particular forms such the state-machine, man-machine, and the state
-as machine, are iterations of this mutual determination. The internal logic of
-these determinations is that of command/control, impulse/reaction, and of the
-discrete and orderable sequenced according to manly dictates. It runs through
-all of modernity (even tho not all enlightenment thinking is thoroughly
-subordinated to this framing), and it is driving us into madness, xenocide,
-mono-mania, and other bad stuff.
+gist: I suspect that the determination of human being terms of /man/, of
+ontology in terms of /machine/, and of community in terms of /state/ are
+inextricably intertwined. Particular forms such the state-machine, man-machine,
+and the state as machine, are iterations of this mutual determination. The
+internal logic of these determinations is that of command/control,
+impulse/reaction, and of the discrete and orderable sequenced according to manly
+dictates. It runs through all of modernity (even tho not all enlightenment
+thinking is thoroughly subordinated to this framing), and it is driving us into
+madness, xenocide, mono-mania, and other bad stuff.
 
 -----
 
@@ -19,7 +19,7 @@ ideology of the man/state/machine? Whoever is most able to embody the qualities
 of man that enable calculating the state and driving the machine: i.e.,
 fortunate, masculine, technocrats, who can internalize the combinatory problems
 relevant to tracking the state transitions, who can work the levers effectively,
-or find clever and self serving ways to throw wrenches into the machine.
+or find clever and self serving ways to drive wrenches through the machine.
 
 The opening passage from Hobbes' *Leviathan*:
 
@@ -39,8 +39,8 @@ latine Civitas) which is but *an Artificiall Man*
 
 
 I think the essay would  make the case that the origin, essential logic, and
-ultimate destiny of the the state-machine  concept is the subordination of the
-human being to the man/state/machine.
+ultimate destiny of the state-machine concept is the subordination of the human
+being to the man/state/machine.
 
 Turing, in the "Computable Numbers" paper begins his description of the
 "Computing machines" thus:

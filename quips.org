@@ -89,7 +89,6 @@ and claim every dissenting view must be entertained, no matter how absurd,
 disingenuous, or ill-founded, are either profoundly mistaken about the nature of
 inquiry and insight, or are operating in bad faith.
 
-
 * References
 
 #+PRINT_BIBLIOGRAPHY:

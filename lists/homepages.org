@@ -3,8 +3,12 @@
 * Andreas Rossberg
 https://people.mpi-sws.org/~rossberg/index.html
 Developer of HaMLet and 1ML, working on WASM.
+* Ben M. Andrew
+https://www.benmandrew.com/
+
+Computer science, logic, games and interactive projects, photography.
 * Bertie Spell
-https://bertiespell.com/home
+https://bertiespell.com
 
 Philosophy, sociology, literary theory, blockchain, design.
 * Bob Atkey
@@ -123,16 +127,31 @@ philosophy, computability theory, and pragmatism.
 
 https://deontologistics.co/
 
+* Rod Burstall
+
+(archived)
+https://web.archive.org/web/20180315143855/http://www.freewebs.com/rodburstall/aboutme.htm
+
+Defunct home page.
+
+PLT, computer science, Buddhism,
+
+See also https://en.wikipedia.org/wiki/Rod_Burstall.
+
 * Roddy MacSween
 Graduate student in CS who has built some useful ocaml web tools.
 https://roddymacsween.co.uk/
-
 * Stefan Monnier
 Prof at University of Montreal.
 
 Into PLT focused on strongly typed languages, emacs, and meta-programming. Designed [[https://gitlab.com/monnier/typer/][Typer]].
 
 https://www.iro.umontreal.ca/~monnier/
+
+* Tom Murphy VII
+http://tom7.org/
+
+PLT, Typography, Parody?, games, digital art anc exploration.
 
 * Vito Michele Abrusci
 

@@ -1,0 +1,43 @@
+#+title: Communicative
+
+* TODO What is the right name?
+* Idea
+
+- Network topology and constitution determines message propagation
+- A message is a communicand (cf. operand): it is constituted thru the
+  relations of communicability.
+- Communication transforms the communicators
+- The nodes of the network change as messages are propagated
+- Ideas are people and people are ideas
+- The transformation of synthesis of ideas is the creation of concepts
+- An idea is an object in a communicative system
+- Ideas nest: complex ideas are made up of simpler ones
+- Ideas are "ideal objects" in Paul Herz' sense: i.e., they are abstractions standing
+  for a pattern of inferrential relations
+- From the inferrentialist perspective, all objects are ideal objects
+- An inference is a relation between ideas. E.g.,
+  - between people
+  - between people and ideas
+  - between ideas and ideas of actions (pragmatics)
+- Pragmaticism is the idea that the meaning of a term is determined by the
+  communication between the idea of the term and its "pragmatics", i.e., the ideas of activity that may be motivated by the commitments involving the term.
+  - A "commitment" is a relation between ideas, such that the constitution of the
+    committed idea is made to depend on the relations represented by the
+    committent (that to which the committed commits).
+- Inferrentialism holds that "inferences and the rules of inference establish
+  the meaning of expressions"
+  (https://plato.stanford.edu/entries/proof-theoretic-semantics/#InfeIntuAntiReal))
+- The transformation of communicative techniques intails tranformation of the
+  communcands and the communicators.
+  - A communicator is a communicand that can communciate with itself.
+  - Communication is a being together (sym-ont-osis, generalization of
+    symbiosis) in which
+    - Sym: with, ont: being, osis: state or condition -- "the condition of being
+      with"
+    - The beings that are together are constituted through their togetherness
+    - The activity of the beings tranforms their shared condition
+    - The interaction participates in constituting their togetherness as a
+      communicand
+    - Communication between
+- The logic should be communicative (like e.g., pi calculus)
+- The logic should be dialectical (the rules and concepts develop)

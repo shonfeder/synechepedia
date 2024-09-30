@@ -1,0 +1,15 @@
+#+title: Programming Languages and Learning Machines
+
+* TODO PL vs/with ML
+
+There is a lovely passage from "The Art of Prolog":
+
+> We believe that programming can be, and should be, an intellectually rewarding activity; that a good programming language is a powerful conceptual tool — a tool for organizing, expressing, experimenting with, and even communicating one's thoughts ... we think that programming can be, and should be, part of the problem solving process itself; that thoughts should be organized as programs, so that consequences of a complex set of assumptions can be investigated by "running" the assumptions; that a conceptual solution to a problem should be developed hand-in-hand with a working program that demonstrates it and exposes its different aspects.
+
+This complements the view of programming given in SICP:
+
+> Educators, generals, dieticians, psychologists, and parents program. Armies, students, and some societies are programmed. An assault on large problems employs a succession of programs, most of which spring into existence en route.  These programs are rife with issues that appear to be particular to the problem at hand. To appreciate programming as an intellectual activity in its own right you must turn to computer programming; you must read and write computer programs
+
+In this view, programming is a core human technique that finds its general form, and the conditions needed for a rigorous analysis, in computer programming. The computer -- mechanized executor of programs written in the tiny fragment of our sign systems amenable to unambiguous interpretation -- is a tool for exploring the meaning of programs at their limit. And the reason to write programs is because this is how humans organize premeditated actions in the world. Programming (this very special kind of writing and rewriting) is a fundamental human ability and the computer is a prosthetic that extends this ability (cf. "telescope for meaning").
+
+AFAIK, this is not the approach taken by ML work, and is mostly not enabled my the programs they are producing. To be, fair, most programs are not developed for this end; most programs are developed to automate things. ML is about automating stuff, first learning, but then anything that the algorithms can learn. Automation is distinct from programming, I think. We can look at automation all the way back thru the history of mechanical invention, and even if designing and making an automation always involves programming in that general sense evoked by SICP, it is not about programming. Using a machine that automates some stuff is not necessarily running or using a program, and unless the purpose of that machine is to explore the programmable via interpretation.

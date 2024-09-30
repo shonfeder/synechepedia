@@ -7,7 +7,7 @@
 https://en.wikipedia.org/wiki/Structural_rule
 * TODO Changing the Rules, Change the Topic
 - Classical: sets of formula to sets of formula
-- Intuitionistic: sets of formula to individual sormula
+- Intuitionistic: sets of formula to individual formula
 - Linear: multi sets of formula to multi-sets of formula
 * TODO Weakening, Resources, and Redundancy
 * TODO Contraction, Responsibility, and Omission

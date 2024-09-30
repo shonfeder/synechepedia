@@ -246,6 +246,15 @@ from which we can say that the meaning of the types in our systems are indeed
 given by the operations belonging to each type (i.e., the particular sets of
 operations which carve out patterns of permitted connections within the sets of
 derivations of the lambda calculus).
+* DONE Types as Markers of Material incompatibility and consequence
+
+As alternative to _equality_ as determinations of "type" could we base types on
+the two relationships of _material incompatibility_ and _consequence_, as per
+Robert Brandom?
+
+  - A # B :: A is incompatible with B
+  - A |~ B :: B is a _material_ consequence of A
+
 
 * Footnotes
 

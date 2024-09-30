@@ -1,0 +1,63 @@
+#+title: Predation
+
+Per [[https://etymonline.com]]:
+
+#+begin_quote
+predation (n.)
+
+late 15c., predacioun, "act of plundering or pillaging," from Latin praedationem
+(nominative praedatio) "a plundering, act of taking booty," from praedari "to
+rob, to plunder," from praeda "plunder, booty, prey" (see prey (n.)). Zoological
+sense recorded from 1907.
+
+also from late 15c.
+#+end_quote
+
+#+begin_quote
+prey (n.)
+
+mid-13c., preie, "animal hunted for food, that which is seized by any
+carnivorous animal to be devoured" (also, figuratively, of souls captured by
+Satan, etc.), also "goods taken in war," from Old French preie "booty, animal
+taken in the chase" (mid-12c., Modern French proie), from Latin praeda "booty,
+plunder; game hunted."
+
+This is from earlier praeheda, literally "something seized before," from PIE
+*prai-heda-; for the first element see prae-; the second element is related to
+the second element in prehendere "to grasp, seize" (from PIE root *ghend- "to
+seize, to take").
+
+The meaning "act of preying or seizing upon anything" is from early 14c.; bird
+of prey is from late 14c. (fowl of prey is mid-14c.).
+
+also from mid-13c.
+
+#+end_quote
+
+#+begin_quote
+prae-
+
+word-forming element meaning "before," from Latin prae (adv.) "before," from PIE
+*prai-, *prei-, from root *per- (1) "forward," hence "in front of, before" (also
+see pre-). Reduced to pre- in Medieval Latin. According to OED the full form
+prae- in Modern English appears "usually only in words that are still regarded
+as Latin, ... or that are terms of classical antiquity ...."
+#+end_quote
+
+Interesting that the act of preying upon, 'to prey', becomes the name of that
+which is preyed upon, 'the prey'.
+
+* TODO On seeing beaver after staking out its pond
+
+Amazing that the "thrill of the hunt" sublimated into the wonder of watching and understanding a connecting?
+
+Or is this centering of predation not distortion?
+
+It is temping to think predation is unkind, but this too is probably a
+distortion.
+
+To wake and to sleep. To live and to die. To eat and to be eaten. To inhale and to
+exhale. These are the peaks and valleys in the [[file:rhythm.org][rhythm of life]].
+
+Perhaps curiosity and coming to understand and learn and observe other (animals)
+is its own drive, not needing to be reduced to a sublimated predation.

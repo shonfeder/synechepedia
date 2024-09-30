@@ -96,6 +96,28 @@ for example, to record incoming and outgoing goods.
    - Containerization/DevOps/Monorepos etc
      - Engineering the engineering organization into a box
 
+
+The closing lines of Kant's "What is Enlightenment?"
+#+begin_quote
+Wenn denn die Natur unter dieser harten Hülle den Keim, für den sie am
+zärtlichsten sorgt, nämlich den Hang und Beruf zum freien Denken, ausgewikkelt
+hat; so wirkt dieser allmählig zurük auf die Sinnesart des Volks, (wodurch
+dieses der Freiheit zu handeln nach und nach fähiger wird), und endlich auch so-
+gar auf die Grundsätze der Regierung, die es ihr selbst zuträglich findet, den
+Menschen, der nun mehr als Maschine ist, seiner Würde gemäß zu behandeln.
+
+https://bdfwia.github.io/bdfwia.html
+
+Nature, then, has carefully cultivated the seed within the hard core--namely the
+urge for and the vocation of free thought. And this free thought gradually
+reacts back on the modes of thought of the people, and men become more and more
+capable of acting in freedom. At last free thought acts even on the fundamentals
+of government and the state finds it agreeable to treat man, who is now more
+than a machine, in accord with his dignity.
+
+-- http://www.columbia.edu/acis/ets/CCREAD/etscc/kant.html
+#+end_quote
+
 * Themes
 
 ** Internalization

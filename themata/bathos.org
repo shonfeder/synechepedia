@@ -1,0 +1,4 @@
+#+title: Bathos
+
+Work on the high and the low: develop infrastructure to support the material
+conditions necessary for pursuing our ultimate aims and vision

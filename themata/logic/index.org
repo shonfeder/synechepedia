@@ -2,8 +2,6 @@
 
 *WIP*
 
-#+OPTIONS: toc:2
-
 * What
 
 #+BEGIN_QUOTE

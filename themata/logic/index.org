@@ -2,7 +2,8 @@
 
 *WIP*
 
-#+OPTIONS: toc:10
+#+OPTIONS: toc:nil
+#+TOC: headlines 5
 
 * What
 

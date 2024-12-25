@@ -76,6 +76,8 @@ proof-theoretic formal systems that have been transforming computer science.
 
 *** TODO Structural Proof Theory
 
+(See also my [[file:structural-proof-theory.org][notes on structural proof theory]].)
+
 #+BEGIN_QUOTE
 ... structural systems may be considered as providing a general framework of
 consequence, in terms of which specific logical systems can be defined.
@@ -277,7 +279,7 @@ these "structural inference figures"? How do they get introduced?
 
 Gentzen's driving aim in introducing LJ is to preserve the ability to define the
 logic symbols by their introduction and elimination rules but to make a
-deductive calculus which is "logicsitic". Being "logistic" means each formula
+deductive calculus which is "logistic". Being "logistic" means each formula
 that occurs should be a logical truth, and not dependent on external
 assumptions.
 
@@ -306,26 +308,25 @@ So, how do we make NJ "logistic"?
 #+BEGIN_QUOTE
 The most obvious method of converting an NJ-derivation into a logistic one is
 this: We replace a [derivation formula] $B$, which depends on the assumption
-formula $A_1, .., A_u$ by the new formula $(A_1 & ... & A_u) \supset B$. This we
+formula $A_1, .., A_u$ by the new formula $(A_1 \& ... \& A_u) \supset B$. This we
 do with all [derivation formulae]
 #+END_QUOTE
 
 Recapitulating with an example: we can render our proof of $A \land B \supset B
-\land A$ logistic by noting the assumption formula in antecedents of
-conditionals preceding each of the three dependenc formulae. Since $B$ depends
+\land A$ logistic by making the assumption formula explicit in the antecedents of
+conditionals preceding each of the three sub-formula. Since $B$ depends
 on assumption =[1]=, we rewrite $B$ as $A \land B \supset B$. We do the same
 with the two remaining dependent formula, and, for consistency, add the trivial
 self-implication of the assumption to get:
 
-#+BEGIN_QUOTE
+#+BEGIN_SRC
+------------- ax   ------------- ax
 A & B ⊃ A & B      A & B ⊃ A & B
 ------------- &Er  ------------- &El
   A & B ⊃ B          A & B ⊃ A
 -------------------------------- &I
         A & B ⊃ B & A
--------------------------------- ->E
-    A & B ⊃ A & B ⊃ B & A
-#+END_QUOTE
+#+END_SRC
 
 #+BEGIN_QUOTE
 We thus obtain formulae which are already true /in themselves/, i.e., whose
@@ -338,24 +339,24 @@ symbols.
 
 This problematic complication is evident in our attempted rewrite! The principle
 operators in each formula are now $\supset$, but (excepting the conclusion), the
-elimination and introduction rules are all meant to be working on $\land$.
+elimination and introduction rules are all meant to be working on $\&$.
 Worse, we'd need another set of introduction and elimination rules for the "new"
-logical symbols, and prevent ourselves mixing them up with the identical "old"
+logical symbols, to prevent ourselves mixing them up with the identical "old"
 ones.
 
 #+BEGIN_QUOTE
 For this reason, we have introduced the concept of a /sequent/. Instead of a
-formula $(A_1 & ... & A_u) \supset B$ we therefore write the sequent
+formula $(A_1 \& ... \& A_u) \supset B$ we therefore write the sequent
 
 $$
 A_1, ..., A_2 \to B.
 $$
 
 The informal meaning of this sequent is no different from that of the above
-formula; the expressions differe merely in their formal [syntactic] structure.
+formula; the expressions differ merely in their formal [syntactic] structure.
 #+END_QUOTE
 
-I.e., Gentzen introduced an alternate surface syntax, to disambiguate the a
+I.e., Gentzen introduced an alternate surface syntax, to disambiguate a
 structure in the metalanguage which is (informally) synonymous with implication
 in the object language. But this didn't actually do away with the problem of
 needing new introduction and elimination rules:
@@ -568,7 +569,7 @@ operators from S4 (he characterizes linear logic as "S4 + structural rules")  in
 Interesting to note that it is precisely these modal operators where linear
 logic loses the security of its footing:
 
-#+begin_src
+#+begin_quote
 The exponentials $!$ and $?$ in linear logic are less carved in the marble than
 the other connectives. Indeed, if one uses traditional sequent calculus
 presentations, the exponentials are not “canonical”: if you introduce another
@@ -583,7 +584,7 @@ the logical rules of these connectives. For example, elementary linear logic
 introducing $!$ and $?$ at the same time. As a consequence, ELL can encode all
 and only the functions over integers that normalize in time bounded by an
 elementary function.
-#+end_src
+#+end_quote
 
 https://stanford.library.sydney.edu.au/archives/spr2014/entries/logic-linear/#DifTreMod
 
@@ -591,7 +592,7 @@ Following Girard, we can attribute the unsteady nature of the exponential's to
 the fact they mark the interjection of the subjective into the logic!
 
 #+begin_quote
-This means that !A is subjective, since depending on a viewpoint
+This means that $!A$ is subjective, since depending on a viewpoint
 $P$.
 
 We eventually discover that the <<necessity>> $!A$ is exactly an affirmation:

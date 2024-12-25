@@ -1,0 +1,41 @@
+#+title: Wealth
+
+#+begin_quote
+*wealth (n.)*
+
+mid-13c., "happiness," also "prosperity in abundance of possessions or riches,"
+from Middle English /wele/ "well-being" (see weal (n.1)) on analogy of health.
+
+*weal (n.)*
+
+from West Germanic /*welon-/, from PIE root /*wel-/ (2) "to wish, will" (see
+will (v.)). Related to /well/ (adv.).
+
+[[https://www.etymonline.com/word/wealth#etymonline_v_4871
+][(etymonline]])
+#+end_quote
+
+Well-being in connection with wishes and will, measured by abundance and
+prosperity or riches. Compare with [[https://www.etymonline.com/word/health][health]], which is about being whole and sound.
+
+Consider if the famous "Wealth of Nations" had been instead the "Health of
+Nations".
+
+Remaining on the subject of wealth, I think of Alan Kay's diagnosis of why Xerox
+was not able to take advantage of the wonders wrought by PARC (TODO add link to
+video):
+
+#+begin_quote
+The problem was they only wanted to make billions of dollar, not trillions.
+#+end_quote
+
+The ambitions of individuals men are not up to the task of maximizing the
+creative potential of organized activity. The wealth of nations is peaked and
+overshot, and we see how it degrades into the power and riches of the oligarchs.
+We need a re-orientation around the /health of civilizations/ and onwards to the
+/health of ecosystems/, with the wealth a mere corollary.
+
+Only a coordination and planning that seeks to nurture the well-being of those
+coordinating and foster the abundance of their potential can realize the
+transition of Earth life -- beyond a squabbling and parasitic preying -- into a
+communalistic flourishing and being in common.

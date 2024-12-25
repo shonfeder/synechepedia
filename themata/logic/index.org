@@ -2,7 +2,7 @@
 
 *WIP*
 
-#+OPTIONS: toc
+#+OPTIONS: toc:nil
 
 * What
 

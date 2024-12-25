@@ -115,7 +115,7 @@ Hertz's approach and core methodology to [[https://plato.stanford.edu/entries/hi
 conceived field of constructivistic proof theory, meant to encompass efforts in
 constructivistic automated theorem proving, type theory, and programming
 language theory is inconceivable without Gentzen's work (though we can easily
-imagine a more worthy person than the [[https://en.wikipedia.org/wiki/Gerhard_Gentzen#Life_and_career][Nazi Gentzen]] having done that work).
+imagine a more admirable person than the [[https://en.wikipedia.org/wiki/Gerhard_Gentzen#Life_and_career][Nazi Gentzen]] having done that work).
 
 **** TODO Inference and The "Sentence" Gadget in Hertz's Essays on Sentence Systems
 
@@ -312,10 +312,10 @@ formula $A_1, .., A_u$ by the new formula $(A_1 \& ... \& A_u) \supset B$. This 
 do with all [derivation formulae]
 #+END_QUOTE
 
-Recapitulating with an example: we can render our proof of $A \land B \supset B
+Recapitulating with an example: we can render our proof of $A \& B \supset B
 \land A$ logistic by making the assumption formula explicit in the antecedents of
-conditionals preceding each of the three sub-formula. Since $B$ depends
-on assumption =[1]=, we rewrite $B$ as $A \land B \supset B$. We do the same
+conditionals preceding each of the three sub-formula. Since t$B$ depends
+on assumption =[1]=, we rewrite $B$ as $A \& B \supset B$. We do the same
 with the two remaining dependent formula, and, for consistency, add the trivial
 self-implication of the assumption to get:
 
@@ -331,8 +331,8 @@ A & B ⊃ A & B      A & B ⊃ A & B
 #+BEGIN_QUOTE
 We thus obtain formulae which are already true /in themselves/, i.e., whose
 truth is no longer /conditional/ on the truth of certain assumption formulae.
-This procedure, however, introduces new logical symbols $\labd$ and $\supset$,
-necessitating additional inference figures for $\labd$ and $\supset$, and thus
+This procedure, however, introduces new logical symbols $\&$ and $\supset$,
+necessitating additional inference figures for $\&$ and $\supset$, and thus
 upsets the systematic character of our method of introducing and eliminating
 symbols.
 #+END_QUOTE
@@ -383,8 +383,19 @@ sequents, but this meaning gets obscured. As an example, "thinning"
 B, A -> C
 #+END_SRC
 
-is valid just because $A \supset C \subset (B \land A \supset C)$. The "meaning
-explanation" for each structural rule is given the same way.
+is valid just because $(A \supset C) \supset ((B \& A) \supset C)$. The "meaning
+explanation" for each structural rule is given the same way. On the one hand,
+the "structural rules" appear to be obfuscations of the logical structures
+articulated in our object logic. On the other hand, *repetition of "the same"
+structures in various media is near to the essence of what it is to be logical*,
+so perhaps this echoic practice is enacting a reflective processes that lets us
+catch glimpses of the unutterable constant behind or doings?
+
+The question that orients my wandering is something like this: can we make this
+practice even more explicit, less obscured, even imminent and self apparent, by
+fully mediating the historical development of the calculi thru the structure and
+practice of the calculi?
+
 **** Digression: Reasons to prefer constructive logic
 ***** Classical logic encourages weak arguments
 

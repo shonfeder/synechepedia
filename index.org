@@ -21,6 +21,7 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/elements.org][Elements]]
 - [[file:themata/encyclopedia.org][Encyclopedia]]
 - [[file:themata/foundations.org][Foundations]]
+- [[file:themata/games.org][Games]]
 - [[file:themata/heuristics.org][Heuristics]]
 - [[file:themata/ideals.org][Ideals]]
 - [[file:themata/kantian-roots-of-modern-mathematics.org][Kantian roots of modern mathematics]]
@@ -29,7 +30,8 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/man-state-machine/index.org][Man/State/Machine]]
 - [[file:themata/mortality.org][Mortality]]
 - [[file:themata/notation.org][Notation]]
-- [[file:themata/games.org][Games]]
+- [[file:themata/organizing.org][Organizing]]
+- [[file:themata/metrics.org][Metrics]]
 - [[file:themata/pedagogy.org][Pedagogy]]
 - [[file:themata/praxis.org][Praxis]]
 - [[file:themata/programming/index.org][Programming]]
@@ -44,19 +46,12 @@ Curious about the name? See [[what-is-a-synechepedia][below]].
 - [[file:themata/terminology/index.org][Terminology]]
 - [[file:themata/types/index.org][Types]]
 - [[file:themata/work/index.org][Work]]
-** Excerpts
-- [[file:excerpts/distention-of-the-heart.org][Distention of the heart]]
-- [[file:excerpts/experience-with-language.org][Experience with language]]
-** Logs
-- [[file:logs/recurse-center/index.org][Recurse Center Logs]]
-- [[file:reading-list.org][Reading List]]
-- [[file:projects.org][Projects]]
-- [[file:plans.org][Plans]]
-** Lists
-- [[file:lists/leftist-tech-companies.org][Leftist tech companies]]
+** Miscellanea
+- [[file:poems.org][Poems]]
 - [[file:lists/homepages.org][Interesting homepages]]
 - [[file:lists/podcasts.org][Podcasts]]
-** [[file:quips.org][Quips]] (things To be sorted and expanded or deleted...)
+- [[file:excerpts/][Excerpts]]
+- [[file:quips.org][Quips]] (things To be sorted and expanded or deleted...)
 * Meta
 Notes on maintaining and developing whatever this is.
 

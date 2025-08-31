@@ -1,0 +1,101 @@
+#+title: Poems
+
+Not only not judgments (/Urtheil/), but not necessarily even content (/inhalt/).
+So are these constellations of terms judgeable? I'd not volunteer to submit them
+to judgment.
+
+But, even if only what is claimed to have content should be judged, I suppose
+even the uncontented can be shared.
+
+* Rough Century
+/2025 - Late Summer/
+
+#+BEGIN_VERSE
+This
+  Dwelling                       (with-)?
+  standing
+  roughly
+
+one
+  Century
+
+roughly
+as in-
+  conceivable
+as a
+
+Life,
+  which,
+
+in comprehending,
+we began
+  to mourn:
+that they are all Ways
+all ready all
+
+dying.
+  The
+
+World is dying:
+
+- in monochrom
+
+    wringing out
+  Extractions
+    winding down
+  mechanized
+    Work to the
+  grasping drains;
+
+- in technicholor
+
+    co-terminal initials
+  illiminating 'an image of the world
+      in which the continuous is
+      an autonomous notion[fn:1]'
+    and co-continuous punctuations
+  unform our singular zeros,
+  to draw maps of paths not to be,
+    rubbed out smooth,
+thru becoming
+    what there will have been
+      for some others.
+
+May we live,
+  roughly spanning
+  our rough Centuries,
+
+let us share,
+  weather wearing
+  us into the worn,
+
+A
+ World
+
+-- We will
+ have been
+   as These
+: All
+      flowing
+ Each
+      thru out
+  One
+      another
+     .
+#+END_VERSE
+
+** Notes
+- /In Vicki./
+- /To Freda./
+- /Of Oppen./
+
+* Clocks are clouds[fn:2]
+
+* Scraps
+
+In terminal times a mind turns over terms at all times.
+
+* Footnotes
+[fn:2] Karl Popper quoted in [cite:@brent1998charles] p. 6
+
+[fn:1] [cite:@sep-continuity]

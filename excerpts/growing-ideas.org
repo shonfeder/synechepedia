@@ -1,0 +1,13 @@
+#+title: Growing Ideas
+
+#+begin_quote
+It is not by dealing out cold justice to the circle of my idears that I can make
+them grow, but by cherishing and tending them as I would the flowers in my
+garden.
+#+end_quote
+
+Peirce from [cite:@brent1998charles], p. 22
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

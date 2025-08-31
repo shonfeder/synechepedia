@@ -1,0 +1,23 @@
+#+title: Metrics
+
+Metrics as means of communication vs. metrics as measures of value.
+
+Measure produces data via trees of enumerable phenomena.
+
+#+begin_src ocaml
+let measure
+    : r:real -> data:phenomena -> measure:(r -> data * correlate:phenomena)
+#+end_src
+
+Computation:
+
+a derivation
+  of unambiguous communiques
+from continua
+  of the decidably enumerable.
+
+By means of communication sapient participants share means of measuring,
+producing data (the production of what is given) as a way to cordinate their
+interactions.
+
+As a measure of value, metrics shape

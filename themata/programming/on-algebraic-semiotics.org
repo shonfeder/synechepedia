@@ -1,0 +1,67 @@
+#+TITLE: On Algebraic Semiotics (in ML)
+
+* Comparisons
+** TODO Denotational Design
+Denotation is about reference and semantics, referentially conceived.
+Semiotics is about sense and pragmatics, inferentially conceived.
+
+** TODO "Domain Driven Design"
+
+Domain driven design is informal and adhoc, i.e. coloquial and context specific.
+
+#+BEGIN_QUOTE
+*ad hoc*
+Latin phrase, "to this, with respect to this, for this (specific purpose)," from
+ad "to" (see /ad-/) + /hoc/, neuter accusative of hic "this." Hence, "appointed or
+enacted for some particular purpose" (1879).
+([[https://www.etymonline.com/word/ad%2520hoc][etymonline]])
+#+END_QUOTE
+
+* TODO Integrate references
+
+- https://gjoncas.github.io/posts/2020-12-26-algebraic-semiotics.html
+* TODO A plan should be a map, not an plot
+A [[https://www.etymonline.com/word/plan#etymonline_v_44784][plan]] should be a diagram or depiction of the space of actions. Given a plan,
+we can [[https://www.etymonline.com/search?q=plot][plot]] a probable course thru the space. To require and expect that a plan
+is first and foremost an "action plan", is to "mistake the map with the
+territory" in a particularly problematic sense.
+* TODO Composing situated actions from the plan
+https://cs.stackexchange.com/a/150397/12689
+
+- rōst : "rose-tea" : rose tree
+- rōsi : "rose-ee"  : rose interface
+- rōsh : "roe-sh"   : rose shell
+
+** Concepts
+
+*** Navigation
+Navigating thru the rōst is a natural transformation of the navigation thru the
+decision space of actions possible in a situation.
+*** Selection
+A selection is single, completed navigation thru the rōsi, terminating with the
+confirmation of a leaf.
+*** Action
+An action the application of a selected leaf to a situation, producing a new
+situation.
+*** Plot
+A plot is a sequence of actions.
+*** Improvisation
+If we ensure that all primitive actions are situated in the rōsi, then the
+improvisation of a plot can be specified as a sequence of selections. This should be
+something like an a list of (conditional? s-expression).
+*** Configuration
+What is the relation between a configuration and a rosi?
+
+- A rosi can be used to build a configuration
+- A configuration can be represented as a rost.
+
+** Recursive concept
+Navigating thru a rosi is itsefl a situated action that can be discribed via the
+"primitive" rosi.
+
+** Why is the rōsi so pervasive in Emacs?
+I suspect it may be due to the [[https://cs.stackexchange.com/a/56087/12689][structural affinity between s-expressions and
+rose-trees]].
+
+** References
+- *Not* like https://www.w3.org/TR/abstract-ui/

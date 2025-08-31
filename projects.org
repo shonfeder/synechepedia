@@ -1,9 +1,0 @@
-#+TITLE: Projects
-
-A record of projects (big and little) I've made significant progress on.
-
-I intend to maintain this as a tool for self-affirmation, when I need to
-remind myself that I'm not worthless and indolent.
-
-/Not yet populated/ see [[http:shonfeder.net][shonfeder.net]] for the self-marketing and semi-up-to-date
-version of this.

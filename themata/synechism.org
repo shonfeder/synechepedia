@@ -75,6 +75,36 @@ something different.”
 [cite:@peirce98_peirc]
 #+END_QUOTE
 
+** "an image of the world in which the continuous is an autonomous notion"
+
+#+begin_quote
+The second development in the refounding of the concept of infinitesimal took
+place in the 1970s with the emergence of synthetic differential geometry, also
+known as smooth infinitesimal analysis. Based on the ideas of the American
+mathematician F. W. Lawvere, and employing the methods of category theory,
+smooth infinitesimal analysis provides an image of the world in which the
+continuous is an autonomous notion, not explicable in terms of the discrete. It
+provides a rigorous framework for mathematical analysis in which every function
+between spaces is smooth (i.e., differentiable arbitrarily many times, and so in
+particular continuous) and in which the use of limits in defining the basic
+notions of the calculus is replaced by nilpotent infinitesimals, that is, of
+quantities so small (but not actually zero) that some power—most usefully, the
+square—vanishes. Smooth infinitesimal analysis embodies a concept of intensive
+magnitude in the form of infinitesimal tangent vectors to curves. A tangent
+vector to a curve at a point p on it is a short straight line segment l passing
+through the point and pointing along the curve. In fact we may take l
+
+actually to be an infinitesimal part of the curve. Curves in smooth
+infinitesimal analysis are “locally straight” and accordingly may be conceived
+as being “composed of” infinitesimal straight lines in de L’Hôpital’s sense, or
+as being “generated” by an infinitesimal tangent vector.
+
+The development of nonstandard and smooth infinitesimal analysis has breathed
+new life into the concept of infinitesimal, and—especially in connection with
+smooth infinitesimal analysis—supplied novel insights into the nature of the
+continuum.
+#+end_quote
+[cite:@sep-continuity]
 
 * Problematics
 - How do we connect the disparate moments of life in light of our terminal condition.

@@ -1,0 +1,41 @@
+#+title: Content
+
+#+begin_quote
+*contents* (n.)
+
+"things contained, that which is contained" in something (the stomach, a
+document, etc.), early 15c., from Latin contentum (plural contenta), noun use of
+neuter past participle in the literal sense of continere "to hold together,
+enclose," from assimilated form of com "with, together" (see con-) + tenere "to
+hold" (from PIE root *ten- "to stretch"). Table of contents is from late 15c.
+
+-- https://www.etymonline.com/word/contents
+#+end_quote
+
+#+begin_quote
+*generation* (n.)
+
+early 14c., "body of individuals born about the same period" (historically 30
+years but in other uses as few as 17), on the notion of "descendants at the same
+stage in the line of descent," from Old French generacion "race, people,
+species; progeny, offspring; act of procreating" (12c., Modern French
+génération) and directly from Latin generationem (nominative generatio)
+"generating, generation," noun of action from past-participle stem of generare
+"bring forth, beget, produce," from genus "race, kind" (from PIE root *gene-
+"give birth, beget," with derivatives referring to procreation and familial and
+tribal groups).
+
+From late 14c. as "act or process of procreation; process of being formed; state
+of being procreated; reproduction; sexual intercourse;" also "that which is
+produced, fruit, crop; children; descendants, offspring of the same parent."
+
+-- https://www.etymonline.com/word/contents
+#+end_quote
+
+
+
+* Originality and content: Art-work in the Age of Digital Generability
+
+** Originary creation is transforms those who do the creative work.
+
+** Generation

@@ -18,8 +18,9 @@ This project has spidered out in ways I really like. Some strands in the web
 include
 
 - reflections on intuitionistic mathematics and HCI,
-- a bespoke unit library, and
-- the [[https://git.sr.ht/~shon/ros/tree/master/item/lib/and_or/and_or.mli][And_or]] library (an idiosyncratic derivative of [[https://hackage.haskell.org/package/these][These]]).
+- a bespoke unit testing library,
+- a library [[https://git.sr.ht/~shon/ros/tree/master/item/lib/and_or/and_or.mli][And_or]], which is an idiosyncratic derivative of [[https://hackage.haskell.org/package/these][These]], and
+- a super simple (hopefully in a good way), very basic [[https://git.sr.ht/~shon/ros/tree/master/item/lib/cli.mli][CLI parsing library]].
 
 The project is at https://git.sr.ht/~shon/ros
 

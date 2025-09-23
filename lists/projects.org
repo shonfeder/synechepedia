@@ -1,7 +1,7 @@
 #+title: Projects
 
 * Current
-These are the (personal) projects I am trying to keep in focus for the moment
+These are the personal projects I am trying to keep in focus for the moment
 (late 2025):
 
 ** TODO Notes on Martin-Löf’s *Analytic and Synthetic Judgments in Type Theory:*

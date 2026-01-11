@@ -1,0 +1,145 @@
+#+title: If "'Snow is White' Is True
+
+In 2007, I moved to Silverton, Colorado. I went to live in quiet, to work
+construction, and to connect with my estranged father. Silverton is a valley
+town too, but it sits 2700 meters higher than Dundas and has a population 50
+times smaller. Silverton is enclosed by mountains, and secluded in mythic and
+mineral names: a former silver mining town, it's situated in the Animas River
+Valley ("Río de las Ánimas", "River of Souls"), in the San Juan Mountains (named
+after Saint John the Baptist, "the voice of one crying in the wilderness"),
+which are a young and jagged child range of the Rocky Mountains. The only
+roadways in and out are a pair of mountain passes.
+
+In the winter of 2007-2008 a series of record-rivaling snowstorms buried the
+town in deep snow. The area received nearly 14 meters of snowfall. I took a side
+gig shoveling if off roofs and at the end of a job, we'd jump off a roof into
+snowbanks. A buildings on Main Street collapsed under the weight of its snowcap.
+The town was snowbound for days on end, with both passes closed off. I learned
+some things about snow that year.
+
+#+BEGIN_QUOTE
+This ascent to a linguistic plane of reference is only a momentary retreat from
+the world, for *the utility of the truth predicate is precisely the cancellation
+of linguistic reference*. The truth predicate is a reminder that, despite a
+technical ascent to talk of sentences, our eye is on the world. This
+cancellatory force of the truth predicate is explicit in Tarski's paradigm:
+
+    'Snow is white' is true if and only if snow is white.
+
+Quotation marks make all the difference between talking about words and talking
+about snow. The quotation is a name of a sentence that contains a name, namely
+'snow', of snow. By calling the sentence true, we call snow white. *The truth
+predicate is a device of disquotation* [emphasis mine].
+
+[cite:@quine86_philos p. 12]
+#+END_QUOTE
+
+In 2010, I met my partner while we were both studying for a year in Göttingen,
+Germany. We shared our studies of philosophy and German literature and Kafka,
+and we connected over the paradoxes of communication and the apparent
+impossibility of reaching a shared understanding thru language.
+
+#+begin_quote
+It was late in the evening when K. arrived. The Village lay in deep Snow.
+Nothing was to be seen of Castle hill, mist and darkness surrounded it, nor
+did the weakest glimmer of light signify the great Castle. Long, K. stood on the
+wood bridge that led from the country road to the Village and stared into the
+phantasmal Emptiness above.
+(Kafka, /Das Scholẞ/, translated from /Franz Kafka Gesamtwerk - Neuausgabe 9/)
+#+end_quote
+
+The words as a bridge. The Castle as something undefined, unobserved we want to
+
+K. stops at the bridge for a long time. Let us stop, too. Put aside
+for a moment the connections we must make and the questions of our supervisors.
+Let us linger for a time on the mere means of our entrance, within the obscure
+opening of our text. 
+
+We must have come from somewhere before we found ourselves on this page. Must K.
+also have a history preceding his arrival? This question depends on the
+ontological structure of literature.
+
+Let our hesitation impede a retreat into the past no less than a leap into the
+future. Let this life be our actual life. Let us attempt to see with clarity and
+precision just that which lies before us at the moment of our arrival.
+
+The village appears first as something lying deep in snow. Deep snowfall shapes
+a townscape so softly. Angles and edges are smoothed. The forms of adjacent
+buildings melt into one another. Before the ways are shoveled clear, house can
+hardly be told from street. The lack of contrast is the starkest effect: after
+some hours in the subtly shaded sea of white, color vision goes wonky.
+
+Something about the structure of obstruction is revealed in the depths of a
+blanket of snow; for depth of field is a condition of possibility for
+concealment and only that which can be covered, or placed behind an opaque form,
+can be hidden. Thus the invisibility of a world in the dark is not called
+“hiddenness”: there is no apparent depth of field in the complete absence of
+light. Only when the dark can take on the characteristic of a fabric or an
+eclipse, only when darkness is seen in contrast to an apparent light, as a
+presence of obscurity, do we say “it hides something.” Hiddenness is a form of
+veiled appearance. When a village is hidden in the depths of fresh-fallen snow,
+what appears is a gentle blanket of brilliant white. The brilliance shines also
+by moon or starlight.
+
+But covering does not always or only obscure. What gives itself to be felt
+through touch can only be perceived via the covering contact. Heidegger, in his
+/Introduction to Phenomenological Research/ (given in the winter semester of
+1923-1924), attempted to expose the etymon of ‘phenomenon’ to reveal the
+condition of possibility for visible appearance. He quotes Aristotle thus,
+“‘what is perceivable in seeing is the visible;’” and continues in his own
+terms,
+
+#+begin_quote
+something of this sort is characterized as color. Color is what is spread over
+something visible in itself. The respective coloring of an entity is perceived
+each time /en photi/, in light, more precisely, in daylight [/im Hellen/].
+
+Thus, the first thing to be made out is what daylight is. Daylight is
+apparently something that lets something else be seen through it, diaphanes
+[transparent]. This daylight is not of itself visible, but only by means of a
+color alien to it (Heidegger, Introduction to Phenomenological Research 5)
+#+end_quote
+
+What is seen shows itself through what cannot, as pure transparency, be seen at
+all and what we perceive through the transparency of light is color. Color
+covers the surfaces of the things to be seen; yet it covers them like a stain,
+infused into texture and form. There is no depth to the covering color; thus we
+see that it is not covering that effects concealment but depth and distance
+themselves. Indeed, the simple vastness of distance is enough to hide gargantuan
+forms in its depths, despite the fact that naught but the transparency of light
+stands between them and us. Yet we know that light is more than mere
+transparency, or else it could not blind us.
+
+Though light is transparency and the condition of visibility, we would be wrong
+to assume, through a simplistic inversion, that darkness is opacity and the
+condition of invisibility. Much appears in the spectral lights of night.
+“Darkness,” remarks Heidegger, “is something that, in a quite specific way, lets
+things be seen” (Heidegger, Introduction to Phenomenological Research 7). Again,
+quoting Aristotle:
+
+#+begin_quote
+Not everything is visible in light, but only the proper color of each thing.
+For some things are not seen in light but produce perception in the dark, such
+as things that appear fire-like (De anima, Beta 7, 418b4) (Heidegger,
+Introduction to Phenomenological Research 7)
+#+end_quote
+
+Tarrying on the bridge, which connects our main road to the village of The
+Castle, a great deal is revealed through the Castle's failure to appear in the
+darkness. The apparent invisibility of the Castle, and of the hill that holds it
+aloft, is significant, particularly in the difference between the modes of their
+nonappearance: the castle hill is concealed by the surrounding mist and gloom;
+the Castle itself is undisclosed in the absence of apparent light, which would
+otherwise give indication. Mention of the lack of twinkling lights draws
+attention to the lack of mention of another sort of glimmering light source:
+namely, the stars. It is not clear whether we’re standing beneath a starless sky
+or if they simply escape notice but, above all, we gaze into the phantasm of
+emptiness. Phantasmal emptiness is the manner in which the impossibly far away
+appears: like the illusion of empty space between the stars or the absence of
+essential meaning in the world. Beyond the all too visible village, lying deep
+in the conspicuous ambiguity of its snow blanket, there looms the hidden and the
+veiled; above all, the stark absence of what we expect to appear.
+
+* References
+
+#+PRINT_BIBLIOGRAPHY:

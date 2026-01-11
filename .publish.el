@@ -1,6 +1,8 @@
 ;;; package -- Configuration for publication of my synechepedia
 (provide 'synechepedia)
 
+;; See https://github.com/ocaml/tuareg/issues/321
+(require 'flymake-proc)
 (require 'org)
 (require 'ox-rss)
 (require 'org-ref)

@@ -1,0 +1,48 @@
+#+title: Projects
+
+* Current
+These are the personal projects I am trying to keep in focus for the moment
+(late 2025):
+
+** TODO Notes on Martin-Löf’s *Analytic and Synthetic Judgments in Type Theory:*
+This is something I started years ago, and just need some focused writing time
+to polish/edit down enough that it could be of some wider interest.
+
+** TODO Ros: A Sign System for Situated Selection
+This is an exploration of some UI principles and design. E.g., one such
+principle is that we should not need to write disjoint boilerplate to get
+program configuration out of different sources, like CLI args, JSON input,
+=ENVVARS=, or GUI input widgets.
+
+This project has spidered out in ways I really like. Some strands in the web
+include
+
+- reflections on intuitionistic mathematics and HCI,
+- a bespoke unit testing library,
+- a library [[https://git.sr.ht/~shon/ros/tree/master/item/lib/and_or/and_or.mli][And_or]], which is an idiosyncratic derivative of [[https://hackage.haskell.org/package/these][These]], and
+- a super simple (hopefully in a good way), very basic [[https://git.sr.ht/~shon/ros/tree/master/item/lib/cli.mli][CLI parsing library]].
+
+The project is at https://git.sr.ht/~shon/ros
+
+** TODO Local Net
+
+I keep thinking about local-community-first networked computation. I hope to
+start making progress on this in the next year or two, but for the time being I
+am trying to follow related work and efforts. Such as
+
+- https://bonfirenetworks.org/
+- https://cosocial.ca/home
+- https://media.ccc.de/v/why2025-9-how-to-become-your-own-isp
+
+* Next?
+
+These are the personal projects I would like to pursue "soon":
+
+** TODO A Wandering Way to Linear Logic
+Self-study and other help on learning linear logic from a reading of Girard's
+essays
+
+- https://girard.perso.math.cnrs.fr/linear.pdf
+- https://girard.perso.math.cnrs.fr/Synsem.pdf
+
+** TODO An intro to programming for the poetically inclined

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-12-01 Mon 16:53 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>If "'Snow is White' Is True</title>
+<meta name="author" content="Shon Feder" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">If "&rsquo;Snow is White&rsquo; Is True</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3e4bbf5">1. Outline</a>
+<ul>
+<li><a href="#orgdef632d">1.1. Topoi</a>
+<ul>
+<li><a href="#org564a06a">1.1.1. Bio</a></li>
+<li><a href="#org931dcfd">1.1.2. Excerpts</a></li>
+<li><a href="#orgd9170f2">1.1.3. Analysis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcc544cb">2. Material</a></li>
+<li><a href="#org46bb8a0">3. References</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3e4bbf5" class="outline-2">
+<h2 id="org3e4bbf5"><span class="section-number-2">1.</span> Outline</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgdef632d" class="outline-3">
+<h3 id="orgdef632d"><span class="section-number-3">1.1.</span> Topoi</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org564a06a" class="outline-4">
+<h4 id="org564a06a"><span class="section-number-4">1.1.1.</span> Bio</h4>
+</div>
+<div id="outline-container-org931dcfd" class="outline-4">
+<h4 id="org931dcfd"><span class="section-number-4">1.1.2.</span> Excerpts</h4>
+</div>
+<div id="outline-container-orgd9170f2" class="outline-4">
+<h4 id="orgd9170f2"><span class="section-number-4">1.1.3.</span> Analysis</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcc544cb" class="outline-2">
+<h2 id="orgcc544cb"><span class="section-number-2">2.</span> Material</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+In 2007, I moved to Silverton, Colorado. I went to live in quiet, to work
+construction, and to connect with my estranged father. Silverton is a valley
+town too, but it sits 2700 meters higher than Dundas and has a population 50
+times smaller. Silverton is enclosed by mountains, and secluded in mythic and
+mineral names: a former silver mining town, it&rsquo;s situated in the Animas River
+Valley (&ldquo;Río de las Ánimas&rdquo;, &ldquo;River of Souls&rdquo;), in the San Juan Mountains (named
+after Saint John the Baptist, &ldquo;the voice of one crying in the wilderness&rdquo;),
+which are a young and jagged child range of the Rocky Mountains. The only
+roadways in and out are a pair of maintain passes.
+</p>
+
+<p>
+In the winter of 2007-2008 a series of record-rivaling snowstorms buried the
+town in deep snow. The area received nearly 14 meters of snowfall. I took a side
+gig shoveling if off roofs and at the end of a job, we&rsquo;d jump off a roof into
+snowbanks. A buildings on Main Street collapsed under the weight of its snowcap.
+The town was snowbound for days on end, with both passes closed off.
+</p>
+
+<blockquote>
+<p>
+Es war spät abend als K. ankam. Das Dorf lag in tiefem Schnee. Vom Schloßberg
+war nichts zu sehn, Nebel und Finsternis umgaben ihn, auch nicht der schwächste
+Lichtschein deutete das große Schloß an. Lange stand K. auf der Holzbrücke
+die von der Landstraße zum Dorf führt und blickte in die scheinbare Leere empor.
+</p>
+
+<p>
+It was late in the evening when K. arrived. The Village lay in deep Snow.
+Nothing was to be seen of Castle hill, mist and darkness surrounded it, nor
+did the weakest glimmer of light signify the great Castle. Long, K. stood on the
+wood bridge that led from the country road to the Village and stared into the
+phantasmal Emptiness above.
+(Kafka, <i>Das Scholẞ</i>, translated from <i>Franz Kafka Gesamtwerk - Neuausgabe 9</i>)
+</p>
+</blockquote>
+
+<p>
+The words as <i>our</i> bridge.  
+</p>
+
+<ol class="org-ol">
+<li>stops at the bridge for a long time. Let us stop, too. Put aside</li>
+</ol>
+<p>
+for a moment the connections we must make and the questions of our supervisors.
+Let us linger for a time on the mere means of our entrance, within the obscure
+opening of our text. 
+</p>
+
+<p>
+We must have come from somewhere before we found ourselves on this page. Must K.
+also have a history preceding his arrival? This question depends on the
+ontological structure of literature.
+</p>
+
+<p>
+Let our hesitation impede a retreat into the past no less than a leap into the
+future. Let this life be our actual life. Let us attempt to see with clarity and
+precision just that which lies before us at the moment of our arrival.
+</p>
+
+<blockquote>
+<p>
+This ascent to a linguistic plane of reference is only a momentary retreat from
+the world, for <b>the utility of the truth predicate is precisely the cancellation
+of linguistic reference</b>. The truth predicate is a reminder that, despite a
+technical ascent to talk of sentences, our eye is on the world. This
+cancellatory force of the truth predicate is explicit in Tarski&rsquo;s paradigm:
+</p>
+
+<p>
+&rsquo;Snow is white&rsquo; is true if and only if snow is white.
+</p>
+
+<p>
+Quotation marks make all the difference between talking about words and talking
+about snow. The quotation is a name of a sentence that contains a name, namely
+&rsquo;snow&rsquo;, of snow. By calling the sentence true, we call snow white. <b>The truth
+predicate is a device of disquotation</b> [emphasis mine].
+</p>
+
+<p>
+(Quine, W. V, 1986 p. 12)
+</p>
+</blockquote>
+
+<p>
+1.2 Hiddenness
+</p>
+
+<p>
+The village appears first as something lying deep in snow. Deep snowfall shapes
+a townscape so softly. Angles and edges are smoothed. The forms of adjacent
+buildings melt into one another. Before the ways are shoveled clear, house can
+hardly be told from street. The lack of contrast is the starkest effect: after
+some hours in the subtly shaded sea of white, color vision goes wonky.
+</p>
+
+<p>
+Something about the structure of obstruction is revealed in the depths of a
+blanket of snow; for depth of field is a condition of possibility for
+concealment and only that which can be covered, or placed behind an opaque form,
+can be hidden. Thus the invisibility of a world in the dark is not called
+“hiddenness”: there is no apparent depth of field in the complete absence of
+light. Only when the dark can take on the characteristic of a fabric or an
+eclipse, only when darkness is seen in contrast to an apparent light, as a
+presence of obscurity, do we say “it hides something.” Hiddenness is a form of
+veiled appearance. When a village is hidden in the depths of fresh-fallen snow,
+what appears is a gentle blanket of brilliant white. The brilliance shines also
+by moon or starlight.
+</p>
+
+<p>
+But covering does not always or only obscure. What gives itself to be felt
+through touch can only be perceived via the covering contact. Heidegger, in his
+<i>Introduction to Phenomenological Research</i> (given in the winter semester of
+1923-1924), attempted to expose the etymon of ‘phenomenon’ to reveal the
+condition of possibility for visible appearance. He quotes Aristotle thus,
+“‘what is perceivable in seeing is the visible;’” and continues in his own
+terms,
+</p>
+
+<blockquote>
+<p>
+something of this sort is characterized as color. Color is what is spread over
+something visible in itself. The respective coloring of an entity is perceived
+each time <i>en photi</i>, in light, more precisely, in daylight [/im Hellen/].
+</p>
+
+<p>
+Thus, the first thing to be made out is what daylight is. Daylight is
+apparently something that lets something else be seen through it, diaphanes
+[transparent]. This daylight is not of itself visible, but only by means of a
+color alien to it (Heidegger, Introduction to Phenomenological Research 5)
+</p>
+</blockquote>
+
+<p>
+What is seen shows itself through what cannot, as pure transparency, be seen at
+all and what we perceive through the transparency of light is color. Color
+covers the surfaces of the things to be seen; yet it covers them like a stain,
+infused into texture and form. There is no depth to the covering color; thus we
+see that it is not covering that effects concealment but depth and distance
+themselves. Indeed, the simple vastness of distance is enough to hide gargantuan
+forms in its depths, despite the fact that naught but the transparency of light
+stands between them and us. Yet we know that light is more than mere
+transparency, or else it could not blind us.
+</p>
+
+<p>
+Though light is transparency and the condition of visibility, we would be wrong
+to assume, through a simplistic inversion, that darkness is opacity and the
+condition of invisibility. Much appears in the spectral lights of night.
+“Darkness,” remarks Heidegger, “is something that, in a quite specific way, lets
+things be seen” (Heidegger, Introduction to Phenomenological Research 7). Again,
+quoting Aristotle:
+</p>
+
+<blockquote>
+<p>
+Not everything is visible in light, but only the proper color of each thing.
+For some things are not seen in light but produce perception in the dark, such
+as things that appear fire-like (De anima, Beta 7, 418b4) (Heidegger,
+Introduction to Phenomenological Research 7)
+</p>
+</blockquote>
+
+<p>
+Tarrying on the bridge, which connects our main road to the village of The
+Castle, a great deal is revealed through the Castle&rsquo;s failure to appear in the
+darkness. The apparent invisibility of the Castle, and of the hill that holds it
+aloft, is significant, particularly in the difference between the modes of their
+nonappearance: the castle hill is concealed by the surrounding mist and gloom;
+the Castle itself is undisclosed in the absence of apparent light, which would
+otherwise give indication. Mention of the lack of twinkling lights draws
+attention to the lack of mention of another sort of glimmering light source:
+namely, the stars. It is not clear whether we’re standing beneath a starless sky
+or if they simply escape notice but, above all, we gaze into the phantasm of
+emptiness. Phantasmal emptiness is the manner in which the impossibly far away
+appears: like the illusion of empty space between the stars or the absence of
+essential meaning in the world. Beyond the all too visible village, lying deep
+in the conspicuous ambiguity of its snow blanket, there looms the hidden and the
+veiled; above all, the stark absence of what we expect to appear.
+</p>
+</div>
+</div>
+<div id="outline-container-org46bb8a0" class="outline-2">
+<h2 id="org46bb8a0"><span class="section-number-2">3.</span> References</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Quine, W. V (1986). <i>Philosophy of logic</i>, Harvard University Press.</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Shon Feder</p>
+<p class="date">Created: 2025-12-01 Mon 16:53</p>
+</div>
+</body>
+</html>

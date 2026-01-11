@@ -65,3 +65,13 @@ rose-trees]].
 
 ** References
 - *Not* like https://www.w3.org/TR/abstract-ui/
+
+* TODO Critical Semiotics
+
+** Construction of the naturals as a regimentation of the merely formal structure of temporal synthesis
+** Computation is then about the structures formed from the minimal formal structure of formalizable experience
+** Programming is a communicating about what is to be done
+** Executable programs are the communiques we can act upon
+** Self-determination is therefore also a programming problem
+So it is involved in enlightenment/emancipation.
+** Since the self is *not* merely a computational entity, this is not a merely computational problem

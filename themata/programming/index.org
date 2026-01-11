@@ -25,7 +25,7 @@ publicly," from pro "forth" (see pro-) + graphein "to write" (see -graphy).
 #+END_QUOTE
 
 
-- [[file:domain-driven-design-or-algebraic-semiotics.org][Domain Driven Design or Algebraic Semiotics]]?
+- [[file:on-algebraic-semiotics.org][Alegbraic Semiotics]]
 - [[file:lazy-evaluation-in-ocaml-cheat-sheet.org][Lazy Evaluation in Ocaml: A Cheat Sheet]]
 - [[https://shonfeder.gitlab.io/ocaml_webapp/][Lightweight Webapps in Ocaml]]
 - [[file:notes-on-1ml.org][Notes on 1ML]]

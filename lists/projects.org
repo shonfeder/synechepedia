@@ -1,10 +1,10 @@
 #+title: Projects
 
 * Current
-These are the personal projects I am trying to keep in focus for the moment
-(late 2025):
+These are the (personal) projects I am trying to keep in focus for the moment
+(late 2025-early 2026):
 
-** TODO Notes on Martin-Löf’s *Analytic and Synthetic Judgments in Type Theory:*
+** TODO Notes on Martin-Löf’s *Analytic and Synthetic Judgments in Type Theory*
 This is something I started years ago, and just need some focused writing time
 to polish/edit down enough that it could be of some wider interest.
 
@@ -23,12 +23,11 @@ include
 - a super simple (hopefully in a good way), very basic [[https://git.sr.ht/~shon/ros/tree/master/item/lib/cli.mli][CLI parsing library]].
 
 The project is at https://git.sr.ht/~shon/ros
+** TODO co-muni.ca
 
-** TODO Local Net
-
-I keep thinking about local-first networked computation. I hope to start making
-progress on this in the next year or two, but for the time being I am trying to
-follow related work and efforts. Such as
+I keep thinking about locally grounded networked computation. I hope to start
+making progress on this in the next year or two, but for the time being I am
+trying to follow related work and efforts. Such as
 
 - https://bonfirenetworks.org/
 - https://cosocial.ca/home

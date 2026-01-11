@@ -15,23 +15,28 @@ The server goes to fetch the coffee, but quickly returns.
 milk instead?"
 #+end_quote
 
+- https://quoteinvestigator.com/2024/06/01/coffee-cream/
+- https://www.thephilosophicalsalon.com/you-are-not-having-milk/
+- https://www.youtube.com/watch?v=jU6nB-uJh68
+
 * Explaining the joke
 
-The punchline's [[https://www.merriam-webster.com/dictionary/gimmick][gimmick]] rests on the idea that non-presence is determined by
-that which is not present[fn:1]: milk is distinct from cream, so having no milk
-is distinct from having no cream, and therefore having coffee with no milk is
-distinct from having coffee with no cream.
+The joke plays on the tension between extensional and intentional semantics.
 
-An important basis of the humor is that, viewed purely [[https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions][extensionally]], concerned
-only with the denotation, this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction without a difference]]". The set
-of all cups of coffee without cream is identical to the set of all cups of
-coffee without milk, so if you just want a black coffee, it makes no difference
-which dairy product is ommitted. But the key [[https://en.wiktionary.org/wiki/gimmick#Noun][gimmick]] at work in the joke is
-this, viewed intensionally, concerned with the sense, the distinction does make
-a difference, it's not a distinction that makes any difference to our common
-sense. The frivolousness of /this/ additive omission is tied to the similarity
-of the dairy. But not all distinctions in non-presence are equally
-indistinguishable.
+The joke's [[https://www.merriam-webster.com/dictionary/gimmick][gimmick]] is the idea that non-presence is determined by that
+which is not present[fn:1]: since milk is distinct from cream, the non-presence
+of milk is distinct from the non-presence of cream; therefore, ordering coffee
+without milk is distinct from ordering coffee without cream.
+
+The it's is that when, viewed [[https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions][extensionally]], concerned only with the
+denotation, this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction without a difference]]". The set of all cups of
+coffee without cream is identical to the set of all cups of coffee without milk,
+so if you just want a black coffee, it makes no difference which dairy product
+is omitted. But the key [[https://en.wiktionary.org/wiki/gimmick#Noun][gimmick]] at work in the joke is this, viewed
+intensionally, concerned with the sense, the distinction does make a difference,
+it's not a distinction that makes any difference to our common sense. The
+frivolousness of /this/ additive omission is tied to the similarity of the
+dairy. But not all distinctions in non-presence are equally indistinguishable.
 
 # TODO cut?
 Consider the same cup of coffee offered without cream versus offered without
@@ -65,7 +70,7 @@ discourse.
 We assume we have in our domain of discourse the type =int= of integers, and add
 the following types of liquid
 
-#+begin_src ocaml :session
+#+begin_src fstar :session
 type milk = [ `Milk ]
 
 type cream = [ `Cream ]
@@ -85,7 +90,7 @@ which we consider to express the type of the substance, and some way of deriving
 material constitutive of that substance.
 
 #+NAME: representation of substance
-#+begin_src ocaml session
+#+begin_src ocaml :session
 module type Substance = sig
   type t
   (** The form of the substance is it's principle type. Depending on your
@@ -101,9 +106,9 @@ end
 #+RESULTS: representation of substance
 : * *       *   module type Substance = sig type t val v : t end
 
+
 The [[representation of substance]] let's us distinguish between kinds of things and
 instances of that kind.
-
 
 Let's define a way of constructing measures of different kinds of liquid:
 
@@ -133,7 +138,7 @@ end
 
 #+RESULTS:
 : module Liquid :
-:   functor (S : Substance) ->
+:   (S : Substance) ->
 :     sig
 :       type milliliters = int
 :       type t
@@ -188,7 +193,7 @@ module Cream :
   end
 #+end_example
 
-Now we need a way of representing the absence of a liqid
+Now we need a way of representing the absence of a liquid
 
 #+NAME: declaration of the option type constructor
 #+begin_src ocaml :session
@@ -198,6 +203,9 @@ module Option = struct
     | None
 end
 #+end_src
+
+#+RESULTS: declaration of the option type constructor
+: Some of 'a | None end
 
 #+RESULTS:
 : type 'a option = Some of 'a | None
@@ -228,6 +236,32 @@ You can pick the pepperonis off a pizza, but cannot take the cream out of
 coffee.
 
 *** Conjunction vs. mixture
+Hart on stuff
+*** This shows us why we should model the order differently than the product
+
+** Types of things
+Things are of a different type when we can't gather them together.
+=[a ; b; c] : 't list=. We can only form this list if =a : 't= and =b : 't= and
+=c : 't=. So we can form =[1;2;3]= since =1 : int=, =2 : int=, and =3 : int=,
+but we cannot form =[1; "2"]= since =1 : int= and ="2" : string=.
+
+#+begin_src ocaml
+type drink = Coffee | Tea
+type additive = Milk | Cream | Honey
+
+type order = {drink = drink; additive = additive}
+type 'additive coffe = Coffe of 'additive option
+type additive = Cream | Milk
+#+end_src
+
+#+RESULTS:
+: type 'additive coffe = Coffe of 'additive option
+: type additive = Cream | Milk
+
+** How do we specify Sartre's order?
+
+
+
 
 * Footnotes
 

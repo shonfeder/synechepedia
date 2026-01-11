@@ -1,4 +1,5 @@
 #+title: Poems
+#+author: Shon Feder
 
 Not only not judgments (/Urtheil/), but not necessarily even content (/inhalt/).
 So are these constellations of terms judgeable? I'd not volunteer to submit them
@@ -7,10 +8,11 @@ to judgment.
 But, even if only what is claimed to have content should be judged, I suppose
 even the uncontented can be shared.
 
-* Rough Century
+* Poems
+** Rough Century
 /2025 - Late Summer/
 
-#+BEGIN_VERSE
+#+BEGIN_EXAMPLE
 This
   Dwelling                       (with-)?
   standing
@@ -37,37 +39,35 @@ dying.
   The
 
 World is dying:
-
-- in monochrom
+( 
+  in monochrom
 
     wringing out
   Extractions
     winding down
   mechanized
     Work to the
-  grasping drains;
-
-- in technicholor
+  grasping drains
+|
+  in technicolor
 
     co-terminal initials
   illiminating 'an image of the world
       in which the continuous is
-      an autonomous notion[fn:1]'
+      an autonomous notion'[1]
     and co-continuous punctuations
-  unform our singular zeros,
-  to draw maps of paths not to be,
-    rubbed out smooth,
-thru becoming
-    what there will have been
-      for some others.
+  unfolding our singular zeros
+      form paths, becoming
+      for others, what will have been 
+).
 
 May we live,
   roughly spanning
-  our rough Centuries,
+  our Centuries,
 
 let us share,
   weather wearing
-  us into the worn,
+  us into worn,
 
 A
  World
@@ -82,20 +82,41 @@ A
   One
       another
      .
-#+END_VERSE
+     
+#+END_EXAMPLE
 
-** Notes
-- /In Vicki./
-- /To Freda./
-- /Of Oppen./
+[1] Karl Popper, on C. S. Peirce, quoted in "Charles Sanders Peirce: A Life", p. 6.
 
-* Clocks are clouds[fn:2]
+** Being Meanings
+/Summer 2025 - Winter 2026/
+
+#+begin_example
+Since, in being,
+  we aspire to live
+  in the appearance
+     of sun & sign
+just, as meanings,
+  we transpire to pass
+  thru the transpearance[1] 
+     of air & sense,
+
+We must subject others
+  thru sensible communication
+
+with no less care
+
+than we submerge our selves
+  in material environments.
+#+end_example
+
+[1] "In this case, though, in which transparence takes on a surprisingly
+affirmative valence, we must be willing to hear transparence not as grasping,
+comprehending or peering through— transparency—but rather as “trans-pearance,”
+the horizontal movement of presences and meanings in the system of Relation."
+("POETRY OF RELATION: ÉDOUARD GLISSANT, FRENCH MODERNISM, AND THE POETICS OF
+OPACITY", Neal Alfred Allar,
+https://ecommons.cornell.edu/server/api/core/bitstreams/8121d334-1744-4288-8a71-6eb34b3fb2b6/content)
 
 * Scraps
 
 In terminal times a mind turns over terms at all times.
-
-* Footnotes
-[fn:2] Karl Popper quoted in [cite:@brent1998charles] p. 6
-
-[fn:1] [cite:@sep-continuity]

@@ -70,7 +70,7 @@ discourse.
 We assume we have in our domain of discourse the type =int= of integers, and add
 the following types of liquid
 
-#+begin_src fstar :session
+#+begin_src ocaml :session
 type milk = [ `Milk ]
 
 type cream = [ `Cream ]

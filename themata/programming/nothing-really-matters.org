@@ -28,15 +28,16 @@ which is not present[fn:1]: since milk is distinct from cream, the non-presence
 of milk is distinct from the non-presence of cream; therefore, ordering coffee
 without milk is distinct from ordering coffee without cream.
 
-The it's is that when, viewed [[https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions][extensionally]], concerned only with the
-denotation, this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction without a difference]]". The set of all cups of
-coffee without cream is identical to the set of all cups of coffee without milk,
-so if you just want a black coffee, it makes no difference which dairy product
-is omitted. But the key [[https://en.wiktionary.org/wiki/gimmick#Noun][gimmick]] at work in the joke is this, viewed
-intensionally, concerned with the sense, the distinction does make a difference,
-it's not a distinction that makes any difference to our common sense. The
-frivolousness of /this/ additive omission is tied to the similarity of the
-dairy. But not all distinctions in non-presence are equally indistinguishable.
+Viewed [[https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions][extensionally]], concerned only with the denotation, this is a "[[https://en.wikipedia.org/wiki/Distinction_without_a_difference][distinction
+without a difference]]": assuming the absence of implicit additives (e.g., sugar),
+the set of all cups of coffee without cream is identical to the set of all cups
+of coffee without milk; i.e., the set of all cups of black coffee. So if you
+just want a black coffee, it makes no difference which dairy product is omitted.
+But the key [[https://en.wiktionary.org/wiki/gimmick#Noun][gimmick]] at work in the joke is this, viewed intensionally, concerned
+with the sense, the distinction does make a difference, it's not a distinction
+that makes any difference to our common sense. The frivolousness of /this/
+additive omission is tied to the similarity of the dairy. But not all
+distinctions in non-presence are equally indistinguishable.
 
 # TODO cut?
 Consider the same cup of coffee offered without cream versus offered without

@@ -1,0 +1,26 @@
+#+title: Degenerative AI
+
+* The Corollary of Clark's 3rd Law
+
+#+begin_quote
+Any sufficiently advanced technology is indistinguishable from magic
+#+end_quote
+
+Insufficently  
+
+* LLMs are text munging, not code abstraction
+
+Anyone who has administered systems knows that a unix tool box tied together
+with text munging is sufficient to build impressive and capable systems. Those
+who understand the core principles of DevOps and/or Site Reliability know that
+text munging is brittle and hard to reproduce: the first parts of your
+infrastructure to break are likely tied together with munged text, and maturing
+a systems to reproducible Infrastructure as Code is basically just replacing
+scripts and munged text with well structured programs and formalized
+configuration.
+
+Anyone who has developed enough software 
+
+* LLMs are divination, not intelligence
+
+Augury purported to There is genuine information we can learn from the flight of birds.
